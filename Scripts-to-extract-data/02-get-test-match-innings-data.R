@@ -23,7 +23,6 @@ test_batsmen_innings <-
   arrange(Date) %>%
   group_by(Date, Ground) %>%
   mutate(TestNumber = cur_group_id()) %>%
-  filter(Date < "2022-07-02") %>%
   relocate(TestNumber, .after = Date)
 
 # Get rid of leading and trailing whitespace
