@@ -1,0 +1,117 @@
+---
+title: "Marnus Labuschagne Career Test Batting"
+format:
+  html:
+      df-print: paged
+      theme: cosmo
+      toc: true
+      self-contained: true
+editor: visual
+author: James Brown
+echo: false
+
+---
+
+```{r}
+#| include: false
+
+## Libraries
+library(tidyverse)
+library(lubridate)
+library(cricketdata)
+```
+
+```{r}
+#| include: false
+
+# Find his ID
+cricketdata::find_player_id("Marnus Labuschagne") # 787987
+
+# Get player data
+marnus_labuschagne_data <- fetch_player_data(playerid = 787987, matchtype = "test", activity = "batting")
+
+# Get rid of innings where he didn't bat
+marnus_labuschagne_data <- marnus_labuschagne_data %>% filter(!is.na(Runs))
+
+# Make Dismissal title case except for lbw, which will be all caps
+marnus_labuschagne_data$Dismissal <-
+  ifelse(
+    marnus_labuschagne_data$Dismissal == "lbw",
+    str_to_upper(marnus_labuschagne_data$Dismissal),
+    str_to_title(marnus_labuschagne_data$Dismissal)
+  )
+
+# Make Inns variable a factor for the team's first or second innings
+marnus_labuschagne_data$Inns <-
+  ifelse(marnus_labuschagne_data$Inns %in% c(1, 2),
+         "First Innings",
+         "Second Innings")
+marnus_labuschagne_data$Inns <- factor(marnus_labuschagne_data$Inns)
+
+# Create Calendar Year Variable
+marnus_labuschagne_data <-
+marnus_labuschagne_data %>%
+  mutate(calendar_year = year(Date)) %>%
+  relocate(calendar_year, .after = Date)
+
+# Create a variable based on whether the Ground is an Australian city
+marnus_labuschagne_data <-
+marnus_labuschagne_data %>%
+  mutate(Home = ifelse(Ground %in% c("Adelaide", "Perth", "Melbourne", "Sydney", "Brisbane", "Hobart"), TRUE, FALSE))
+
+# Create cumulative average variable
+marnus_labuschagne_data <-
+  marnus_labuschagne_data %>%
+  mutate(Dismissed = ifelse(Dismissal != "Not Out", TRUE, FALSE)) %>%
+  mutate(cumulative_runs = cumsum(Runs)) %>%
+  mutate(cumulative_dismissals = cumsum(Dismissed)) %>%
+  mutate(cumulative_average = cumulative_runs / cumulative_dismissals)
+```
+
+## Most Common Mode of Dismissal
+
+```{r}
+marnus_labuschagne_data %>%
+  filter(!is.na(Dismissal) & Dismissal != "Not Out") %>%
+  group_by(Dismissal) %>%
+  tally() %>%
+  arrange(desc(n))
+```
+
+## Average by Position Batted
+
+```{r}
+marnus_labuschagne_data %>%
+  group_by(Pos) %>%
+  summarise(Innings = n(),
+            Runs = sum(Runs),
+            Dismissals = sum(Dismissed)) %>%
+  mutate(Average = Runs / Dismissals) %>%
+  rename(Position = Pos)
+```
+
+## Average by Calendar Year
+
+```{r}
+marnus_labuschagne_data %>%
+  group_by(calendar_year) %>%
+  summarise(Innings = n(),
+            Runs = sum(Runs),
+            Dismissals = sum(Dismissed)) %>%
+  mutate(Average = Runs / Dismissals) %>%
+  rename(`Year` = calendar_year) %>%
+  arrange(desc(Average))
+```
+
+## Home vs Away Average
+
+```{r}
+marnus_labuschagne_data %>%
+  group_by(Home) %>%
+  summarise(Innings = n(),
+            Runs = sum(Runs),
+            Dismissals = sum(Dismissed)) %>%
+  mutate(Average = Runs / Dismissals) %>%
+  arrange(desc(Average))
+```
+
