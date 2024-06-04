@@ -151,7 +151,7 @@ head_to_head <-
   mutate(match = paste(home_team, "v", away_team, sep = " "))
 
 # # Write to csv
-# write_csv(head_to_head, "Data/scraped_odds/tab_h2h.csv")
+write_csv(head_to_head, "Data/T20s/Internationals/scraped_odds/tab_h2h.csv")
 
 #==============================================================================
 # Player Runs Over / Under
@@ -282,7 +282,7 @@ player_runs <-
   arrange(match, player_name, line)
 
 player_runs |>
-  write_csv("Data/scraped_odds/tab_player_runs.csv")
+  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_runs.csv")
 
 #==============================================================================
 # Player Wickets Alternate Lines
@@ -314,10 +314,10 @@ player_wickets_alt <-
   transmute(
     match,
     market = "Player Wickets",
-    home_team = home,
-    away_team = away,
+    home_team,
+    away_team,
     player_name,
-    player_team = team,
+    player_team,
     opposition_team,
     line,
     over_price,
@@ -326,7 +326,7 @@ player_wickets_alt <-
 
 # Combine all player wickets and write out-----------------------------------------
 player_wickets_alt |> 
-  write_csv("Data/scraped_odds/tab_player_wickets.csv")
+  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_wickets.csv")
 
 #==============================================================================
 # Player Boundaries Alternate Lines
@@ -341,33 +341,36 @@ player_boundaries_alt <-
   mutate(line = str_extract(market_name, "\\d+")) |>
   mutate(line = as.numeric(line) - 0.5) |>
   mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
-  mutate(
-    player_name = case_when(
-      player_name == "Rilee Rossouw" ~ "Rilee Rossouw",
-      .default = player_name
-    )
-  ) |>
-  left_join(ipl_squads_2024, by = c("player_name" = "player")) |>
-  rename(over_price = price) |>
-  separate(
-    match,
-    into = c("home", "away"),
-    sep = " v ",
-    remove = FALSE
-  ) |>
-  mutate(home = fix_team_names(home),
-         away = fix_team_names(away)) |>
-  mutate(match = paste(home, "v", away)) |> 
-  mutate(opposition_team = case_when(team == home ~ away,
-                                     team == away ~ home)) |>
+  mutate(player_name = case_when(player_name == "G Erasmus" ~ "M Erasmus",
+                                 player_name == "D De Silva" ~ "D de Silva",
+                                 player_name == "S Ssesazi" ~ "S Sesazi",
+                                 player_name == "Will Jacks" ~ "William Jacks",
+                                 player_name == "Phil Salt" ~ "Philip Salt",
+                                 player_name == "Jos Buttler" ~ "Joseph Buttler",
+                                 player_name == "George Munsey" ~ "Henry Munsey",
+                                 player_name == "Max ODowd" ~ "Maxwell O'Dowd",
+                                 player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
+                                 player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
+                                 player_name == "Ollie Hairs" ~ "Oliver Hairs",
+                                 player_name == "Richie Berrington" ~ "Richard Berrington",
+                                 .default = player_name)) |>
+  left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
+  select(-player_name) |> 
+  rename(over_price = price,
+         player_name = unique_name,
+         player_team = country) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  filter(home_team == player_team | away_team == player_team) |>
+  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
+                                     player_team == away_team ~ home_team)) |> 
   mutate(market_name = if_else(str_detect(market_name, "Four"), "Number of 4s", "Number of 6s")) |>
   transmute(
     match,
     market = market_name,
-    home_team = home,
-    away_team = away,
+    home_team,
+    away_team,
     player_name,
-    player_team = team,
+    player_team,
     opposition_team,
     line,
     over_price,
@@ -376,4 +379,30 @@ player_boundaries_alt <-
 
 # Combine all player boundaries and write out-----------------------------------------
 player_boundaries_alt |> 
-  write_csv("Data/scraped_odds/tab_player_boundaries.csv")
+  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_boundaries.csv")
+
+#==============================================================================
+# Fall of first wicket
+#==============================================================================
+
+# Filter to fall of first wicket markets
+fall_of_first_wicket <-
+  all_tab_markets |>
+  filter(market_name == "Fall Of 1st Wicket")
+
+# Overs
+fall_of_first_wicket_overs <-
+  fall_of_first_wicket |>
+  filter(str_detect(prop_name, "Over")) |>
+  separate(prop_name, into = c("team", "line"), sep = " Over ") |>
+  mutate(line = as.numeric(str_extract(line, "\\d+\\.\\d"))) |>
+  rename(over_price = price)
+
+# Unders
+fall_of_first_wicket_unders <-
+  fall_of_first_wicket |>
+  filter(str_detect(prop_name, "Under")) |>
+  separate(prop_name, into = c("team", "line"), sep = " Under ") |>
+  mutate(line = as.numeric(str_extract(line, "\\d+\\.\\d"))) |>
+  rename(under_price = price)
+
