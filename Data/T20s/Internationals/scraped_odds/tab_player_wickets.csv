@@ -1,0 +1,73 @@
+match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,agency
+India v Ireland,Player Wickets,India,Ireland,JJ Bumrah,India,Ireland,0.5,1.15,TAB
+India v Ireland,Player Wickets,India,Ireland,YS Chahal,India,Ireland,0.5,1.2,TAB
+India v Ireland,Player Wickets,India,Ireland,Arshdeep Singh,India,Ireland,0.5,1.22,TAB
+India v Ireland,Player Wickets,India,Ireland,Kuldeep Yadav,India,Ireland,0.5,1.22,TAB
+India v Ireland,Player Wickets,India,Ireland,MR Adair,Ireland,India,0.5,1.45,TAB
+India v Ireland,Player Wickets,India,Ireland,CA Young,Ireland,India,0.5,1.5,TAB
+India v Ireland,Player Wickets,India,Ireland,GI Hume,Ireland,India,0.5,1.6,TAB
+India v Ireland,Player Wickets,India,Ireland,JJ Bumrah,India,Ireland,1.5,1.8,TAB
+India v Ireland,Player Wickets,India,Ireland,YS Chahal,India,Ireland,1.5,2.1,TAB
+India v Ireland,Player Wickets,India,Ireland,Arshdeep Singh,India,Ireland,1.5,2.2,TAB
+India v Ireland,Player Wickets,India,Ireland,Kuldeep Yadav,India,Ireland,1.5,2.2,TAB
+India v Ireland,Player Wickets,India,Ireland,MR Adair,Ireland,India,1.5,3.5,TAB
+India v Ireland,Player Wickets,India,Ireland,CA Young,Ireland,India,1.5,4,TAB
+India v Ireland,Player Wickets,India,Ireland,GI Hume,Ireland,India,1.5,4.5,TAB
+India v Ireland,Player Wickets,India,Ireland,JJ Bumrah,India,Ireland,2.5,3.5,TAB
+India v Ireland,Player Wickets,India,Ireland,YS Chahal,India,Ireland,2.5,4.5,TAB
+India v Ireland,Player Wickets,India,Ireland,Arshdeep Singh,India,Ireland,2.5,5,TAB
+India v Ireland,Player Wickets,India,Ireland,Kuldeep Yadav,India,Ireland,2.5,5,TAB
+India v Ireland,Player Wickets,India,Ireland,MR Adair,Ireland,India,2.5,9,TAB
+India v Ireland,Player Wickets,India,Ireland,CA Young,Ireland,India,2.5,11,TAB
+India v Ireland,Player Wickets,India,Ireland,GI Hume,Ireland,India,2.5,15,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,AR Ramjani,Uganda,Papua New Guinea,0.5,1.38,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,C Kyewuta,Uganda,Papua New Guinea,0.5,1.48,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,DM Nakrani,Uganda,Papua New Guinea,0.5,1.48,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,B Masaba,Uganda,Papua New Guinea,0.5,1.58,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,AR Ramjani,Uganda,Papua New Guinea,1.5,3,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,C Kyewuta,Uganda,Papua New Guinea,1.5,3.5,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,DM Nakrani,Uganda,Papua New Guinea,1.5,3.5,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,B Masaba,Uganda,Papua New Guinea,1.5,4,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,AR Ramjani,Uganda,Papua New Guinea,2.5,10,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,C Kyewuta,Uganda,Papua New Guinea,2.5,13,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,DM Nakrani,Uganda,Papua New Guinea,2.5,13,TAB
+Papua New Guinea v Uganda,Player Wickets,Papua New Guinea,Uganda,B Masaba,Uganda,Papua New Guinea,2.5,19,TAB
+Australia v Oman,Player Wickets,Australia,Oman,MA Starc,Australia,Oman,0.5,1.13,TAB
+Australia v Oman,Player Wickets,Australia,Oman,A Zampa,Australia,Oman,0.5,1.15,TAB
+Australia v Oman,Player Wickets,Australia,Oman,JR Hazlewood,Australia,Oman,0.5,1.15,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Bilal Khan,Oman,Australia,0.5,1.5,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Mehran Khan,Oman,Australia,0.5,1.75,TAB
+Australia v Oman,Player Wickets,Australia,Oman,MA Starc,Australia,Oman,1.5,1.7,TAB
+Australia v Oman,Player Wickets,Australia,Oman,A Zampa,Australia,Oman,1.5,1.8,TAB
+Australia v Oman,Player Wickets,Australia,Oman,JR Hazlewood,Australia,Oman,1.5,1.8,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Bilal Khan,Oman,Australia,1.5,3.75,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Mehran Khan,Oman,Australia,1.5,5,TAB
+Australia v Oman,Player Wickets,Australia,Oman,MA Starc,Australia,Oman,2.5,3.1,TAB
+Australia v Oman,Player Wickets,Australia,Oman,A Zampa,Australia,Oman,2.5,3.5,TAB
+Australia v Oman,Player Wickets,Australia,Oman,JR Hazlewood,Australia,Oman,2.5,3.5,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Bilal Khan,Oman,Australia,2.5,17,TAB
+Australia v Oman,Player Wickets,Australia,Oman,Mehran Khan,Oman,Australia,2.5,29,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Naseem Shah,Pakistan,USA,0.5,1.15,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Haris Rauf,Pakistan,USA,0.5,1.17,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Ali Shamsher Khan,Pakistan,USA,0.5,1.48,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Naseem Shah,Pakistan,USA,1.5,1.8,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Haris Rauf,Pakistan,USA,1.5,1.9,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Ali Shamsher Khan,Pakistan,USA,1.5,3.5,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Naseem Shah,Pakistan,USA,2.5,3.5,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Haris Rauf,Pakistan,USA,2.5,3.8,TAB
+USA v Pakistan,Player Wickets,USA,Pakistan,Ali Shamsher Khan,Pakistan,USA,2.5,13,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BM Scholtz,Namibia,Scotland,0.5,1.19,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,D Wiese,Namibia,Scotland,0.5,1.19,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,R Trumpelmann,Namibia,Scotland,0.5,1.28,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BJ Currie,Scotland,Namibia,0.5,1.28,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,MRJ Watt,Scotland,Namibia,0.5,1.28,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BM Scholtz,Namibia,Scotland,1.5,2,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,D Wiese,Namibia,Scotland,1.5,2,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,R Trumpelmann,Namibia,Scotland,1.5,2.5,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BJ Currie,Scotland,Namibia,1.5,2.5,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,MRJ Watt,Scotland,Namibia,1.5,2.5,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BM Scholtz,Namibia,Scotland,2.5,4.25,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,D Wiese,Namibia,Scotland,2.5,4.25,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,R Trumpelmann,Namibia,Scotland,2.5,7,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,BJ Currie,Scotland,Namibia,2.5,7,TAB
+Namibia v Scotland,Player Wickets,Namibia,Scotland,MRJ Watt,Scotland,Namibia,2.5,7,TAB

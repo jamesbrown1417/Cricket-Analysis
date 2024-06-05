@@ -1,15 +1,10 @@
-match,home_team,away_team,start_time,market_name,prop_name,price
-England v Scotland,England,Scotland,2024-06-04T14:30:00.000Z,Head To Head,England,1.06
-England v Scotland,England,Scotland,2024-06-04T14:30:00.000Z,Head To Head,Scotland,8.5
-Netherlands v Nepal,Netherlands,Nepal,2024-06-04T15:30:00.000Z,Head To Head,Netherlands,1.4
-Netherlands v Nepal,Netherlands,Nepal,2024-06-04T15:30:00.000Z,Head To Head,Nepal,2.9
-India v Ireland,India,Ireland,2024-06-05T14:30:00.000Z,Head To Head,India,1.06
-India v Ireland,India,Ireland,2024-06-05T14:30:00.000Z,Head To Head,Ireland,8.5
-Australia v Oman,Australia,Oman,2024-06-06T00:30:00.000Z,Head To Head,Australia,1.01
-Australia v Oman,Australia,Oman,2024-06-06T00:30:00.000Z,Head To Head,Oman,17
-USA v Pakistan,USA,Pakistan,2024-06-06T15:30:00.000Z,Head To Head,USA,8.5
-USA v Pakistan,USA,Pakistan,2024-06-06T15:30:00.000Z,Head To Head,Pakistan,1.06
-Australia v England,Australia,England,2024-06-08T17:00:00.000Z,Head To Head,Australia,1.8
-Australia v England,Australia,England,2024-06-08T17:00:00.000Z,Head To Head,England,2
-India v Pakistan,India,Pakistan,2024-06-09T14:30:00.000Z,Head To Head,India,1.36
-India v Pakistan,India,Pakistan,2024-06-09T14:30:00.000Z,Head To Head,Pakistan,3.2
+match,market,home_team,away_team,home_win,away_win,agency
+India v Ireland,Head To Head,India,Ireland,1.06,8.5,TAB
+Papua New Guinea v Uganda,Head To Head,Papua New Guinea,Uganda,1.32,3.3,TAB
+Australia v Oman,Head To Head,Australia,Oman,1.01,17,TAB
+USA v Pakistan,Head To Head,USA,Pakistan,7.5,1.08,TAB
+Namibia v Scotland,Head To Head,Namibia,Scotland,2,1.8,TAB
+New Zealand v Afghanistan,Head To Head,New Zealand,Afghanistan,1.55,2.4,TAB
+Sri Lanka v Bangladesh,Head To Head,Sri Lanka,Bangladesh,1.55,2.4,TAB
+Australia v England,Head To Head,Australia,England,1.8,2,TAB
+India v Pakistan,Head To Head,India,Pakistan,1.36,3.2,TAB

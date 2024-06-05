@@ -40,6 +40,7 @@ separated_names <-
                                     full_join_name == "Pasqual Mendis" ~ "Kamindu Mendis",
                                     full_join_name == "Pathum Silva" ~ "Pathum Nissanka",
                                     full_join_name == "Dhananjaya Silva" ~ "Dhananjaya De Silva",
+                                    full_join_name == "Michael Lingen" ~ "Michael Van Lingen",
                                     TRUE ~ full_join_name))
 
 # Function to fetch and parse JSON with exponential backoff
@@ -150,8 +151,41 @@ head_to_head <-
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |> 
   mutate(match = paste(home_team, "v", away_team, sep = " "))
 
-# # Write to csv
-write_csv(head_to_head, "Data/T20s/Internationals/scraped_odds/tab_h2h.csv")
+# Home Win
+home_win <-
+  head_to_head |> 
+  filter(prop_name == home_team) |> 
+  select(
+    match,
+    market = market_name,
+    home_team,
+    away_team,
+    home_win = price
+  ) |> 
+  mutate(agency = "TAB")
+  
+# Away Win
+away_win <-
+  head_to_head |> 
+  filter(prop_name == away_team) |> 
+  select(
+    match,
+    market = market_name,
+    home_team,
+    away_team,
+    away_win = price
+  ) |> 
+  mutate(agency = "TAB")
+
+# Join
+h2h_new <-
+  home_win |> 
+  left_join(away_win) |> 
+  relocate(agency, .after = away_win)
+
+# Write to csv
+h2h_new |> 
+write_csv("Data/T20s/Internationals/scraped_odds/tab_h2h.csv")
 
 #==============================================================================
 # Player Runs Over / Under
