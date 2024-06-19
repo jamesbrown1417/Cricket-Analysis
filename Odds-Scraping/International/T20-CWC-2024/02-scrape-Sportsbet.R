@@ -16,6 +16,7 @@ player_names <-
   player_meta_updated |> 
   filter(dob >= "1980-01-01") |> 
   select(unique_name, full_name, country) |> 
+  mutate(country = if_else(country == "U.S.A.", "USA", country)) |>
   # Split full name into first, middle and last names
   separate(unique_name, c("first_name", "last_name"), sep = " ", remove = FALSE, extra = "merge") |> 
   mutate(initials_join_name = paste(substr(first_name, 1, 1), last_name, sep = " ")) |> 
@@ -37,11 +38,17 @@ separated_names <-
     })
   ) |> 
   mutate(full_join_name = paste(first_name, last_name, sep = " ")) |> 
+  distinct(full_join_name, .keep_all = TRUE) |>
   mutate(full_join_name = case_when(full_join_name == "Quinton Kock" ~ "Quinton de Kock",
                                     full_join_name == "Pasqual Mendis" ~ "Kamindu Mendis",
                                     full_join_name == "Pathum Silva" ~ "Pathum Nissanka",
                                     full_join_name == "Dhananjaya Silva" ~ "Dhananjaya De Silva",
                                     full_join_name == "Michael Lingen" ~ "Michael Van Lingen",
+                                    full_join_name == "Shakib Hasan" ~ "Shakib Al Hasan",
+                                    full_join_name == "Tanzid Tamim" ~ "Tanzid Hasan",
+                                    full_join_name == "Najmul Shanto" ~ "Najmul Hossain Shanto",
+                                    full_join_name == "Noor Lakanwal" ~ "Noor Ahmad",
+                                    full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
                                     TRUE ~ full_join_name))
 
 #===============================================================================
@@ -286,7 +293,7 @@ player_props_function <- function() {
       market = "Player Runs",
       home_team,
       away_team,
-      player_name = str_remove(prop_market_name, " Total Runs .*"),
+      player_name = str_remove(selection_name_prop, " \\- Over.*"),
       line = handicap,
       over_price = prop_market_price
     )
@@ -300,7 +307,7 @@ player_props_function <- function() {
       market = "Player Runs",
       home_team,
       away_team,
-      player_name = str_remove(prop_market_name, " Total Runs .*"),
+      player_name = str_remove(selection_name_prop, " \\- Under.*"),
       line = handicap,
       under_price = prop_market_price
     )

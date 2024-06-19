@@ -1,10 +1,5 @@
 match,market,home_team,away_team,home_win,away_win,agency
-India v Ireland,Head To Head,India,Ireland,1.06,8.5,TAB
-Papua New Guinea v Uganda,Head To Head,Papua New Guinea,Uganda,1.32,3.3,TAB
-Australia v Oman,Head To Head,Australia,Oman,1.01,17,TAB
-USA v Pakistan,Head To Head,USA,Pakistan,7.5,1.08,TAB
-Namibia v Scotland,Head To Head,Namibia,Scotland,2,1.8,TAB
-New Zealand v Afghanistan,Head To Head,New Zealand,Afghanistan,1.55,2.4,TAB
-Sri Lanka v Bangladesh,Head To Head,Sri Lanka,Bangladesh,1.55,2.4,TAB
-Australia v England,Head To Head,Australia,England,1.8,2,TAB
-India v Pakistan,Head To Head,India,Pakistan,1.36,3.2,TAB
+USA v South Africa,Head To Head,USA,South Africa,6,1.12,TAB
+England v West Indies,Head To Head,England,West Indies,1.85,1.95,TAB
+Afghanistan v India,Head To Head,Afghanistan,India,4.2,1.22,TAB
+Australia v Bangladesh,Head To Head,Australia,Bangladesh,1.14,5.5,TAB
