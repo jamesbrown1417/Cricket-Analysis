@@ -1,122 +1,26 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,agency
-USA v South Africa,Number of 4s,USA,South Africa,Q de Kock,South Africa,USA,0.5,1.2,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AK Markram,South Africa,USA,0.5,1.22,TAB
-USA v South Africa,Number of 4s,USA,South Africa,RR Hendricks,South Africa,USA,0.5,1.22,TAB
-USA v South Africa,Number of 4s,USA,South Africa,H Klaasen,South Africa,USA,0.5,1.36,TAB
-USA v South Africa,Number of 4s,USA,South Africa,MD Patel,USA,South Africa,0.5,1.3,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AGS Gous,South Africa,USA,0.5,1.4,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,0.5,1.4,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Aaron Jones,USA,South Africa,0.5,1.55,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Q de Kock,South Africa,USA,1.5,1.4,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AK Markram,South Africa,USA,1.5,1.45,TAB
-USA v South Africa,Number of 4s,USA,South Africa,RR Hendricks,South Africa,USA,1.5,1.45,TAB
-USA v South Africa,Number of 4s,USA,South Africa,H Klaasen,South Africa,USA,1.5,1.75,TAB
-USA v South Africa,Number of 4s,USA,South Africa,MD Patel,USA,South Africa,1.5,1.62,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AGS Gous,South Africa,USA,1.5,1.8,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,1.5,1.8,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Aaron Jones,USA,South Africa,1.5,2.1,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Q de Kock,South Africa,USA,2.5,1.8,TAB
-USA v South Africa,Number of 4s,USA,South Africa,RR Hendricks,South Africa,USA,2.5,1.9,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AK Markram,South Africa,USA,2.5,1.95,TAB
-USA v South Africa,Number of 4s,USA,South Africa,H Klaasen,South Africa,USA,2.5,2.5,TAB
-USA v South Africa,Number of 4s,USA,South Africa,MD Patel,USA,South Africa,2.5,2.25,TAB
-USA v South Africa,Number of 4s,USA,South Africa,AGS Gous,South Africa,USA,2.5,2.6,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,2.5,2.6,TAB
-USA v South Africa,Number of 4s,USA,South Africa,Aaron Jones,USA,South Africa,2.5,3.25,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Q de Kock,South Africa,USA,0.5,1.55,TAB
-USA v South Africa,Number of 6s,USA,South Africa,H Klaasen,South Africa,USA,0.5,1.55,TAB
-USA v South Africa,Number of 6s,USA,South Africa,RR Hendricks,South Africa,USA,0.5,1.6,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AK Markram,South Africa,USA,0.5,1.9,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Aaron Jones,USA,South Africa,0.5,1.8,TAB
-USA v South Africa,Number of 6s,USA,South Africa,MD Patel,USA,South Africa,0.5,1.8,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AGS Gous,South Africa,USA,0.5,1.9,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,0.5,2.4,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Q de Kock,South Africa,USA,1.5,2.15,TAB
-USA v South Africa,Number of 6s,USA,South Africa,H Klaasen,South Africa,USA,1.5,2.15,TAB
-USA v South Africa,Number of 6s,USA,South Africa,RR Hendricks,South Africa,USA,1.5,2.25,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AK Markram,South Africa,USA,1.5,3,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Aaron Jones,USA,South Africa,1.5,2.75,TAB
-USA v South Africa,Number of 6s,USA,South Africa,MD Patel,USA,South Africa,1.5,2.75,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AGS Gous,South Africa,USA,1.5,3,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,1.5,4.5,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Q de Kock,South Africa,USA,2.5,2.9,TAB
-USA v South Africa,Number of 6s,USA,South Africa,H Klaasen,South Africa,USA,2.5,2.9,TAB
-USA v South Africa,Number of 6s,USA,South Africa,RR Hendricks,South Africa,USA,2.5,3.2,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AK Markram,South Africa,USA,2.5,5,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Aaron Jones,USA,South Africa,2.5,4.25,TAB
-USA v South Africa,Number of 6s,USA,South Africa,MD Patel,USA,South Africa,2.5,4.25,TAB
-USA v South Africa,Number of 6s,USA,South Africa,AGS Gous,South Africa,USA,2.5,5,TAB
-USA v South Africa,Number of 6s,USA,South Africa,Steven Ryan Taylor,USA,South Africa,2.5,9,TAB
-England v West Indies,Number of 4s,England,West Indies,JC Buttler,England,West Indies,0.5,1.17,TAB
-England v West Indies,Number of 4s,England,West Indies,PD Salt,England,West Indies,0.5,1.2,TAB
-England v West Indies,Number of 4s,England,West Indies,HC Brook,England,West Indies,0.5,1.3,TAB
-England v West Indies,Number of 4s,England,West Indies,JM Bairstow,England,West Indies,0.5,1.32,TAB
-England v West Indies,Number of 4s,England,West Indies,N Pooran,West Indies,England,0.5,1.25,TAB
-England v West Indies,Number of 4s,England,West Indies,SD Hope,West Indies,England,0.5,1.32,TAB
-England v West Indies,Number of 4s,England,West Indies,BA King,West Indies,England,0.5,1.36,TAB
-England v West Indies,Number of 4s,England,West Indies,J Charles,West Indies,England,0.5,1.36,TAB
-England v West Indies,Number of 4s,England,West Indies,JC Buttler,England,West Indies,1.5,1.35,TAB
-England v West Indies,Number of 4s,England,West Indies,PD Salt,England,West Indies,1.5,1.4,TAB
-England v West Indies,Number of 4s,England,West Indies,HC Brook,England,West Indies,1.5,1.6,TAB
-England v West Indies,Number of 4s,England,West Indies,JM Bairstow,England,West Indies,1.5,1.65,TAB
-England v West Indies,Number of 4s,England,West Indies,N Pooran,West Indies,England,1.5,1.5,TAB
-England v West Indies,Number of 4s,England,West Indies,SD Hope,West Indies,England,1.5,1.65,TAB
-England v West Indies,Number of 4s,England,West Indies,BA King,West Indies,England,1.5,1.75,TAB
-England v West Indies,Number of 4s,England,West Indies,J Charles,West Indies,England,1.5,1.75,TAB
-England v West Indies,Number of 4s,England,West Indies,JC Buttler,England,West Indies,2.5,1.7,TAB
-England v West Indies,Number of 4s,England,West Indies,PD Salt,England,West Indies,2.5,1.8,TAB
-England v West Indies,Number of 4s,England,West Indies,HC Brook,England,West Indies,2.5,2.2,TAB
-England v West Indies,Number of 4s,England,West Indies,JM Bairstow,England,West Indies,2.5,2.35,TAB
-England v West Indies,Number of 4s,England,West Indies,N Pooran,West Indies,England,2.5,2,TAB
-England v West Indies,Number of 4s,England,West Indies,SD Hope,West Indies,England,2.5,2.3,TAB
-England v West Indies,Number of 4s,England,West Indies,BA King,West Indies,England,2.5,2.5,TAB
-England v West Indies,Number of 4s,England,West Indies,J Charles,West Indies,England,2.5,2.5,TAB
-England v West Indies,Number of 6s,England,West Indies,JC Buttler,England,West Indies,0.5,1.4,TAB
-England v West Indies,Number of 6s,England,West Indies,PD Salt,England,West Indies,0.5,1.4,TAB
-England v West Indies,Number of 6s,England,West Indies,HC Brook,England,West Indies,0.5,1.6,TAB
-England v West Indies,Number of 6s,England,West Indies,JM Bairstow,England,West Indies,0.5,1.6,TAB
-England v West Indies,Number of 6s,England,West Indies,BA King,West Indies,England,0.5,1.5,TAB
-England v West Indies,Number of 6s,England,West Indies,J Charles,West Indies,England,0.5,1.5,TAB
-England v West Indies,Number of 6s,England,West Indies,N Pooran,West Indies,England,0.5,1.6,TAB
-England v West Indies,Number of 6s,England,West Indies,SD Hope,West Indies,England,0.5,1.9,TAB
-England v West Indies,Number of 6s,England,West Indies,JC Buttler,England,West Indies,1.5,1.8,TAB
-England v West Indies,Number of 6s,England,West Indies,PD Salt,England,West Indies,1.5,1.8,TAB
-England v West Indies,Number of 6s,England,West Indies,HC Brook,England,West Indies,1.5,2.25,TAB
-England v West Indies,Number of 6s,England,West Indies,JM Bairstow,England,West Indies,1.5,2.25,TAB
-England v West Indies,Number of 6s,England,West Indies,BA King,West Indies,England,1.5,2,TAB
-England v West Indies,Number of 6s,England,West Indies,J Charles,West Indies,England,1.5,2,TAB
-England v West Indies,Number of 6s,England,West Indies,N Pooran,West Indies,England,1.5,2.25,TAB
-England v West Indies,Number of 6s,England,West Indies,SD Hope,West Indies,England,1.5,3,TAB
-England v West Indies,Number of 6s,England,West Indies,JC Buttler,England,West Indies,2.5,2.25,TAB
-England v West Indies,Number of 6s,England,West Indies,PD Salt,England,West Indies,2.5,2.25,TAB
-England v West Indies,Number of 6s,England,West Indies,HC Brook,England,West Indies,2.5,3.2,TAB
-England v West Indies,Number of 6s,England,West Indies,JM Bairstow,England,West Indies,2.5,3.2,TAB
-England v West Indies,Number of 6s,England,West Indies,BA King,West Indies,England,2.5,2.6,TAB
-England v West Indies,Number of 6s,England,West Indies,J Charles,West Indies,England,2.5,2.6,TAB
-England v West Indies,Number of 6s,England,West Indies,N Pooran,West Indies,England,2.5,3.2,TAB
-England v West Indies,Number of 6s,England,West Indies,SD Hope,West Indies,England,2.5,5,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,0.5,1.4,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Rahmanullah Gurbaz,Afghanistan,India,0.5,1.4,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,0.5,1.4,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,0.5,1.5,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Gulbadin Naib,Afghanistan,India,0.5,1.5,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,RG Sharma,India,Afghanistan,0.5,1.2,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,V Kohli,India,Afghanistan,0.5,1.2,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,RR Pant,India,Afghanistan,0.5,1.25,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,RG Sharma,India,Afghanistan,0.5,1.2,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,SA Yadav,India,Afghanistan,0.5,1.25,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,1.5,1.8,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,RR Pant,India,Afghanistan,0.5,1.25,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Rahmanullah Gurbaz,Afghanistan,India,1.5,1.8,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,1.5,2,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,1.5,1.8,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Gulbadin Naib,Afghanistan,India,1.5,2,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,1.5,2,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,RG Sharma,India,Afghanistan,1.5,1.4,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,V Kohli,India,Afghanistan,1.5,1.4,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,RR Pant,India,Afghanistan,1.5,1.5,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,SA Yadav,India,Afghanistan,1.5,1.5,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,2.5,2.6,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,RR Pant,India,Afghanistan,1.5,1.5,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,Ibrahim Zadran,Afghanistan,India,2.5,2.25,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Rahmanullah Gurbaz,Afghanistan,India,2.5,2.6,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,2.5,3,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,Gulbadin Naib,Afghanistan,India,2.5,3,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,2.5,3,TAB
+Afghanistan v India,Number of 4s,Afghanistan,India,V Kohli,India,Afghanistan,2.5,1.7,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,RG Sharma,India,Afghanistan,2.5,1.8,TAB
-Afghanistan v India,Number of 4s,Afghanistan,India,V Kohli,India,Afghanistan,2.5,1.8,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,RR Pant,India,Afghanistan,2.5,2,TAB
 Afghanistan v India,Number of 4s,Afghanistan,India,SA Yadav,India,Afghanistan,2.5,2,TAB
 Afghanistan v India,Number of 6s,Afghanistan,India,Rahmanullah Gurbaz,Afghanistan,India,0.5,1.8,TAB
@@ -140,8 +44,8 @@ Afghanistan v India,Number of 6s,Afghanistan,India,Ibrahim Zadran,Afghanistan,In
 Afghanistan v India,Number of 6s,Afghanistan,India,Azmatullah Omarzai,Afghanistan,India,2.5,7.5,TAB
 Afghanistan v India,Number of 6s,Afghanistan,India,Gulbadin Naib,Afghanistan,India,2.5,7.5,TAB
 Afghanistan v India,Number of 6s,Afghanistan,India,RG Sharma,India,Afghanistan,2.5,2.6,TAB
-Afghanistan v India,Number of 6s,Afghanistan,India,RR Pant,India,Afghanistan,2.5,2.9,TAB
 Afghanistan v India,Number of 6s,Afghanistan,India,SA Yadav,India,Afghanistan,2.5,2.9,TAB
+Afghanistan v India,Number of 6s,Afghanistan,India,RR Pant,India,Afghanistan,2.5,2.9,TAB
 Afghanistan v India,Number of 6s,Afghanistan,India,V Kohli,India,Afghanistan,2.5,3.2,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,DA Warner,Australia,Bangladesh,0.5,1.17,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,TM Head,Australia,Bangladesh,0.5,1.2,TAB
@@ -157,12 +61,12 @@ Australia v Bangladesh,Number of 4s,Australia,Bangladesh,GJ Maxwell,Australia,Ba
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,1.5,1.55,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Nazmul Hossain Shanto,Bangladesh,Australia,1.5,1.5,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,1.5,1.7,TAB
-Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,1.5,1.8,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Tanzid Hasan,Bangladesh,Australia,1.5,1.8,TAB
+Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,1.5,1.8,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,DA Warner,Australia,Bangladesh,2.5,1.7,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,TM Head,Australia,Bangladesh,2.5,1.8,TAB
+Australia v Bangladesh,Number of 4s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,2.5,1.9,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,GJ Maxwell,Australia,Bangladesh,2.5,2,TAB
-Australia v Bangladesh,Number of 4s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,2.5,2.1,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Nazmul Hossain Shanto,Bangladesh,Australia,2.5,2,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,2.5,2.4,TAB
 Australia v Bangladesh,Number of 4s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,2.5,2.6,TAB
@@ -171,23 +75,23 @@ Australia v Bangladesh,Number of 6s,Australia,Bangladesh,TM Head,Australia,Bangl
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,GJ Maxwell,Australia,Bangladesh,0.5,1.5,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,0.5,1.6,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,DA Warner,Australia,Bangladesh,0.5,1.65,TAB
-Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,0.5,2.1,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Tanzid Hasan,Bangladesh,Australia,0.5,2.1,TAB
+Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,0.5,2.1,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,0.5,2.2,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Nazmul Hossain Shanto,Bangladesh,Australia,0.5,2.25,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,TM Head,Australia,Bangladesh,1.5,1.8,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,GJ Maxwell,Australia,Bangladesh,1.5,2,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,1.5,2.25,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,DA Warner,Australia,Bangladesh,1.5,2.4,TAB
-Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,1.5,3.6,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Tanzid Hasan,Bangladesh,Australia,1.5,3.6,TAB
+Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,1.5,3.6,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,1.5,3.8,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Nazmul Hossain Shanto,Bangladesh,Australia,1.5,4,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,TM Head,Australia,Bangladesh,2.5,2.25,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,GJ Maxwell,Australia,Bangladesh,2.5,2.6,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,MR Marsh,Australia,Bangladesh,2.5,3.2,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,DA Warner,Australia,Bangladesh,2.5,3.5,TAB
-Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,2.5,6.5,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Tanzid Hasan,Bangladesh,Australia,2.5,6.5,TAB
+Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Liton Das,Bangladesh,Australia,2.5,6.5,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Shakib Al Hasan,Bangladesh,Australia,2.5,7.5,TAB
 Australia v Bangladesh,Number of 6s,Australia,Bangladesh,Nazmul Hossain Shanto,Bangladesh,Australia,2.5,8,TAB

@@ -133,7 +133,7 @@ main_markets_function <- function() {
     mutate(agency = "Sportsbet")
   
   # Write to csv
-  write_csv(sportsbet_h2h, "Data/T20s/Internationals/scraped_odds//sportsbet_h2h.csv")
+  write_csv(sportsbet_h2h, "Data/T20s/Internationals/scraped_odds/sportsbet_h2h.csv")
   
 }
 
