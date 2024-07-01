@@ -11,11 +11,22 @@ library(googledrive)
 #===============================================================================
 
 # Read in Innings Stats
-innings_stats <- read_rds("../../Data/T20s/Major League Cricket/t20_mlc_match_innings_data.rds")
+innings_stats <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_match_innings_data.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_match_innings_data.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_innings_data.rds"))
 
-# Read in Player Stats
-batting_stats_player <- read_rds("../../Data/T20s/Major League Cricket/t20_mlc_batting_innings_level.rds")
-bowling_stats_player <- read_rds("../../Data/T20s/Major League Cricket/t20_mlc_bowling_innings_level.rds")
+# Read in Player Stats - Batting
+batting_stats_player <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_batting_innings_level.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_batting_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_batting_innings_level.rds") |> mutate(event = "T20I"))
+
+# Read in Player Stats - Bowling
+bowling_stats_player <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_bowling_innings_level.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_bowling_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_bowling_innings_level.rds") |> mutate(event = "T20I"))
 
 # Tidy Names
 batting_stats_player <-
@@ -50,11 +61,51 @@ batting_stats_player <-
     strike_rate) |> 
   mutate(dismissal = str_to_title(dismissal))
 
+# Tidy Names
+bowling_stats_player <-
+  bowling_stats_player |> 
+  left_join(innings_stats[,c("match_id", "innings_1_balls", "innings_1_total", "innings_2_balls", "innings_2_total")], by = "match_id") |>
+  mutate(innings_balls = ifelse(innings == 1, innings_1_balls, innings_2_balls)) |>
+  mutate(team_runs = ifelse(innings == 1, innings_1_total, innings_2_total)) |>
+  select(
+    team1,
+    team2,
+    match_date,
+    venue,
+    event,
+    toss_winner,
+    toss_decision,
+    winner,
+    winner_runs,
+    winner_wickets,
+    player_full_name,
+    player_unique_name,
+    player_team,
+    bowling_style,
+    innings,
+    team_runs,
+    innings_balls,
+    balls_bowled,
+    runs_conceded,
+    fours_conceded,
+    sixes_conceded,
+    wickets,
+    economy_rate
+  )
+
 # Unique Batters List
-unique_batters <-
-  batting_stats_player$player_full_name |>
-  unique() |>
-  sort()
+unique_players <-
+  batting_stats_player |> 
+  bind_rows(bowling_stats_player) |>
+  distinct(player_full_name) |>
+  pull(player_full_name)
+
+# Unique Event List
+unique_events <-
+  batting_stats_player |> 
+  bind_rows(bowling_stats_player) |>
+  distinct(event) |>
+  pull(event)
 
 #===============================================================================
 # Read in scraped odds
@@ -96,9 +147,16 @@ ui <- page_navbar(
           selectInput(
             inputId = "player_name_input_a",
             label = "Select Player:",
-            selected = "Heinrich Klaasen",
-            choices = unique_batters,
+            selected = "Sunil Philip Narine",
+            choices = unique_players,
             selectize = TRUE
+          ),
+          selectInput(
+            inputId = "event_input_a",
+            label = "Select Event:",
+            choices = unique_events,
+            multiple = TRUE,
+            selected = unique_events
           ),
           selectInput(
             inputId = "stat_input_a",
@@ -115,7 +173,8 @@ ui <- page_navbar(
             label = "Select Venue:",
             choices = batting_stats_player$venue |> unique() |> sort(),
             multiple = TRUE,
-            selected = batting_stats_player$venue |> unique() |> sort()
+            selected = NULL,
+            selectize = TRUE
           ),
           selectInput(
             inputId = "innings_input_a",
@@ -258,15 +317,19 @@ server <- function(input, output, session) {
         arrange(match_date) |>
         mutate(game_number = row_number()) |> 
         select(Date = match_date,
-               Season = season,
+               Event = event,
                Venue = venue,
                Innings = innings,
                Innings_Balls = innings_balls,
                Innings_Runs = team_runs,
-               Player = player_name,
-               Team = team,
-               Wickets = wickets_taken,
+               Player = player_full_name,
+               Unique = player_unique_name,
+               Team = player_team,
+               Wickets = wickets,
+               Runs = runs_conceded,
                Balls = balls_bowled,
+               Fours = fours_conceded,
+               Sixes = sixes_conceded,
                game_number) |> 
         arrange(desc(Date))
     }
@@ -280,6 +343,7 @@ server <- function(input, output, session) {
         arrange(match_date) |>
         mutate(game_number = row_number()) |> 
         select(Date = match_date,
+               Event = event,
                Venue = venue,
                Innings = innings,
                Position = batting_position,
@@ -318,10 +382,17 @@ server <- function(input, output, session) {
       filtered_player_stats |>
       filter(Innings %in% input$innings_input_a)
     
+    # Filter by event
+    filtered_player_stats <-
+      filtered_player_stats |>
+      filter(Event %in% input$event_input_a)
+    
     # Filter by venue
+    if (!is.null(input$venue_input_a)) {
     filtered_player_stats <-
       filtered_player_stats |>
       filter(Venue %in% input$venue_input_a)
+    }
     
     # Return filtered player stats
     return(filtered_player_stats)
