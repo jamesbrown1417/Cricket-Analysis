@@ -200,6 +200,16 @@ player_props_function <- function() {
       "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/307/Markets"
     )
   
+  match_markets_links <-
+    glue(
+      "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/326/Markets"
+    )
+  
+  team_totals_links <-
+    glue(
+      "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/328/Markets"
+    )
+  
   first_innings_links <-
     glue(
       "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/325/Markets"
@@ -513,7 +523,214 @@ player_props_function <- function() {
   #   top_team_wicket_taker,
   #   "Data/T20s/Internationals/scraped_odds//sportsbet_top_team_wicket_taker.csv"
   # )
-  # 
+  
+  #===============================================================================
+  # Team Totals
+  #===============================================================================
+  
+  # Map function to player points urls
+  team_totals <-
+    map(team_totals_links, safe_read_prop_url)
+  
+  # Get just result part from output
+  team_totals <-
+    team_totals |>
+    map("result") |>
+    map_df(bind_rows) |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(match = paste(home_team, "v", away_team))
+  
+  # Team Totals-----------------------------------------------------------------
+  team_totals_overs <-
+    team_totals |>
+    filter(str_detect(prop_market_name, "Total Runs")) |> 
+    filter(str_detect(selection_name_prop, "Over")) |>
+  
+  #===============================================================================
+  # Match Markets
+  #===============================================================================
+  
+  # Map function to player points urls
+  match_markets <-
+    map(match_markets_links, safe_read_prop_url)
+  
+  # Get just result part from output
+  match_markets <-
+    match_markets |>
+    map("result") |>
+    map_df(bind_rows) |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(match = paste(home_team, "v", away_team))
+  
+  # Match Fours-----------------------------------------------------------------
+  match_fours_overs <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "^Total Match Fours")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "Total Match Fours",
+      home_team,
+      away_team,
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  match_fours_unders <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "^Total Match Fours")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "Total Match Fours",
+      home_team,
+      away_team,
+      line = handicap,
+      under_price = prop_market_price
+    )
+  
+  match_fours <-
+    match_fours_overs |>
+    left_join(match_fours_unders, by = c("match", "home_team", "away_team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Match Sixes-----------------------------------------------------------------
+  match_sixes_overs <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "^Total Match Sixes")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "Total Match Sixes",
+      home_team,
+      away_team,
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  match_sixes_unders <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "^Total Match Sixes")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "Total Match Sixes",
+      home_team,
+      away_team,
+      line = handicap,
+      under_price = prop_market_price
+    )
+  
+  match_sixes <-
+    match_sixes_overs |>
+    left_join(match_sixes_unders, by = c("match", "home_team", "away_team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Team Sixes------------------------------------------------------------------
+  team_sixes_overs <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Sixes")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "Total Team Sixes",
+      home_team,
+      away_team,
+      team = str_remove(selection_name_prop, " - Over"),
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  team_sixes_unders <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Sixes")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "Total Team Sixes",
+      home_team,
+      away_team,
+      team = str_remove(selection_name_prop, " - Under"),
+      line = handicap,
+      under_price = prop_market_price
+    )
+    
+  team_sixes <-
+    team_sixes_overs |>
+    left_join(team_sixes_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Team Fours------------------------------------------------------------------
+  team_fours_overs <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Fours")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "Total Team Fours",
+      home_team,
+      away_team,
+      team = str_remove(selection_name_prop, " - Over"),
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  team_fours_unders <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Fours")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "Total Team Fours",
+      home_team,
+      away_team,
+      team = str_remove(selection_name_prop, " - Under"),
+      line = handicap,
+      under_price = prop_market_price
+    )
+  
+  team_fours <-
+    team_fours_overs |>
+    left_join(team_fours_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Team Totals-----------------------------------------------------------------
+  team_totals_overs <-
+    match_markets |>
+    filter(str_detect(prop_market_name, "To Score Runs")) |>
+    transmute(
+      match,
+      market = "Total Team Runs",
+      home_team,
+      away_team,
+      team = str_remove(prop_market_name, " To Score Runs"),
+      line = as.numeric(str_extract(selection_name_prop, "[0-9]{1,3}")) - 0.5,
+      over_price = prop_market_price,
+      agency = "Sportsbet"
+    )
+  
+  # Write out data-------------------------------------------------------------
+  write_csv(team_totals_overs,
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_totals_overs.csv")
+  
+  write_csv(team_fours,
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_fours.csv")
+  
+  write_csv(team_sixes,
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_sixes.csv")
+  
+  write_csv(match_sixes,
+            "Data/T20s/Internationals/scraped_odds/sportsbet_match_sixes.csv")
+  
+  write_csv(match_fours,
+            "Data/T20s/Internationals/scraped_odds/sportsbet_match_fours.csv")
+  
   #===============================================================================
   # First Innings
   #===============================================================================
@@ -652,11 +869,11 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(first_over_runs,
-            "Data/T20s/Internationals/scraped_odds//sportsbet_first_over_runs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_first_over_runs.csv")
   write_csv(first_dismissal_data,
-            "Data/T20s/Internationals/scraped_odds//sportsbet_first_dismissal.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_first_dismissal.csv")
   write_csv(first_wicket_runs,
-            "Data/T20s/Internationals/scraped_odds//sportsbet_runs_at_first_wicket.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_runs_at_first_wicket.csv")
   
   #=============================================================================
   # Boundaries

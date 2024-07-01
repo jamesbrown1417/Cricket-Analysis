@@ -1,6 +1,17 @@
 match,market,home_team,away_team,line,over_price,under_price,agency,player_name,player_team,opposition_team
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.74,NA,Sportsbet,Azmatullah Omarzai,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.9,NA,Sportsbet,Azmatullah Omarzai,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.33,NA,Sportsbet,AK Markram,South Africa,England
+England v South Africa,Player Runs,England,South Africa,19.5,1.79,NA,Sportsbet,AK Markram,South Africa,England
+England v South Africa,Player Runs,England,South Africa,29.5,2.4,NA,Sportsbet,AK Markram,South Africa,England
+England v South Africa,Player Runs,England,South Africa,39.5,3.35,NA,Sportsbet,AK Markram,South Africa,England
+England v South Africa,Player Runs,England,South Africa,49.5,4.8,NA,Sportsbet,AK Markram,South Africa,England
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.65,NA,Sportsbet,Azmatullah Omarzai,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.65,NA,Sportsbet,Azmatullah Omarzai,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.5,NA,Sportsbet,Azmatullah Omarzai,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.33,NA,Sportsbet,DA Miller,South Africa,England
+England v South Africa,Player Runs,England,South Africa,19.5,1.74,NA,Sportsbet,DA Miller,South Africa,England
+England v South Africa,Player Runs,England,South Africa,29.5,2.25,NA,Sportsbet,DA Miller,South Africa,England
+England v South Africa,Player Runs,England,South Africa,39.5,3.2,NA,Sportsbet,DA Miller,South Africa,England
+England v South Africa,Player Runs,England,South Africa,49.5,4.7,NA,Sportsbet,DA Miller,South Africa,England
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.19,NA,Sportsbet,DA Warner,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,17.5,1.46,2.6,Sportsbet,DA Warner,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,1.53,NA,Sportsbet,DA Warner,Australia,Bangladesh
@@ -14,24 +25,49 @@ Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,1.89,NA,Sportsbet,G
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,2.55,NA,Sportsbet,GJ Maxwell,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,3.6,NA,Sportsbet,GJ Maxwell,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,5.3,NA,Sportsbet,GJ Maxwell,Australia,Bangladesh
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.6,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.55,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.1,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,6.5,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,8.5,1.46,2.58,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.51,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,14.5,1.87,1.89,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.25,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,22.5,2.59,1.46,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,3.4,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,5.25,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,8,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.54,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.35,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,3.7,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,5.6,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,9,NA,Sportsbet,Gulbadin Naib,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.4,NA,Sportsbet,HC Brook,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.93,NA,Sportsbet,HC Brook,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,2.65,NA,Sportsbet,HC Brook,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,3.9,NA,Sportsbet,HC Brook,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,6,NA,Sportsbet,HC Brook,England,South Africa
+England v South Africa,Player Runs,England,South Africa,9.5,1.49,NA,Sportsbet,H Klaasen,South Africa,England
+England v South Africa,Player Runs,England,South Africa,19.5,2.03,NA,Sportsbet,H Klaasen,South Africa,England
+England v South Africa,Player Runs,England,South Africa,29.5,2.9,NA,Sportsbet,H Klaasen,South Africa,England
+England v South Africa,Player Runs,England,South Africa,39.5,4.4,NA,Sportsbet,H Klaasen,South Africa,England
+England v South Africa,Player Runs,England,South Africa,49.5,7,NA,Sportsbet,H Klaasen,South Africa,England
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.39,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,10.5,1.45,2.64,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,17.5,1.86,1.9,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.96,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,26.5,2.56,1.47,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.75,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,4,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,5.75,NA,Sportsbet,Ibrahim Zadran,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.29,NA,Sportsbet,JM Bairstow,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.68,NA,Sportsbet,JM Bairstow,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,2.18,NA,Sportsbet,JM Bairstow,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,2.85,NA,Sportsbet,JM Bairstow,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,3.9,NA,Sportsbet,JM Bairstow,England,South Africa
+England v South Africa,Player Runs,England,South Africa,9.5,1.22,NA,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,17.5,1.47,2.56,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.53,NA,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,27.5,1.87,1.89,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,1.93,NA,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,2.55,1.47,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,2.5,NA,Sportsbet,JC Buttler,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,3.2,NA,Sportsbet,JC Buttler,England,South Africa
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.42,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,1.89,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,2.55,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,3.6,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,5.3,NA,Sportsbet,NA,NA,NA
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.88,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.77,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.95,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.42,NA,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,10.5,1.48,2.53,Sportsbet,NA,NA,NA
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,17.5,1.9,1.87,Sportsbet,NA,NA,NA
@@ -52,63 +88,105 @@ Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,1.67,NA,Sportsbet,M
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,2.15,NA,Sportsbet,MR Marsh,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,2.85,NA,Sportsbet,MR Marsh,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,3.9,NA,Sportsbet,MR Marsh,Australia,Bangladesh
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.73,NA,Sportsbet,NA,NA,NA
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.85,NA,Sportsbet,NA,NA,NA
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.9,NA,Sportsbet,NA,NA,NA
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.88,NA,Sportsbet,Mohammad Nabi,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.73,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.85,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.9,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.29,NA,Sportsbet,MM Ali,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.68,NA,Sportsbet,MM Ali,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,2.18,NA,Sportsbet,MM Ali,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,2.85,NA,Sportsbet,MM Ali,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,3.9,NA,Sportsbet,MM Ali,England,South Africa
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.62,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.65,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.4,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.77,NA,Sportsbet,Mohammad Nabi,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.95,NA,Sportsbet,Mohammad Nabi,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.62,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.65,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.4,NA,Sportsbet,Najibullah Zadran,Afghanistan,India
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.45,NA,Sportsbet,Nazmul Hossain Shanto,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,2.12,NA,Sportsbet,Nazmul Hossain Shanto,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,3.15,NA,Sportsbet,Nazmul Hossain Shanto,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,4.7,NA,Sportsbet,Nazmul Hossain Shanto,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,7,NA,Sportsbet,Nazmul Hossain Shanto,Bangladesh,Australia
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.88,NA,Sportsbet,Nangeyalia Kharote,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.49,2.5,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.48,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,15.5,1.88,1.88,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.12,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,23.5,2.54,1.48,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,3.15,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,4.9,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,7.25,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.33,NA,Sportsbet,RR Pant,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.77,NA,Sportsbet,RR Pant,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.35,NA,Sportsbet,RR Pant,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.3,NA,Sportsbet,RR Pant,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.8,NA,Sportsbet,RR Pant,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.32,NA,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,12.5,1.46,2.59,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.78,NA,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,20.5,1.86,1.9,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.3,NA,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,31.5,2.53,1.48,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.15,NA,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.3,NA,Sportsbet,RG Sharma,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.33,NA,Sportsbet,SV Samson,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.77,NA,Sportsbet,SV Samson,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.35,NA,Sportsbet,SV Samson,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.3,NA,Sportsbet,SV Samson,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.8,NA,Sportsbet,SV Samson,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.77,NA,Sportsbet,Nangeyalia Kharote,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.95,NA,Sportsbet,Nangeyalia Kharote,Afghanistan,India
+USA v West Indies,Player Runs,USA,West Indies,14.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,14.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,15.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,16.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,17.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,17.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,18.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,19.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,19.5,1.85,NA,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,24.5,1.85,NA,Sportsbet,NA,NA,NA
+England v South Africa,Player Runs,England,South Africa,9.5,1.22,NA,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,17.5,1.46,2.61,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.51,NA,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,28.5,1.88,1.88,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,1.89,NA,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,2.35,NA,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,41.5,2.55,1.47,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,3.05,NA,Sportsbet,PD Salt,England,South Africa
+England v South Africa,Player Runs,England,South Africa,9.5,1.28,NA,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,14.5,1.46,2.59,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,19.5,1.63,NA,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,24.5,1.87,1.89,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,29.5,2.08,NA,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,37.5,2.58,1.46,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,39.5,2.65,NA,Sportsbet,Q de Kock,South Africa,England
+England v South Africa,Player Runs,England,South Africa,49.5,3.45,NA,Sportsbet,Q de Kock,South Africa,England
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.37,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,11.5,1.47,2.56,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.91,1.85,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.88,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,28.5,2.56,1.47,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.55,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.6,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,5.2,NA,Sportsbet,Rahmanullah Gurbaz,Afghanistan,India
+England v South Africa,Player Runs,England,South Africa,9.5,1.29,NA,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,13.5,1.46,2.61,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,19.5,1.69,NA,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,22.5,1.86,1.9,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,29.5,2.2,NA,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,34.5,2.6,1.46,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,39.5,2.9,NA,Sportsbet,RR Hendricks,South Africa,England
+England v South Africa,Player Runs,England,South Africa,49.5,3.9,NA,Sportsbet,RR Hendricks,South Africa,England
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.31,NA,Sportsbet,RR Pant,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.73,NA,Sportsbet,RR Pant,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.3,NA,Sportsbet,RR Pant,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.1,NA,Sportsbet,RR Pant,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.4,NA,Sportsbet,RR Pant,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.24,NA,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,15.5,1.47,2.56,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.62,NA,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,24.5,1.87,1.89,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.08,NA,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,36.5,2.54,1.48,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,2.7,NA,Sportsbet,RG Sharma,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,3.5,NA,Sportsbet,RG Sharma,India,Afghanistan
+England v South Africa,Player Runs,England,South Africa,9.5,1.97,NA,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.31,NA,Sportsbet,SV Samson,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.73,NA,Sportsbet,SV Samson,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.3,NA,Sportsbet,SV Samson,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.1,NA,Sportsbet,SV Samson,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.4,NA,Sportsbet,SV Samson,India,Afghanistan
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.46,NA,Sportsbet,Shakib Al Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,2.1,NA,Sportsbet,Shakib Al Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,3.1,NA,Sportsbet,Shakib Al Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,4.8,NA,Sportsbet,Shakib Al Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,8,NA,Sportsbet,Shakib Al Hasan,Bangladesh,Australia
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.84,NA,Sportsbet,S Dube,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.75,NA,Sportsbet,S Dube,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.5,NA,Sportsbet,S Dube,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.88,NA,Sportsbet,S Dube,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.8,NA,Sportsbet,S Dube,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,4.4,NA,Sportsbet,S Dube,India,Afghanistan
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.51,NA,Sportsbet,Soumya Sarkar,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,19.5,2.2,NA,Sportsbet,Soumya Sarkar,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,3.35,NA,Sportsbet,Soumya Sarkar,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,5.25,NA,Sportsbet,Soumya Sarkar,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,8.25,NA,Sportsbet,Soumya Sarkar,Bangladesh,Australia
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.57,NA,Sportsbet,SA Yadav,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,2.25,NA,Sportsbet,SA Yadav,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,3.45,NA,Sportsbet,SA Yadav,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,5.5,NA,Sportsbet,SA Yadav,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,8.75,NA,Sportsbet,SA Yadav,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.31,NA,Sportsbet,SA Yadav,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.73,NA,Sportsbet,SA Yadav,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.3,NA,Sportsbet,SA Yadav,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.1,NA,Sportsbet,SA Yadav,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.4,NA,Sportsbet,SA Yadav,India,Afghanistan
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,8.5,1.46,2.6,Sportsbet,Tanzid Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,9.5,1.51,NA,Sportsbet,Tanzid Hasan,Bangladesh,Australia
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,14.5,1.88,1.89,Sportsbet,Tanzid Hasan,Bangladesh,Australia
@@ -129,16 +207,32 @@ Australia v Bangladesh,Player Runs,Australia,Bangladesh,29.5,1.99,NA,Sportsbet,T
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,2.58,1.46,Sportsbet,TM Head,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,39.5,2.5,NA,Sportsbet,TM Head,Australia,Bangladesh
 Australia v Bangladesh,Player Runs,Australia,Bangladesh,49.5,3.25,NA,Sportsbet,TM Head,Australia,Bangladesh
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.21,NA,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,16.5,1.47,2.56,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.58,NA,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,25.5,1.86,1.9,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,2,NA,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,2.6,1.46,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,2.5,NA,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,3.3,NA,Sportsbet,V Kohli,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.32,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.78,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.3,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,39.5,3.15,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
-Afghanistan v India,Player Runs,Afghanistan,India,49.5,4.3,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
+England v South Africa,Player Runs,England,South Africa,9.5,1.97,NA,Sportsbet,T Stubbs,South Africa,England
+USA v West Indies,Player Runs,USA,West Indies,14.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,14.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,15.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,16.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,17.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,17.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,18.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,19.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,19.5,NA,1.85,Sportsbet,NA,NA,NA
+USA v West Indies,Player Runs,USA,West Indies,24.5,NA,1.85,Sportsbet,NA,NA,NA
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.2,NA,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,17.5,1.46,2.59,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.53,NA,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,27.5,1.89,1.88,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,1.94,NA,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,2.45,NA,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,40.5,2.58,1.46,Sportsbet,V Kohli,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,3.2,NA,Sportsbet,V Kohli,India,Afghanistan
+England v South Africa,Player Runs,England,South Africa,9.5,1.4,NA,Sportsbet,WG Jacks,England,South Africa
+England v South Africa,Player Runs,England,South Africa,19.5,1.93,NA,Sportsbet,WG Jacks,England,South Africa
+England v South Africa,Player Runs,England,South Africa,29.5,2.65,NA,Sportsbet,WG Jacks,England,South Africa
+England v South Africa,Player Runs,England,South Africa,39.5,3.9,NA,Sportsbet,WG Jacks,England,South Africa
+England v South Africa,Player Runs,England,South Africa,49.5,6,NA,Sportsbet,WG Jacks,England,South Africa
+Afghanistan v India,Player Runs,Afghanistan,India,9.5,1.24,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,19.5,1.62,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,29.5,2.08,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,39.5,2.7,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
+Afghanistan v India,Player Runs,Afghanistan,India,49.5,3.5,NA,Sportsbet,YBK Jaiswal,India,Afghanistan
