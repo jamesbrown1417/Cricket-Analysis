@@ -14,18 +14,27 @@ library(googledrive)
 innings_stats <-
   read_rds("../../Data/T20s/Major League Cricket/t20_mlc_match_innings_data.rds") |> 
   bind_rows(read_rds("../../Data/T20s/CPL/cpl_match_innings_data.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_match_innings_data.rds")) |>
   bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_innings_data.rds"))
 
 # Read in Player Stats - Batting
 batting_stats_player <-
   read_rds("../../Data/T20s/Major League Cricket/t20_mlc_batting_innings_level.rds") |> 
   bind_rows(read_rds("../../Data/T20s/CPL/cpl_batting_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_batting_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_batting_innings_level.rds") |> mutate(event = "T20I"))
 
 # Read in Player Stats - Bowling
 bowling_stats_player <-
   read_rds("../../Data/T20s/Major League Cricket/t20_mlc_bowling_innings_level.rds") |> 
   bind_rows(read_rds("../../Data/T20s/CPL/cpl_bowling_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_bowling_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_bowling_innings_level.rds") |> mutate(event = "T20I"))
 
 # Tidy Names
@@ -211,6 +220,91 @@ ui <- page_navbar(
                       "Table",
                       DTOutput(
                         outputId = "player_stat_table",
+                        width = "100%",
+                        height = "800px"
+                      )
+                    )
+                  )
+                ))))
+  ,
+  nav_panel(
+    title = "Team Stats",
+    grid_container(
+      layout = c("stats team_stat_plot"),
+      row_sizes = c("1fr"),
+      col_sizes = c("250px", "1fr"),
+      gap_size = "10px",
+      grid_card(
+        area = "stats",
+        card_header("Settings"),
+        card_body(
+          selectInput(
+            inputId = "team_name_input_a",
+            label = "Select Player:",
+            selected = "Sunil Philip Narine",
+            choices = unique_teams,
+            selectize = TRUE
+          ),
+          selectInput(
+            inputId = "event_input_a",
+            label = "Select Event:",
+            choices = unique_events,
+            multiple = TRUE,
+            selected = unique_events
+          ),
+          selectInput(
+            inputId = "stat_input_a",
+            label = "Select Statistic:",
+            choices = c("Runs",
+                        "Wickets",
+                        "4s",
+                        "6s"),
+            multiple = FALSE,
+            selected = "Runs"
+          ),
+          selectInput(
+            inputId = "venue_input_a",
+            label = "Select Venue:",
+            choices = batting_stats_team$venue |> unique() |> sort(),
+            multiple = TRUE,
+            selected = NULL,
+            selectize = TRUE
+          ),
+          selectInput(
+            inputId = "innings_input_a",
+            label = "Select Innings:",
+            choices = c("1", "2"),
+            multiple = TRUE,
+            selected = c("1", "2")
+          ),
+          markdown(mds = c("__Select Minimum Innings Length:__")),
+          numericInput(
+            inputId = "innings_balls_bowled_min",
+            label = "Number of Balls",
+            value = 0
+          ),
+          markdown(mds = c("__Select Only Last n Games:__")),
+          numericInput(
+            inputId = "last_games",
+            label = "Number of Games",
+            value = NA
+          ),
+          markdown(mds = c("__Select Reference Line:__")),
+          numericInput(
+            inputId = "reference_line",
+            label = "Line Value",
+            value = 19.5
+          ))),
+      grid_card(area = "team_stat_plot",
+                card_body(
+                  tabsetPanel(
+                    id = "stat_tabs",
+                    tabPanel("Plot",
+                             plotOutput(outputId = "plot", height = "800px")),
+                    tabPanel(
+                      "Table",
+                      DTOutput(
+                        outputId = "team_stat_table",
                         width = "100%",
                         height = "800px"
                       )

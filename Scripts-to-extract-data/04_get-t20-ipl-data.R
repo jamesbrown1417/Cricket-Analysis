@@ -101,6 +101,18 @@ get_match_innings_data <- function(match_id_number) {
   # Match Details
   match_details <- ipl_match_data |> mutate(match_id = as.integer(match_id)) |>  filter(match_id == match_id_number)
   
+  # Match Event
+  match_event <- match_details$event[[1]]
+  
+  # Toss Winner
+  toss_winner <- match_details$toss_winner[[1]]
+  
+  # Toss Decision
+  toss_decision <- match_details$toss_decision[[1]]
+  
+  # POTM
+  potm <- match_details$player_of_match[[1]]
+  
   # Match Date
   match_date <- match_details$date[[1]] |> as_date()
   
@@ -142,6 +154,10 @@ get_match_innings_data <- function(match_id_number) {
   # Create Tibble
   tibble(match_id = match_id_number,
          match_date = match_date,
+         event = match_event,
+         toss_winner = toss_winner,
+         toss_decision = toss_decision,
+         player_of_the_match = potm,
          venue = match_venue) |> 
     bind_cols(innings_1_data) |>
     bind_cols(innings_2_data)
@@ -154,6 +170,91 @@ ipl_match_innings_data <-
   rename(match_id_number = match_id) |>
   mutate(match_id_number = as.integer(match_id_number)) |>
   pmap_dfr(get_match_innings_data, .progress = TRUE)
+
+#===============================================================================
+# Get First Over Data
+#===============================================================================
+
+# Create function to get match first_over data-------------------------------------
+get_match_first_over_data <- function(match_id_number) {
+  # Match dataset
+  match_df <- ipl_ball_by_ball_data |> filter(match_id == match_id_number)
+  
+  # Match Details
+  match_details <- ipl_match_data |> mutate(match_id = as.integer(match_id)) |>  filter(match_id == match_id_number)
+  
+  # Match Date
+  match_date <- match_details$date[[1]] |> as_date()
+  
+  # Match Event
+  match_event <- match_details$event[[1]]
+  
+  # Match Venue
+  match_venue <- match_details$venue[[1]]
+  
+  # Get First Innings First Over Dataset
+  first_over_innings_1 <-
+    match_df |>
+    filter(innings == 1 & over == 1) |> 
+    filter(max(ball, na.rm = TRUE) >= 6)
+  
+  # Get runs scored, batting team and wickets lost in first first_over
+  first_over_innings_1_data <-
+    first_over_innings_1 |>
+    summarise(
+      first_over_batting_team = first(batting_team),
+      first_over_bowling_team = first(bowling_team),
+      first_over_bowler = first(bowler),
+      first_over_total = last(runs_scored_yet),
+      first_over_balls = n(),
+      first_over_wickets = sum(wicket),
+      first_over_fours = sum(runs_off_bat == 4),
+      first_over_sixes = sum(runs_off_bat == 6),
+      first_over_extras = sum(extras),
+      innings = first(innings)
+    )
+  
+  # Get Second Innings First Over Dataset
+  first_over_innings_2 <-
+    match_df |>
+    filter(innings == 2 & over == 1) |> 
+    filter(max(ball, na.rm = TRUE) >= 6)
+  
+  # Get runs scored, batting team and wickets lost in first first_over
+  first_over_innings_2_data <-
+    first_over_innings_2 |>
+    summarise(
+      first_over_batting_team = first(batting_team),
+      first_over_bowling_team = first(bowling_team),
+      first_over_bowler = first(bowler),
+      first_over_total = last(runs_scored_yet),
+      first_over_balls = n(),
+      first_over_wickets = sum(wicket),
+      first_over_fours = sum(runs_off_bat == 4),
+      first_over_sixes = sum(runs_off_bat == 6),
+      first_over_extras = sum(extras),
+      innings = first(innings)
+    )
+  
+  # Create Tibble
+  first_over_innings_1_data |> 
+    bind_rows(first_over_innings_2_data) |> 
+    mutate(match_id = match_id_number,
+           match_date = match_date,
+           event = match_event,
+           venue = match_venue) |> 
+    relocate(match_id, match_date, event, venue, .before = first_over_batting_team) |> 
+    relocate(innings, .after = venue)
+}
+
+# Get Match first_over Data for all matches----------------------------------------
+ipl_match_first_over_data <-
+  ipl_match_data |> 
+  distinct(match_id) |> 
+  rename(match_id_number = match_id) |>
+  mutate(match_id_number = as.integer(match_id_number)) |>
+  pmap_dfr(get_match_first_over_data, .progress = TRUE) |> 
+  filter(!is.na(first_over_total))
 
 #===============================================================================
 # Get Batter Match by Match Data
@@ -349,6 +450,13 @@ ipl_bowling_innings_level <-
 write_rds(ipl_match_innings_data, "Data/T20s/IPL/ipl_match_innings_data.rds")
 
 #===============================================================================
+# Output First Over Data
+#===============================================================================
+
+# Output Data
+write_rds(ipl_match_first_over_data, "Data/T20s/IPL/ipl_first_over_data.rds")
+
+#===============================================================================
 # Tidy and output batting data
 #===============================================================================
 
@@ -380,6 +488,7 @@ ipl_batting_innings_level <-
     batting_position,
     runs_scored,
     balls_faced,
+    dismissal,
     fours,
     sixes,
     strike_rate)
