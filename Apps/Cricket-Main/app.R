@@ -17,7 +17,46 @@ innings_stats <-
   bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_match_innings_data.rds")) |>
   bind_rows(read_rds("../../Data/T20s/IPL/ipl_match_innings_data.rds")) |>
   bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_match_innings_data.rds")) |>
-  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_innings_data.rds"))
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_innings_data.rds")|> mutate(event = "T20I"))
+
+# Get Innings in long format
+innings_stats_1 <-
+  innings_stats |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
+         innings_1_batting_team:innings_1_extras, innings_fielding_team = innings_2_batting_team) |> 
+  mutate(innings = 1) |> 
+  # Remove _1 from column names
+  rename_with(~str_remove(., "_1"), starts_with("innings_1")) |> 
+  relocate(innings, .after = venue)
+
+innings_stats_2 <-
+  innings_stats |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
+         innings_2_batting_team:innings_2_extras, innings_fielding_team = innings_1_batting_team) |> 
+  mutate(innings = 2) |> 
+  # Remove _2 from column names
+  rename_with(~str_remove(., "_2"), starts_with("innings_2")) |> 
+  relocate(innings, .after = venue)
+
+innings_stats_long <-
+  bind_rows(innings_stats_1, innings_stats_2) |> 
+  arrange(desc(match_date), match_id, innings)
+
+# Read in First Over Stats
+first_over_stats <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_first_over_data.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_first_over_data.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_first_over_data.rds")|> mutate(event = "T20I"))
+
+# Join With Innings Stats
+innings_stats_long <-
+  innings_stats_long |> 
+  left_join(first_over_stats)
 
 # Read in Player Stats - Batting
 batting_stats_player <-
@@ -26,6 +65,7 @@ batting_stats_player <-
   bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_batting_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/IPL/ipl_batting_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_batting_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_batting_innings_level.rds") |> mutate(event = "T20I"))
 
 # Read in Player Stats - Bowling
@@ -35,6 +75,7 @@ bowling_stats_player <-
   bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_bowling_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/IPL/ipl_bowling_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_bowling_innings_level.rds")) |>
   bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_bowling_innings_level.rds") |> mutate(event = "T20I"))
 
 # Tidy Names
@@ -102,7 +143,7 @@ bowling_stats_player <-
     economy_rate
   )
 
-# Unique Batters List
+# Unique Players List
 unique_players <-
   batting_stats_player |> 
   bind_rows(bowling_stats_player) |>
@@ -115,6 +156,12 @@ unique_events <-
   bind_rows(bowling_stats_player) |>
   distinct(event) |>
   pull(event)
+
+# Unique Team List
+unique_teams <-
+  innings_stats |>
+  distinct(innings_1_batting_team) |>
+  pull(innings_1_batting_team)
 
 #===============================================================================
 # Read in scraped odds
@@ -158,7 +205,6 @@ ui <- page_navbar(
             label = "Select Player:",
             selected = "Sunil Philip Narine",
             choices = unique_players,
-            selectize = TRUE
           ),
           selectInput(
             inputId = "event_input_a",
@@ -215,7 +261,7 @@ ui <- page_navbar(
                   tabsetPanel(
                     id = "stat_tabs",
                     tabPanel("Plot",
-                             plotOutput(outputId = "plot", height = "800px")),
+                             plotOutput(outputId = "player_stat_plot", height = "800px")),
                     tabPanel(
                       "Table",
                       DTOutput(
@@ -230,48 +276,48 @@ ui <- page_navbar(
   nav_panel(
     title = "Team Stats",
     grid_container(
-      layout = c("stats team_stat_plot"),
+      layout = c("team_stats team_stat_plot"),
       row_sizes = c("1fr"),
       col_sizes = c("250px", "1fr"),
       gap_size = "10px",
       grid_card(
-        area = "stats",
+        area = "team_stats",
         card_header("Settings"),
         card_body(
           selectInput(
-            inputId = "team_name_input_a",
-            label = "Select Player:",
-            selected = "Sunil Philip Narine",
+            inputId = "team_name_input_c",
+            label = "Select Team:",
             choices = unique_teams,
+            multiple = TRUE,
             selectize = TRUE
           ),
           selectInput(
-            inputId = "event_input_a",
+            inputId = "event_input_c",
             label = "Select Event:",
             choices = unique_events,
             multiple = TRUE,
             selected = unique_events
           ),
           selectInput(
-            inputId = "stat_input_a",
+            inputId = "stat_input_c",
             label = "Select Statistic:",
             choices = c("Runs",
                         "Wickets",
                         "4s",
                         "6s"),
             multiple = FALSE,
-            selected = "Runs"
+            selected = "Innings Total"
           ),
           selectInput(
-            inputId = "venue_input_a",
+            inputId = "venue_input_c",
             label = "Select Venue:",
-            choices = batting_stats_team$venue |> unique() |> sort(),
+            choices = batting_stats_player$venue |> unique() |> sort(),
             multiple = TRUE,
             selected = NULL,
             selectize = TRUE
           ),
           selectInput(
-            inputId = "innings_input_a",
+            inputId = "innings_input_c",
             label = "Select Innings:",
             choices = c("1", "2"),
             multiple = TRUE,
@@ -279,28 +325,30 @@ ui <- page_navbar(
           ),
           markdown(mds = c("__Select Minimum Innings Length:__")),
           numericInput(
-            inputId = "innings_balls_bowled_min",
+            inputId = "innings_balls_bowled_min_c",
             label = "Number of Balls",
             value = 0
           ),
           markdown(mds = c("__Select Only Last n Games:__")),
           numericInput(
-            inputId = "last_games",
+            inputId = "last_games_c",
             label = "Number of Games",
             value = NA
           ),
           markdown(mds = c("__Select Reference Line:__")),
           numericInput(
-            inputId = "reference_line",
+            inputId = "reference_line_c",
             label = "Line Value",
-            value = 19.5
+            value = 149.5
           ))),
       grid_card(area = "team_stat_plot",
                 card_body(
                   tabsetPanel(
-                    id = "stat_tabs",
+                    id = "stat_tabs_team",
                     tabPanel("Plot",
-                             plotOutput(outputId = "plot", height = "800px")),
+                             plotOutput(outputId = "team_stat_plot", height = "800px")),
+                    tabPanel("Summary",
+                             DTOutput(outputId = "team_stat_summary",width = "100%", height = "800px")),
                     tabPanel(
                       "Table",
                       DTOutput(
@@ -531,7 +579,7 @@ server <- function(input, output, session) {
   # Plot player stats
   #=============================================================================
   
-  output$plot <- renderPlot({
+  output$player_stat_plot <- renderPlot({
     # Create a new variable that checks if the y-value is above the reference line
     df_with_color <- filtered_player_stats() %>%
       mutate(color_condition = ifelse(
@@ -605,6 +653,219 @@ server <- function(input, output, session) {
   output$player_stat_table <- renderDT({
     datatable(
       filtered_player_stats(),
+      options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+      width = "100%",
+      height = "800px"
+    )
+  })
+  
+  #=============================================================================
+  # Filter Team stats
+  #=============================================================================
+  
+  filtered_team_stats <- reactive({
+    # Filter player stats
+  
+      filtered_team_stats <-
+        innings_stats_long |>
+        mutate(game_number = row_number()) |> 
+        select(Date = match_date,
+               Event = event,
+               Venue = venue,
+               `Toss Winner` = toss_winner,
+               `Toss Decision` = toss_decision,
+               Innings = innings,
+               Innings_Balls = innings_balls,
+               Runs = innings_total,
+               `4s` = innings_fours,
+               `6s` = innings_sixes,
+               Wickets = innings_wickets,
+               Batting = innings_batting_team,
+               Fielding = innings_fielding_team, 
+               `First Over Bowler` = first_over_bowler,
+               `First Over Runs` = first_over_total,
+               `First Over Wickets` = first_over_wickets,
+               `First Over 4s` = first_over_fours,
+               `First Over 6s` = first_over_sixes,
+               game_number) |> 
+        arrange(desc(Date))
+    
+    # Filter by last n games
+    if (!is.na(input$last_games_c)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        slice_head(n = input$last_games_c)
+    }
+    
+    # Filter by innings balls bowled
+    if (!is.na(input$innings_balls_bowled_min_c)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        filter(Innings_Balls >= input$innings_balls_bowled_min_c)
+    }
+    
+    # Filter by innings
+    filtered_team_stats <-
+      filtered_team_stats |>
+      filter(Innings %in% input$innings_input_c)
+    
+    # Filter by event
+    filtered_team_stats <-
+      filtered_team_stats |>
+      filter(Event %in% input$event_input_c)
+    
+    # Filter by venue
+    if (!is.null(input$venue_input_c)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        filter(Venue %in% input$venue_input_c)
+    }
+    
+    # Filter by team
+    if (!is.null(input$team_name_input_c)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        filter(Batting %in% input$team_name_input_c)
+    }
+    
+    # Return filtered player stats
+    return(filtered_team_stats)
+    
+  })
+  
+  #=============================================================================
+  # Get Proportion above reference line
+  #=============================================================================
+  
+  proportion_above_reference_line_team <- reactive({
+    # Get proportion above reference line
+    proportion_above_reference_line_team <-
+      filtered_team_stats() |>
+      filter(!!sym(input$stat_input_c) >= input$reference_line_c) |>
+      nrow() / nrow(filtered_team_stats())
+    
+    # Get implied Odds
+    implied_odds <- 1 / proportion_above_reference_line_team
+    implied_odds_under <- 1 / (1 - proportion_above_reference_line_team)
+    
+    # Get string to output
+    output_string_team <- paste0(
+      "Proportion Above Reference Line: ",
+      round(proportion_above_reference_line_team, 2),
+      "\n",
+      "Implied Odds - Over: ",
+      round(implied_odds, 2),
+      "\n",
+      "Implied Odds - Under: ",
+      round(implied_odds_under, 2),
+      "\n",
+      "Sample Size: ",
+      nrow(filtered_team_stats())
+    )
+    
+    return(output_string_team)
+    
+  })
+  
+  #=============================================================================
+  # Plot team stats
+  #=============================================================================
+  
+  output$team_stat_plot <- renderPlot({
+    # Create a new variable that checks if the y-value is above the reference line
+    df_with_color <- filtered_team_stats() %>%
+      mutate(color_condition = ifelse(
+        !!sym(input$stat_input_c) >= input$reference_line_c,
+        "limegreen",
+        "red1"
+      ))
+    
+    # Plot player stats
+    p <- df_with_color %>%
+      ggplot(aes(
+        x = game_number,
+        y = !!sym(input$stat_input_c),
+        color = color_condition
+      )) +
+      
+      # Basic Elements
+      geom_point(size = 3) +
+      geom_smooth(
+        method = "loess",
+        se = FALSE,
+        inherit.aes = FALSE,
+        mapping = aes(x = game_number, y = !!sym(input$stat_input_c))
+      ) +
+      geom_hline(
+        yintercept = input$reference_line_c,
+        linetype = "dashed",
+        color = "grey4",
+        size = 1
+      )+
+      
+      # Add text
+      annotate(
+        geom = "text",
+        x = 1,
+        y = max(filtered_team_stats() %>% pull(!!sym(
+          input$stat_input_c
+        ))),
+        label = proportion_above_reference_line_team(),
+        hjust = 0,
+        vjust = 1,
+        color = "black",
+        size = 6
+      ) +
+      
+      # Aesthetics
+      theme_bw() +
+      theme(
+        plot.background = element_rect(fill = "white", colour = "white"),
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 12)
+      ) +
+      
+      # Labels & Titles
+      labs(title = "",
+           x = "Game Number") +
+      
+      # Set manual color scale
+      scale_color_identity() +
+      
+      # Additional
+      theme(legend.position = "none")
+    
+    print(p)
+  })
+  
+  #=============================================================================
+  # Table team stats
+  #=============================================================================
+  
+  output$team_stat_table <- renderDT({
+    datatable(
+      filtered_team_stats(),
+      options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+      width = "100%",
+      height = "800px"
+    )
+  })
+  
+  #=============================================================================
+  # Table team summary
+  #=============================================================================
+  
+  output$team_stat_summary <- renderDT({
+    datatable(
+      filtered_team_stats() |> 
+        summarise(
+          mean = round(mean(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+          median = round(median(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+          sd = round(sd(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+          min = round(min(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+          max = round(max(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+          n = n()  
+        ),
       options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
       width = "100%",
       height = "800px"

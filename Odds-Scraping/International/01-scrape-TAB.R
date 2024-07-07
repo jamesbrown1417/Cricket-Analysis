@@ -129,12 +129,12 @@ tab_competitions <-
   tab_response$competitions |> 
   map(~ .x$name)
 
-# Get element of competitions that equals "ICC Twenty20 World Cup"
-cwc_index <- which(tab_competitions == "ICC Twenty20 World Cup")
+# Get element of competitions that equals "Twenty20 Internationals"
+int_index <- which(tab_competitions == "Twenty20 Internationals")
 
 # Map functions to data
 all_tab_markets <-
-  map(tab_response$competitions[[cwc_index]]$matches, get_match_info) |> bind_rows()
+  map(tab_response$competitions[[int_index]]$matches, get_match_info) |> bind_rows()
 
 # Expand list col into multiple cols
 all_tab_markets <-

@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # URL of website
-sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/icc-world-twenty20"
+sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/international-twenty20-matches"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
@@ -303,7 +303,7 @@ player_props_function <- function() {
       market = "Player Runs",
       home_team,
       away_team,
-      player_name = str_remove(selection_name_prop, " \\- Over.*"),
+      player_name = str_remove(prop_market_name, " Total Runs \\- .*"),
       line = handicap,
       over_price = prop_market_price
     )
@@ -317,11 +317,11 @@ player_props_function <- function() {
       market = "Player Runs",
       home_team,
       away_team,
-      player_name = str_remove(selection_name_prop, " \\- Under.*"),
+      player_name = str_remove(prop_market_name, " Total Runs \\- .*"),
       line = handicap,
       under_price = prop_market_price
     )
-  
+
   player_runs_combined <-
     player_runs_overs |>
     full_join(
