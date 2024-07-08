@@ -18,17 +18,21 @@ list_of_h2h_data <- map_dfr(list_of_h2h_files, read_csv)
 # Best Home Win
 best_home_win <-
   list_of_h2h_data |> 
-  arrange(desc(home_win)) |> 
-  slice_head(n = 1) |> 
+  arrange(match, desc(home_win)) |> 
+  group_by(match) |>
+  slice_head(n = 1) |>
+  ungroup() |>
   select(-away_win, -margin) |> 
   rename(home_agency = agency)
 
 # Best Away Win
 best_away_win <-
   list_of_h2h_data |> 
-  arrange(desc(away_win)) |> 
-  slice_head(n = 1) |> 
-  select(-home_win, -margin) |> 
+  arrange(match, desc(away_win)) |>
+  group_by(match) |>
+  slice_head(n = 1) |>
+  ungroup() |>
+  select(-home_win, -margin) |>
   rename(away_agency = agency)
 
 # Combine

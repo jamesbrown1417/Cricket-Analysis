@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL to get responses
-tab_url = "https://api.beta.tab.com.au/v1/recommendation-service/Cricket/featured?homeState=SA&jurisdiction=SA"
+tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Major%20League%20Cricket?jurisdiction=SA"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
@@ -124,17 +124,17 @@ get_match_info <- function(matches) {
   )
 }
 
-# Get competitions
-tab_competitions <-
-  tab_response$competitions |> 
-  map(~ .x$name)
+# # Get competitions
+# tab_competitions <-
+#   tab_response$competitions |> 
+#   map(~ .x$name)
 
-# Get element of competitions that equals "Major League Cricket"
-mlc_index <- which(tab_competitions == "Major League Cricket")
+# # Get element of competitions that equals "Major League Cricket"
+# mlc_index <- which(tab_competitions == "Major League Cricket")
 
 # Map functions to data
 all_tab_markets <-
-  map(tab_response$competitions[[mlc_index]]$matches, get_match_info) |> bind_rows()
+  map(tab_response$matches, get_match_info) |> bind_rows()
 
 # Expand list col into multiple cols
 all_tab_markets <-
