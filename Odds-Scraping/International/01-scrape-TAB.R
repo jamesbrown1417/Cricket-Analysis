@@ -129,12 +129,12 @@ tab_competitions <-
   tab_response$competitions |> 
   map(~ .x$name)
 
-# Get element of competitions that equals "Twenty20 Internationals"
-int_index <- which(tab_competitions == "Twenty20 Internationals")
+# Get element of competitions that equals "Major League Cricket"
+mlc_index <- which(tab_competitions == "Major League Cricket")
 
 # Map functions to data
 all_tab_markets <-
-  map(tab_response$competitions[[int_index]]$matches, get_match_info) |> bind_rows()
+  map(tab_response$competitions[[mlc_index]]$matches, get_match_info) |> bind_rows()
 
 # Expand list col into multiple cols
 all_tab_markets <-
@@ -145,7 +145,9 @@ all_tab_markets <-
                   "start_time",
                   "market_name")),
          prop_name = propositions_name,
-         price = propositions_returnWin)
+         price = propositions_returnWin) |> 
+  mutate(match = str_replace(match, "Washington", "Washington Freedom")) |> 
+  mutate(match = str_replace(match, "Texas", "Texas Super Kings"))
 
 #==============================================================================
 # Head to head
@@ -164,7 +166,7 @@ home_win <-
   filter(prop_name == home_team) |> 
   select(
     match,
-    market = market_name,
+    market_name,
     home_team,
     away_team,
     home_win = price
@@ -177,7 +179,7 @@ away_win <-
   filter(prop_name == away_team) |> 
   select(
     match,
-    market = market_name,
+    market_name,
     home_team,
     away_team,
     away_win = price
@@ -188,11 +190,12 @@ away_win <-
 h2h_new <-
   home_win |> 
   left_join(away_win) |> 
+  mutate(margin = round((1 / home_win + 1 / away_win), digits = 3)) |>
   relocate(agency, .after = away_win)
 
 # Write to csv
 h2h_new |> 
-write_csv("Data/T20s/Internationals/scraped_odds/tab_h2h.csv")
+write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_h2h.csv")
 
 
 #==============================================================================
@@ -332,7 +335,7 @@ player_runs <-
   select(-tab_name)
 
 player_runs |>
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_runs.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_runs.csv")
 
 #==============================================================================
 # Player Wickets Alternate Lines
@@ -380,7 +383,7 @@ player_wickets_alt <-
 
 # Combine all player wickets and write out-----------------------------------------
 player_wickets_alt |> 
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_wickets.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_wickets.csv")
 
 #==============================================================================
 # Player Boundaries Alternate Lines
@@ -433,7 +436,7 @@ player_boundaries_alt <-
 
 # Combine all player boundaries and write out-----------------------------------------
 player_boundaries_alt |> 
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_player_boundaries.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_boundaries.csv")
 
 #==============================================================================
 # Fall of first wicket
@@ -472,20 +475,10 @@ fall_of_first_wicket_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "SAf" ~ "South Africa",
-                          team == "NZ" ~ "New Zealand",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "WI" ~ "West Indies",
-                          team == "Aus" ~ "Australia",
-                          team == "Eng" ~ "England",
-                          team == "Ind" ~ "India",
-                          team == "Ire" ~ "Ireland",
-                          team == "Zim" ~ "Zimbabwe",
+  mutate(team = case_when(team == "LA" ~ "Los Angeles",
+                          team == "SFr" ~ "San Francisco",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_fall_of_first_wicket.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_runs_at_first_wicket.csv")
 
 #==============================================================================
 # First Over Runs
@@ -524,20 +517,10 @@ first_over_runs_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "SAf" ~ "South Africa",
-                          team == "NZ" ~ "New Zealand",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "WI" ~ "West Indies",
-                          team == "Aus" ~ "Australia",
-                          team == "Eng" ~ "England",
-                          team == "Ind" ~ "India",
-                          team == "Ire" ~ "Ireland",
-                          team == "Zim" ~ "Zimbabwe",
+  mutate(team = case_when(team == "LA" ~ "Los Angeles",
+                          team == "SFr" ~ "San Francisco",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_first_over_runs.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_first_over_runs.csv")
 
 #===============================================================================
 # Team Total 4s
@@ -576,20 +559,10 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "SAf" ~ "South Africa",
-                          team == "NZ" ~ "New Zealand",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "WI" ~ "West Indies",
-                          team == "Aus" ~ "Australia",
-                          team == "Eng" ~ "England",
-                          team == "Ind" ~ "India",
-                          team == "Ire" ~ "Ireland",
-                          team == "Zim" ~ "Zimbabwe",
+  mutate(team = case_when(team == "LA" ~ "Los Angeles",
+                          team == "SFr" ~ "San Francisco",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_team_total_4s.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_4s.csv")
 
 #===============================================================================
 # Team Total 6s
@@ -628,20 +601,10 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "SAf" ~ "South Africa",
-                          team == "NZ" ~ "New Zealand",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "WI" ~ "West Indies",
-                          team == "Aus" ~ "Australia",
-                          team == "Eng" ~ "England",
-                          team == "Ind" ~ "India",
-                          team == "Ire" ~ "Ireland",
-                          team == "Zim" ~ "Zimbabwe",
+  mutate(team = case_when(team == "LA" ~ "Los Angeles",
+                          team == "SFr" ~ "San Francisco",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_team_total_6s.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_6s.csv")
 
 #===============================================================================
 # Match Total Fours
@@ -679,7 +642,7 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_match_total_fours.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_match_total_fours.csv")
 
 #===============================================================================
 # Match Total Sixes
@@ -702,7 +665,7 @@ match_boundaries_overs <-
   mutate(line = as.numeric(str_extract(line, "\\d+\\.\\d"))) |>
   rename(over_price = price)
 
-# Alt overs
+# Alt Overs
 match_boundaries_alt_overs <-
   alternate_sixes |>
   mutate(line = as.numeric(str_extract(prop_name, "\\d+")) - 0.5) |>
@@ -729,4 +692,4 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  write_csv("Data/T20s/Internationals/scraped_odds/tab_match_total_sixes.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_match_total_sixes.csv")

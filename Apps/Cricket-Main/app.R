@@ -24,7 +24,7 @@ innings_stats <-
 innings_stats_1 <-
   innings_stats |> 
   select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
-         innings_1_batting_team:innings_1_extras, innings_fielding_team = innings_2_batting_team) |> 
+         innings_1_batting_team:innings_1_method_of_first_dismissal, innings_fielding_team = innings_2_batting_team) |> 
   mutate(innings = 1) |> 
   # Remove _1 from column names
   rename_with(~str_remove(., "_1"), starts_with("innings_1")) |> 
@@ -33,7 +33,7 @@ innings_stats_1 <-
 innings_stats_2 <-
   innings_stats |> 
   select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
-         innings_2_batting_team:innings_2_extras, innings_fielding_team = innings_1_batting_team) |> 
+         innings_2_batting_team:innings_2_method_of_first_dismissal, innings_fielding_team = innings_1_batting_team) |> 
   mutate(innings = 2) |> 
   # Remove _2 from column names
   rename_with(~str_remove(., "_2"), starts_with("innings_2")) |> 
@@ -41,7 +41,8 @@ innings_stats_2 <-
 
 innings_stats_long <-
   bind_rows(innings_stats_1, innings_stats_2) |> 
-  arrange(desc(match_date), match_id, innings)
+  arrange(desc(match_date), match_id, innings) |> 
+  mutate(first_wicket_caught = if_else(innings_method_of_first_dismissal %in% c("caught", "caught and bowled"), 1, 0))
 
 # Read in First Over Stats
 first_over_stats <-
@@ -303,6 +304,8 @@ ui <- page_navbar(
             label = "Select Statistic:",
             choices = c("Runs",
                         "Wickets",
+                        "Runs at Fall of First Wicket",
+                        "First Wicket Caught",
                         "4s",
                         "6s"),
             multiple = FALSE,
@@ -682,6 +685,9 @@ server <- function(input, output, session) {
                Wickets = innings_wickets,
                Batting = innings_batting_team,
                Fielding = innings_fielding_team, 
+               `First Dismissal Method` = innings_method_of_first_dismissal,
+               `First Wicket Caught` = first_wicket_caught,
+               `Runs at Fall of First Wicket` = innings_fall_of_first_wicket,
                `First Over Bowler` = first_over_bowler,
                `First Over Runs` = first_over_total,
                `First Over Wickets` = first_over_wickets,

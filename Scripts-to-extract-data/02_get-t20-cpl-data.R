@@ -119,9 +119,33 @@ get_match_innings_data <- function(match_id_number) {
   # Get First Innings Dataset
   innings_1 <- match_df |> filter(innings == 1)
   
+  # Get Fall Of First Wicket
+  fall_of_first_wicket_1 <-
+    innings_1 |>
+    filter(wicket) |>
+    slice_head(n = 1) |> 
+    pull(runs_scored_yet)
+  
+  # If integer(0) is returned, then no wickets have fallen
+  if (length(fall_of_first_wicket_1) == 0) {
+    fall_of_first_wicket_1 <- NA
+  }
+  
+  # Get Method Of First Dismissal
+  method_of_first_dismissal_1 <-
+    innings_1 |>
+    filter(wicket) |>
+    slice_head(n = 1) |> 
+    pull(wicket_type)
+  
+  # If integer(0) is returned, then no wickets have fallen
+  if (length(method_of_first_dismissal_1) == 0) {
+    method_of_first_dismissal_1 <- "No Wicket"
+  }
+  
   # Get runs scored, batting team and wickets lost in first innings
   innings_1_data <-
-  innings_1 |>
+    innings_1 |>
     summarise(
       innings_1_batting_team = first(batting_team),
       innings_1_total = first(innings1_total),
@@ -129,15 +153,43 @@ get_match_innings_data <- function(match_id_number) {
       innings_1_wickets = sum(wicket),
       innings_1_fours = sum(runs_off_bat == 4),
       innings_1_sixes = sum(runs_off_bat == 6),
-      innings_1_extras = sum(extras)
+      innings_1_extras = sum(extras),
+      innings_1_fall_of_first_wicket = fall_of_first_wicket_1,
+      innings_1_method_of_first_dismissal = method_of_first_dismissal_1
     )
   
   # Get Second Innings Dataset
-  innings_2 <- match_df |> filter(innings == 2)
+  innings_2 <-
+    match_df |>
+    filter(innings == 2)
+  
+  # Get Fall Of First Wicket
+  fall_of_first_wicket_2 <-
+    innings_2 |>
+    filter(wicket) |>
+    slice_head(n = 1) |> 
+    pull(runs_scored_yet)
+  
+  # If integer(0) is returned, then no wickets have fallen
+  if (length(fall_of_first_wicket_2) == 0) {
+    fall_of_first_wicket_2 <- NA
+  }
+  
+  # Get Method Of First Dismissal
+  method_of_first_dismissal_2 <-
+    innings_2 |>
+    filter(wicket) |>
+    slice_head(n = 1) |> 
+    pull(wicket_type)
+  
+  # If integer(0) is returned, then no wickets have fallen
+  if (length(method_of_first_dismissal_2) == 0) {
+    method_of_first_dismissal_2 <- "No Wicket"
+  }
   
   # Get runs scored, batting team and wickets lost in second innings
   innings_2_data <-
-  innings_2 |>
+    innings_2 |>
     summarise(
       innings_2_batting_team = first(batting_team),
       innings_2_total = first(innings2_total),
@@ -145,7 +197,9 @@ get_match_innings_data <- function(match_id_number) {
       innings_2_wickets = sum(wicket),
       innings_2_fours = sum(runs_off_bat == 4),
       innings_2_sixes = sum(runs_off_bat == 6),
-      innings_2_extras = sum(extras)
+      innings_2_extras = sum(extras),
+      innings_2_fall_of_first_wicket = fall_of_first_wicket_2,
+      innings_2_method_of_first_dismissal = method_of_first_dismissal_2
     )
   
   # Create Tibble
