@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # URL of website
-sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/major-league-cricket"
+sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/lanka-premier-league"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
@@ -133,7 +133,7 @@ main_markets_function <- function() {
     mutate(agency = "Sportsbet")
   
   # Write to csv
-  write_csv(sportsbet_h2h, "Data/T20s/Major League Cricket/scraped_odds/sportsbet_h2h.csv")
+  write_csv(sportsbet_h2h, "Data/T20s/LPL/scraped_odds/sportsbet_h2h.csv")
   
 }
 
@@ -419,10 +419,10 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(match_top_run_scorer,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_match_top_run_scorer.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_match_top_run_scorer.csv")
   
   write_csv(player_runs_all,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_player_runs.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_player_runs.csv")
   
   #===============================================================================
   # Top Wicket Takers
@@ -524,12 +524,12 @@ player_props_function <- function() {
   # Write to csv----------------------------------------------------------------
   write_csv(
     player_wickets_alternative_lines,
-    "Data/T20s/Major League Cricket/scraped_odds/sportsbet_player_wickets.csv"
+    "Data/T20s/LPL/scraped_odds/sportsbet_player_wickets.csv"
   )
   
   write_csv(
     top_team_wicket_taker,
-    "Data/T20s/Major League Cricket/scraped_odds/sportsbet_top_team_wicket_taker.csv"
+    "Data/T20s/LPL/scraped_odds/sportsbet_top_team_wicket_taker.csv"
   )
   
   #===============================================================================
@@ -732,19 +732,19 @@ player_props_function <- function() {
   
   # Write out data-------------------------------------------------------------
   write_csv(team_totals_overs,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_team_totals_overs.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_team_totals_overs.csv")
   
   write_csv(team_fours,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_team_fours.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_team_fours.csv")
   
   write_csv(team_sixes,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_team_sixes.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_team_sixes.csv")
   
   write_csv(match_sixes,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_match_sixes.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_match_sixes.csv")
   
   write_csv(match_fours,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_match_fours.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_match_fours.csv")
   
   #===============================================================================
   # First Innings
@@ -884,11 +884,11 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(first_over_runs,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_over_runs.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_first_over_runs.csv")
   write_csv(first_dismissal_data,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_dismissal.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_first_dismissal.csv")
   write_csv(first_wicket_runs,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_runs_at_first_wicket.csv")
+            "Data/T20s/LPL/scraped_odds/sportsbet_runs_at_first_wicket.csv")
   
   #=============================================================================
   # Boundaries
@@ -1029,7 +1029,7 @@ player_props_function <- function() {
   # # Write to csv----------------------------------------------------------------
   # player_boundaries_combined |>
   #   bind_rows(to_score_a_6) |>
-  #   write_csv("Data/T20s/Major League Cricket/scraped_odds/sportsbet_player_boundaries.csv")
+  #   write_csv("Data/T20s/LPL/scraped_odds/sportsbet_player_boundaries.csv")
 }
 
 ##%######################################################%##
