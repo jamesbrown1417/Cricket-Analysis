@@ -1,3 +1,3 @@
-match,market,team,line,over_price,under_price,agency
-Zimbabwe v India,First Over Runs,India,6.5,1.92,1.85,TAB
-Zimbabwe v India,First Over Runs,Zimbabwe,5.5,2.25,1.62,TAB
+match,home_team,away_team,market,team,line,over_price,under_price,agency
+Zimbabwe v India,Zimbabwe,India,First Over Runs,India,6.5,1.92,1.85,TAB
+Zimbabwe v India,Zimbabwe,India,First Over Runs,Zimbabwe,5.5,2,1.75,TAB

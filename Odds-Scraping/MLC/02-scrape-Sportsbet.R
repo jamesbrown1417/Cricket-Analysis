@@ -215,6 +215,21 @@ player_props_function <- function() {
       "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/325/Markets"
     )
   
+  x_over_links <-
+    glue(
+      "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/658/Markets"
+    )
+  
+  fall_of_wicket_links <-
+    glue(
+      "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/435/Markets"
+    )
+  
+  dismissal_links <-
+    glue(
+      "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/308/Markets"
+    )
+  
   player_boundaries_links <-
     glue(
       "https://www.sportsbet.com.au/apigw/sportsbook-sports/Sportsbook/Sports/Events/{match_ids}/MarketGroupings/429/Markets"
@@ -245,15 +260,23 @@ player_props_function <- function() {
         prop_market_name = c(prop_market_name, market$name)
         selection_name_prop = c(selection_name_prop, selection$name)
         prop_market_selection = c(prop_market_selection, selection$resultType)
-        prop_market_price = c(prop_market_price, selection$price$winPrice)
         player_id = c(player_id, selection$externalId)
         market_id = c(market_id, market$externalId)
+        
         if (is.null(selection$unformattedHandicap)) {
           selection$unformattedHandicap = NA
           handicap = c(handicap, selection$unformattedHandicap)
         } else {
           selection$unformattedHandicap = as.numeric(selection$unformattedHandicap)
           handicap = c(handicap, selection$unformattedHandicap)
+        }
+        
+        if (is.null(selection$price$winPrice)) {
+          selection$price$winPrice = NA
+          prop_market_price = c(prop_market_price, selection$price$winPrice)
+        } else {
+          selection$price$winPrice = as.numeric(selection$price$winPrice)
+          prop_market_price = c(prop_market_price, selection$price$winPrice)
         }
       }
     }
@@ -475,7 +498,7 @@ player_props_function <- function() {
       away_team,
       player_name = selection_name_prop,
       player_team,
-      opposition_team = away_team,
+      opposition_team = home_team,
       price = prop_market_price
     )
 
@@ -746,6 +769,118 @@ player_props_function <- function() {
   write_csv(match_fours,
             "Data/T20s/Major League Cricket/scraped_odds/sportsbet_match_fours.csv")
   
+  #=============================================================================
+  # X Overs
+  #=============================================================================
+  
+  # Map function to player points urls
+  x_over_markets <-
+    map(x_over_links, safe_read_prop_url)
+  
+  # Get just result part from output
+  x_over_markets <-
+    x_over_markets |>
+    map("result") |>
+    map_df(bind_rows) |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(match = paste(home_team, "v", away_team))
+  
+  # Get First Over Runs
+  first_over_runs_overs <-
+    x_over_markets |>
+    filter(str_detect(prop_market_name, "1st Over Total")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "First Over Runs",
+      team = str_remove(prop_market_name, " 1st Over Total .*"),
+      home_team,
+      away_team,
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  first_over_runs_unders <-
+    x_over_markets |>
+    filter(str_detect(prop_market_name, "1st Over Total")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "First Over Runs",
+      team = str_remove(prop_market_name, " 1st Over Total .*"),
+      home_team,
+      away_team,
+      line = handicap,
+      under_price = prop_market_price
+    )
+  
+  first_over_runs_all <-
+    first_over_runs_overs |>
+    left_join(first_over_runs_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Write out data-------------------------------------------------------------
+  write_csv(first_over_runs_all,
+            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_over_runs.csv")
+  
+  #=============================================================================
+  # Fall of Wicket
+  #=============================================================================
+  
+  # Map function to fall of wicket URLs
+  fall_of_wicket_markets <-
+    map(fall_of_wicket_links, safe_read_prop_url)
+  
+  # Get just result part from output
+  fall_of_wicket_markets <-
+    fall_of_wicket_markets |>
+    map("result") |>
+    map_df(bind_rows) |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(match = paste(home_team, "v", away_team))
+  
+  # Get Overs
+  fall_of_wicket_overs <-
+    fall_of_wicket_markets |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = "Fall of 1st Wicket",
+      team = str_remove(prop_market_name, " Runs at Fall of .*"),
+      home_team,
+      away_team,
+      line = handicap,
+      over_price = prop_market_price
+    )
+  
+  fall_of_wicket_unders <-
+    fall_of_wicket_markets |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = "Fall of 1st Wicket",
+      team = str_remove(prop_market_name, " Runs at Fall of .*"),
+      home_team,
+      away_team,
+      line = handicap,
+      under_price = prop_market_price
+    )
+  
+  fall_of_wicket_all <-
+    fall_of_wicket_overs |>
+    left_join(fall_of_wicket_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
+    mutate(agency = "Sportsbet")
+  
+  # Write out data-------------------------------------------------------------
+  write_csv(fall_of_wicket_all,
+            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_runs_at_first_wicket.csv")
+  
   #===============================================================================
   # First Innings
   #===============================================================================
@@ -884,11 +1019,11 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(first_over_runs,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_over_runs.csv")
+            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_over_runs_first_innings.csv")
   write_csv(first_dismissal_data,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_dismissal.csv")
+            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_first_dismissal_first_innings.csv")
   write_csv(first_wicket_runs,
-            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_runs_at_first_wicket.csv")
+            "Data/T20s/Major League Cricket/scraped_odds/sportsbet_runs_at_first_wicket_first_innings.csv")
   
   #=============================================================================
   # Boundaries

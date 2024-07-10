@@ -45,20 +45,34 @@ best_home_win |>
 #===============================================================================
 
 # Read in all FOFW data
-list_of_fofw_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE, pattern = "runs_at_first_wicket")
+list_of_fofw_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE, pattern = "runs_at_first_wicket.csv")
 
 # Read in all FOFW data
 list_of_fofw_data <- map(list_of_fofw_files, read_csv)
+
+# Combine
+fofw_data <-
+  list_of_fofw_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, team)
 
 #===============================================================================
 # First Over Runs
 #===============================================================================
 
 # Read in all first over runs data
-list_of_for_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE, pattern = "first_over_runs")
+list_of_for_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE, pattern = "first_over_runs.csv")
 
 # Read in all first over runs data
 list_of_for_data <- map(list_of_for_files, read_csv)
+
+# Combine
+for_data <-
+  list_of_for_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, team)
 
 #===============================================================================
 # Match Sixes
@@ -70,6 +84,13 @@ list_of_ms_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE,
 # Read in all match sixes data
 list_of_ms_data <- map(list_of_ms_files, read_csv)
 
+# Combine
+ms_data <-
+  list_of_ms_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match)
+
 #===============================================================================
 # Match Fours
 #===============================================================================
@@ -79,6 +100,13 @@ list_of_mf_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE,
 
 # Read in all match fours data
 list_of_mf_data <- map(list_of_mf_files, read_csv)
+
+# Combine
+mf_data <-
+  list_of_mf_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match)
 
 #===============================================================================
 # Team Sixes
@@ -90,6 +118,13 @@ list_of_ts_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE,
 # Read in all team sixes data
 list_of_ts_data <- map(list_of_ts_files, read_csv)
 
+# Combine
+ts_data <-
+  list_of_ts_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, team)
+
 #===============================================================================
 # Team Fours
 #===============================================================================
@@ -99,6 +134,13 @@ list_of_tf_files <- list.files("Data/T20s/LPL/scraped_odds/", full.names = TRUE,
 
 # Read in all team fours data
 list_of_tf_data <- map(list_of_tf_files, read_csv)
+
+# Combine
+tf_data <-
+  list_of_tf_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, team)
 
 #===============================================================================
 # Batter Runs

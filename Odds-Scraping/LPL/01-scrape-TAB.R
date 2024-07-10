@@ -145,7 +145,10 @@ all_tab_markets <-
                   "start_time",
                   "market_name")),
          prop_name = propositions_name,
-         price = propositions_returnWin)
+         price = propositions_returnWin) |> 
+  mutate(match = str_replace_all(match, "B-Love Kandy", "Kandy Falcons")) |>
+  mutate(prop_name = str_replace_all(prop_name, "B-Love Kandy", "Kandy Falcons")) |> 
+  mutate(market_name = str_replace_all(market_name, "B-Love Kandy", "Kandy Falcons"))
 
 #==============================================================================
 # Head to head
@@ -464,6 +467,7 @@ fall_of_first_wicket_unders <-
 # Combine overs and unders and write out-----------------------------------------
 fall_of_first_wicket_overs |>
   left_join(fall_of_first_wicket_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Fall of 1st Wicket",
@@ -473,8 +477,8 @@ fall_of_first_wicket_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
+  mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
+                          team == "Kdy" ~ "Kandy Falcons",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -506,6 +510,7 @@ first_over_runs_unders <-
 # Combine overs and unders and write out-----------------------------------------
 first_over_runs_overs |>
   left_join(first_over_runs_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "First Over Runs",
@@ -515,8 +520,8 @@ first_over_runs_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
+  mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
+                          team == "Kdy" ~ "Kandy Falcons",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_first_over_runs.csv")
 
@@ -548,6 +553,7 @@ team_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 team_boundaries_overs |>
   left_join(team_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Team Total 4s",
@@ -557,8 +563,8 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
+  mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
+                          team == "Kdy" ~ "Kandy Falcons",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_team_total_4s.csv")
 
@@ -590,6 +596,7 @@ team_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 team_boundaries_overs |>
   left_join(team_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Team Total 6s",
@@ -599,8 +606,8 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
+  mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
+                          team == "Kdy" ~ "Kandy Falcons",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_team_total_6s.csv")
 
@@ -632,6 +639,7 @@ match_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 match_boundaries_overs |>
   left_join(match_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Match Total Fours",
@@ -682,6 +690,7 @@ match_boundaries_unders <-
 match_boundaries_overs |>
   bind_rows(match_boundaries_alt_overs) |>
   left_join(match_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Match Total Sixes",

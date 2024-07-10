@@ -466,6 +466,7 @@ fall_of_first_wicket_unders <-
 # Combine overs and unders and write out-----------------------------------------
 fall_of_first_wicket_overs |>
   left_join(fall_of_first_wicket_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Fall of 1st Wicket",
@@ -508,6 +509,7 @@ first_over_runs_unders <-
 # Combine overs and unders and write out-----------------------------------------
 first_over_runs_overs |>
   left_join(first_over_runs_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "First Over Runs",
@@ -550,6 +552,7 @@ team_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 team_boundaries_overs |>
   left_join(team_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Team Total 4s",
@@ -592,6 +595,7 @@ team_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 team_boundaries_overs |>
   left_join(team_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Team Total 6s",
@@ -634,6 +638,7 @@ match_boundaries_unders <-
 # Combine overs and unders and write out-----------------------------------------
 match_boundaries_overs |>
   left_join(match_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Match Total Fours",
@@ -684,6 +689,7 @@ match_boundaries_unders <-
 match_boundaries_overs |>
   bind_rows(match_boundaries_alt_overs) |>
   left_join(match_boundaries_unders) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
     market = "Match Total Sixes",
