@@ -5,46 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL of website
-topsport_url = "https://www.topsport.com.au/Sport/Cricket/BBL_Matches/Matches"
-
-# Get fixture and player team data
-player_teams <- read_csv("Data/supercoach-data.csv")
-fixture <- read_csv("Data/supercoach-fixture.csv")
-
-# Get each teams next match
-home_matches <-
-  fixture |>
-  mutate(match = paste(home_team, "v", away_team)) |>
-  select(team = home_team, match, start_date) |>
-  mutate(start_date = start_date + hours(10) + minutes(30)) |>  
-  filter(start_date >= today())
-
-away_matches <-
-  fixture |>
-  mutate(match = paste(home_team, "v", away_team)) |>
-  select(team = away_team, match, start_date) |>
-  mutate(start_date = start_date + hours(10) + minutes(30)) |>  
-  filter(start_date >= today())
-
-# Combine together
-all_matches <-
-  bind_rows(home_matches, away_matches) |>
-  arrange(team, start_date) |> 
-  group_by(team) |> 
-  slice_head(n = 1) |> 
-  ungroup()
-
-# Fix certain problematic player names
-player_teams <-
-  player_teams |>
-  mutate(
-    player_name = if_else(
-      player_name == "Tom Rogers" &
-        player_team == "Melbourne Stars",
-      "Tom F Rogers",
-      player_name
-    )
-  )
+topsport_url = "https://www.topsport.com.au/Sport/Cricket/MLC_Matches/Matches"
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -77,13 +38,16 @@ topsport_other_markets <- str_remove(topsport_other_markets, "\\?issubcomp=true"
 # Add base url
 topsport_other_markets <- paste0("https://www.topsport.com.au", topsport_other_markets)
 
+# Get only distinct URLs
+topsport_other_markets <- unique(topsport_other_markets)
+
 #===============================================================================
 # Head to Head markets---------------------------------------------------------#
 #===============================================================================
 
 head_to_head_main <- function() {
   
-  # Function to get head to head data--------------------------------------------#
+  # Function to get head to head data-------------------------------------------#
   get_h2h <- function(market_table) {
     
     # Home Team Data
@@ -148,7 +112,9 @@ read_topsport_html <- function(url) {
     paste(collapse = " ")
   
   # Get match name from extracted text
-  match_name <- str_extract(match_name_html, "(?<=\\- )[A-Za-z0-9- ]+")
+  match_name_html <- strsplit(match_name_html, split = " - ")
+  match_name <- match_name_html[[1]][length(match_name_html[[1]])]
+  player_name <- match_name_html[[1]][length(match_name_html[[1]]) - 1]
   
   # Get data from html
   result <-    
@@ -159,8 +125,9 @@ read_topsport_html <- function(url) {
   
   # Get tibble
   result[[1]] |>
-    mutate(line = as.numeric(line)) |> 
-    mutate(match = match_name)
+    mutate(line = ifelse(!is.na(line), line, str_extract(Selection, "\\d+\\.\\d+"))) |>
+    mutate(match = match_name) |>
+    mutate(Selection = if_else(str_detect(Selection, "(Over)|(Under)"), paste(player_name, Selection), Selection))
 }
 
 # Get data for pick your own player runs----------------------------------------
@@ -169,11 +136,25 @@ read_topsport_html <- function(url) {
 pick_your_own_runs_markets <- 
   topsport_other_markets[str_detect(topsport_other_markets, "Runs_Scored")]
 
-
 # Map function
 player_runs_alternate <-
   map(pick_your_own_runs_markets, read_topsport_html) |> 
-  bind_rows() |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(player_runs_alternate) == 0) {
+  player_runs_alternate <-
+    tibble(match = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+player_runs_alternate <- 
+  player_runs_alternate |> 
   mutate(line = line - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
@@ -183,10 +164,8 @@ player_runs_alternate <-
 # Add player team
 player_runs_alternate <-
   player_runs_alternate |> 
-  left_join(player_teams[,c("player_name", "player_team")]) |> 
-  left_join(all_matches, by = c("player_team" = "team", "match")) |> 
   mutate(market_name = "Player Runs", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, line, over_price, agency)
+  select(match, market_name, player_name, line, over_price, agency)
 
 # Get data for player runs over/under-----------------------------------------
 
@@ -194,60 +173,69 @@ player_runs_alternate <-
 player_runs_markets <- 
   topsport_other_markets[str_detect(topsport_other_markets, "Total_Runs_.*\\(")]
 
-# Only proceed if markets have been picked up above
-if (length(player_runs_markets) > 0) {
-  
-  # Map function
+# Map function
+player_runs_lines <-
+  map(player_runs_markets, read_topsport_html) |>
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(player_runs_lines) == 0) {
   player_runs_lines <-
-    map(player_runs_markets, read_topsport_html) |> 
-    bind_rows() |> 
-    mutate(line = str_extract(Selection, "\\d+\\.\\d+")) |>
-    mutate(line = as.numeric(line)) |>
-    rename(over_price = Win) |> 
-    rename(player_name = match) |> 
-    mutate(player_name = str_remove(player_name, " $"))
-  
-  # Get Overs
-  player_runs_lines_overs <-
-    player_runs_lines |> 
-    filter(str_detect(Selection, "Over")) |> 
-    select(-Selection)
-  
-  # Get Unders
-  player_runs_lines_unders <-
-    player_runs_lines |> 
-    filter(str_detect(Selection, "Under")) |>
-    rename(under_price = over_price) |> 
-    select(-Selection)
-  
-  # Combine
-  player_runs_lines <- 
-    player_runs_lines_overs |> 
-    left_join(player_runs_lines_unders) |> 
-    mutate(market_name = "Player Runs") |> 
-    mutate(agency = "TopSport") |> 
-    mutate(player_name = ifelse(player_name == "Jake Fraser McGurk", "Jake Fraser-McGurk", player_name)) |> 
-    mutate(player_name = ifelse(player_name == "DArcy Short", "D'Arcy Short", player_name)) |>
-    left_join(player_teams[,c("player_name", "player_team")]) |> 
-    left_join(all_matches, by = c("player_team" = "team")) |>
-    select(match, start_date, market_name, player_name, line, over_price, under_price, agency)
+    tibble(match = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
 }
 
-# Write out all player runs
-player_runs <- 
-  player_runs_alternate |>
-  bind_rows(player_runs_lines) |>
-  mutate(over_price = as.numeric(over_price)) |>
-  mutate(under_price = as.numeric(under_price)) |>
+player_runs_lines <-
+  player_runs_lines |> 
+  mutate(line = as.numeric(line)) |>
+  rename(over_price = Win) |>
+  mutate(player_name = str_remove(Selection, " \\(.*\\).*")) |> 
+  mutate(player_team = str_extract(Selection, "\\(.*\\)")) |>
+  mutate(player_team = str_remove_all(player_team, "\\(|\\)"))
+
+# Get Overs
+player_runs_lines_overs <-
+  player_runs_lines |>
+  filter(str_detect(Selection, "Over")) |>
+  select(-Selection)
+
+# Get Unders
+player_runs_lines_unders <-
+  player_runs_lines |>
+  filter(str_detect(Selection, "Under")) |>
+  rename(under_price = over_price) |>
+  select(-Selection)
+
+# Combine
+player_runs_lines <-
+  player_runs_lines_overs |>
+  left_join(player_runs_lines_unders) |>
   mutate(market_name = "Player Runs") |>
   mutate(agency = "TopSport") |>
+  select(match,
+         market_name,
+         player_name,
+         player_team,
+         line,
+         over_price,
+         under_price,
+         agency)
+
+# Write out all player runs
+player_runs_all <- 
+  player_runs_alternate |>
+  bind_rows(player_runs_lines) |>
   separate(
     match,
     into = c("home_team", "away_team"),
     sep = " v ",
     remove = FALSE
   ) |>
-  left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -270,7 +258,7 @@ player_runs <-
   arrange(player_name, line) |> 
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
-player_runs |> 
+player_runs_all |> 
   write_csv("Data/scraped_odds/topsport_player_runs.csv")
 
 #===============================================================================
@@ -286,84 +274,91 @@ pick_your_own_wickets_markets <-
 # Map function
 player_wickets_alternate <-
   map(pick_your_own_wickets_markets, read_topsport_html) |> 
-  bind_rows() |> 
-  mutate(line = line - 0.5) |>
-  rename(over_price = Win) |> 
-  rename(player_name = Selection) |> 
-  mutate(player_name = str_remove(player_name, " \\(.*\\)$")) |>
-  relocate(match, .before = player_name)
+  bind_rows()
 
-# Add player team
+# If nrow is zero make empty tibble
+if (nrow(player_wickets_alternate) == 0) {
+  player_wickets_alternate <-
+    tibble(match = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
 player_wickets_alternate <-
   player_wickets_alternate |> 
-  mutate(player_name = ifelse(player_name == "Nathan Coulter Nile", "Nathan Coulter-Nile", player_name)) |>
-  mutate(player_name = ifelse(player_name == "DArcy Short", "D'Arcy Short", player_name)) |>
-  left_join(player_teams[,c("player_name", "player_team")]) |> 
-  left_join(all_matches, by = c("player_team" = "team", "match")) |> 
+  mutate(line = as.numeric(line) - 0.5) |>
+  rename(over_price = Win) |>
+  mutate(player_name = str_remove(Selection, " \\(.*\\).*")) |> 
+  mutate(player_team = str_extract(Selection, "\\(.*\\)")) |>
+  mutate(player_team = str_remove_all(player_team, "\\(|\\)")) |> 
   mutate(market_name = "Player Wickets", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, line, over_price, agency)
+  select(match, market_name, player_name, player_team, line, over_price, agency)
 
 # Get data for player wickets over/under-----------------------------------------
 
 # Get URLs
-player_wickets_markets <- 
+player_wickets_markets <-
   topsport_other_markets[str_detect(topsport_other_markets, "Total_Wickets_.*\\(")]
 
-# Only proceed if markets have been picked up above
-if (length(player_wickets_markets) > 0) {
-  
-  # Map function
+# Map function
+player_wickets_lines <-
+  map(player_wickets_markets, read_topsport_html) |>
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(player_wickets_lines) == 0) {
   player_wickets_lines <-
-    map(player_wickets_markets, read_topsport_html) |> 
-    bind_rows() |> 
-    mutate(line = str_extract(Selection, "\\d+\\.\\d+")) |>
-    mutate(line = as.numeric(line)) |>
-    rename(over_price = Win) |> 
-    rename(player_name = match) |> 
-    mutate(player_name = str_remove(player_name, " $"))
-  
-  # Get Overs
-  player_wickets_lines_overs <-
-    player_wickets_lines |> 
-    filter(str_detect(Selection, "Over")) |> 
-    select(-Selection) |> 
-    distinct(over_price, line, player_name)
-  
-  # Get Unders
-  player_wickets_lines_unders <-
-    player_wickets_lines |> 
-    filter(str_detect(Selection, "Under")) |>
-    rename(under_price = over_price) |> 
-    select(-Selection) |> 
-    distinct(under_price, line, player_name)
-  
-  # Combine
-  player_wickets_lines <- 
-    player_wickets_lines_overs |> 
-    left_join(player_wickets_lines_unders, by = c("player_name", "line")) |> 
-    mutate(market_name = "Player Wickets") |> 
-    mutate(agency = "TopSport") |> 
-    mutate(player_name = ifelse(player_name == "Nathan Coulter Nile", "Nathan Coulter-Nile", player_name)) |>
-    left_join(player_teams[,c("player_name", "player_team")]) |> 
-    left_join(all_matches, by = c("player_team" = "team")) |>
-    select(match, start_date, market_name, player_name, line, over_price, under_price, agency)
+    tibble(
+      match = character(),
+      start_date = character(),
+      market_name = character(),
+      Selection = character(),
+      line = numeric(),
+      Win = numeric(),
+      agency = character()
+    )
 }
+
+player_wickets_lines <-
+  player_wickets_lines |>
+  mutate(line = as.numeric(line)) |> 
+  rename(over_price = Win) |>
+  mutate(player_name = str_remove(Selection, " \\(.*\\).*")) |> 
+  mutate(player_team = str_extract(Selection, "\\(.*\\)")) |>
+  mutate(player_team = str_remove_all(player_team, "\\(|\\)")) |> 
+  mutate(market_name = "Player Wickets", agency = "TopSport")
+
+# Get Overs
+player_wickets_lines_overs <-
+  player_wickets_lines |>
+  filter(str_detect(Selection, "Over")) |>
+  select(match, market_name, player_name, player_team, line, over_price, agency)
+
+# Get Unders
+player_wickets_lines_unders <-
+  player_wickets_lines |>
+  filter(str_detect(Selection, "Under")) |>
+  select(match, market_name, player_name, player_team, line, under_price = over_price, agency)
+
+# Combine
+player_wickets_lines <-
+  player_wickets_lines_overs |>
+  left_join(player_wickets_lines_unders)
 
 # Write out all player wickets
 player_wickets <- 
   player_wickets_alternate |>
   bind_rows(player_wickets_lines) |>
-  mutate(over_price = as.numeric(over_price)) |>
-  mutate(under_price = as.numeric(under_price)) |>
-  mutate(market_name = "Player Wickets") |>
-  mutate(agency = "TopSport") |>
   separate(
     match,
     into = c("home_team", "away_team"),
     sep = " v ",
     remove = FALSE
   ) |>
-  left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -402,7 +397,23 @@ pick_your_own_fours_markets <-
 # Map function
 player_fours_alternate <-
   map(pick_your_own_fours_markets, read_topsport_html) |> 
-  bind_rows() |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(player_fours_alternate) == 0) {
+  player_fours_alternate <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+player_fours_alternate <-
+  player_fours_alternate |>
   mutate(line = line - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
@@ -412,12 +423,8 @@ player_fours_alternate <-
 # Add player team
 player_fours_alternate <-
   player_fours_alternate |> 
-  mutate(player_name = ifelse(player_name == "Nathan Coulter Nile", "Nathan Coulter-Nile", player_name)) |>
-  mutate(player_name = ifelse(player_name == "DArcy Short", "D'Arcy Short", player_name)) |>
-  left_join(player_teams[,c("player_name", "player_team")]) |> 
-  left_join(all_matches, by = c("player_team" = "team", "match")) |> 
   mutate(market_name = "Number of 4s", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, line, over_price, agency)
+  select(match, start_date, market_name, player_name, player_team, line, over_price, agency)
 
 # Get data for pick your own sixes----------------------------------------------
 
@@ -428,7 +435,23 @@ pick_your_own_sixes_markets <-
 # Map function
 player_sixes_alternate <-
   map(pick_your_own_sixes_markets, read_topsport_html) |> 
-  bind_rows() |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(player_sixes_alternate) == 0) {
+  player_sixes_alternate <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+player_sixes_alternate <-
+  player_sixes_alternate |>
   mutate(line = line - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
@@ -438,12 +461,8 @@ player_sixes_alternate <-
 # Add player team
 player_sixes_alternate <-
   player_sixes_alternate |> 
-  mutate(player_name = ifelse(player_name == "Nathan Coulter Nile", "Nathan Coulter-Nile", player_name)) |>
-  mutate(player_name = ifelse(player_name == "DArcy Short", "D'Arcy Short", player_name)) |>
-  left_join(player_teams[,c("player_name", "player_team")]) |> 
-  left_join(all_matches, by = c("player_team" = "team", "match")) |> 
   mutate(market_name = "Number of 6s", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, line, over_price, agency)
+  select(match, start_date, market_name, player_name, player_team, line, over_price, agency)
 
 # Write out all player boundaries
 player_boundaries <- 
@@ -457,7 +476,6 @@ player_boundaries <-
     sep = " v ",
     remove = FALSE
   ) |>
-  left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -483,16 +501,40 @@ player_boundaries |>
   write_csv("Data/scraped_odds/topsport_player_boundaries.csv")
 
 #===============================================================================
-# Run matchup handicaps
+# First Over Runs
 #===============================================================================
 
-# Get data for run matchup handicaps----------------------------------------------
+# Get data for first over runs-------------------------------------------------
 
 # Get URLs
-run_matchup_handicaps_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Run_Matchup")]
+first_over_runs_markets <- 
+  topsport_other_markets[str_detect(topsport_other_markets, "Total_Runs_In_First_Over")]
 
 # Map function
-run_matchup_handicaps <-
-  map(run_matchup_handicaps_markets, read_topsport_html) |> 
+first_over_runs <-
+  map(first_over_runs_markets, read_topsport_html) |> 
   bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(first_over_runs) == 0) {
+  first_over_runs <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+first_over_runs <-
+  first_over_runs |>
+  mutate(line = as.numeric(line))
+
+# Overs
+first_over_runs_overs <-
+  first_over_runs |>
+  filter(!str_detect(Selection, "Under")) |>
+  mutate(market = "First Over Runs", agency = "TopSport") |>
+  select(match, market, line, over_price = Win, agency)
