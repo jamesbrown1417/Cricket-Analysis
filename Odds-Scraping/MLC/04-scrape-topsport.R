@@ -86,7 +86,7 @@ head_to_head_main <- function() {
     filter(!is.na(home_win))
   
   # Write to csv
-  write_csv(topsport_h2h, "Data/scraped_odds/topsport_h2h.csv")
+  write_csv(topsport_h2h, "Data/T20s/Major League Cricket/scraped_odds/topsport_h2h.csv")
 }
 
 #===============================================================================
@@ -259,7 +259,7 @@ player_runs_all <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_runs_all |> 
-  write_csv("Data/scraped_odds/topsport_player_runs.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_runs.csv")
 
 #===============================================================================
 # Player Wickets
@@ -382,7 +382,7 @@ player_wickets <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_wickets |> 
-  write_csv("Data/scraped_odds/topsport_player_wickets.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_wickets.csv")
 
 #===============================================================================
 # Boundaries
@@ -498,7 +498,7 @@ player_boundaries <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, .keep_all = TRUE)
 
 player_boundaries |> 
-  write_csv("Data/scraped_odds/topsport_player_boundaries.csv")
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_boundaries.csv")
 
 #===============================================================================
 # First Over Runs

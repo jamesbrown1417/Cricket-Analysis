@@ -23,7 +23,9 @@ innings_stats <-
 # Get Innings in long format
 innings_stats_1 <-
   innings_stats |> 
-  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
+  mutate(match_winner = if_else(innings_1_total > innings_2_total, innings_1_batting_team, innings_2_batting_team)) |> 
+  mutate(chasing_team_won = as.numeric(match_winner == innings_2_batting_team)) |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue, match_winner, chasing_team_won,
          innings_1_batting_team:innings_1_method_of_first_dismissal, innings_fielding_team = innings_2_batting_team) |> 
   mutate(innings = 1) |> 
   # Remove _1 from column names
@@ -32,7 +34,9 @@ innings_stats_1 <-
 
 innings_stats_2 <-
   innings_stats |> 
-  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,
+  mutate(match_winner = if_else(innings_1_total > innings_2_total, innings_1_batting_team, innings_2_batting_team)) |> 
+  mutate(chasing_team_won = as.numeric(match_winner == innings_2_batting_team)) |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,  match_winner, chasing_team_won,
          innings_2_batting_team:innings_2_method_of_first_dismissal, innings_fielding_team = innings_1_batting_team) |> 
   mutate(innings = 2) |> 
   # Remove _2 from column names
@@ -306,6 +310,8 @@ ui <- page_navbar(
                         "Wickets",
                         "Runs at Fall of First Wicket",
                         "First Wicket Caught",
+                        "First Over Runs",
+                        "Chasing Team Win",
                         "4s",
                         "6s"),
             multiple = FALSE,
@@ -677,6 +683,8 @@ server <- function(input, output, session) {
                Venue = venue,
                `Toss Winner` = toss_winner,
                `Toss Decision` = toss_decision,
+               `Match Winner` = match_winner,
+               `Chasing Team Win` = chasing_team_won,
                Innings = innings,
                Innings_Balls = innings_balls,
                Runs = innings_total,

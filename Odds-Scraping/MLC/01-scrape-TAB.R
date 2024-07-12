@@ -478,6 +478,8 @@ fall_of_first_wicket_overs |>
   ) |> 
   mutate(team = case_when(team == "LA" ~ "Los Angeles",
                           team == "SFr" ~ "San Francisco",
+                          team == "Stl" ~ "Seattle Orcas",
+                          team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -521,6 +523,8 @@ first_over_runs_overs |>
   ) |> 
   mutate(team = case_when(team == "LA" ~ "Los Angeles",
                           team == "SFr" ~ "San Francisco",
+                          team == "Stl" ~ "Seattle Orcas",
+                          team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_first_over_runs.csv")
 
@@ -564,6 +568,8 @@ team_boundaries_overs |>
   ) |> 
   mutate(team = case_when(team == "LA" ~ "Los Angeles",
                           team == "SFr" ~ "San Francisco",
+                          team == "Stl" ~ "Seattle Orcas",
+                          team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_4s.csv")
 
@@ -607,6 +613,8 @@ team_boundaries_overs |>
   ) |> 
   mutate(team = case_when(team == "LA" ~ "Los Angeles",
                           team == "SFr" ~ "San Francisco",
+                          team == "Stl" ~ "Seattle Orcas",
+                          team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_6s.csv")
 

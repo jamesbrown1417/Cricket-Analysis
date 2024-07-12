@@ -1,22 +1,71 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Haris Rauf,San Francisco Unicorns,Texas Super Kings,3.6
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Abrar Ahmed,San Francisco Unicorns,Texas Super Kings,4.8
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Brody L Couch,San Francisco Unicorns,Texas Super Kings,4.5
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Liam Plunkett,San Francisco Unicorns,Texas Super Kings,4.8
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Matt Henry,San Francisco Unicorns,Texas Super Kings,4.9
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Pat Cummins,San Francisco Unicorns,Texas Super Kings,4.6
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Matt Short,San Francisco Unicorns,Texas Super Kings,6.75
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Carmi le Roux,San Francisco Unicorns,Texas Super Kings,9
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Hassan Khan,San Francisco Unicorns,Texas Super Kings,10
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Dwayne Bravo,Texas Super Kings,San Francisco Unicorns,3.9
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Naveen-ul-Haq Murid,Texas Super Kings,San Francisco Unicorns,3.9
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Marcus Stoinis,Texas Super Kings,San Francisco Unicorns,4.8
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Mitchell Santner,Texas Super Kings,San Francisco Unicorns,4.6
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Cameron Stevenson,Texas Super Kings,San Francisco Unicorns,5.3
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Gerald Coetzee,Texas Super Kings,San Francisco Unicorns,5.3
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Noor Ahmad,Texas Super Kings,San Francisco Unicorns,5.3
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Raj Rocky Nannan,Texas Super Kings,San Francisco Unicorns,6.75
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Zia Muhammad Shahzad,Texas Super Kings,San Francisco Unicorns,6.75
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Zia Ul Haq,Texas Super Kings,San Francisco Unicorns,6.25
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Aaron Hardie,Texas Super Kings,San Francisco Unicorns,7
-San Francisco Unicorns v Texas Super Kings,Top Team Wicket Taker,San Francisco Unicorns,Texas Super Kings,Mohammad Mohsin,Texas Super Kings,San Francisco Unicorns,7.25
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Dewald Brevis,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Kagiso Rabada,Mi New York,Texas Super Kings,4.4
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Ehsan Adil,Mi New York,Texas Super Kings,6.25
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Heath Richards,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Monank Patel,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Nicholas Pooran,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Rashid Khan,Mi New York,Texas Super Kings,3.6
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Tim David,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Trent Boult,Mi New York,Texas Super Kings,3.9
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Anrich Nortje,Mi New York,Texas Super Kings,4.1
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Romario Shepherd,Mi New York,Texas Super Kings,6.5
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Kieron Pollard,Mi New York,Texas Super Kings,8.75
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Nosthush Kenjige,Mi New York,Texas Super Kings,8.75
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Ruben Clinton,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Rushil Ugarkar,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Shayan Jahangir,Mi New York,Texas Super Kings,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Steven Taylor,Mi New York,Texas Super Kings,10
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Adam Zampa,Los Angeles Knight Riders,San Francisco Unicorns,4.4
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Adithya Ganesh,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Alex Carey,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,David Miller,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Jason Roy,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Joshua Little,Los Angeles Knight Riders,San Francisco Unicorns,4.4
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Muhammad Ahsan Ali Khan,Los Angeles Knight Riders,San Francisco Unicorns,4.6
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Corne Dry,Los Angeles Knight Riders,San Francisco Unicorns,6.5
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Nitish Kumar,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Saif Badar,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Spencer Johnson,Los Angeles Knight Riders,San Francisco Unicorns,4.3
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Andre Russell,Los Angeles Knight Riders,San Francisco Unicorns,5.9
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Chaitanya Bishnoi,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Shakib Al Hasan,Los Angeles Knight Riders,San Francisco Unicorns,5.3
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Sunil Narine,Los Angeles Knight Riders,San Francisco Unicorns,5
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Unmukt Chand,Los Angeles Knight Riders,San Francisco Unicorns,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Waqar Salamkheil,Los Angeles Knight Riders,San Francisco Unicorns,5
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Matthew Tromp,Los Angeles Knight Riders,San Francisco Unicorns,6.5
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Aiden Markram,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Calvin Savage,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Devon Conway,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Dwayne Bravo,Texas Super Kings,Mi New York,3.9
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Marcus Stoinis,Texas Super Kings,Mi New York,4.8
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Gerald Coetzee,Texas Super Kings,Mi New York,5.5
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Mitchell Santner,Texas Super Kings,Mi New York,5.25
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Noor Ahmad,Texas Super Kings,Mi New York,5.5
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Zia Ul Haq,Texas Super Kings,Mi New York,5.9
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Aaron Hardie,Texas Super Kings,Mi New York,7
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Faf du Plessis,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Joshua Tromp,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Milind Kumar,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Naveen-ul-Haq Murid,Texas Super Kings,Mi New York,3.9
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Cameron Stevenson,Texas Super Kings,Mi New York,5.5
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Mohammad Mohsin,Texas Super Kings,Mi New York,7
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Raj Rocky Nannan,Texas Super Kings,Mi New York,7
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Saiteja Mukkamalla,Texas Super Kings,Mi New York,NA
+Mi New York v Texas Super Kings,Top Team Wicket Taker,Mi New York,Texas Super Kings,Zia Muhammad Shahzad,Texas Super Kings,Mi New York,7
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Corey Anderson,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Haris Rauf,San Francisco Unicorns,Los Angeles Knight Riders,3.9
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Abrar Ahmed,San Francisco Unicorns,Los Angeles Knight Riders,4.8
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Brody L Couch,San Francisco Unicorns,Los Angeles Knight Riders,4.5
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Finn Allen,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Josh Inglis,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Liam Plunkett,San Francisco Unicorns,Los Angeles Knight Riders,4.8
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Pat Cummins,San Francisco Unicorns,Los Angeles Knight Riders,4.6
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Matt Henry,San Francisco Unicorns,Los Angeles Knight Riders,5
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Matt Short,San Francisco Unicorns,Los Angeles Knight Riders,7
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Hassan Khan,San Francisco Unicorns,Los Angeles Knight Riders,8.25
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Carmi le Roux,San Francisco Unicorns,Los Angeles Knight Riders,9
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Jake Fraser-McGurk,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Sanjay Prasad Krishnamurthi,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Sherfane Rutherford,San Francisco Unicorns,Los Angeles Knight Riders,NA
+Los Angeles Knight Riders v San Francisco Unicorns,Top Team Wicket Taker,Los Angeles Knight Riders,San Francisco Unicorns,Tajinder Singh,San Francisco Unicorns,Los Angeles Knight Riders,NA
