@@ -5,6 +5,29 @@
 library(tidyverse)
 `%notin%` <- Negate(`%in%`)
 
+# # Run all odds scraping scripts-----------------------------------------------
+run_scraping <- function(script_name) {
+  tryCatch({
+    source(script_name, echo = FALSE)
+  }, error = function(e) {
+    cat("Odds not released yet for:", script_name, "\n")
+  })
+}
+
+# Run all odds scraping scripts
+# run_scraping("Odds-Scraping/MLC/scrape_betr.R")
+# run_scraping("Odds-Scraping/MLC/scrape_BetRight.R")
+# run_scraping("Odds-Scraping/MLC/scrape_pointsbet.R")
+run_scraping("Odds-Scraping/MLC/02-scrape-Sportsbet.R")
+run_scraping("Odds-Scraping/MLC/01-scrape-TAB.R")
+run_scraping("Odds-Scraping/MLC/04-scrape-topsport.R")
+# run_scraping("Odds-Scraping/MLC/scrape_bet365.R")
+# run_scraping("Odds-Scraping/MLC/scrape_bluebet.R")
+# run_scraping("Odds-Scraping/MLC/Neds/scrape_neds.R")
+# run_scraping("Odds-Scraping/MLC/scrape_unibet.R")
+# run_scraping("Odds-Scraping/MLC/scrape_dabble.R")
+
+
 #===============================================================================
 # Read in all H2H
 #===============================================================================
@@ -168,12 +191,3 @@ br_data <-
   bind_rows() |> 
   arrange(match, player_name)
 
-#===============================================================================
-# Runs at fall of first wicket
-#===============================================================================
-
-# Read in all FOFW data
-list_of_fofw_files <- list.files("Data/T20s/Major League Cricket/scraped_odds/", full.names = TRUE, pattern = "runs_at_first_wicket")
-
-# Read in all FOFW data
-list_of_fofw_data <- map(list_of_fofw_files, read_csv)

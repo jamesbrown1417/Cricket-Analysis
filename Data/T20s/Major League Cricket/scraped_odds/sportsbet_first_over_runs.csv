@@ -1,2 +1,5 @@
-match,market,team,home_team,away_team,line,over_price,under_price,agency
-Seattle Orcas v Washington Freedom,First Over Runs,Seattle Orcas,Seattle Orcas,Washington Freedom,6.5,2,1.67,Sportsbet
+match,market,team,line,over_price,under_price,agency
+Mi New York v Washington Freedom,First Over Runs,Mi New York,5.5,1.72,1.91,Sportsbet
+Mi New York v Washington Freedom,First Over Runs,Washington Freedom,5.5,1.67,2,Sportsbet
+Seattle Orcas v Los Angeles Knight Riders,First Over Runs,Seattle Orcas,5.5,1.83,1.83,Sportsbet
+Seattle Orcas v Los Angeles Knight Riders,First Over Runs,Los Angeles Knight Riders,5.5,1.72,1.91,Sportsbet

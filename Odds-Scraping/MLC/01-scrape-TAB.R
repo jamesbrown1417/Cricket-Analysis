@@ -147,7 +147,9 @@ all_tab_markets <-
          prop_name = propositions_name,
          price = propositions_returnWin) |> 
   mutate(match = str_replace(match, "Washington", "Washington Freedom")) |> 
-  mutate(match = str_replace(match, "Texas", "Texas Super Kings"))
+  mutate(match = str_replace(match, "Texas", "Texas Super Kings")) |> 
+  mutate(match = str_replace(match, "Los Angeles", "Los Angeles Knight Riders")) |>
+  mutate(match = str_replace(match, "San Francisco", "San Francisco Unicorns"))
 
 #==============================================================================
 # Head to head

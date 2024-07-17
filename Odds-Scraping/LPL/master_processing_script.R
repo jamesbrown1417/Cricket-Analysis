@@ -5,6 +5,28 @@
 library(tidyverse)
 `%notin%` <- Negate(`%in%`)
 
+# # Run all odds scraping scripts-----------------------------------------------
+run_scraping <- function(script_name) {
+  tryCatch({
+    source(script_name, echo = FALSE)
+  }, error = function(e) {
+    cat("Odds not released yet for:", script_name, "\n")
+  })
+}
+
+# Run all odds scraping scripts
+# run_scraping("Odds-Scraping/LPL/scrape_betr.R")
+# run_scraping("Odds-Scraping/LPL/scrape_BetRight.R")
+# run_scraping("Odds-Scraping/LPL/scrape_pointsbet.R")
+run_scraping("Odds-Scraping/LPL/02-scrape-Sportsbet.R")
+run_scraping("Odds-Scraping/LPL/01-scrape-TAB.R")
+run_scraping("Odds-Scraping/LPL/04-scrape-topsport.R")
+# run_scraping("Odds-Scraping/LPL/scrape_bet365.R")
+# run_scraping("Odds-Scraping/LPL/scrape_bluebet.R")
+# run_scraping("Odds-Scraping/LPL/Neds/scrape_neds.R")
+# run_scraping("Odds-Scraping/LPL/scrape_unibet.R")
+# run_scraping("Odds-Scraping/LPL/scrape_dabble.R")
+
 #===============================================================================
 # Read in all H2H
 #===============================================================================

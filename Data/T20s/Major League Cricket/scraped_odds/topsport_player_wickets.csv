@@ -1,33 +1,17 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Lockie Ferguson,Washington Freedom,Seattle Orcas,0.5,1.26,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Lockie Ferguson,Washington Freedom,Seattle Orcas,1.5,2.35,1.53,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Lockie Ferguson,Washington Freedom,Seattle Orcas,2.5,5.1,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Lockie Ferguson,Washington Freedom,Seattle Orcas,3.5,11,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Marco Jansen,Washington Freedom,Seattle Orcas,0.5,1.33,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Marco Jansen,Washington Freedom,Seattle Orcas,1.5,2.7,1.41,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Marco Jansen,Washington Freedom,Seattle Orcas,2.5,5.75,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Marco Jansen,Washington Freedom,Seattle Orcas,3.5,12,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Nandre Burger,Seattle Orcas,Washington Freedom,0.5,1.26,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Nandre Burger,Seattle Orcas,Washington Freedom,1.5,2.35,1.53,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Nandre Burger,Seattle Orcas,Washington Freedom,2.5,5.1,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Nandre Burger,Seattle Orcas,Washington Freedom,3.5,11,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Naveen Ul Haq,Texas Super Kings,MI New York,0.5,1.35,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Naveen Ul Haq,Texas Super Kings,MI New York,1.5,2.75,1.39,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Naveen Ul Haq,Texas Super Kings,MI New York,2.5,6,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Naveen Ul Haq,Texas Super Kings,MI New York,3.5,13,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Rashid Khan,MI New York,Texas Super Kings,0.5,1.26,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Rashid Khan,MI New York,Texas Super Kings,1.5,2.35,1.53,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Rashid Khan,MI New York,Texas Super Kings,2.5,5.1,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Rashid Khan,MI New York,Texas Super Kings,3.5,11,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Trent Boult,MI New York,Texas Super Kings,0.5,1.17,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Trent Boult,MI New York,Texas Super Kings,1.5,2.1,1.65,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Trent Boult,MI New York,Texas Super Kings,2.5,4.6,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Trent Boult,MI New York,Texas Super Kings,3.5,10,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Zaman Khan,Seattle Orcas,Washington Freedom,0.5,1.3,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Zaman Khan,Seattle Orcas,Washington Freedom,1.5,2.5,1.47,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Zaman Khan,Seattle Orcas,Washington Freedom,2.5,5.4,NA,TopSport
-Seattle Orcas v Washington Freedom,Player Wickets,Seattle Orcas,Washington Freedom,Zaman Khan,Seattle Orcas,Washington Freedom,3.5,11,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Zia Ul Haq,Texas Super Kings,MI New York,0.5,1.43,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Zia Ul Haq,Texas Super Kings,MI New York,1.5,2.9,1.36,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Zia Ul Haq,Texas Super Kings,MI New York,2.5,6.25,NA,TopSport
-MI New York v Texas Super Kings,Player Wickets,MI New York,Texas Super Kings,Zia Ul Haq,Texas Super Kings,MI New York,3.5,13,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Lockie Ferguson,Washington Freedom,MI New York,0.5,1.26,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Lockie Ferguson,Washington Freedom,MI New York,1.5,2.35,1.53,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Lockie Ferguson,Washington Freedom,MI New York,2.5,5.1,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Lockie Ferguson,Washington Freedom,MI New York,3.5,11,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Marco Jansen,Washington Freedom,MI New York,0.5,1.33,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Marco Jansen,Washington Freedom,MI New York,1.5,2.7,1.41,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Marco Jansen,Washington Freedom,MI New York,2.5,5.75,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Marco Jansen,Washington Freedom,MI New York,3.5,12,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Rashid Khan,MI New York,Washington Freedom,0.5,1.24,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Rashid Khan,MI New York,Washington Freedom,1.5,2.25,1.57,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Rashid Khan,MI New York,Washington Freedom,2.5,4.9,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Rashid Khan,MI New York,Washington Freedom,3.5,10,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Trent Boult,MI New York,Washington Freedom,0.5,1.22,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Trent Boult,MI New York,Washington Freedom,1.5,2.2,1.6,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Trent Boult,MI New York,Washington Freedom,2.5,4.8,NA,TopSport
+MI New York v Washington Freedom,Player Wickets,MI New York,Washington Freedom,Trent Boult,MI New York,Washington Freedom,3.5,10,NA,TopSport

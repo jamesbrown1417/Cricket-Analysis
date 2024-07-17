@@ -786,7 +786,24 @@ player_props_function <- function() {
   x_over_markets <-
     x_over_markets |>
     map("result") |>
-    map_df(bind_rows) |>
+    map_df(bind_rows)
+  
+  # If nrow is zero make empty tibble
+  if (nrow(x_over_markets) == 0) {
+    x_over_markets <-
+      tibble(match = character(),
+             start_date = character(),
+             market_name = character(),
+             selection_name_prop = character(),
+             prop_market_name = character(),
+             handicap = numeric(),
+             prop_market_price = numeric(),
+             url = character(),
+             agency = character())
+  }
+  
+  x_over_markets <-
+    x_over_markets |>
     mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>

@@ -51,11 +51,11 @@ head_to_head_main <- function() {
   get_h2h <- function(market_table) {
     
     # Home Team Data
-    home_info <- market_table[3, 1:2]
+    home_info <- market_table[2, 1:2]
     names(home_info) <- c("home_team", "home_win")
     
     # Away Team Data
-    away_info <- market_table[2, 1:2]
+    away_info <- market_table[3, 1:2]
     names(away_info) <- c("away_team", "away_win")
     
     # Match Start Time
@@ -83,11 +83,14 @@ head_to_head_main <- function() {
     mutate(margin = round((1/home_win + 1/away_win), digits = 3)) |> 
     mutate(agency = "TopSport") |> 
     mutate(start_time = dmy_hm(start_time)) |>
-    filter(!is.na(home_win))
+    filter(!is.na(home_win)) |> 
+    select(-start_time)
   
   # Write to csv
-  write_csv(topsport_h2h, "Data/scraped_odds/topsport_h2h.csv")
+  write_csv(topsport_h2h, "Data/T20s/LPL/scraped_odds/topsport_h2h.csv")
 }
+
+head_to_head_main()
 
 #===============================================================================
 # Player Runs
@@ -259,7 +262,7 @@ player_runs_all <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_runs_all |> 
-  write_csv("Data/scraped_odds/topsport_player_runs.csv")
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_player_runs.csv")
 
 #===============================================================================
 # Player Wickets
@@ -382,7 +385,7 @@ player_wickets <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_wickets |> 
-  write_csv("Data/scraped_odds/topsport_player_wickets.csv")
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_player_wickets.csv")
 
 #===============================================================================
 # Boundaries
@@ -498,7 +501,7 @@ player_boundaries <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, .keep_all = TRUE)
 
 player_boundaries |> 
-  write_csv("Data/scraped_odds/topsport_player_boundaries.csv")
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_player_boundaries.csv")
 
 #===============================================================================
 # First Over Runs
@@ -538,3 +541,63 @@ first_over_runs_overs <-
   filter(!str_detect(Selection, "Under")) |>
   mutate(market = "First Over Runs", agency = "TopSport") |>
   select(match, market, line, over_price = Win, agency)
+
+#===============================================================================
+# Runs At Fall of First Wicket - Team
+#===============================================================================
+
+# Get data for first over runs-------------------------------------------------
+
+# Get URLs
+runs_at_first_wicket_team_runs_markets <- 
+  topsport_other_markets[str_detect(topsport_other_markets, "Total_Runs_in_Opening_Partnership")]
+
+# Map function
+runs_at_first_wicket_team_runs <-
+  map(runs_at_first_wicket_team_runs_markets, read_topsport_html) |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(runs_at_first_wicket_team_runs) == 0) {
+  runs_at_first_wicket_team_runs <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+runs_at_first_wicket_team_runs <-
+  runs_at_first_wicket_team_runs |>
+  mutate(line = as.numeric(line)) |> 
+  mutate(team = str_remove_all(Selection, "Upcoming Matches Total Runs in Opening Partnership ")) |> 
+  mutate(team = str_remove_all(team, " Over.*$")) |>
+  mutate(team = str_remove_all(team, " Under.*$"))
+
+# Overs
+runs_at_first_wicket_team_runs_overs <-
+  runs_at_first_wicket_team_runs |>
+  filter(!str_detect(Selection, "Under")) |>
+  mutate(market = "Fall of 1st Wicket", agency = "TopSport") |>
+  select(match, market, team, line, over_price = Win, agency)
+
+# Unders
+runs_at_first_wicket_team_runs_unders <-
+  runs_at_first_wicket_team_runs |>
+  filter(str_detect(Selection, "Under")) |>
+  mutate(market = "Fall of 1st Wicket", agency = "TopSport") |>
+  select(match, market, team, line, under_price = Win, agency)
+
+# Combine
+runs_at_first_wicket_team_runs_all <-
+  runs_at_first_wicket_team_runs_overs |>
+  left_join(runs_at_first_wicket_team_runs_unders) |>
+  select(match, market, team, line, over_price, under_price, agency)
+
+# Write out
+runs_at_first_wicket_team_runs_all |> 
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_runs_at_first_wicket.csv")
+

@@ -479,6 +479,9 @@ fall_of_first_wicket_overs |>
   ) |> 
   mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
                           team == "Kdy" ~ "Kandy Falcons",
+                          team == "Dam" ~ "Dambulla Sixers",
+                          team == "Jaf" ~ "Jaffna Kings",
+                          team == "Col" ~ "Colombo Strikers",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -522,6 +525,9 @@ first_over_runs_overs |>
   ) |> 
   mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
                           team == "Kdy" ~ "Kandy Falcons",
+                          team == "Dam" ~ "Dambulla Sixers",
+                          team == "Jaf" ~ "Jaffna Kings",
+                          team == "Col" ~ "Colombo Strikers",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_first_over_runs.csv")
 
@@ -565,6 +571,9 @@ team_boundaries_overs |>
   ) |> 
   mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
                           team == "Kdy" ~ "Kandy Falcons",
+                          team == "Dam" ~ "Dambulla Sixers",
+                          team == "Jaf" ~ "Jaffna Kings",
+                          team == "Col" ~ "Colombo Strikers",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_team_total_4s.csv")
 
@@ -608,6 +617,9 @@ team_boundaries_overs |>
   ) |> 
   mutate(team = case_when(team == "Gal" ~ "Galle Marvels",
                           team == "Kdy" ~ "Kandy Falcons",
+                          team == "Dam" ~ "Dambulla Sixers",
+                          team == "Jaf" ~ "Jaffna Kings",
+                          team == "Col" ~ "Colombo Strikers",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/LPL/scraped_odds/tab_team_total_6s.csv")
 

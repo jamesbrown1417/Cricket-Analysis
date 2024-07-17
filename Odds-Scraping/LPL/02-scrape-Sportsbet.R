@@ -781,7 +781,24 @@ player_props_function <- function() {
   x_over_markets <-
     x_over_markets |>
     map("result") |>
-    map_df(bind_rows) |>
+    map_df(bind_rows)
+  
+  # If nrow is zero make empty tibble
+  if (nrow(x_over_markets) == 0) {
+    x_over_markets <-
+      tibble(match = character(),
+             start_date = character(),
+             market_name = character(),
+             selection_name_prop = character(),
+             prop_market_name = character(),
+             handicap = numeric(),
+             prop_market_price = numeric(),
+             url = character(),
+             agency = character())
+  }
+  
+  x_over_markets <-
+    x_over_markets |>
     mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
@@ -820,7 +837,8 @@ player_props_function <- function() {
   first_over_runs_all <-
     first_over_runs_overs |>
     left_join(first_over_runs_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |> 
+    select(-home_team, -away_team)
   
   # Write out data-------------------------------------------------------------
   write_csv(first_over_runs_all,
@@ -875,7 +893,8 @@ player_props_function <- function() {
   fall_of_wicket_all <-
     fall_of_wicket_overs |>
     left_join(fall_of_wicket_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |> 
+    select(-home_team, -away_team)
   
   # Write out data-------------------------------------------------------------
   write_csv(fall_of_wicket_all,
@@ -931,7 +950,8 @@ player_props_function <- function() {
     first_over_runs_overs |>
     left_join(first_over_runs_unders,
               by = c("match", "market", "home_team", "away_team", "line")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |> 
+    select(-home_team, -away_team)
   
   # Method of first dismissal
   first_dismissal_data <-

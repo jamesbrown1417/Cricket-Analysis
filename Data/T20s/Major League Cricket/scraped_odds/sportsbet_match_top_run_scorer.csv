@@ -1,33 +1,63 @@
 match,market,home_team,away_team,player_name,price
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Jason Roy,6.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Finn Allen,7.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Matt Short,7.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Alex Carey,8
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Jake Fraser-McGurk,8.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Josh Inglis,8.75
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Unmukt Chand,9
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,David Miller,10.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Shakib Al Hasan,10
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Sunil Narine,10.5
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Andre Russell,15
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Corey Anderson,17
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Sherfane Rutherford,26
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Sanjay Prasad Krishnamurthi,34
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Saif Badar,41
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Hassan Khan,46
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Pat Cummins,46
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Tajinder Singh,46
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Adithya Ganesh,71
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Matthew Tromp,71
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Nitish Kumar,71
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Abrar Ahmed,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Adam Zampa,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Brody L Couch,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Carmi le Roux,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Corne Dry,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Haris Rauf,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Joshua Little,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Liam Plunkett,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Matt Henry,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Muhammad Ahsan Ali Khan,101
-Los Angeles Knight Riders v San Francisco Unicorns,Top Team Run Scorer,Los Angeles Knight Riders,San Francisco Unicorns,Spencer Johnson,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Nicholas Pooran,4.9
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Travis Michael Head,5.9
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Dewald Brevis,6.75
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Steven Peter Devereux Smith,6.75
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Kieron Pollard,10.5
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Andries Gous,11.5
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Rachin Ravindra,11
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Glenn Maxwell,12.5
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Steven Taylor,12
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Monank Patel,13
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Shayan Jahangir,13
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Ruben Clinton,15
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Akhilesh Reddy Bodugum,16
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Lahiru Milantha,17
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Tim David,17
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Rashid Khan,29
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Romario Shepherd,29
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Mukhtar Ahmed,34
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Heath Richards,41
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Obus Pienaar,46
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Akeal Hosein,51
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Marco Jansen,51
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Ehsan Adil,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Ian Holland,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Justin Dill,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Kagiso Rabada,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Lockie Ferguson,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Nosthush Kenjige,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Saurabh Netravalkar,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Trent Boult,101
+Mi New York v Washington Freedom,Top Team Run Scorer,Mi New York,Washington Freedom,Yasir Saeed Mohammad,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Heinrich Klaasen,5.6
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Quinton de Kock,6.25
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Jason Roy,7.75
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Ryan Rickelton,7.5
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,David Miller,8.75
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Alex Carey,10
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Shakib Al Hasan,10.5
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Unmukt Chand,10
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Nauman Anwar,11
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Shehan Jayasuriya,12
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Sunil Narine,12.5
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Michael Bracewell,14
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Aaron Jones,19
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Adithya Ganesh,23
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Andre Russell,23
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Matthew Tromp,23
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Imad Wasim,46
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Nitish Kumar,46
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Saif Badar,46
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Wayne Parnell,46
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Hammad Azam,51
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Harmeet Singh Baddhan,67
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Adam Zampa,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Cameron Gannon,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Joshua Little,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Muhammad Ahsan Ali Khan,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Nandre Burger,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Obed McCoy,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Shadley Van Schalkwyk,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Spencer Johnson,101
+Seattle Orcas v Los Angeles Knight Riders,Top Team Run Scorer,Seattle Orcas,Los Angeles Knight Riders,Zaman Khan,101

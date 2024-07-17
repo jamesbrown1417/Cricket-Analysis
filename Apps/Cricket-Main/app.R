@@ -677,7 +677,6 @@ server <- function(input, output, session) {
   
       filtered_team_stats <-
         innings_stats_long |>
-        mutate(game_number = row_number()) |> 
         select(Date = match_date,
                Event = event,
                Venue = venue,
@@ -700,8 +699,7 @@ server <- function(input, output, session) {
                `First Over Runs` = first_over_total,
                `First Over Wickets` = first_over_wickets,
                `First Over 4s` = first_over_fours,
-               `First Over 6s` = first_over_sixes,
-               game_number) |> 
+               `First Over 6s` = first_over_sixes) |> 
         arrange(desc(Date))
     
     # Filter by last n games
@@ -728,7 +726,7 @@ server <- function(input, output, session) {
       filtered_team_stats |>
       filter(Event %in% input$event_input_c)
     
-    # Filter by venue
+    # Filter by venue  
     if (!is.null(input$venue_input_c)) {
       filtered_team_stats <-
         filtered_team_stats |>
@@ -741,6 +739,11 @@ server <- function(input, output, session) {
         filtered_team_stats |>
         filter(Batting %in% input$team_name_input_c)
     }
+    
+    # Now make game number
+    filtered_team_stats <-
+      filtered_team_stats |>
+      mutate(game_number = row_number())
     
     # Return filtered player stats
     return(filtered_team_stats)
