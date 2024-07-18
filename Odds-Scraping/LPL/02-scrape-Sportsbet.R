@@ -322,7 +322,7 @@ player_props_function <- function() {
     filter(str_detect(prop_market_name, "Top Match Batter")) |>
     transmute(
       match,
-      market = "Top Team Run Scorer",
+      market = "Top Match Run Scorer",
       home_team,
       away_team,
       player_name = selection_name_prop,
@@ -505,6 +505,7 @@ player_props_function <- function() {
   # Combine
   top_team_wicket_taker <-
     bind_rows(home_top_wicket_taker, away_top_wicket_taker) |>
+    mutate(agency = "Sportsbet") |>
     mutate(
       player_name = case_when(player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
                               .default = player_name)
@@ -581,11 +582,46 @@ player_props_function <- function() {
     left_join(team_names, by = "match_id") |>
     mutate(match = paste(home_team, "v", away_team))
   
-  # Team Totals-----------------------------------------------------------------
-  team_totals_overs <-
-    team_totals |>
-    filter(str_detect(prop_market_name, "Total Runs")) |> 
-    filter(str_detect(selection_name_prop, "Over"))
+  # 6 Over Team Totals-----------------------------------------------------------------
+    
+    # Overs
+    team_totals_6_overs_overs <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "6 Overs Total Runs")) |>
+      filter(str_detect(selection_name_prop, "Over")) |>
+      transmute(
+        match,
+        market = "6 Over Total Runs",
+        team = str_remove(prop_market_name, " 6 Overs Total Runs"),
+        line = handicap,
+        over_price = prop_market_price
+      )
+    
+    # Unders
+    team_totals_6_overs_unders <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "6 Overs Total Runs")) |>
+      filter(str_detect(selection_name_prop, "Under")) |>
+      transmute(
+        match,
+        market = "6 Over Total Runs",
+        team = str_remove(prop_market_name, " 6 Overs Total Runs"),
+        line = handicap,
+        under_price = prop_market_price
+      )
+    
+    # Combine
+    team_totals_6_overs <-
+      team_totals_6_overs_overs |>
+      left_join(team_totals_6_overs_unders) |> 
+      mutate(agency = "Sportsbet") |>
+      relocate(under_price, .after = over_price)
+    
+    # Write to csv
+    write_csv(
+      team_totals_6_overs,
+      "Data/T20s/LPL/scraped_odds/sportsbet_team_totals_6_overs.csv"
+    )
   
   #===============================================================================
   # Match Markets

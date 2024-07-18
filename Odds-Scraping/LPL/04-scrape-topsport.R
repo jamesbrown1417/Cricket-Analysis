@@ -5,7 +5,10 @@ library(httr2)
 library(jsonlite)
 
 # URL of website
-topsport_url = "https://www.topsport.com.au/Sport/Cricket/LPL_Matches/Matches"
+# topsport_url = "https://www.topsport.com.au/Sport/Cricket/LPL_Matches/Matches"
+
+# Finals URL - comment out for regular season
+topsport_url = "https://www.topsport.com.au/Sport/Cricket/LPL_Finals/Matches"
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -395,7 +398,7 @@ player_wickets |>
 
 # Get URLs
 pick_your_own_fours_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Fours")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player_Fours")]
 
 # Map function
 player_fours_alternate <-
@@ -433,7 +436,7 @@ player_fours_alternate <-
 
 # Get URLs
 pick_your_own_sixes_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Sixes")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player_Sixes")]
 
 # Map function
 player_sixes_alternate <-
@@ -539,8 +542,27 @@ first_over_runs <-
 first_over_runs_overs <-
   first_over_runs |>
   filter(!str_detect(Selection, "Under")) |>
+  mutate(team = str_remove(Selection, ".* Total Runs In First Over ")) |> 
+  mutate(team = str_remove(team, " Over .*")) |>
   mutate(market = "First Over Runs", agency = "TopSport") |>
-  select(match, market, line, over_price = Win, agency)
+  select(match, team, market, line, over_price = Win, agency)
+
+# Unders
+first_over_runs_unders <-
+  first_over_runs |>
+  filter(str_detect(Selection, "Under")) |>
+  mutate(team = str_remove(Selection, ".* Total Runs In First Over ")) |> 
+  mutate(team = str_remove(team, " Under .*")) |>
+  mutate(market = "First Over Runs", agency = "TopSport") |>
+  select(match, team, market, line, under_price = Win, agency)
+
+# Combine
+first_over_runs <- 
+  left_join(first_over_runs_overs, first_over_runs_unders)
+
+# Write out first over runs
+first_over_runs |> 
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_first_over_runs.csv")
 
 #===============================================================================
 # Runs At Fall of First Wicket - Team
@@ -601,3 +623,55 @@ runs_at_first_wicket_team_runs_all <-
 runs_at_first_wicket_team_runs_all |> 
   write_csv("Data/T20s/LPL/scraped_odds/topsport_runs_at_first_wicket.csv")
 
+#===============================================================================
+# Most Team Wickets
+#===============================================================================
+
+# Get data for most team wickets -----------------------------------------------
+
+# Get URLs
+most_team_wickets_markets <- 
+  topsport_other_markets[str_detect(topsport_other_markets, "Most_Wickets_")]
+
+# Map function
+most_team_wickets <-
+  map(most_team_wickets_markets, read_topsport_html) |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(most_team_wickets) == 0) {
+  most_team_wickets <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+# Tidy up
+most_team_wickets <-
+  most_team_wickets |>
+  rename(price = Win) |>
+  mutate(player_name = str_remove_all(Selection, " \\(.*$")) |> 
+  separate(match, c("home_team", "away_team"), sep = " v ",remove = FALSE) |>
+  mutate(team = str_extract(Selection, "\\(.*$")) |>
+  mutate(player_team = str_remove_all(team, "[()]")) |> 
+  mutate(opposition_team = ifelse(player_team == home_team, away_team, home_team)) |> 
+  transmute(match,
+            market = "Top Team Wicket Taker",
+            home_team,
+            away_team,
+            player_name,
+            player_team,
+            opposition_team,
+            price,
+            agency = "TopSport")
+
+# Write out
+most_team_wickets |> 
+  write_csv("Data/T20s/LPL/scraped_odds/topsport_top_team_wicket_taker.csv")
+
+  
