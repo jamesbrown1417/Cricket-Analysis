@@ -673,5 +673,3 @@ most_team_wickets <-
 # Write out
 most_team_wickets |> 
   write_csv("Data/T20s/LPL/scraped_odds/topsport_top_team_wicket_taker.csv")
-
-  

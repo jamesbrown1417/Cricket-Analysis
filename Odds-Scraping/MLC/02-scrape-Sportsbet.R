@@ -322,7 +322,7 @@ player_props_function <- function() {
     filter(str_detect(prop_market_name, "Top Match Batter")) |>
     transmute(
       match,
-      market = "Top Team Run Scorer",
+      market = "Top Match Run Scorer",
       home_team,
       away_team,
       player_name = selection_name_prop,
