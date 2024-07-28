@@ -1,42 +1,37 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Rashid Khan,Mi New York,San Francisco Unicorns,3.5
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Trent Boult,Mi New York,San Francisco Unicorns,3.9
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Anrich Nortje,Mi New York,San Francisco Unicorns,4
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Kagiso Rabada,Mi New York,San Francisco Unicorns,4
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Ehsan Adil,Mi New York,San Francisco Unicorns,5.6
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Romario Shepherd,Mi New York,San Francisco Unicorns,5.6
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Kieron Pollard,Mi New York,San Francisco Unicorns,7.75
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Nosthush Kenjige,Mi New York,San Francisco Unicorns,7.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Dwayne Bravo,Texas Super Kings,Washington Freedom,3.9
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Naveen-ul-Haq Murid,Texas Super Kings,Washington Freedom,3.9
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Marcus Stoinis,Texas Super Kings,Washington Freedom,4.4
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Cameron Stevenson,Texas Super Kings,Washington Freedom,5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Gerald Coetzee,Texas Super Kings,Washington Freedom,5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Mitchell Santner,Texas Super Kings,Washington Freedom,5.25
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Noor Ahmad,Texas Super Kings,Washington Freedom,5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Zia Ul Haq,Texas Super Kings,Washington Freedom,5.9
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Raj Rocky Nannan,Texas Super Kings,Washington Freedom,6.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Zia Muhammad Shahzad,Texas Super Kings,Washington Freedom,6.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Aaron Hardie,Texas Super Kings,Washington Freedom,7
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Mohammad Mohsin,Texas Super Kings,Washington Freedom,7
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Haris Rauf,San Francisco Unicorns,Mi New York,3.8
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Abrar Ahmed,San Francisco Unicorns,Mi New York,4.7
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Liam Plunkett,San Francisco Unicorns,Mi New York,4.3
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Matt Henry,San Francisco Unicorns,Mi New York,4.7
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Pat Cummins,San Francisco Unicorns,Mi New York,4.3
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Brody L Couch,San Francisco Unicorns,Mi New York,5
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Carmi le Roux,San Francisco Unicorns,Mi New York,5.5
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Matt Short,San Francisco Unicorns,Mi New York,6.75
-Mi New York v San Francisco Unicorns,Top Team Wicket Taker,Mi New York,San Francisco Unicorns,Corey Anderson,San Francisco Unicorns,Mi New York,9.75
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Lockie Ferguson,Washington Freedom,Texas Super Kings,3.8
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Akeal Hosein,Washington Freedom,Texas Super Kings,4.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Andrew Tye,Washington Freedom,Texas Super Kings,4.25
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Marco Jansen,Washington Freedom,Texas Super Kings,4.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Saurabh Netravalkar,Washington Freedom,Texas Super Kings,4.25
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Amila Aponso,Washington Freedom,Texas Super Kings,5.9
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Ian Holland,Washington Freedom,Texas Super Kings,5.7
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Jessy Singh,Washington Freedom,Texas Super Kings,5.2
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Justin Dill,Washington Freedom,Texas Super Kings,5.5
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Glenn Maxwell,Washington Freedom,Texas Super Kings,6
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Yasir Saeed Mohammad,Washington Freedom,Texas Super Kings,6.25
-Texas Super Kings v Washington Freedom,Top Team Wicket Taker,Texas Super Kings,Washington Freedom,Rachin Ravindra,Washington Freedom,Texas Super Kings,7.5
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Akeal Hosein,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Akhilesh Reddy Bodugum,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Lockie Ferguson,Washington Freedom,San Francisco Unicorns,3.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Amila Aponso,Washington Freedom,San Francisco Unicorns,4.3
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Andrew Tye,Washington Freedom,San Francisco Unicorns,4.3
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Andries Gous,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Jessy Singh,Washington Freedom,San Francisco Unicorns,4.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Lahiru Milantha,Washington Freedom,San Francisco Unicorns,4.6
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Marco Jansen,Washington Freedom,San Francisco Unicorns,4.4
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Saurabh Netravalkar,Washington Freedom,San Francisco Unicorns,4.4
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Justin Dill,Washington Freedom,San Francisco Unicorns,5.6
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Ian Holland,Washington Freedom,San Francisco Unicorns,6
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Glenn Maxwell,Washington Freedom,San Francisco Unicorns,7.25
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Mukhtar Ahmed,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Obus Pienaar,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Rachin Ravindra,Washington Freedom,San Francisco Unicorns,7
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Steven Peter Devereux Smith,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Travis Michael Head,Washington Freedom,San Francisco Unicorns,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Yasir Saeed Mohammad,Washington Freedom,San Francisco Unicorns,6.25
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Abrar Ahmed,San Francisco Unicorns,Washington Freedom,4.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Brody L Couch,San Francisco Unicorns,Washington Freedom,4.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Matt Henry,San Francisco Unicorns,Washington Freedom,4.3
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Carmi le Roux,San Francisco Unicorns,Washington Freedom,5.3
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Hassan Khan,San Francisco Unicorns,Washington Freedom,5.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Corey Anderson,San Francisco Unicorns,Washington Freedom,9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Finn Allen,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Haris Rauf,San Francisco Unicorns,Washington Freedom,3.8
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Jake Fraser-McGurk,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Josh Inglis,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Liam Plunkett,San Francisco Unicorns,Washington Freedom,4.9
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Juanoy Drysdale,San Francisco Unicorns,Washington Freedom,5.3
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Matt Short,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Pat Cummins,San Francisco Unicorns,Washington Freedom,4.2
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Sanjay Prasad Krishnamurthi,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Sherfane Rutherford,San Francisco Unicorns,Washington Freedom,NA
+Washington Freedom v San Francisco Unicorns,Top Team Wicket Taker,Washington Freedom,San Francisco Unicorns,Tajinder Singh,San Francisco Unicorns,Washington Freedom,6.5
