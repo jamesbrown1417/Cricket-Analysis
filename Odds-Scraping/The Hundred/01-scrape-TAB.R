@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL to get responses
-tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/The%20Hundred?jurisdiction=SA"
+tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/The%20Hundred%20-%20Mens%20Matches?jurisdiction=SA"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
