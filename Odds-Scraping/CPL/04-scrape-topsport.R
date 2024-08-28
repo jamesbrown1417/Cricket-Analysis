@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL of website
-topsport_url = "https://www.topsport.com.au/Sport/CricketMens_The_Hundred_Matches/Matches"
+topsport_url = "https://www.topsport.com.au/Sport/Cricket/CPL_Matches/Matches"
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -41,6 +41,15 @@ topsport_other_markets <- paste0("https://www.topsport.com.au", topsport_other_m
 # Get only distinct URLs
 topsport_other_markets <- unique(topsport_other_markets)
 
+# Function to fix team names for TopSport CPL
+fix_team_names <- function(team_name_vector) {
+  team_name_vector <- case_when(
+    str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
+    TRUE ~ team_name_vector
+  )
+}
+
 #===============================================================================
 # Head to Head markets---------------------------------------------------------#
 #===============================================================================
@@ -73,8 +82,8 @@ head_to_head_main <- function() {
   # Fix names
   topsport_h2h <-
     topsport_h2h |> 
-    # mutate(home_team = fix_team_names(home_team)) |>
-    # mutate(away_team = fix_team_names(away_team)) |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team)) |> 
     mutate(market_name = "Head To Head") |>
     mutate(home_win = as.numeric(home_win)) |>
@@ -86,7 +95,7 @@ head_to_head_main <- function() {
     filter(!is.na(home_win))
   
   # Write to csv
-  write_csv(topsport_h2h, "Data/T20s/Major League Cricket/scraped_odds/topsport_h2h.csv")
+  write_csv(topsport_h2h, "Data/T20s/CPL/scraped_odds/topsport_h2h.csv")
 }
 
 head_to_head_main()
@@ -238,12 +247,16 @@ player_runs_all <-
     sep = " v ",
     remove = FALSE
   ) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(player_team = fix_team_names(player_team)) |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
       player_team == away_team ~ home_team
     )
   ) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
   select(
     match,
     market = market_name,
@@ -261,7 +274,7 @@ player_runs_all <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_runs_all |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_runs.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_runs.csv")
 
 #===============================================================================
 # Player Wickets
@@ -361,6 +374,9 @@ player_wickets <-
     sep = " v ",
     remove = FALSE
   ) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(player_team = fix_team_names(player_team)) |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -384,7 +400,7 @@ player_wickets <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_wickets |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_wickets.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_wickets.csv")
 
 #===============================================================================
 # Boundaries
@@ -478,6 +494,9 @@ player_boundaries <-
     sep = " v ",
     remove = FALSE
   ) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(player_team = fix_team_names(player_team)) |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -500,7 +519,7 @@ player_boundaries <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, .keep_all = TRUE)
 
 player_boundaries |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_player_boundaries.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_boundaries.csv")
 
 #===============================================================================
 # First Over Runs
@@ -554,11 +573,22 @@ first_over_runs_unders <-
 
 # Combine
 first_over_runs <- 
-  left_join(first_over_runs_overs, first_over_runs_unders)
+  left_join(first_over_runs_overs, first_over_runs_unders) |> 
+  separate(
+    match,
+    into = c("home_team", "away_team"),
+    sep = " v ",
+    remove = FALSE
+  ) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(team = fix_team_names(team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(match, team, market, line, over_price, under_price, agency)
 
 # Write out first over runs
 first_over_runs |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_first_over_runs.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_first_over_runs.csv")
 
 #===============================================================================
 # Runs At Fall of First Wicket - Team
@@ -613,11 +643,21 @@ runs_at_first_wicket_team_runs_unders <-
 runs_at_first_wicket_team_runs_all <-
   runs_at_first_wicket_team_runs_overs |>
   left_join(runs_at_first_wicket_team_runs_unders) |>
+  separate(
+    match,
+    into = c("home_team", "away_team"),
+    sep = " v ",
+    remove = FALSE
+  ) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(team = fix_team_names(team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
   select(match, market, team, line, over_price, under_price, agency)
 
 # Write out
 runs_at_first_wicket_team_runs_all |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_runs_at_first_wicket.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_runs_at_first_wicket.csv")
 
 #===============================================================================
 # Most Team Wickets
@@ -627,7 +667,7 @@ runs_at_first_wicket_team_runs_all |>
 
 # Get URLs
 most_team_wickets_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Most_Wickets_")]
+  topsport_other_markets[str_detect(topsport_other_markets, "\\/Most_Wickets_")]
 
 # Map function
 most_team_wickets <-
@@ -664,8 +704,13 @@ most_team_wickets <-
             player_team,
             opposition_team,
             price,
-            agency = "TopSport")
+            agency = "TopSport") |> 
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(player_team = fix_team_names(player_team)) |>
+  mutate(opposition_team = fix_team_names(opposition_team)) |> 
+  mutate(match = paste(home_team, "v", away_team))
 
 # Write out
 most_team_wickets |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/topsport_top_team_wicket_taker.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_top_team_wicket_taker.csv")

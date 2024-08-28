@@ -169,8 +169,28 @@ unique_teams <-
   pull(innings_1_batting_team)
 
 #===============================================================================
-# Read in scraped odds
+# Read in processed odds
 #===============================================================================
+
+# CPL---------------------------------------------------------------------------
+all_files_cpl <- list.files("../../Data/T20s/CPL/processed_odds/", full.names = TRUE, pattern = "rds")
+
+# Get names
+all_files_cpl_names <- all_files_cpl |> str_remove("../../Data/T20s/CPL/processed_odds/") |> str_remove(".rds")
+
+# Read in files in a loop
+cpl_odds <-
+  map(all_files_cpl, read_rds) |> 
+  set_names(all_files_cpl_names)
+
+# Combine all
+player_runs <- bind_rows(cpl_odds$player_runs)
+fall_of_first_wicket <- bind_rows(cpl_odds$runs_at_first_wicket)
+first_over_runs <- bind_rows(cpl_odds$first_over_runs)
+match_sixes <- bind_rows(cpl_odds$match_sixes)
+team_sixes <- bind_rows(cpl_odds$team_sixes)
+match_fours <- bind_rows(cpl_odds$match_fours)
+team_fours <- bind_rows(cpl_odds$team_fours)
 
 #===============================================================================
 # UI
@@ -380,30 +400,12 @@ ui <- page_navbar(
         area = "odds_screen",
         card_header("Settings"),
         card_body(
-          # Add your specific input fields here
-          # Example: selectInput, textInput, numericInput, etc.
-          # selectInput(
-          #   inputId = "agency_input",
-          #   label = "Select Agencies:",
-          #   choices = player_runs_data$agency |> unique(),
-          #   multiple = TRUE,
-          #   selectize = TRUE,
-          #   selected = player_runs_data$agency |> unique(),
-          # ),
           selectInput(
             inputId = "market_input",
             label = "Select Market:",
-            choices = c("Runs", "Wickets", "Boundaries"),
+            choices = c("Player Runs", "Fall of First Wicket", "First Over Runs", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Boundaries"),
             multiple = FALSE
           ),
-          # selectInput(
-          #   inputId = "match_input",
-          #   label = "Select Matches:",
-          #   choices = player_runs_data$match |> unique(),
-          #   multiple = TRUE,
-          #   selectize = FALSE,
-          #   selected = player_runs_data$match |> unique()
-          # ),
           textInput(
             inputId = "player_name_input_b",
             label = "Select Player:",
@@ -432,7 +434,6 @@ ui <- page_navbar(
                 ))
     )
   )
-  # You can add more nav_panels here if needed for other sections of your new project
 )
 
 #===============================================================================
@@ -896,61 +897,91 @@ server <- function(input, output, session) {
   scraped_odds <- reactive({
     # Get odds---------------------------------------------------------------
     
-    # Runs
-    if (input$market_input == "Runs") {
+    # Player Runs
+    if (input$market_input == "Player Runs") {
       odds <-
-        player_runs_data |> 
-        mutate(variation = round(variation, 2)) |>
-        filter(match %in% input$match_input) |>
-        select(-match)
+        player_runs |> 
+        select(-player_team, -opposition_team)
     }
     
-    # Boundaries
-    if (input$market_input == "Boundaries") {
+    # Player Boundaries
+    if (input$market_input == "Player Boundaries") {
       odds <-
-        player_boundaries_data |> 
-        mutate(variation = round(variation, 2)) |>
-        filter(match %in% input$match_input) |>
-        select(-match) 
+        player_boundaries_data
     }
     
-    # Wickets
-    if (input$market_input == "Wickets") {
+    # Player Wickets
+    if (input$market_input == "Player Wickets") {
       odds <-
-        player_wickets_data |> 
-        mutate(variation = round(variation, 2)) |>
-        filter(match %in% input$match_input) |>
-        select(-match)
+        player_wickets_data
     }
     
-    if (input$player_name_input_b != "") {
+    # Fall of First Wicket
+    if (input$market_input == "Fall of First Wicket") {
       odds <-
-        odds |>
-        filter(str_detect(player_name, input$player_name_input_b))
+        fall_of_first_wicket
     }
     
-    if (input$only_best == TRUE) {
+    # First Over Runs
+    if (input$market_input == "First Over Runs") {
       odds <-
-        odds |> 
-        arrange(player_name, line, desc(over_price)) |>
-        group_by(player_name, market, line) |> 
-        slice_head(n = 1) |>
-        ungroup()
+        first_over_runs
     }
     
-    if (input$only_best_unders == TRUE) {
+    # Match Sixes
+    if (input$market_input == "Match Sixes") {
       odds <-
-        odds |> 
-        arrange(player_name, line, desc(under_price)) |>
-        group_by(player_name, market, line) |> 
-        slice_head(n = 1) |>
-        ungroup()
+        match_sixes
     }
     
-    if (input$only_unders == TRUE) {
+    # Team Sixes
+    if (input$market_input == "Team Sixes") {
       odds <-
-        odds |> 
-        filter(!is.na(under_price))
+        team_sixes
+    }
+    
+    # Match Fours
+    if (input$market_input == "Match Fours") {
+      odds <-
+        match_fours
+    }
+    
+    # Team Fours
+    if (input$market_input == "Team Fours") {
+      odds <-
+        team_fours
+    }
+    
+    if (input$market_input %in% c("Player Runs", "Player Wickets", "Player Boundaries")) {
+      if (input$player_name_input_b != "") {
+        odds <-
+          odds |>
+          filter(str_detect(player_name, input$player_name_input_b))
+      }
+      
+      if (input$only_best == TRUE) {
+        odds <-
+          odds |>
+          arrange(player_name, line, desc(over_price)) |>
+          group_by(player_name, market, line) |>
+          slice_head(n = 1) |>
+          ungroup()
+      }
+      
+      if (input$only_best_unders == TRUE) {
+        odds <-
+          odds |>
+          arrange(player_name, line, desc(under_price)) |>
+          group_by(player_name, market, line) |>
+          slice_head(n = 1) |>
+          ungroup()
+      }
+      
+      if (input$only_unders == TRUE) {
+        odds <-
+          odds |>
+          filter(!is.na(under_price))
+      }
     }
     
     # Return odds
@@ -963,7 +994,7 @@ server <- function(input, output, session) {
               fillContainer = TRUE,
               filter = "top",
               options = list(
-                pageLength = 17,
+                pageLength = 15,
                 autoWidth = FALSE,
                 scrollX = TRUE, scrollY = TRUE,
                 lengthMenu = c(5, 10, 15, 20, 25, 30)

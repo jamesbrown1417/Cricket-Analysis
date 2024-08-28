@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # URL of website
-sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/the-hundred"
+sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/caribbean-premier-league"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
@@ -50,6 +50,15 @@ separated_names <-
                                     full_join_name == "Noor Lakanwal" ~ "Noor Ahmad",
                                     full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
                                     TRUE ~ full_join_name))
+
+# Function to fix team names for Sportsbet CPL
+fix_team_names <- function(team_name_vector) {
+  team_name_vector <- case_when(
+    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St. Kitts") ~ "St Kitts and Nevis Patriots",
+    TRUE ~ team_name_vector
+  )
+}
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -119,6 +128,8 @@ main_markets_function <- function() {
   
   sportsbet_h2h <-
     all_main_market_data |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team)) |>
     mutate(market_name = "Head To Head") |>
     mutate(home_win = as.numeric(home_win)) |>
@@ -133,7 +144,7 @@ main_markets_function <- function() {
     mutate(agency = "Sportsbet")
   
   # Write to csv
-  write_csv(sportsbet_h2h, "Data/T20s/The Hundred/scraped_odds/sportsbet_h2h.csv")
+  write_csv(sportsbet_h2h, "Data/T20s/CPL/scraped_odds/sportsbet_h2h.csv")
   
 }
 
@@ -314,6 +325,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |> 
     mutate(match = paste(home_team, "v", away_team))
   
   # Get match top run scorer
@@ -442,10 +455,10 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(match_top_run_scorer,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_match_top_run_scorer.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_match_top_run_scorer.csv")
   
   write_csv(player_runs_all,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_player_runs.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_player_runs.csv")
   
   #===============================================================================
   # Top Wicket Takers
@@ -464,6 +477,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
 
   # Get home team top wicket taker
@@ -472,6 +487,7 @@ player_props_function <- function() {
     filter(str_detect(prop_market_name, "Top .* Wicket Taker")) |>
     mutate(player_team = str_remove(prop_market_name, "Top ")) |>
     mutate(player_team = str_remove(player_team, " Wicket Taker \\(20 Overs\\)")) |>
+    mutate(player_team = fix_team_names(player_team)) |>
     filter(player_team == home_team) |>
     transmute(
       match,
@@ -490,6 +506,7 @@ player_props_function <- function() {
     filter(str_detect(prop_market_name, "Top .* Wicket Taker")) |>
     mutate(player_team = str_remove(prop_market_name, "Top ")) |>
     mutate(player_team = str_remove(player_team, " Wicket Taker \\(20 Overs\\)")) |>
+    mutate(player_team = fix_team_names(player_team)) |>
     filter(player_team == away_team) |>
     transmute(
       match,
@@ -547,12 +564,12 @@ player_props_function <- function() {
   # Write to csv----------------------------------------------------------------
   write_csv(
     player_wickets_alternative_lines,
-    "Data/T20s/The Hundred/scraped_odds/sportsbet_player_wickets.csv"
+    "Data/T20s/CPL/scraped_odds/sportsbet_player_wickets.csv"
   )
   
   write_csv(
     top_team_wicket_taker,
-    "Data/T20s/The Hundred/scraped_odds/sportsbet_top_team_wicket_taker.csv"
+    "Data/T20s/CPL/scraped_odds/sportsbet_top_team_wicket_taker.csv"
   )
   
   #===============================================================================
@@ -579,13 +596,89 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
-  
-  # Team Totals-----------------------------------------------------------------
-  team_totals_overs <-
-    team_totals |>
-    filter(str_detect(prop_market_name, "Total Runs")) |> 
-    filter(str_detect(selection_name_prop, "Over"))
+    
+    # Six Over Total Runs-------------------------------------------------------
+    team_totals_six_overs <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "6 Overs")) |> 
+      filter(str_detect(selection_name_prop, "Over")) |>
+      mutate(team = str_remove(prop_market_name, " 6 Overs.*")) |> 
+      mutate(team = fix_team_names(team)) |>
+      transmute(
+        match,
+        market = "Team X Over Total Runs",
+        home_team,
+        away_team,
+        team,
+        overs = 6,
+        line = handicap,
+        over_price = prop_market_price
+      )
+    
+    team_totals_six_unders <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "6 Overs")) |> 
+      filter(str_detect(selection_name_prop, "Under")) |>
+      mutate(team = str_remove(prop_market_name, " 6 Overs.*")) |> 
+      mutate(team = fix_team_names(team)) |>
+      transmute(
+        match,
+        market = "Team X Over Total Runs",
+        home_team,
+        away_team,
+        team,
+        overs = 6,
+        line = handicap,
+        under_price = prop_market_price
+      )
+    
+    team_totals_six <-
+      team_totals_six_overs |>
+      left_join(team_totals_six_unders) |> 
+      mutate(agency = "Sportsbet")
+      
+    # Ten Over Total Runs-------------------------------------------------------
+    team_totals_ten_overs <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "10 Overs")) |> 
+      filter(str_detect(selection_name_prop, "Over")) |>
+      mutate(team = str_remove(prop_market_name, " 10 Overs.*")) |> 
+      mutate(team = fix_team_names(team)) |>
+      transmute(
+        match,
+        market = "Team X Over Total Runs",
+        home_team,
+        away_team,
+        team,
+        overs = 10,
+        line = handicap,
+        over_price = prop_market_price
+      )
+    
+    team_totals_ten_unders <-
+      team_totals |>
+      filter(str_detect(prop_market_name, "10 Overs")) |> 
+      filter(str_detect(selection_name_prop, "Under")) |>
+      mutate(team = str_remove(prop_market_name, " 10 Overs.*")) |> 
+      mutate(team = fix_team_names(team)) |>
+      transmute(
+        match,
+        market = "Team X Over Total Runs",
+        home_team,
+        away_team,
+        team,
+        overs = 10,
+        line = handicap,
+        under_price = prop_market_price
+      )
+    
+    team_totals_ten <-
+      team_totals_ten_overs |>
+      left_join(team_totals_ten_unders) |> 
+      mutate(agency = "Sportsbet")
   
   #===============================================================================
   # Match Markets
@@ -604,6 +697,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
   
   # Match Fours-----------------------------------------------------------------
@@ -702,7 +797,8 @@ player_props_function <- function() {
   team_sixes <-
     team_sixes_overs |>
     left_join(team_sixes_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |> 
+    mutate(team = fix_team_names(team))
   
   # Team Fours------------------------------------------------------------------
   team_fours_overs <-
@@ -736,7 +832,8 @@ player_props_function <- function() {
   team_fours <-
     team_fours_overs |>
     left_join(team_fours_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |> 
+    mutate(team = fix_team_names(team))
   
   # Team Totals-----------------------------------------------------------------
   team_totals_overs <-
@@ -755,19 +852,25 @@ player_props_function <- function() {
   
   # Write out data-------------------------------------------------------------
   write_csv(team_totals_overs,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_team_totals_overs.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_overs.csv")
+  
+  write_csv(team_totals_six,
+            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_six_overs.csv")
+  
+  write_csv(team_totals_ten,
+            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_ten_overs.csv")
   
   write_csv(team_fours,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_team_fours.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_team_fours.csv")
   
   write_csv(team_sixes,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_team_sixes.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_team_sixes.csv")
   
   write_csv(match_sixes,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_match_sixes.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_match_sixes.csv")
   
   write_csv(match_fours,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_match_fours.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_match_fours.csv")
   
   #=============================================================================
   # X Overs
@@ -803,6 +906,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
   
   # Get First Over Runs
@@ -838,11 +943,12 @@ player_props_function <- function() {
     first_over_runs_overs |>
     left_join(first_over_runs_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
     mutate(agency = "Sportsbet") |> 
-    select(-home_team, -away_team)
+    select(-home_team, -away_team) |> 
+    mutate(team = fix_team_names(team))
   
   # Write out data-------------------------------------------------------------
   write_csv(first_over_runs_all,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_first_over_runs.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_first_over_runs.csv")
   
   #=============================================================================
   # Fall of Wicket
@@ -861,6 +967,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
   
   # Get Overs
@@ -893,11 +1001,12 @@ player_props_function <- function() {
   fall_of_wicket_all <-
     fall_of_wicket_overs |>
     left_join(fall_of_wicket_unders, by = c("match", "home_team", "away_team", "team", "line", "market")) |>
-    mutate(agency = "Sportsbet")
+    mutate(agency = "Sportsbet") |>
+    mutate(team = fix_team_names(team))
   
   # Write out data-------------------------------------------------------------
   write_csv(fall_of_wicket_all,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_runs_at_first_wicket.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_runs_at_first_wicket.csv")
   
   #===============================================================================
   # First Innings
@@ -916,6 +1025,8 @@ player_props_function <- function() {
     rename(match_id = url) |>
     mutate(match_id = as.numeric(match_id)) |>
     left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
     mutate(match = paste(home_team, "v", away_team))
   
   # First Over Runs
@@ -1039,11 +1150,11 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(first_over_runs,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_first_over_runs_first_innings.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_first_over_runs_first_innings.csv")
   write_csv(first_dismissal_data,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_first_dismissal_first_innings.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_first_dismissal_first_innings.csv")
   write_csv(first_wicket_runs,
-            "Data/T20s/The Hundred/scraped_odds/sportsbet_runs_at_first_wicket_first_innings.csv")
+            "Data/T20s/CPL/scraped_odds/sportsbet_runs_at_first_wicket_first_innings.csv")
   
   #=============================================================================
   # Boundaries
@@ -1184,7 +1295,7 @@ player_props_function <- function() {
   # # Write to csv----------------------------------------------------------------
   # player_boundaries_combined |>
   #   bind_rows(to_score_a_6) |>
-  #   write_csv("Data/T20s/The Hundred/scraped_odds/sportsbet_player_boundaries.csv")
+  #   write_csv("Data/T20s/CPL/scraped_odds/sportsbet_player_boundaries.csv")
 }
 
 ##%######################################################%##

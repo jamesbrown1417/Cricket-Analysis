@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL to get responses
-tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/The%20Hundred%20-%20Mens%20Matches?jurisdiction=SA"
+tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League?jurisdiction=SA"
 
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
@@ -50,47 +50,33 @@ separated_names <-
                                     full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
                                     TRUE ~ full_join_name))
 
-# Function to fetch and parse JSON with exponential backoff
-fetch_data_with_backoff <-
-  function(url,
-           delay = 1,
-           max_retries = 5,
-           backoff_multiplier = 2) {
-    tryCatch({
-      # Attempt to fetch and parse the JSON
-      tab_response <-
-        read_html_live(url) |>
-        html_nodes("pre") %>%
-        html_text() %>%
-        fromJSON(simplifyVector = FALSE)
-      
-      # Return the parsed response
-      return(tab_response)
-    }, error = function(e) {
-      if (max_retries > 0) {
-        # Log the retry attempt
-        message(sprintf("Error encountered. Retrying in %s seconds...", delay))
-        
-        # Wait for the specified delay
-        Sys.sleep(delay)
-        
-        # Recursively call the function with updated parameters
-        return(
-          fetch_data_with_backoff(
-            url,
-            delay * backoff_multiplier,
-            max_retries - 1,
-            backoff_multiplier
-          )
-        )
-      } else {
-        # Max retries reached, throw an error
-        stop("Failed to fetch data after multiple retries.")
-      }
-    })
-  }
+# Define the URL for the GET request
+tab_url <- "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League?jurisdiction=SA"
 
-tab_response <- fetch_data_with_backoff(tab_url)
+# Set the headers
+headers <- c(
+  "accept" = "application/json, text/plain, */*",
+  "accept-language" = "en-US,en;q=0.9",
+  "origin" = "https://www.tab.com.au",
+  "referer" = "https://www.tab.com.au/",
+  "sec-ch-ua" = '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+  "sec-ch-ua-mobile" = "?0",
+  "sec-ch-ua-platform" = '"Windows"',
+  "sec-fetch-dest" = "empty",
+  "sec-fetch-mode" = "cors",
+  "sec-fetch-site" = "same-site",
+  "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
+# Try response, if nothing in 3 seconds, make it null
+response <- tryCatch({
+  GET(tab_url, add_headers(.headers = headers), timeout(3))
+}, error = function(e) {
+  return(NULL)
+})
+
+# Get response body
+tab_response <- content(response, as = "parsed")
 
 # Function to extract market info from response---------------------------------
 get_market_info <- function(markets) {
@@ -124,14 +110,6 @@ get_match_info <- function(matches) {
   )
 }
 
-# # Get competitions
-# tab_competitions <-
-#   tab_response$competitions |> 
-#   map(~ .x$name)
-
-# # Get element of competitions that equals "Major League Cricket"
-# mlc_index <- which(tab_competitions == "Major League Cricket")
-
 # Map functions to data
 all_tab_markets <-
   map(tab_response$matches, get_match_info) |> bind_rows()
@@ -151,6 +129,15 @@ all_tab_markets <-
   mutate(match = str_replace(match, "Los Angeles", "Los Angeles Knight Riders")) |>
   mutate(match = str_replace(match, "San Francisco", "San Francisco Unicorns"))
 
+# Function to fix team names for TAB CPL
+fix_team_names <- function(team_name_vector) {
+  team_name_vector <- case_when(
+    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
+    TRUE ~ team_name_vector
+  )
+}
+
 #==============================================================================
 # Head to head
 #==============================================================================
@@ -160,6 +147,8 @@ head_to_head <-
   all_tab_markets |>
   filter(market_name == "Head To Head") |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |> 
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team, sep = " "))
 
 # Home Win
@@ -197,7 +186,7 @@ h2h_new <-
 
 # Write to csv
 h2h_new |> 
-write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_h2h.csv")
+write_csv("Data/T20s/CPL/scraped_odds/tab_h2h.csv")
 
 #==============================================================================
 # Player Runs Alternate Lines
@@ -336,7 +325,7 @@ player_runs <-
   select(-tab_name)
 
 player_runs |>
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_runs.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_player_runs.csv")
 
 #==============================================================================
 # Player Wickets Alternate Lines
@@ -384,7 +373,7 @@ player_wickets_alt <-
 
 # Combine all player wickets and write out-----------------------------------------
 player_wickets_alt |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_wickets.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_player_wickets.csv")
 
 #==============================================================================
 # Player Boundaries Alternate Lines
@@ -437,7 +426,7 @@ player_boundaries_alt <-
 
 # Combine all player boundaries and write out-----------------------------------------
 player_boundaries_alt |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_player_boundaries.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_player_boundaries.csv")
 
 #==============================================================================
 # Fall of first wicket
@@ -482,7 +471,7 @@ fall_of_first_wicket_overs |>
                           team == "Stl" ~ "Seattle Orcas",
                           team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_runs_at_first_wicket.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
 #==============================================================================
 # First Over Runs
@@ -527,7 +516,7 @@ first_over_runs_overs |>
                           team == "Stl" ~ "Seattle Orcas",
                           team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_first_over_runs.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_first_over_runs.csv")
 
 #===============================================================================
 # Team Total 4s
@@ -572,7 +561,7 @@ team_boundaries_overs |>
                           team == "Stl" ~ "Seattle Orcas",
                           team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_4s.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_4s.csv")
 
 #===============================================================================
 # Team Total 6s
@@ -617,7 +606,7 @@ team_boundaries_overs |>
                           team == "Stl" ~ "Seattle Orcas",
                           team == "Was" ~ "Washington Freedom",
                           TRUE ~ team)) |>
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_team_total_6s.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_6s.csv")
 
 #===============================================================================
 # Match Total Fours
@@ -656,7 +645,7 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_match_total_fours.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_match_total_fours.csv")
 
 #===============================================================================
 # Match Total Sixes
@@ -707,4 +696,4 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_match_total_sixes.csv")
+  write_csv("Data/T20s/CPL/scraped_odds/tab_match_total_sixes.csv")
