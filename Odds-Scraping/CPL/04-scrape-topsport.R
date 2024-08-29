@@ -559,7 +559,7 @@ first_over_runs_overs <-
   filter(!str_detect(Selection, "Under")) |>
   mutate(team = str_remove(Selection, ".* Total Runs In First Over ")) |> 
   mutate(team = str_remove(team, " Over .*")) |>
-  mutate(market = "First Over Runs", agency = "TopSport") |>
+  mutate(market = "First Over Runs - Team", agency = "TopSport") |>
   select(match, team, market, line, over_price = Win, agency)
 
 # Unders
@@ -568,7 +568,7 @@ first_over_runs_unders <-
   filter(str_detect(Selection, "Under")) |>
   mutate(team = str_remove(Selection, ".* Total Runs In First Over ")) |> 
   mutate(team = str_remove(team, " Under .*")) |>
-  mutate(market = "First Over Runs", agency = "TopSport") |>
+  mutate(market = "First Over Runs - Team", agency = "TopSport") |>
   select(match, team, market, line, under_price = Win, agency)
 
 # Combine

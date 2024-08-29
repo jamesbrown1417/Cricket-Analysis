@@ -27,7 +27,6 @@ run_scraping("Odds-Scraping/CPL/04-scrape-topsport.R")
 # run_scraping("Odds-Scraping/CPL/scrape_unibet.R")
 # run_scraping("Odds-Scraping/CPL/scrape_dabble.R")
 
-
 #===============================================================================
 # Read in all H2H
 #===============================================================================

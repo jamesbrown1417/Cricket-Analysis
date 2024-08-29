@@ -917,7 +917,7 @@ player_props_function <- function() {
     filter(str_detect(selection_name_prop, "Over")) |>
     transmute(
       match,
-      market = "First Over Runs",
+      market = "First Over Runs - Team",
       team = str_remove(prop_market_name, " 1st Over Total .*"),
       home_team,
       away_team,
@@ -931,7 +931,7 @@ player_props_function <- function() {
     filter(str_detect(selection_name_prop, "Under")) |>
     transmute(
       match,
-      market = "First Over Runs",
+      market = "First Over Runs - Team",
       team = str_remove(prop_market_name, " 1st Over Total .*"),
       home_team,
       away_team,

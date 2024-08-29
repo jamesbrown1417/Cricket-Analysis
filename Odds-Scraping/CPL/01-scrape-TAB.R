@@ -2,6 +2,7 @@
 library(tidyverse)
 library(rvest)
 library(httr2)
+library(httr)
 library(jsonlite)
 
 # URL to get responses
@@ -123,11 +124,7 @@ all_tab_markets <-
                   "start_time",
                   "market_name")),
          prop_name = propositions_name,
-         price = propositions_returnWin) |> 
-  mutate(match = str_replace(match, "Washington", "Washington Freedom")) |> 
-  mutate(match = str_replace(match, "Texas", "Texas Super Kings")) |> 
-  mutate(match = str_replace(match, "Los Angeles", "Los Angeles Knight Riders")) |>
-  mutate(match = str_replace(match, "San Francisco", "San Francisco Unicorns"))
+         price = propositions_returnWin)
 
 # Function to fix team names for TAB CPL
 fix_team_names <- function(team_name_vector) {
@@ -466,10 +463,13 @@ fall_of_first_wicket_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
-                          team == "Stl" ~ "Seattle Orcas",
-                          team == "Was" ~ "Washington Freedom",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
+                          team == "StK" ~ "St Kitts and Nevis Patriots",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -504,17 +504,20 @@ first_over_runs_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    market = "First Over Runs",
+    market = "First Over Runs - Team",
     team,
     line,
     over_price,
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
-                          team == "Stl" ~ "Seattle Orcas",
-                          team == "Was" ~ "Washington Freedom",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
+                          team == "StK" ~ "St Kitts and Nevis Patriots",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_first_over_runs.csv")
 
@@ -556,10 +559,13 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
-                          team == "Stl" ~ "Seattle Orcas",
-                          team == "Was" ~ "Washington Freedom",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
+                          team == "StK" ~ "St Kitts and Nevis Patriots",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_4s.csv")
 
@@ -601,10 +607,13 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "LA" ~ "Los Angeles",
-                          team == "SFr" ~ "San Francisco",
-                          team == "Stl" ~ "Seattle Orcas",
-                          team == "Was" ~ "Washington Freedom",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
+                          team == "StK" ~ "St Kitts and Nevis Patriots",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_6s.csv")
 
@@ -645,6 +654,11 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_match_total_fours.csv")
 
 #===============================================================================
@@ -696,4 +710,9 @@ match_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_match_total_sixes.csv")
