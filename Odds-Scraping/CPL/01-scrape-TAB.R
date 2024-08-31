@@ -69,9 +69,9 @@ headers <- c(
   "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 
-# Try response, if nothing in 3 seconds, make it null
+# Try response, if nothing in 10 seconds, make it null
 response <- tryCatch({
-  GET(tab_url, add_headers(.headers = headers), timeout(3))
+  GET(tab_url, add_headers(.headers = headers), timeout(10))
 }, error = function(e) {
   return(NULL)
 })
@@ -132,6 +132,8 @@ fix_team_names <- function(team_name_vector) {
     str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
     str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
     str_detect(team_name_vector, "Guyana|Guy") ~ "Guyana Amazon Warriors",
+    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
+    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
     TRUE ~ team_name_vector
   )
 }
@@ -472,6 +474,8 @@ fall_of_first_wicket_overs |>
   mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
+                          team == "Tbg" ~ "Trinbago Knight Riders",
+                          team == "Brb" ~ "Barbados Royals",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -521,6 +525,8 @@ first_over_runs_overs |>
   mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
+                          team == "Tbg" ~ "Trinbago Knight Riders",
+                          team == "Brb" ~ "Barbados Royals",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_first_over_runs.csv")
 
@@ -570,6 +576,8 @@ team_boundaries_overs |>
   mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
+                          team == "Tbg" ~ "Trinbago Knight Riders",
+                          team == "Brb" ~ "Barbados Royals",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_4s.csv")
 
@@ -619,6 +627,8 @@ team_boundaries_overs |>
   mutate(team = case_when(team == "Ant" ~ "Antigua and Barbuda Falcons",
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
+                          team == "Tbg" ~ "Trinbago Knight Riders",
+                          team == "Brb" ~ "Barbados Royals",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_6s.csv")
 

@@ -47,6 +47,9 @@ fix_team_names <- function(team_name_vector) {
     str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
     str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
     str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
+    str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
+    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
+    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
     TRUE ~ team_name_vector
   )
 }
