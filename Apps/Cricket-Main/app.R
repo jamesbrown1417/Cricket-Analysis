@@ -403,7 +403,7 @@ ui <- page_navbar(
           selectInput(
             inputId = "market_input",
             label = "Select Market:",
-            choices = c("Player Runs", "Fall of First Wicket", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Boundaries"),
+            choices = c("Player Runs", "Fall of First Wicket - Team", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Boundaries"),
             multiple = FALSE
           ),
           textInput(
@@ -917,7 +917,7 @@ server <- function(input, output, session) {
     }
     
     # Fall of First Wicket
-    if (input$market_input == "Fall of First Wicket") {
+    if (input$market_input == "Fall of First Wicket - Team") {
       odds <-
         fall_of_first_wicket
     }

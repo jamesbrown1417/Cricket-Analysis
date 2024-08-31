@@ -5,7 +5,7 @@
 library(tidyverse)
 `%notin%` <- Negate(`%in%`)
 
-# # Run all odds scraping scripts-----------------------------------------------
+# Function to Run all odds scraping scripts-------------------------------------
 run_scraping <- function(script_name) {
   tryCatch({
     source(script_name, echo = FALSE)
@@ -14,17 +14,14 @@ run_scraping <- function(script_name) {
   })
 }
 
-# Run all odds scraping scripts
+# Run all odds scraping scripts-------------------------------------------------
 # run_scraping("Odds-Scraping/CPL/scrape_betr.R")
 # run_scraping("Odds-Scraping/CPL/scrape_BetRight.R")
 # run_scraping("Odds-Scraping/CPL/scrape_pointsbet.R")
 run_scraping("Odds-Scraping/CPL/02-scrape-Sportsbet.R")
 run_scraping("Odds-Scraping/CPL/01-scrape-TAB.R")
 run_scraping("Odds-Scraping/CPL/04-scrape-topsport.R")
-# run_scraping("Odds-Scraping/CPL/scrape_bet365.R")
-# run_scraping("Odds-Scraping/CPL/scrape_bluebet.R")
 # run_scraping("Odds-Scraping/CPL/Neds/scrape_neds.R")
-# run_scraping("Odds-Scraping/CPL/scrape_unibet.R")
 # run_scraping("Odds-Scraping/CPL/scrape_dabble.R")
 
 #===============================================================================

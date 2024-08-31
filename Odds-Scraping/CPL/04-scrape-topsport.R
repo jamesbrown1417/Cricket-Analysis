@@ -46,6 +46,7 @@ fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
     str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
     str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
     TRUE ~ team_name_vector
   )
 }
@@ -629,14 +630,14 @@ runs_at_first_wicket_team_runs <-
 runs_at_first_wicket_team_runs_overs <-
   runs_at_first_wicket_team_runs |>
   filter(!str_detect(Selection, "Under")) |>
-  mutate(market = "Fall of 1st Wicket", agency = "TopSport") |>
+  mutate(market = "Fall of 1st Wicket - Team", agency = "TopSport") |>
   select(match, market, team, line, over_price = Win, agency)
 
 # Unders
 runs_at_first_wicket_team_runs_unders <-
   runs_at_first_wicket_team_runs |>
   filter(str_detect(Selection, "Under")) |>
-  mutate(market = "Fall of 1st Wicket", agency = "TopSport") |>
+  mutate(market = "Fall of 1st Wicket - Team", agency = "TopSport") |>
   select(match, market, team, line, under_price = Win, agency)
 
 # Combine

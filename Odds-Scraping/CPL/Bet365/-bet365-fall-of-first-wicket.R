@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_fofw <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "body_html_match")
+scraped_files_fofw <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "body_html_team")
 
 # Main Function
 get_fofw_runs <- function(scraped_file) {
@@ -22,11 +22,17 @@ get_fofw_runs <- function(scraped_file) {
     html_text()
   
   #=============================================================================
-  # First Over Runs - Team
+  # Fall of First Wicket
   #=============================================================================
   
-  # Get index for node with text "Runs at Fall of 1st Wicket"
-  fofw_team_index <- which(market_names == "Runs at Fall of 1st Wicket")
+  # Get index for node with text "Team - Opening Partnership Total"
+  fofw_team_index <- which(market_names == "Team - Opening Partnership Total")
+  
+  # Get teams
+  fofw_runs_teams <-
+    bet365_fofw_markets[[fofw_team_index]] |> 
+    html_elements(".srb-ParticipantLabel_Name ") |>
+    html_text()
   
   # Get Over Node Index
   fofw_runs_cols <-
@@ -38,15 +44,13 @@ get_fofw_runs <- function(scraped_file) {
   # Get Over Lines
   fofw_runs_over_lines <-
     fofw_runs_cols[[fofw_runs_over_index]] |>
-    # html_nodes("*") |> 
-    # html_attr("class") |> unique()
-    # html_elements(".gl-Market_General-cn1") |>
+    html_elements(".gl-ParticipantCenteredStacked_Handicap") |>
     html_text()
   
   # Get Over Odds
   fofw_runs_over_odds <-
     fofw_runs_cols[[fofw_runs_over_index]] |>
-    html_elements(".srb-ParticipantCenteredStackedMarketRow_Odds") |>
+    html_elements(".gl-ParticipantCenteredStacked_Odds") |>
     html_text()
   
   # Get Under Node Index
@@ -55,7 +59,7 @@ get_fofw_runs <- function(scraped_file) {
   # Get Under Odds
   fofw_runs_under_odds <-
     fofw_runs_cols[[fofw_runs_under_index]] |>
-    html_elements(".srb-ParticipantCenteredStackedMarketRow_Odds") |>
+    html_elements(".gl-ParticipantCenteredStacked_Odds") |>
     html_text()
   
   # Create First Over Runs Table
@@ -64,7 +68,7 @@ get_fofw_runs <- function(scraped_file) {
            line = as.numeric(fofw_runs_over_lines),
            over_price = as.numeric(fofw_runs_over_odds),
            under_price = as.numeric(fofw_runs_under_odds)) |>
-    mutate(market_name = "First Over Runs - Team") |>
+    mutate(market_name = "Fall of 1st Wicket - Team") |>
     mutate(agency = "Bet365")
   
   #=============================================================================
@@ -98,4 +102,4 @@ fofw_runs_all <-
   rename(market = market_name)
 
 # Output as a csv
-write_csv(fofw_runs_all, "Data/T20s/CPL/scraped_odds/bet365_fall_of_first_wicket.csv")
+write_csv(fofw_runs_all, "Data/T20s/CPL/scraped_odds/bet365_runs_at_first_wicket.csv")

@@ -221,6 +221,17 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "KR Mayers") ~ "Kyle Mayers",
     str_detect(player_name_vector, "RR Rossouw") ~ "Rilee Rossouw",
     str_detect(player_name_vector, "T Bishop") ~ "Teddy Bishop",
+    str_detect(player_name_vector, "K James") ~ "Kofi James",
+    str_detect(player_name_vector, "SW Billings") ~ "Sam Billings",
+    str_detect(player_name_vector, "SO Hetmyer") ~ "Shimron Hetmyer",
+    str_detect(player_name_vector, "JJ Roy") ~ "Jason Roy",
+    str_detect(player_name_vector, "M Deyal") ~ "Mark Deyal",
+    str_detect(player_name_vector, "N Pooran") ~ "Nicholas Pooran",
+    str_detect(player_name_vector, "T Stubbs") ~ "Tristan Stubbs",
+    str_detect(player_name_vector, "TH David") ~ "Tim David",
+    str_detect(player_name_vector, "M Nandu") ~ "Mikyle Nandu",
+    str_detect(player_name_vector, "SD Hope") ~ "Shai Hope",
+    str_detect(player_name_vector, "R Gurbaz") ~ "Rahmanullah Gurbaz",
     TRUE ~ player_name_vector
   )
 }

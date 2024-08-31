@@ -70,13 +70,13 @@ async def main():
             modified_first_innings_url = cur_url + 'I3/'
 
              ## Append 'I4/' to URL
-            modified_first_innings_url = cur_url + 'I4/'
+            modified_team_url = cur_url + 'I4/'
 
             match_url_list.append(modified_match_url)
             player_url_list.append(modified_player_url)
             first_over_url_list.append(modified_first_over_url)
             first_innings_url_list.append(modified_first_innings_url)
-            team_url_list.append(modified_first_innings_url)
+            team_url_list.append(modified_team_url)
 
             print(modified_match_url)
             

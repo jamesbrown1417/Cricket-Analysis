@@ -56,6 +56,7 @@ fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
     str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
     str_detect(team_name_vector, "St. Kitts") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
     TRUE ~ team_name_vector
   )
 }
@@ -977,7 +978,7 @@ player_props_function <- function() {
     filter(str_detect(selection_name_prop, "Over")) |>
     transmute(
       match,
-      market = "Fall of 1st Wicket",
+      market = "Fall of 1st Wicket - Team",
       team = str_remove(prop_market_name, " Runs at Fall of .*"),
       home_team,
       away_team,
@@ -990,7 +991,7 @@ player_props_function <- function() {
     filter(str_detect(selection_name_prop, "Under")) |>
     transmute(
       match,
-      market = "Fall of 1st Wicket",
+      market = "Fall of 1st Wicket - Team",
       team = str_remove(prop_market_name, " Runs at Fall of .*"),
       home_team,
       away_team,
