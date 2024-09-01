@@ -236,6 +236,11 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "RRS Cornwall") ~ "Rahkeem Cornwall",
     str_detect(player_name_vector, "DA Miller") ~ "David Miller",
     str_detect(player_name_vector, "A Athanaze") ~ "Alick Athanaze",
+    str_detect(player_name_vector, "F du Plessis") ~ "Faf du Plessis",
+    str_detect(player_name_vector, "J Charles") ~ "Johnson Charles",
+    str_detect(player_name_vector, "TL Seifert") ~ "Tim Seifert",
+    str_detect(player_name_vector, "M Louis") ~ "Mikyle Louis",
+    str_detect(player_name_vector, "PBB Rajapaksa") ~ "Bhanuka Rajapaksa",
     TRUE ~ player_name_vector
   )
 }

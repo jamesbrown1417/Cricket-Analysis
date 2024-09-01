@@ -44,7 +44,31 @@ async def main():
                 except:
                     print('No 1st Wicket button was found')
                     pass
-                
+
+                # If there is a button that says "Match - Runs in 1st x Overs - Team", click it
+                try:
+                    first_x_overs_button = await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text') and text()='Match - Runs in 1st x Overs - Team']")
+                    await driver.execute_script("arguments[0].scrollIntoView(true);", first_x_overs_button)
+                    await driver.execute_script("window.scrollBy(0, -150)")
+                    await first_x_overs_button.click()
+                    print('Clicked Match - Runs in 1st x Overs - Team')
+                    await driver.sleep(1)
+                except:
+                    print('No Match - Runs in 1st x Overs - Team button was found')
+                    pass
+
+                # If there is a button that says "Match Totals", click it
+                try:
+                    match_totals_button = await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text') and text()='Match Totals']")
+                    await driver.execute_script("arguments[0].scrollIntoView(true);", match_totals_button)
+                    await driver.execute_script("window.scrollBy(0, -150)")
+                    await match_totals_button.click()
+                    print('Clicked Match Totals')
+                    await driver.sleep(1)
+                except:
+                    print('No Match Totals button was found')
+                    pass
+
                 # Get all elements with class 'msl-ShowMore_Link ' that has text 'Show more'
                 # button_elements = await driver.find_elements(By.XPATH, "//div[contains(@class, 'msl-ShowMore_Link ') and contains(text(), 'Show more')]")
                 

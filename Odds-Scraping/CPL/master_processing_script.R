@@ -120,7 +120,8 @@ ms_data <-
   list_of_ms_data |> 
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
-  arrange(match)
+  arrange(match) |> 
+  select(-home_team, -away_team)
 
 # Write out 
 write_rds(ms_data, "Data/T20s/CPL/processed_odds/match_sixes.rds")
@@ -140,7 +141,8 @@ mf_data <-
   list_of_mf_data |> 
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
-  arrange(match)
+  arrange(match) |> 
+  select(-home_team, -away_team)
 
 # Write out 
 write_rds(mf_data, "Data/T20s/CPL/processed_odds/match_fours.rds")
@@ -160,7 +162,8 @@ ts_data <-
   list_of_ts_data |> 
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
-  arrange(match, team)
+  arrange(match, team) |> 
+  select(-home_team, -away_team)
 
 # Write out
 write_rds(ts_data, "Data/T20s/CPL/processed_odds/team_sixes.rds")
@@ -180,7 +183,8 @@ tf_data <-
   list_of_tf_data |> 
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
-  arrange(match, team)
+  arrange(match, team) |> 
+  select(-home_team, -away_team)
 
 # Write out
 write_rds(tf_data, "Data/T20s/CPL/processed_odds/team_fours.rds")

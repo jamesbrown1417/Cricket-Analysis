@@ -712,6 +712,7 @@ most_team_wickets <-
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
   mutate(player_team = fix_team_names(player_team)) |>
+  mutate(opposition_team = as.character(opposition_team)) |> 
   mutate(opposition_team = fix_team_names(opposition_team)) |> 
   mutate(match = paste(home_team, "v", away_team))
 
