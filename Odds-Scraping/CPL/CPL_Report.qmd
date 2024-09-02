@@ -42,6 +42,7 @@ processed_odds_data <-
 # Get all player runs over data
 player_runs_overs <-
   processed_odds_data$player_runs |>
+  mutate(opposition_team = NA) |> 
   select(-under_price, -player_team, -opposition_team) |>
   rename(over_agency = agency, over_line = line)
 
@@ -49,6 +50,7 @@ player_runs_overs <-
 player_runs_unders <-
   processed_odds_data$player_runs |>
   filter(!is.na(under_price)) |> 
+  mutate(opposition_team = NA) |>
   select(-over_price, -player_team, -opposition_team) |>
   rename(under_agency = agency, under_line = line)
 
@@ -285,12 +287,14 @@ if (nrow(match_sixes) > 0) {
 # Get all player runs over data
 player_runs_overs <-
   processed_odds_data$player_runs |>
+  mutate(opposition_team = NA) |>
   select(-under_price, -player_team, -opposition_team) |>
   rename(over_agency = agency)
 
 # Get all player runs under data
 player_runs_unders <-
   processed_odds_data$player_runs |>
+  mutate(opposition_team = NA) |>
   filter(!is.na(under_price)) |> 
   select(-over_price, -player_team, -opposition_team) |>
   rename(under_agency = agency)
@@ -505,5 +509,4 @@ if (nrow(match_sixes) > 0) {
   cat("No arbitrage opportunities found")
 }
 ```
-
 :::
