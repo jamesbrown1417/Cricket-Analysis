@@ -16,6 +16,9 @@ Remove-Item -Path "C:\Users\james\OneDrive\Desktop\Projects\Cricket-Analysis\Odd
 & "Rscript" "Odds-Scraping\CPL\Bet365\--bet365-first-over-runs.R"
 & "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-h2h.R"
 & "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-player-runs.R"
+& "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-bowerl-wickets.R"
+& "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-team-sixes-and-fours.R"
+& "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-match-sixes-and-fours.R"
 
 # & "C:/Users/james/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/james/OneDrive/Desktop/Projects/Cricket-Analysis/Odds-Scraping/CPL/Neds/get_neds_urls_CPL.py"
 # & "Rscript" "Odds-Scraping\CPL\Neds\get_neds_match_urls_CPL.R"
