@@ -144,8 +144,17 @@ get_team_boundaries <- function(scraped_file) {
   return(team_boundaries_table)
 }
 
+# Get safe version
+get_team_boundaries_safe <- safely(get_team_boundaries)
+
 # Map Over all html files
-list_of_boundaries <- map(scraped_files_boundaries, get_team_boundaries)
+list_of_boundaries <- map(scraped_files_team_boundaries, get_team_boundaries_safe)
+
+# Keep only elements with NULL error
+list_of_boundaries <- 
+  list_of_boundaries |> 
+  keep(~is.null(.x$error)) |> 
+  map(~.x$result)
 
 # Combine into dfs
 total_team_fours <-
