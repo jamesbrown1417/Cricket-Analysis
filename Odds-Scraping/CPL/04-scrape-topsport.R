@@ -722,3 +722,53 @@ most_team_wickets <-
 # Write out
 most_team_wickets |> 
   write_csv("Data/T20s/CPL/scraped_odds/topsport_top_team_wicket_taker.csv")
+
+#===============================================================================
+# Highest Opening Partnership
+#===============================================================================
+
+# Get data for highest opening partnership-------------------------------------
+
+# Get URLs
+highest_opening_partnership_markets <- 
+  topsport_other_markets[str_detect(topsport_other_markets, "Highest_Opening_Partnership")]
+
+# Map function
+highest_opening_partnership <-
+  map(highest_opening_partnership_markets, read_topsport_html) |> 
+  bind_rows() |> 
+  separate(match, c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
+  mutate(Selection = fix_team_names(Selection)) |> 
+  mutate(match = paste(home_team, "v", away_team)) |>
+  mutate(market_name = "Highest Opening Partnership")
+
+# Get home team price
+highest_opening_partnership_home <-
+  highest_opening_partnership |>
+  filter(home_team == Selection) |> 
+  transmute(match, home_team, away_team, market_name, home_price = Win)
+
+# Get tie price
+highest_opening_partnership_tie <-
+  highest_opening_partnership |>
+  filter(Selection == "Draw") |> 
+  transmute(match, home_team, away_team, market_name, tie_price = Win)
+
+# Get away team price
+highest_opening_partnership_away <-
+  highest_opening_partnership |>
+  filter(away_team == Selection) |>
+  transmute(match, home_team, away_team, market_name, away_price = Win)
+
+# Combine
+highest_opening_partnership <-
+  highest_opening_partnership_home |>
+  left_join(highest_opening_partnership_tie) |>
+  left_join(highest_opening_partnership_away) |>
+  mutate(agency = "TopSport")
+
+# Write out
+highest_opening_partnership |> 
+  write_csv("Data/T20s/CPL/scraped_odds/topsport_highest_opening_partnership.csv")
