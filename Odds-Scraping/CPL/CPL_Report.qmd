@@ -509,4 +509,43 @@ if (nrow(match_sixes) > 0) {
   cat("No arbitrage opportunities found")
 }
 ```
+
+### Bowler Wickets
+
+```{r}
+# Get all bowler wickets
+bowler_wickets_overs <-
+  processed_odds_data$player_wickets |>
+  select(-under_price) |>
+  rename(over_agency = agency) |>
+  distinct(match,
+           player_name,
+           player_team,
+           line,
+           over_price,
+           over_agency,
+           .keep_all = TRUE)
+
+bowler_wickets_unders <-
+  processed_odds_data$player_wickets |>
+  filter(!is.na(under_price)) |> 
+  select(-over_price) |>
+  rename(under_agency = agency) |> 
+  distinct(match,
+           player_name,
+           player_team,
+           line,
+           under_price,
+           under_agency,
+           .keep_all = TRUE)
+
+bowler_wickets <-
+  bowler_wickets_overs |> 
+  inner_join(bowler_wickets_unders, relationship = "many-to-many") |> 
+  select(match, market, player_name, line, contains("over"), contains("under")) |> 
+  filter(over_agency != under_agency) |>
+  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
+  filter(margin <= 1) |> 
+  arrange(margin)
+```
 :::

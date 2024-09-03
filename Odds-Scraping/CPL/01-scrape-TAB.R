@@ -477,6 +477,7 @@ fall_of_first_wicket_overs |>
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
                           team == "Brb" ~ "Barbados Royals",
+                          team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -528,6 +529,7 @@ first_over_runs_overs |>
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
                           team == "Brb" ~ "Barbados Royals",
+                          team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_first_over_runs.csv")
 
@@ -579,6 +581,7 @@ team_boundaries_overs |>
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
                           team == "Brb" ~ "Barbados Royals",
+                          team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_4s.csv")
 
@@ -630,6 +633,7 @@ team_boundaries_overs |>
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
                           team == "Brb" ~ "Barbados Royals",
+                          team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_6s.csv")
 
@@ -732,3 +736,51 @@ match_boundaries_overs |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_match_total_sixes.csv")
+
+#===============================================================================
+# Most Team Wickets
+#===============================================================================
+
+# Filter to most team wickets markets
+most_team_wickets <-
+  all_tab_markets |>
+  filter(market_name == "Most Wickets") |>
+  mutate(team = str_extract(prop_name, "\\(.*\\)")) |>
+  mutate(team = str_remove_all(team, "\\(|\\)")) |>
+  mutate(
+    team = case_when(
+      team == "Ant" ~ "Antigua and Barbuda Falcons",
+      team == "StK" ~ "St Kitts and Nevis Patriots",
+      team == "Guy" ~ "Guyana Amazon Warriors",
+      team == "Tbg" ~ "Trinbago Knight Riders",
+      team == "Brb" ~ "Barbados Royals",
+      team == "StL" ~ "St Lucia Kings",
+      TRUE ~ team
+    )
+  ) |>
+  mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
+  separate(
+    match,
+    into = c("home_team", "away_team"),
+    sep = " v ",
+    remove = FALSE
+  ) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(team = fix_team_names(team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  transmute(
+    match,
+    market = "Top Team Wicket Taker",
+    home_team,
+    away_team,
+    player_name,
+    player_team = team,
+    opposition_team = if_else(player_team == home_team, away_team, home_team),
+    price,
+    agency = "TAB"
+  )
+
+# Write out
+most_team_wickets |> 
+  write_csv("Data/T20s/CPL/scraped_odds/tab_top_team_wicket_taker.csv")

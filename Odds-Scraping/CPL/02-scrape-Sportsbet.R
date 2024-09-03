@@ -501,7 +501,8 @@ player_props_function <- function() {
       player_name = selection_name_prop,
       player_team,
       opposition_team = away_team,
-      price = prop_market_price
+      price = prop_market_price,
+      agency = "Sportsbet"
     )
 
   # Get away team top  wicket taker
@@ -520,7 +521,8 @@ player_props_function <- function() {
       player_name = selection_name_prop,
       player_team,
       opposition_team = home_team,
-      price = prop_market_price
+      price = prop_market_price,
+      agency = "Sportsbet"
     )
 
   # Combine

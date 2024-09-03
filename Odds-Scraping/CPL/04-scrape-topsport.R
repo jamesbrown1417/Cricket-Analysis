@@ -50,7 +50,7 @@ fix_team_names <- function(team_name_vector) {
     str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
     str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
     str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St Lucia|St\\. Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "St Lucia|St\\. Lucia|Saint Lucia") ~ "St Lucia Kings",
     TRUE ~ team_name_vector
   )
 }
@@ -382,6 +382,7 @@ player_wickets <-
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
   mutate(player_team = fix_team_names(player_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,
@@ -415,7 +416,7 @@ player_wickets |>
 
 # Get URLs
 pick_your_own_fours_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Fours")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player Fours")]
 
 # Map function
 player_fours_alternate <-
@@ -453,7 +454,7 @@ player_fours_alternate <-
 
 # Get URLs
 pick_your_own_sixes_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Sixes")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player Sixes")]
 
 # Map function
 player_sixes_alternate <-
@@ -502,6 +503,7 @@ player_boundaries <-
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
   mutate(player_team = fix_team_names(player_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
   mutate(
     opposition_team = case_when(
       player_team == home_team ~ away_team,

@@ -5,6 +5,9 @@ library(httr2)
 library(jsonlite)
 library(glue)
 
+# Fix team names function
+
+
 # Read scraped HTML from the BET365_HTML Folder
 scraped_files_player <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "player")
 

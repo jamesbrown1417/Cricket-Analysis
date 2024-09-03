@@ -211,3 +211,47 @@ br_data <-
 
 # Write out
 write_rds(br_data, "Data/T20s/CPL/processed_odds/player_runs.rds")
+
+#===============================================================================
+# Bowler Wickets
+#===============================================================================
+
+# Read in all bowler wickets data
+list_of_bw_files <- list.files("Data/T20s/CPL/scraped_odds/", full.names = TRUE, pattern = "player_wickets")
+
+# Read in all bowler wickets data
+list_of_bw_data <- map(list_of_bw_files, read_csv)
+
+# Combine
+bw_data <-
+  list_of_bw_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, player_name) |> 
+  select(-home_team, -away_team, -opposition_team) |> 
+  arrange(match,player_name, line, desc(over_price))
+
+# Write out
+write_rds(bw_data, "Data/T20s/CPL/processed_odds/player_wickets.rds")
+
+#===============================================================================
+# Top Team Wicket Taker
+#===============================================================================
+
+# Read in all top team wicket taker data
+list_of_ttwt_files <- list.files("Data/T20s/CPL/scraped_odds/", full.names = TRUE, pattern = "top_team_wicket_taker")
+
+# Read in all top team wicket taker data
+list_of_ttwt_data <- map(list_of_ttwt_files, read_csv)
+
+# Combine
+ttwt_data <-
+  list_of_ttwt_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, player_team, player_name, desc(price)) |> 
+  select(-home_team, -away_team) |> 
+  filter(!is.na(price)) |> 
+  group_by(match, player_team, player_name) |>
+  slice_head(n = 1)
+
