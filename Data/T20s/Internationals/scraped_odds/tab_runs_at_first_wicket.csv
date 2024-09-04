@@ -1,3 +1,3 @@
-match,home_team,away_team,market,team,line,over_price,under_price,agency
-Zimbabwe v India,Zimbabwe,India,Fall of 1st Wicket,India,25.5,2.1,1.65,TAB
-Zimbabwe v India,Zimbabwe,India,Fall of 1st Wicket,Zimbabwe,15.5,2.3,1.55,TAB
+match,market,team,line,over_price,under_price,agency
+Scotland v Australia,Fall of 1st Wicket - Team,Australia,27.5,1.72,2,TAB
+Scotland v Australia,Fall of 1st Wicket - Team,Scotland,16.5,2.25,1.6,TAB

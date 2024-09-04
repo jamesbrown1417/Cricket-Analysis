@@ -2,95 +2,36 @@
 library(tidyverse)
 library(rvest)
 library(httr2)
+library(httr)
 library(jsonlite)
 
-# URL to get responses
+# Define the URL for the GET request
 tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals?jurisdiction=SA"
 
-# Get player metadata
-player_meta_updated <- read_rds("Data/player_meta_updated.rds")
+# Set the headers
+headers <- c(
+  "accept" = "application/json, text/plain, */*",
+  "accept-language" = "en-US,en;q=0.9",
+  "origin" = "https://www.tab.com.au",
+  "referer" = "https://www.tab.com.au/",
+  "sec-ch-ua" = '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+  "sec-ch-ua-mobile" = "?0",
+  "sec-ch-ua-platform" = '"Windows"',
+  "sec-fetch-dest" = "empty",
+  "sec-fetch-mode" = "cors",
+  "sec-fetch-site" = "same-site",
+  "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
 
-# Get player names and countries
-player_names <-
-  player_meta_updated |> 
-  filter(dob >= "1980-01-01") |> 
-  select(unique_name, full_name, country) |> 
-  mutate(country = if_else(country == "U.S.A.", "USA", country)) |>
-  # Split full name into first, middle and last names
-  separate(unique_name, c("first_name", "last_name"), sep = " ", remove = FALSE, extra = "merge") |> 
-  mutate(initials_join_name = paste(substr(first_name, 1, 1), last_name, sep = " ")) |> 
-  mutate(initials_join_name = case_when(unique_name == "PHKD Mendis" ~ "K Mendis",
-                                        TRUE ~ initials_join_name))
+# Try response, if nothing in 10 seconds, make it null
+response <- tryCatch({
+  GET(tab_url, add_headers(.headers = headers), timeout(10))
+}, error = function(e) {
+  return(NULL)
+})
 
-# Separate out middle names
-separated_names <-
-  player_names %>%
-  mutate(
-    first_name = sapply(strsplit(full_name, " "), `[`, 1),  # First element is the first name
-    last_name = sapply(strsplit(full_name, " "), tail, 1), # Last element is the last name
-    middle_names = sapply(strsplit(full_name, " "), function(x) {
-      if (length(x) > 2) {
-        paste(x[-c(1, length(x))], collapse=" ") # Collapse all but the first and last elements
-      } else {
-        NA  # No middle name
-      }
-    })
-  ) |> 
-  mutate(full_join_name = paste(first_name, last_name, sep = " ")) |> 
-  distinct(full_join_name, .keep_all = TRUE) |>
-  mutate(full_join_name = case_when(full_join_name == "Quinton Kock" ~ "Quinton de Kock",
-                                    full_join_name == "Pasqual Mendis" ~ "Kamindu Mendis",
-                                    full_join_name == "Pathum Silva" ~ "Pathum Nissanka",
-                                    full_join_name == "Dhananjaya Silva" ~ "Dhananjaya De Silva",
-                                    full_join_name == "Michael Lingen" ~ "Michael Van Lingen",
-                                    full_join_name == "Shakib Hasan" ~ "Shakib Al Hasan",
-                                    full_join_name == "Tanzid Tamim" ~ "Tanzid Hasan",
-                                    full_join_name == "Najmul Shanto" ~ "Najmul Hossain Shanto",
-                                    full_join_name == "Noor Lakanwal" ~ "Noor Ahmad",
-                                    full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
-                                    TRUE ~ full_join_name))
-
-# Function to fetch and parse JSON with exponential backoff
-fetch_data_with_backoff <-
-  function(url,
-           delay = 1,
-           max_retries = 5,
-           backoff_multiplier = 2) {
-    tryCatch({
-      # Attempt to fetch and parse the JSON
-      tab_response <-
-        read_html_live(url) |>
-        html_nodes("pre") %>%
-        html_text() %>%
-        fromJSON(simplifyVector = FALSE)
-      
-      # Return the parsed response
-      return(tab_response)
-    }, error = function(e) {
-      if (max_retries > 0) {
-        # Log the retry attempt
-        message(sprintf("Error encountered. Retrying in %s seconds...", delay))
-        
-        # Wait for the specified delay
-        Sys.sleep(delay)
-        
-        # Recursively call the function with updated parameters
-        return(
-          fetch_data_with_backoff(
-            url,
-            delay * backoff_multiplier,
-            max_retries - 1,
-            backoff_multiplier
-          )
-        )
-      } else {
-        # Max retries reached, throw an error
-        stop("Failed to fetch data after multiple retries.")
-      }
-    })
-  }
-
-tab_response <- fetch_data_with_backoff(tab_url)
+# Get response body
+tab_response <- content(response, as = "parsed")
 
 # Function to extract market info from response---------------------------------
 get_market_info <- function(markets) {
@@ -124,14 +65,6 @@ get_match_info <- function(matches) {
   )
 }
 
-# # Get competitions
-# tab_competitions <-
-#   tab_response$competitions |> 
-#   map(~ .x$name)
-
-# # Get element of competitions that equals "Lanka Premier League"
-# lpl_index <- which(tab_competitions == "Lanka Premier League")
-
 # Map functions to data
 all_tab_markets <-
   map(tab_response$matches, get_match_info) |> bind_rows()
@@ -147,6 +80,19 @@ all_tab_markets <-
          prop_name = propositions_name,
          price = propositions_returnWin)
 
+# Function to fix team names for TAB Internationals
+fix_team_names <- function(team_name_vector) {
+  team_name_vector <- case_when(
+    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "Guyana|Guy") ~ "Guyana Amazon Warriors",
+    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
+    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
+    str_detect(team_name_vector, "St Lucia") ~ "St Lucia Kings",
+    TRUE ~ team_name_vector
+  )
+}
+
 #==============================================================================
 # Head to head
 #==============================================================================
@@ -156,6 +102,8 @@ head_to_head <-
   all_tab_markets |>
   filter(market_name == "Head To Head") |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |> 
+  mutate(home_team = fix_team_names(home_team)) |>
+  mutate(away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team, sep = " "))
 
 # Home Win
@@ -206,19 +154,6 @@ player_runs_alt <-
   mutate(line = str_extract(market_name, "\\d+")) |>
   mutate(line = as.numeric(line) - 0.5) |>
   mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
-  mutate(player_name = case_when(player_name == "G Erasmus" ~ "M Erasmus",
-                                 player_name == "D De Silva" ~ "D de Silva",
-                                 player_name == "S Ssesazi" ~ "S Sesazi",
-                                 player_name == "Will Jacks" ~ "William Jacks",
-                                 player_name == "Phil Salt" ~ "Philip Salt",
-                                 player_name == "Jos Buttler" ~ "Joseph Buttler",
-                                 player_name == "George Munsey" ~ "Henry Munsey",
-                                 player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-                                 player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-                                 player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-                                 player_name == "Ollie Hairs" ~ "Oliver Hairs",
-                                 player_name == "Richie Berrington" ~ "Richard Berrington",
-                                 .default = player_name)) |>
   left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
   rename(tab_name = player_name) |> 
   rename(over_price = price,
@@ -270,40 +205,22 @@ player_runs_over_under <-
 # Get Overs
 player_runs_overs <-
   player_runs_over_under |> 
-  filter(str_detect(prop_name, "Over")) |>
-  separate(prop_name, into = c("player_name", "line"), sep = " Over ") |>
-  mutate(line = str_remove(line, " Runs")) |>
+  filter(str_detect(prop_name, "Over|over")) |>
+  separate(prop_name, into = c("player_name", "line"), sep = " over ") |>
+  mutate(line = str_remove(line, " runs")) |>
   mutate(line = as.numeric(line)) |> 
-  mutate(player_name = case_when(player_name == "N H Shanto" ~ "N Hossain Shanto",
-                                 .default = player_name)) |>
-  left_join(tab_names[, c("tab_name_short", "unique_name", "country")], by = c("player_name" = "tab_name_short")) |>
-  select(-player_name) |> 
-  rename(over_price = price,
-         player_name = unique_name,
-         player_team = country) |> 
-  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
-  filter(home_team == player_team | away_team == player_team) |>
-  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
-                                     player_team == away_team ~ home_team))
+  rename(over_price = price) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE)
 
 # Get Unders
 player_runs_unders <-
   player_runs_over_under |> 
-  filter(str_detect(prop_name, "Under")) |>
-  separate(prop_name, into = c("player_name", "line"), sep = " Under ") |>
-  mutate(line = str_remove(line, " Runs")) |>
-  mutate(line = as.numeric(line)) |> 
-  mutate(player_name = case_when(player_name == "N H Shanto" ~ "N Hossain Shanto",
-                                 .default = player_name)) |>
-  left_join(tab_names[, c("tab_name_short", "unique_name", "country")], by = c("player_name" = "tab_name_short")) |>
-  select(-player_name) |> 
-  rename(under_price = price,
-         player_name = unique_name,
-         player_team = country) |> 
-  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
-  filter(home_team == player_team | away_team == player_team) |>
-  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
-                                     player_team == away_team ~ home_team))
+  filter(str_detect(prop_name, "Under|under")) |>
+  separate(prop_name, into = c("player_name", "line"), sep = " under ") |>
+  mutate(line = str_remove(line, " runs")) |>
+  mutate(line = as.numeric(line)) |>
+  rename(under_price = price) |>
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE)
 
 # Combine
 player_runs_over_under <-
@@ -315,8 +232,6 @@ player_runs_over_under <-
     home_team,
     away_team,
     player_name,
-    player_team,
-    opposition_team,
     line,
     over_price,
     under_price
@@ -346,33 +261,14 @@ player_wickets_alt <-
   mutate(line = str_extract(market_name, "\\d+")) |>
   mutate(line = as.numeric(line) - 0.5) |>
   mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
-  mutate(
-    player_name = case_when(
-      player_name == "Saurabh Nethralvakar" ~ "Saurabh Netravalkar",
-      player_name == "Pat Cummins" ~ "Patrick Cummins",
-      player_name == "Mohd. Siraj" ~ "Mohammed Siraj",
-      player_name == "Tanzim Hasan Sakib" ~ "Tanzim Sakib",
-      player_name == "Noshtush Kenjige" ~ "Nosthusha Kenjige",
-      .default = player_name
-    )
-  ) |>
-  left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
-  select(-player_name) |> 
-  rename(over_price = price,
-         player_name = unique_name,
-         player_team = country) |> 
+  rename(over_price = price) |> 
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
-  filter(home_team == player_team | away_team == player_team) |>
-  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
-                                     player_team == away_team ~ home_team)) |> 
   transmute(
     match,
     market = "Player Wickets",
     home_team,
     away_team,
     player_name,
-    player_team,
-    opposition_team,
     line,
     over_price,
     agency = "TAB"
@@ -395,28 +291,8 @@ player_boundaries_alt <-
   mutate(line = str_extract(market_name, "\\d+")) |>
   mutate(line = as.numeric(line) - 0.5) |>
   mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
-  mutate(player_name = case_when(player_name == "G Erasmus" ~ "M Erasmus",
-                                 player_name == "D De Silva" ~ "D de Silva",
-                                 player_name == "S Ssesazi" ~ "S Sesazi",
-                                 player_name == "Will Jacks" ~ "William Jacks",
-                                 player_name == "Phil Salt" ~ "Philip Salt",
-                                 player_name == "Jos Buttler" ~ "Joseph Buttler",
-                                 player_name == "George Munsey" ~ "Henry Munsey",
-                                 player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-                                 player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-                                 player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-                                 player_name == "Ollie Hairs" ~ "Oliver Hairs",
-                                 player_name == "Richie Berrington" ~ "Richard Berrington",
-                                 .default = player_name)) |>
-  left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
-  select(-player_name) |> 
-  rename(over_price = price,
-         player_name = unique_name,
-         player_team = country) |> 
+  rename(over_price = price) |> 
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
-  filter(home_team == player_team | away_team == player_team) |>
-  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
-                                     player_team == away_team ~ home_team)) |> 
   mutate(market_name = if_else(str_detect(market_name, "Four"), "Number of 4s", "Number of 6s")) |>
   transmute(
     match,
@@ -424,8 +300,6 @@ player_boundaries_alt <-
     home_team,
     away_team,
     player_name,
-    player_team,
-    opposition_team,
     line,
     over_price,
     agency = "TAB"
@@ -466,26 +340,20 @@ fall_of_first_wicket_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
-    market = "Fall of 1st Wicket",
+    market = "Fall of 1st Wicket - Team",
     team,
     line,
     over_price,
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "Ind" ~ "India",
-                          team == "NZ" ~ "New Zealand",
-                          team == "Aus" ~ "Australia",
-                          team == "SA" ~ "South Africa",
-                          team == "WI" ~ "West Indies",
-                          team == "Eng" ~ "England",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Zim" ~ "Zimbabwe",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Aus" ~ "Australia",
+                          team == "Sct" ~ "Scotland",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_runs_at_first_wicket.csv")
 
@@ -520,26 +388,20 @@ first_over_runs_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
-    market = "First Over Runs",
+    market = "First Over Runs - Team",
     team,
     line,
     over_price,
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "Ind" ~ "India",
-                          team == "NZ" ~ "New Zealand",
-                          team == "Aus" ~ "Australia",
-                          team == "SA" ~ "South Africa",
-                          team == "WI" ~ "West Indies",
-                          team == "Eng" ~ "England",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Zim" ~ "Zimbabwe",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Aus" ~ "Australia",
+                          team == "Sct" ~ "Scotland",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_first_over_runs.csv")
 
@@ -574,8 +436,6 @@ team_boundaries_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
     market = "Team Total 4s",
     team,
     line,
@@ -583,17 +443,13 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "Ind" ~ "India",
-                          team == "NZ" ~ "New Zealand",
-                          team == "Aus" ~ "Australia",
-                          team == "SA" ~ "South Africa",
-                          team == "WI" ~ "West Indies",
-                          team == "Eng" ~ "England",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Zim" ~ "Zimbabwe",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Aus" ~ "Australia",
+                          team == "Sct" ~ "Scotland",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_team_total_4s.csv")
 
@@ -628,8 +484,6 @@ team_boundaries_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
     market = "Team Total 6s",
     team,
     line,
@@ -637,17 +491,13 @@ team_boundaries_overs |>
     under_price,
     agency = "TAB"
   ) |> 
-  mutate(team = case_when(team == "Ind" ~ "India",
-                          team == "NZ" ~ "New Zealand",
-                          team == "Aus" ~ "Australia",
-                          team == "SA" ~ "South Africa",
-                          team == "WI" ~ "West Indies",
-                          team == "Eng" ~ "England",
-                          team == "Pak" ~ "Pakistan",
-                          team == "Ban" ~ "Bangladesh",
-                          team == "SL" ~ "Sri Lanka",
-                          team == "Afg" ~ "Afghanistan",
-                          team == "Zim" ~ "Zimbabwe",
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
+  mutate(team = case_when(team == "Aus" ~ "Australia",
+                          team == "Sct" ~ "Scotland",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_team_total_6s.csv")
 
@@ -682,14 +532,17 @@ match_boundaries_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
     market = "Match Total Fours",
     line,
     over_price,
     under_price,
     agency = "TAB"
   ) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_match_total_fours.csv")
 
 #===============================================================================
@@ -735,12 +588,99 @@ match_boundaries_overs |>
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   transmute(
     match,
-    home_team,
-    away_team,
     market = "Match Total Sixes",
     line,
     over_price,
     under_price,
     agency = "TAB"
   ) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  select(-home_team, -away_team) |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_match_total_sixes.csv")
+
+#===============================================================================
+# Most Team Wickets
+#===============================================================================
+
+# Filter to most team wickets markets
+most_team_wickets <-
+  all_tab_markets |>
+  filter(market_name == "Most Wickets") |>
+  mutate(team = str_extract(prop_name, "\\(.*\\)")) |>
+  mutate(team = str_remove_all(team, "\\(|\\)")) |>
+  mutate(team = case_when(team == "Aus" ~ "Australia",
+                          team == "Sct" ~ "Scotland",
+                          TRUE ~ team)) |>
+  mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
+  separate(
+    match,
+    into = c("home_team", "away_team"),
+    sep = " v ",
+    remove = FALSE
+  ) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(team = fix_team_names(team)) |>
+  mutate(match = paste(home_team, "v", away_team)) |>
+  transmute(
+    match,
+    market = "Top Team Wicket Taker",
+    home_team,
+    away_team,
+    player_name,
+    player_team = team,
+    opposition_team = if_else(player_team == home_team, away_team, home_team),
+    price,
+    agency = "TAB"
+  )
+
+# Write out
+most_team_wickets |> 
+  write_csv("Data/T20s/Internationals/scraped_odds/tab_top_team_wicket_taker.csv")
+
+#===============================================================================
+# Highest Opening Partnership
+#===============================================================================
+
+# Filter to highest opening partnership markets
+highest_opening_partnership <-
+  all_tab_markets |>
+  filter(market_name == "Highest Opening Partnership") |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(prop_name = fix_team_names(prop_name)) |>
+  mutate(match = paste(home_team, "v", away_team))
+
+# Get home team price
+highest_opening_partnership_home <-
+  highest_opening_partnership |>
+  filter(home_team == prop_name) |> 
+  transmute(match, home_team, away_team, market_name, home_price = price)
+
+# Get tie price
+highest_opening_partnership_tie <-
+  highest_opening_partnership |>
+  filter(prop_name == "tie") |> 
+  transmute(match, home_team, away_team, market_name, tie_price = price)
+
+# Get away team price
+highest_opening_partnership_away <-
+  highest_opening_partnership |>
+  filter(away_team == prop_name) |> 
+  transmute(match, home_team, away_team, market_name, away_price = price)
+
+# Combine
+highest_opening_partnership <-
+  highest_opening_partnership_home |>
+  left_join(highest_opening_partnership_tie) |>
+  left_join(highest_opening_partnership_away) |>
+  mutate(agency = "TAB")
+
+# Write out
+highest_opening_partnership |> 
+  write_csv("Data/T20s/Internationals/scraped_odds/tab_highest_opening_partnership.csv")
+

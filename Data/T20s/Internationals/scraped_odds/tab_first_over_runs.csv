@@ -1,3 +1,3 @@
-match,home_team,away_team,market,team,line,over_price,under_price,agency
-Zimbabwe v India,Zimbabwe,India,First Over Runs,India,6.5,1.72,2,TAB
-Zimbabwe v India,Zimbabwe,India,First Over Runs,Zimbabwe,5.5,1.95,1.75,TAB
+match,market,team,line,over_price,under_price,agency
+Scotland v Australia,First Over Runs - Team,Australia,7.5,1.95,1.8,TAB
+Scotland v Australia,First Over Runs - Team,Scotland,5.5,2.05,1.75,TAB

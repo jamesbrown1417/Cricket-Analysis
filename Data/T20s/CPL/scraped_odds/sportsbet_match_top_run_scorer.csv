@@ -1,34 +1,4 @@
 match,market,home_team,away_team,player_name,price
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Faf du Plessis,4.6
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Brandon King,5.8
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Fakhar Zaman,6
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Johnson Charles,7.75
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Sam Billings,7.5
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Bhanuka Rajapaksa,8.75
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Jewel Andrew,12
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Ackeem Auguste,13
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Johann Jeremiah,13
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Kofi James,13
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Roston Chase,13
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Teddy Bishop,13
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Justin Greaves,16
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Sadrack Descartes,19
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Imad Wasim,21
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Aaron Jones,29
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Tim Seifert,29
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,David Wiese,34
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Khari Campbell,34
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Fabian Allen,41
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Joshua James,51
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Shamar Springer,51
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Chris Green,61
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Alzarri Joseph,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Hayden Walsh Jr,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Matthew Forde,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Mc Kenny Clarke,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Mikhil Govia,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Mohammad Amir,101
-Antigua and Barbuda Falcons v St Lucia Kings,Top Match Run Scorer,Antigua and Barbuda Falcons,St Lucia Kings,Noor Ahmad,101
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Shai Hope,6.25
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Evin Lewis,7
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Rahmanullah Gurbaz,7.5
@@ -61,3 +31,35 @@ St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kit
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Shamar Joseph,101
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Tabraiz Shamsi,101
 St Kitts and Nevis Patriots v Guyana Amazon Warriors,Top Match Run Scorer,St Kitts and Nevis Patriots,Guyana Amazon Warriors,Veerasammy Permaul,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Nicholas Pooran,4.3
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Brandon King,6.25
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Fakhar Zaman,6
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jason Roy,6.5
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Andries Gous,9.25
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jewel Andrew,11.5
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Sunil Narine,11
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Keacy Carty,12
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Justin Greaves,13
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Sam Billings,13
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shaqkere Parris,13
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Kofi James,14
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Mark Deyal,14
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Teddy Bishop,14
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Kieron Pollard,16
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Andre Russell,17
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Imad Wasim,29
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jahmar Hamilton,29
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Fabian Allen,61
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Akeal Hosein,71
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Dwayne Bravo,71
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Chris Green,91
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Hayden Walsh Jr,91
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Joshua James,91
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Nathan Edward,91
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Joshua Little,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Mohammad Amir,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Muhammad Ahsan Ali Khan,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Roshon Primus,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shamar Springer,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Terrance Hinds,101
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Waqar Salamkheil,101
