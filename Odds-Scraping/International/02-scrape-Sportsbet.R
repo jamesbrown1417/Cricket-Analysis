@@ -6,52 +6,9 @@ library(jsonlite)
 library(glue)
 
 # URL of website
-sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/caribbean-premier-league"
+sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/international-twenty20-matches"
 
-# Get player metadata
-player_meta_updated <- read_rds("Data/player_meta_updated.rds")
-
-# Get player names and countries
-player_names <-
-  player_meta_updated |> 
-  filter(dob >= "1980-01-01") |> 
-  select(unique_name, full_name, country) |> 
-  mutate(country = if_else(country == "U.S.A.", "USA", country)) |>
-  # Split full name into first, middle and last names
-  separate(unique_name, c("first_name", "last_name"), sep = " ", remove = FALSE, extra = "merge") |> 
-  mutate(initials_join_name = paste(substr(first_name, 1, 1), last_name, sep = " ")) |> 
-  mutate(initials_join_name = case_when(unique_name == "PHKD Mendis" ~ "K Mendis",
-                                        TRUE ~ initials_join_name))
-
-# Separate out middle names
-separated_names <-
-  player_names %>%
-  mutate(
-    first_name = sapply(strsplit(full_name, " "), `[`, 1),  # First element is the first name
-    last_name = sapply(strsplit(full_name, " "), tail, 1), # Last element is the last name
-    middle_names = sapply(strsplit(full_name, " "), function(x) {
-      if (length(x) > 2) {
-        paste(x[-c(1, length(x))], collapse=" ") # Collapse all but the first and last elements
-      } else {
-        NA  # No middle name
-      }
-    })
-  ) |> 
-  mutate(full_join_name = paste(first_name, last_name, sep = " ")) |> 
-  distinct(full_join_name, .keep_all = TRUE) |>
-  mutate(full_join_name = case_when(full_join_name == "Quinton Kock" ~ "Quinton de Kock",
-                                    full_join_name == "Pasqual Mendis" ~ "Kamindu Mendis",
-                                    full_join_name == "Pathum Silva" ~ "Pathum Nissanka",
-                                    full_join_name == "Dhananjaya Silva" ~ "Dhananjaya De Silva",
-                                    full_join_name == "Michael Lingen" ~ "Michael Van Lingen",
-                                    full_join_name == "Shakib Hasan" ~ "Shakib Al Hasan",
-                                    full_join_name == "Tanzid Tamim" ~ "Tanzid Hasan",
-                                    full_join_name == "Najmul Shanto" ~ "Najmul Hossain Shanto",
-                                    full_join_name == "Noor Lakanwal" ~ "Noor Ahmad",
-                                    full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
-                                    TRUE ~ full_join_name))
-
-# Function to fix team names for Sportsbet CPL
+# Function to fix team names for Sportsbet Internationals
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
     str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
@@ -148,7 +105,7 @@ main_markets_function <- function() {
     mutate(agency = "Sportsbet")
   
   # Write to csv
-  write_csv(sportsbet_h2h, "Data/T20s/CPL/scraped_odds/sportsbet_h2h.csv")
+  write_csv(sportsbet_h2h, "Data/T20s/Internationals/scraped_odds/sportsbet_h2h.csv")
   
 }
 
@@ -388,27 +345,6 @@ player_props_function <- function() {
         "line"
       )
     ) |>
-    mutate(
-      player_name = case_when(
-        player_name == "Gerhard Erasmus" ~ "Merwe Erasmus",
-        player_name == "D De Silva" ~ "D de Silva",
-        player_name == "S Ssesazi" ~ "S Sesazi",
-        player_name == "Will Jacks" ~ "William Jacks",
-        player_name == "Phil Salt" ~ "Philip Salt",
-        player_name == "Jos Buttler" ~ "Joseph Buttler",
-        player_name == "George Munsey" ~ "Henry Munsey",
-        player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-        player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-        player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-        player_name == "Ollie Hairs" ~ "Oliver Hairs",
-        player_name == "Richie Berrington" ~ "Richard Berrington",
-        player_name == "JJ Smit" ~ "Johannes Smit",
-        player_name == "Jan Nicolaas Frylinck" ~ "Jan Frylinck",
-        player_name == "Matty Cross" ~ "Matthew Cross",
-        player_name == "Niko Davin" ~ "Nikolaas Davin",
-        .default = player_name
-      )
-    ) |>
     mutate(agency = "Sportsbet")
   
   # Player runs alternative lines
@@ -426,43 +362,19 @@ player_props_function <- function() {
       over_price = prop_market_price
     ) |>
     mutate(line = as.numeric(line) - 0.5) |>
-    mutate(agency = "Sportsbet") |>
-    mutate(
-      player_name = case_when(
-        player_name == "G Erasmus" ~ "M Erasmus",
-        player_name == "D De Silva" ~ "D de Silva",
-        player_name == "S Ssesazi" ~ "S Sesazi",
-        player_name == "Will Jacks" ~ "William Jacks",
-        player_name == "Phil Salt" ~ "Philip Salt",
-        player_name == "Jos Buttler" ~ "Joseph Buttler",
-        player_name == "George Munsey" ~ "Henry Munsey",
-        player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-        player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-        player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-        player_name == "Ollie Hairs" ~ "Oliver Hairs",
-        player_name == "Richie Berrington" ~ "Richard Berrington",
-        player_name == "JJ Smit" ~ "Johannes Smit",
-        player_name == "Jan Nicolaas Frylinck" ~ "Jan Frylinck",
-        player_name == "Matty Cross" ~ "Matthew Cross",
-        player_name == "Niko Davin" ~ "Nikolaas Davin",
-        .default = player_name
-      )
-    )
+    mutate(agency = "Sportsbet")
   
   # Combine all
   player_runs_all <-
     bind_rows(player_runs_combined, player_runs_alternative_lines) |>
-    arrange(player_name, line) # |> 
-    # left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
-    # select(-player_name) |>
-    # relocate(player_team, opposition_team, .after = player_name)
+    arrange(player_name, line)
   
   # Write to csv----------------------------------------------------------------
   write_csv(match_top_run_scorer,
-            "Data/T20s/CPL/scraped_odds/sportsbet_match_top_run_scorer.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_match_top_run_scorer.csv")
   
   write_csv(player_runs_all,
-            "Data/T20s/CPL/scraped_odds/sportsbet_player_runs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_player_runs.csv")
   
   #===============================================================================
   # Top Wicket Takers
@@ -547,35 +459,17 @@ player_props_function <- function() {
       over_price = prop_market_price
     ) |>
     mutate(line = as.numeric(line) - 0.5) |>
-    mutate(agency = "Sportsbet") |>
-    mutate(
-      player_name = case_when(
-        player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-        player_name == "Matthew Kuhnemann" ~ "Matt Kuhnemann",
-        player_name == "Mujeeb Ur-Rahman" ~ "Mujeeb Ur Rahman",
-        player_name == "Stephen O'Keefe" ~ "Steve O'Keefe",
-        player_name == "Tom Rogers." ~ "Tom Rogers",
-        .default = player_name
-      )
-    ) # |>
-    # left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
-    # mutate(
-    #   opposition_team = case_when(
-    #     player_team == home_team ~ away_team,
-    #     player_team == away_team ~ home_team
-    #   )
-    # ) |>
-    # relocate(player_team, opposition_team, .after = player_name)
-
+    mutate(agency = "Sportsbet")
+  
   # Write to csv----------------------------------------------------------------
   write_csv(
     player_wickets_alternative_lines,
-    "Data/T20s/CPL/scraped_odds/sportsbet_player_wickets.csv"
+    "Data/T20s/Internationals/scraped_odds/sportsbet_player_wickets.csv"
   )
   
   write_csv(
     top_team_wicket_taker,
-    "Data/T20s/CPL/scraped_odds/sportsbet_top_team_wicket_taker.csv"
+    "Data/T20s/Internationals/scraped_odds/sportsbet_top_team_wicket_taker.csv"
   )
   
   #===============================================================================
@@ -858,25 +752,25 @@ player_props_function <- function() {
   
   # Write out data-------------------------------------------------------------
   write_csv(team_totals_overs,
-            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_overs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_totals_overs.csv")
   
   write_csv(team_totals_six,
-            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_six_overs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_totals_six_overs.csv")
   
   write_csv(team_totals_ten,
-            "Data/T20s/CPL/scraped_odds/sportsbet_team_totals_ten_overs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_totals_ten_overs.csv")
   
   write_csv(team_fours,
-            "Data/T20s/CPL/scraped_odds/sportsbet_team_fours.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_fours.csv")
   
   write_csv(team_sixes,
-            "Data/T20s/CPL/scraped_odds/sportsbet_team_sixes.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_team_sixes.csv")
   
   write_csv(match_sixes,
-            "Data/T20s/CPL/scraped_odds/sportsbet_match_sixes.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_match_sixes.csv")
   
   write_csv(match_fours,
-            "Data/T20s/CPL/scraped_odds/sportsbet_match_fours.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_match_fours.csv")
   
   #=============================================================================
   # X Overs
@@ -954,7 +848,7 @@ player_props_function <- function() {
   
   # Write out data-------------------------------------------------------------
   write_csv(first_over_runs_all,
-            "Data/T20s/CPL/scraped_odds/sportsbet_first_over_runs.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_first_over_runs.csv")
   
   #=============================================================================
   # Fall of Wicket
@@ -1012,7 +906,7 @@ player_props_function <- function() {
   
   # Write out data-------------------------------------------------------------
   write_csv(fall_of_wicket_all,
-            "Data/T20s/CPL/scraped_odds/sportsbet_runs_at_first_wicket.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_runs_at_first_wicket.csv")
   
   #===============================================================================
   # First Innings
@@ -1156,152 +1050,95 @@ player_props_function <- function() {
   
   # Write to csv----------------------------------------------------------------
   write_csv(first_over_runs,
-            "Data/T20s/CPL/scraped_odds/sportsbet_first_over_runs_first_innings.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_first_over_runs_first_innings.csv")
   write_csv(first_dismissal_data,
-            "Data/T20s/CPL/scraped_odds/sportsbet_first_dismissal_first_innings.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_first_dismissal_first_innings.csv")
   write_csv(first_wicket_runs,
-            "Data/T20s/CPL/scraped_odds/sportsbet_runs_at_first_wicket_first_innings.csv")
+            "Data/T20s/Internationals/scraped_odds/sportsbet_runs_at_first_wicket_first_innings.csv")
   
   #=============================================================================
   # Boundaries
   #=============================================================================
+
+  # Map function to player boundaries urls
+  player_boundaries_data <-
+    map(player_boundaries_links, safe_read_prop_url)
   
-  # # Map function to player boundaries urls
-  # player_boundaries_data <-
-  #   map(player_boundaries_links, safe_read_prop_url)
-  # 
-  # # Get just result part from output
-  # player_boundaries_data <-
-  #   player_boundaries_data |>
-  #   map("result") |>
-  #   map_df(bind_rows) |>
-  #   mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
-  #   rename(match_id = url) |>
-  #   mutate(match_id = as.numeric(match_id)) |>
-  #   left_join(team_names, by = "match_id") |>
-  #   mutate(match = paste(home_team, "v", away_team))
-  # 
-  # # Over Under boundaries
-  # player_boundaries_overs <-
-  #   player_boundaries_data |>
-  #   filter(str_detect(prop_market_name, "Number of")) |>
-  #   filter(str_detect(selection_name_prop, "Over")) |>
-  #   transmute(
-  #     match,
-  #     market = str_extract(prop_market_name, "Number of .*"),
-  #     home_team,
-  #     away_team,
-  #     player_name = str_remove(selection_name_prop, " - Over"),
-  #     line = handicap,
-  #     over_price = prop_market_price
-  #   ) |>
-  #   mutate(
-  #     player_name = case_when(
-  #       player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-  #       player_name == "Tom Rogers." ~ "Tom Rogers",
-  #       player_name == "Matt Renshaw" ~ "Matthew Renshaw",
-  #       player_name == "Oliver Davies" ~ "Ollie Davies",
-  #       .default = player_name
-  #     )
-  #   )
-  # 
-  # player_boundaries_unders <-
-  #   player_boundaries_data |>
-  #   filter(str_detect(prop_market_name, "Number of")) |>
-  #   filter(str_detect(selection_name_prop, "Under")) |>
-  #   transmute(
-  #     match,
-  #     market = str_extract(prop_market_name, "Number of .*"),
-  #     home_team,
-  #     away_team,
-  #     player_name = str_remove(selection_name_prop, " - Under"),
-  #     line = handicap,
-  #     under_price = prop_market_price
-  #   ) |>
-  #   mutate(
-  #     player_name = case_when(
-  #       player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-  #       player_name == "Tom Rogers." ~ "Tom Rogers",
-  #       player_name == "Matt Renshaw" ~ "Matthew Renshaw",
-  #       player_name == "Oliver Davies" ~ "Ollie Davies",
-  #       .default = player_name
-  #     )
-  #   )
-  # 
-  # player_boundaries_combined <-
-  #   player_boundaries_overs |>
-  #   left_join(
-  #     player_boundaries_unders,
-  #     by = c(
-  #       "match",
-  #       "player_name",
-  #       "market",
-  #       "home_team",
-  #       "away_team",
-  #       "line"
-  #     )
-  #   ) |>
-  #   mutate(agency = "Sportsbet") |>
-  #   mutate(
-  #     player_name = case_when(
-  #       player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-  #       player_name == "Tom Rogers." ~ "Tom Rogers",
-  #       player_name == "Matt Renshaw" ~ "Matthew Renshaw",
-  #       player_name == "Oliver Davies" ~ "Ollie Davies",
-  #       .default = player_name
-  #     )
-  #   ) |>
-  #   left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
-  #   mutate(
-  #     opposition_team = case_when(
-  #       player_team == home_team ~ away_team,
-  #       player_team == away_team ~ home_team
-  #     )
-  #   ) |>
-  #   relocate(player_team, opposition_team, .after = player_name)
-  # 
-  # # Get Player to score a 6 markets
-  # to_score_a_6 <-
-  #   top_run_scorers_data |>
-  #   filter(str_detect(prop_market_name, "Player To Hit A Six")) |>
-  #   separate(
-  #     match,
-  #     into = c("home_team", "away_team"),
-  #     sep = " v ",
-  #     remove = FALSE
-  #   ) |>
-  #   transmute(
-  #     match,
-  #     market = "Number of 6s",
-  #     home_team,
-  #     away_team,
-  #     player_name = selection_name_prop,
-  #     line = 0.5,
-  #     over_price = prop_market_price
-  #   ) |>
-  #   mutate(
-  #     player_name = case_when(
-  #       player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-  #       player_name == "Tom Rogers." ~ "Tom Rogers",
-  #       player_name == "Matt Renshaw" ~ "Matthew Renshaw",
-  #       player_name == "Oliver Davies" ~ "Ollie Davies",
-  #       .default = player_name
-  #     )
-  #   ) |>
-  #   left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
-  #   mutate(
-  #     opposition_team = case_when(
-  #       player_team == home_team ~ away_team,
-  #       player_team == away_team ~ home_team
-  #     )
-  #   ) |>
-  #   relocate(player_team, opposition_team, .after = player_name) |>
-  #   mutate(agency = "Sportsbet")
-  # 
-  # # Write to csv----------------------------------------------------------------
-  # player_boundaries_combined |>
-  #   bind_rows(to_score_a_6) |>
-  #   write_csv("Data/T20s/CPL/scraped_odds/sportsbet_player_boundaries.csv")
+  # Get just result part from output
+  player_boundaries_data <-
+    player_boundaries_data |>
+    map("result") |>
+    map_df(bind_rows) 
+  
+  # If nrow is zero make empty tibble
+  if (nrow(player_boundaries_data) == 0) {
+    player_boundaries_data <-
+      tibble(match = character(),
+             start_date = character(),
+             market_name = character(),
+             selection_name_prop = character(),
+             prop_market_name = character(),
+             handicap = numeric(),
+             prop_market_price = numeric(),
+             url = character(),
+             agency = character())
+  }
+  
+  player_boundaries_data <-
+  player_boundaries_data |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(match = paste(home_team, "v", away_team))
+
+  # Over Under boundaries
+  player_boundaries_overs <-
+    player_boundaries_data |>
+    filter(str_detect(prop_market_name, "Number of")) |>
+    filter(str_detect(selection_name_prop, "Over")) |>
+    transmute(
+      match,
+      market = str_extract(prop_market_name, "Number of .*"),
+      home_team,
+      away_team,
+      player_name = str_remove(selection_name_prop, " - Over"),
+      line = handicap,
+      over_price = prop_market_price
+    )
+
+  player_boundaries_unders <-
+    player_boundaries_data |>
+    filter(str_detect(prop_market_name, "Number of")) |>
+    filter(str_detect(selection_name_prop, "Under")) |>
+    transmute(
+      match,
+      market = str_extract(prop_market_name, "Number of .*"),
+      home_team,
+      away_team,
+      player_name = str_remove(selection_name_prop, " - Under"),
+      line = handicap,
+      under_price = prop_market_price
+    )
+
+  player_boundaries_combined <-
+    player_boundaries_overs |>
+    left_join(
+      player_boundaries_unders,
+      by = c(
+        "match",
+        "player_name",
+        "market",
+        "home_team",
+        "away_team",
+        "line"
+      )
+    ) |>
+    mutate(agency = "Sportsbet")
+
+  # Write to csv----------------------------------------------------------------
+  player_boundaries_combined |>
+    write_csv("Data/T20s/Internationals/scraped_odds/sportsbet_player_boundaries.csv")
 }
 
 ##%######################################################%##

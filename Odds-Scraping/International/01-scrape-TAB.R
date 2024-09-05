@@ -154,44 +154,17 @@ player_runs_alt <-
   mutate(line = str_extract(market_name, "\\d+")) |>
   mutate(line = as.numeric(line) - 0.5) |>
   mutate(player_name = str_remove(prop_name, " \\(.*\\)")) |>
-  left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
-  rename(tab_name = player_name) |> 
-  rename(over_price = price,
-         player_name = unique_name,
-         player_team = country) |> 
+  rename(over_price = price) |> 
   separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
-  filter(home_team == player_team | away_team == player_team) |>
-  mutate(opposition_team = case_when(player_team == home_team ~ away_team,
-                                     player_team == away_team ~ home_team)) |> 
   transmute(
     match,
     market = "Player Runs",
     home_team,
     away_team,
     player_name,
-    tab_name,
-    player_team,
-    opposition_team,
     line,
     over_price
   )
-
-# TAB Names to join
-tab_names <-
-  player_runs_alt |> 
-  select(unique_name = player_name, tab_name, country = player_team) |> 
-  distinct()
-
-# Get first initial and rest of name
-tab_names <- 
-  tab_names |>
-  separate(tab_name, into = c("first_name", "rest_1", "rest_2"), sep = " ", remove = FALSE) |> 
-  mutate(first_name = str_sub(first_name, 1, 1)) |>
-  mutate(rest_2 = replace_na(rest_2, "")) |> 
-  mutate(tab_name_short = str_c(first_name, " ", rest_1, " ", rest_2)) |> 
-  # Remove trailing whitespace
-  mutate(tab_name_short = str_trim(tab_name_short)) |> 
-  select(unique_name, tab_name, tab_name_short, country)
 
 #==============================================================================
 # Player Runs Over / Under
@@ -231,7 +204,6 @@ player_runs_over_under <-
     market = market_name,
     home_team,
     away_team,
-    player_name,
     line,
     over_price,
     under_price
@@ -243,8 +215,7 @@ player_runs <-
   player_runs_over_under |>
   bind_rows(player_runs_alt) |>
   mutate(agency = "TAB") |> 
-  arrange(match, player_name, line) |> 
-  select(-tab_name)
+  arrange(match, player_name, line)
 
 player_runs |>
   write_csv("Data/T20s/Internationals/scraped_odds/tab_player_runs.csv")
@@ -683,4 +654,3 @@ highest_opening_partnership <-
 # Write out
 highest_opening_partnership |> 
   write_csv("Data/T20s/Internationals/scraped_odds/tab_highest_opening_partnership.csv")
-
