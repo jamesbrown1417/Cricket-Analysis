@@ -10,12 +10,12 @@ time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 # Read in CSV of URLs=========================================================
 import pandas as pd
 # Read csv (no header col)
-url_df = pd.read_csv('Odds-Scraping/CPL/Bet365/team_urls.csv', header=None)
+url_df = pd.read_csv('Odds-Scraping/Internationals/Bet365/player_urls.csv', header=None)
 
 # Convert first column to a list
 url_df = url_df[0]
 
-# Get HTML====================================================================
+# Get H2H HTML===============================================================
 import asyncio
 
 async def main():
@@ -32,7 +32,33 @@ async def main():
                 
                 # Print URL
                 print(f"Getting URL {url} which is match {index}")
+                
+                # If there is a button that says Player to Score Most 6s - Team, click it
+                try:
+                    player_most_sixes_button = await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text ') and text()='Player to Score Most 6s - Team']")
+                    await driver.execute_script("arguments[0].scrollIntoView(true);", player_most_sixes_button)
+                    await driver.execute_script("window.scrollBy(0, -150)")
+                    await player_most_sixes_button.click()
+                    print('Clicked Player to Score Most 6s - Team')
+                    await driver.sleep(1)
+                except:
+                    print('No Player to Score Most 6s - Team button was found')
+                    pass
 
+                # If there is a button that says Race to 10 Runs, click it
+                try:
+                    race_to_10_runs_button = await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text ') and text()='Race to 10 Runs']")
+                    await driver.execute_script("arguments[0].scrollIntoView(true);", race_to_10_runs_button)
+                    await driver.execute_script("window.scrollBy(0, -150)")
+                    await race_to_10_runs_button.click()
+                    print('Clicked Race to 10 Runs')
+                    await driver.sleep(1)
+                except:
+                    print('No Race to 10 Runs button was found')
+                    pass
+
+
+                
                 # Get all elements with class 'msl-ShowMore_Link ' that has text 'Show more'
                 # button_elements = await driver.find_elements(By.XPATH, "//div[contains(@class, 'msl-ShowMore_Link ') and contains(text(), 'Show more')]")
                 
@@ -48,9 +74,9 @@ async def main():
                 # Write out html to file------------------------------------------------
                 # wait for elem to exist
                 elem = await driver.find_element(By.XPATH, "//div[contains(@class, 'wcl-PageContainer_Colcontainer ')]")
-                body_html_team = await elem.get_attribute('outerHTML')
-                with open(f"Odds-Scraping/CPL/Bet365/HTML/body_html_team_match_{index}.txt", 'w') as f:
-                    f.write(body_html_team)
+                body_html_players = await elem.get_attribute('outerHTML')
+                with open(f"Odds-Scraping/Internationals/Bet365/HTML/body_html_players_match_{index}.txt", 'w') as f:
+                    f.write(body_html_players)
                         
             except Exception as e:
                 print(f"An error occurred with URL {url}: {e}. Moving to the next URL.")

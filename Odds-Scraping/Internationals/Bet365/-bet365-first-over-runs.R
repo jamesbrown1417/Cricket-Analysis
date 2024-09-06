@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_first_over <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "first_over")
+scraped_files_first_over <- list.files("Odds-Scraping/Internationals/Bet365/HTML", full.names = TRUE, pattern = "first_over")
 
 # Main Function
 get_first_over_runs <- function(scraped_file) {
@@ -102,4 +102,4 @@ first_over_runs_all <-
   rename(market = market_name)
 
 # Output as a csv
-write_csv(first_over_runs_all, "Data/T20s/CPL/scraped_odds/bet365_first_over_runs.csv")
+write_csv(first_over_runs_all, "Data/T20s/Internationals/scraped_odds/bet365_first_over_runs.csv")

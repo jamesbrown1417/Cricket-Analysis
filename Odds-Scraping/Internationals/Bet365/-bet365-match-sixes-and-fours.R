@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_boundaries <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "body_html_match")
+scraped_files_boundaries <- list.files("Odds-Scraping/Internationals/Bet365/HTML", full.names = TRUE, pattern = "body_html_match")
 
 # Main Function
 get_match_boundaries <- function(scraped_file) {
@@ -121,6 +121,6 @@ total_match_boundaries <-
   mutate(market = "Total Match Boundaries")
 
 # Output as a csv
-write_csv(total_match_fours, "Data/T20s/CPL/scraped_odds/bet365_total_match_fours.csv")
-write_csv(total_match_sixes, "Data/T20s/CPL/scraped_odds/bet365_total_match_sixes.csv")
-write_csv(total_match_boundaries, "Data/T20s/CPL/scraped_odds/bet365_total_match_boundaries.csv")
+write_csv(total_match_fours, "Data/T20s/Internationals/scraped_odds/bet365_total_match_fours.csv")
+write_csv(total_match_sixes, "Data/T20s/Internationals/scraped_odds/bet365_total_match_sixes.csv")
+write_csv(total_match_boundaries, "Data/T20s/Internationals/scraped_odds/bet365_total_match_boundaries.csv")

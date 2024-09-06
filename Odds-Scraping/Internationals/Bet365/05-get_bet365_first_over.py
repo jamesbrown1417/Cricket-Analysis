@@ -10,7 +10,7 @@ time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 # Read in CSV of URLs=========================================================
 import pandas as pd
 # Read csv (no header col)
-url_df = pd.read_csv('Odds-Scraping/CPL/Bet365/first_innings_urls.csv', header=None)
+url_df = pd.read_csv('Odds-Scraping/Internationals/Bet365/first_over_urls.csv', header=None)
 
 # Convert first column to a list
 url_df = url_df[0]
@@ -36,9 +36,9 @@ async def main():
                 # Write out html to file------------------------------------------------
                 # wait for elem to exist
                 elem = await driver.find_element(By.XPATH, "//div[contains(@class, 'wcl-PageContainer_Colcontainer ')]")
-                body_html_first_innings = await elem.get_attribute('outerHTML')
-                with open(f"Odds-Scraping/CPL/Bet365/HTML/body_html_first_innings_match_{index}.txt", 'w') as f:
-                    f.write(body_html_first_innings)
+                body_html_first_over = await elem.get_attribute('outerHTML')
+                with open(f"Odds-Scraping/Internationals/Bet365/HTML/body_html_first_over_match_{index}.txt", 'w') as f:
+                    f.write(body_html_first_over)
                         
             except Exception as e:
                 print(f"An error occurred with URL {url}: {e}. Moving to the next URL.")
