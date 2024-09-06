@@ -10,12 +10,12 @@ time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 # Read in CSV of URLs=========================================================
 import pandas as pd
 # Read csv (no header col)
-url_df = pd.read_csv('Odds-Scraping/CPL/Bet365/first_over_urls.csv', header=None)
+url_df = pd.read_csv('Odds-Scraping/Internationals/Bet365/team_urls.csv', header=None)
 
 # Convert first column to a list
 url_df = url_df[0]
 
-# Get H2H HTML===============================================================
+# Get HTML====================================================================
 import asyncio
 
 async def main():
@@ -32,13 +32,25 @@ async def main():
                 
                 # Print URL
                 print(f"Getting URL {url} which is match {index}")
+
+                # Get all elements with class 'msl-ShowMore_Link ' that has text 'Show more'
+                # button_elements = await driver.find_elements(By.XPATH, "//div[contains(@class, 'msl-ShowMore_Link ') and contains(text(), 'Show more')]")
+                
+                # print(len(button_elements))
+                    
+                # Scroll into view of each button, click it and wait 1 second
+                # for button_element in button_elements:
+                #    await driver.execute_script("arguments[0].scrollIntoView(true);", button_element)
+                #    await driver.execute_script("window.scrollBy(0, -150)")
+                #    await button_element.click()
+                #    await driver.sleep(1)
                     
                 # Write out html to file------------------------------------------------
                 # wait for elem to exist
                 elem = await driver.find_element(By.XPATH, "//div[contains(@class, 'wcl-PageContainer_Colcontainer ')]")
-                body_html_first_over = await elem.get_attribute('outerHTML')
-                with open(f"Odds-Scraping/CPL/Bet365/HTML/body_html_first_over_match_{index}.txt", 'w') as f:
-                    f.write(body_html_first_over)
+                body_html_team = await elem.get_attribute('outerHTML')
+                with open(f"Odds-Scraping/Internationals/Bet365/HTML/body_html_team_match_{index}.txt", 'w') as f:
+                    f.write(body_html_team)
                         
             except Exception as e:
                 print(f"An error occurred with URL {url}: {e}. Moving to the next URL.")

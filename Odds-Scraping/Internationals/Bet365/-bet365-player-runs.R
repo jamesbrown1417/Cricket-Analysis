@@ -9,7 +9,7 @@ library(glue)
 
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_player <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "player")
+scraped_files_player <- list.files("Odds-Scraping/Internationals/Bet365/HTML", full.names = TRUE, pattern = "player")
 
 # Main Function
 get_player_runs <- function(scraped_file) {
@@ -255,4 +255,4 @@ player_runs <-
   rename(market = market_name, player_name = player, player_team = team)
 
 # Output as a csv
-write_csv(player_runs, "Data/T20s/CPL/scraped_odds/bet365_player_runs.csv")
+write_csv(player_runs, "Data/T20s/Internationals/scraped_odds/bet365_player_runs.csv")

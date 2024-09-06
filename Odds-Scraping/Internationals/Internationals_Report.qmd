@@ -1,5 +1,5 @@
 ---
-title: "CPL Report"
+title: "Internationals Report"
 execute:
   echo: false
   message: false
@@ -15,6 +15,7 @@ format:
     toc-depth: 3
     fig-width: 8
     fig-height: 6
+    page-layout: full
 editor: visual
 ---
 
@@ -23,9 +24,10 @@ editor: visual
 ```{r}
 # Load Libraries
 library(tidyverse)
+library(DT)
 
 # Read in data
-processed_odds_files <- list.files("../../Data/T20s/CPL/processed_odds", full.names = TRUE)
+processed_odds_files <- list.files("../../Data/T20s/Internationals/processed_odds", full.names = TRUE)
 
 # Read in all data
 processed_odds_data <-
@@ -39,6 +41,8 @@ processed_odds_data <-
 ### Player Runs
 
 ```{r}
+#| column: screen
+
 # Get all player runs over data
 player_runs_overs <-
   processed_odds_data$player_runs |>
@@ -61,13 +65,23 @@ player_runs <-
   select(match, player_name, market, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
 if (nrow(player_runs) > 0) {
-  player_runs
+  datatable(
+    player_runs,
+    filter = 'top',
+    rownames = FALSE,
+    options = list(
+      pageLength = 10,
+      autoWidth = FALSE,
+      columnDefs = list(list(width = '100px', targets = "_all"))
+    )
+  )
 } else {
   cat("No middles found")
 }
@@ -76,6 +90,8 @@ if (nrow(player_runs) > 0) {
 ### Fall of First Wicket
 
 ```{r}
+#| column: screen
+
 # Get all FOFW over data
 fofw_overs <-
   processed_odds_data$runs_at_first_wicket |>
@@ -96,13 +112,14 @@ fofw <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
 if (nrow(fofw) > 0) {
-  fofw
+  datatable(fofw, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -111,6 +128,8 @@ if (nrow(fofw) > 0) {
 ### First Over Runs
 
 ```{r}
+#| column: screen
+
 # Get all First Over Runs over data
 for_overs <-
   processed_odds_data$first_over_runs |>
@@ -131,13 +150,14 @@ first_over_runs <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.25) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
 if (nrow(first_over_runs) > 0) {
-  first_over_runs
+  datatable(first_over_runs, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -146,6 +166,8 @@ if (nrow(first_over_runs) > 0) {
 ### Team Fours
 
 ```{r}
+#| column: screen
+
 # Get all team fours over data
 team_fours_overs <-
   processed_odds_data$team_fours |>
@@ -166,13 +188,14 @@ team_fours <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
 if (nrow(team_fours) > 0) {
-  team_fours
+  datatable(team_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -181,6 +204,8 @@ if (nrow(team_fours) > 0) {
 ### Team Sixes
 
 ```{r}
+#| column: screen
+
 # Get all team sixes over data
 team_sixes_overs <-
   processed_odds_data$team_sixes |>
@@ -201,13 +226,14 @@ team_sixes <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
 if (nrow(team_sixes) > 0) {
-  team_sixes
+    datatable(team_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -216,6 +242,8 @@ if (nrow(team_sixes) > 0) {
 ### Match Fours
 
 ```{r}
+#| column: screen
+
 # Get all match fours
 match_fours_overs <-
   processed_odds_data$match_fours |>
@@ -240,7 +268,7 @@ match_fours <-
   arrange(desc(diff), margin)
 
 if (nrow(match_fours) > 0) {
-  match_fours
+    datatable(match_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -249,6 +277,8 @@ if (nrow(match_fours) > 0) {
 ### Match Sixes
 
 ```{r}
+#| column: screen
+
 # Get all match sixes
 match_sixes_overs <-
   processed_odds_data$match_sixes |>
@@ -273,7 +303,7 @@ match_sixes <-
   arrange(desc(diff), margin)
 
 if (nrow(match_sixes) > 0) {
-  match_sixes
+    datatable(match_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No middles found")
 }
@@ -305,12 +335,13 @@ player_runs <-
   inner_join(player_runs_unders) |> 
   select(match, player_name, market, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(player_runs) > 0) {
-  player_runs
+    datatable(player_runs, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -338,12 +369,13 @@ fofw <-
   inner_join(fofw_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(fofw) > 0) {
-  fofw
+  datatable(fofw, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -371,12 +403,13 @@ first_over_runs <-
   inner_join(for_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(first_over_runs) > 0) {
-  first_over_runs
+  datatable(first_over_runs, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -404,12 +437,13 @@ team_fours <-
   inner_join(team_fours_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(team_fours) > 0) {
-  team_fours
+  datatable(team_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -437,12 +471,13 @@ team_sixes <-
   inner_join(team_sixes_unders) |> 
   select(match, market, line, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(team_sixes) > 0) {
-  team_sixes
+  datatable(team_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -467,13 +502,13 @@ match_fours <-
   match_fours_overs |> 
   inner_join(match_fours_unders) |> 
   select(match, market, line, contains("over"), contains("under")) |> 
-  filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(match_fours) > 0) {
-  match_fours
+  datatable(match_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -499,12 +534,13 @@ match_sixes <-
   inner_join(match_sixes_unders) |> 
   select(match, market, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(match_sixes) > 0) {
-  match_sixes
+  datatable(match_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
@@ -544,14 +580,16 @@ bowler_wickets <-
   inner_join(bowler_wickets_unders, relationship = "many-to-many") |> 
   select(match, market, player_name, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(bowler_wickets) > 0) {
-  bowler_wickets
+  datatable(bowler_wickets, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
   cat("No arbitrage opportunities found")
 }
 ```
+
 :::

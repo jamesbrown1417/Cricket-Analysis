@@ -10,7 +10,7 @@ time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 # Read in CSV of URLs=========================================================
 import pandas as pd
 # Read csv (no header col)
-url_df = pd.read_csv('Odds-Scraping/CPL/Bet365/match_urls.csv', header=None)
+url_df = pd.read_csv('Odds-Scraping/Internationals/Bet365/match_urls.csv', header=None)
 
 # Convert first column to a list
 url_df = url_df[0]
@@ -85,7 +85,7 @@ async def main():
                 # wait for elem to exist
                 elem = await driver.find_element(By.XPATH, "//div[contains(@class, 'wcl-PageContainer_Colcontainer ')]")
                 body_html_match = await elem.get_attribute('outerHTML')
-                with open(f"Odds-Scraping/CPL/Bet365/HTML/body_html_match_{index}.txt", 'w') as f:
+                with open(f"Odds-Scraping/Internationals/Bet365/HTML/body_html_match_{index}.txt", 'w') as f:
                     f.write(body_html_match)
                         
             except Exception as e:

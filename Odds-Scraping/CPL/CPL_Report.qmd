@@ -65,8 +65,9 @@ player_runs <-
   select(match, player_name, market, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
@@ -111,8 +112,9 @@ fofw <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
@@ -148,8 +150,9 @@ first_over_runs <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.25) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
@@ -185,8 +188,9 @@ team_fours <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
@@ -222,8 +226,9 @@ team_sixes <-
   select(match, market, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin <= 10) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
@@ -330,8 +335,9 @@ player_runs <-
   inner_join(player_runs_unders) |> 
   select(match, player_name, market, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(player_runs) > 0) {
@@ -363,8 +369,9 @@ fofw <-
   inner_join(fofw_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(fofw) > 0) {
@@ -396,8 +403,9 @@ first_over_runs <-
   inner_join(for_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(first_over_runs) > 0) {
@@ -429,8 +437,9 @@ team_fours <-
   inner_join(team_fours_unders) |> 
   select(match, market, team, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(team_fours) > 0) {
@@ -462,8 +471,9 @@ team_sixes <-
   inner_join(team_sixes_unders) |> 
   select(match, market, line, team, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(team_sixes) > 0) {
@@ -492,9 +502,9 @@ match_fours <-
   match_fours_overs |> 
   inner_join(match_fours_unders) |> 
   select(match, market, line, contains("over"), contains("under")) |> 
-  filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(match_fours) > 0) {
@@ -524,8 +534,9 @@ match_sixes <-
   inner_join(match_sixes_unders) |> 
   select(match, market, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(match_sixes) > 0) {
@@ -569,8 +580,9 @@ bowler_wickets <-
   inner_join(bowler_wickets_unders, relationship = "many-to-many") |> 
   select(match, market, player_name, line, contains("over"), contains("under")) |> 
   filter(over_agency != under_agency) |>
-  mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1) |> 
+  mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
+  mutate(margin = round(margin, 2)) |>
+  filter(margin < 0) |> 
   arrange(margin)
 
 if (nrow(bowler_wickets) > 0) {
@@ -579,4 +591,5 @@ if (nrow(bowler_wickets) > 0) {
   cat("No arbitrage opportunities found")
 }
 ```
+
 :::

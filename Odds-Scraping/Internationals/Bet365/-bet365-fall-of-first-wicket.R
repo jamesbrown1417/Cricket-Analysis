@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_fofw <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "body_html_team")
+scraped_files_fofw <- list.files("Odds-Scraping/Internationals/Bet365/HTML", full.names = TRUE, pattern = "body_html_team")
 
 # Main Function
 get_fofw_runs <- function(scraped_file) {
@@ -102,4 +102,4 @@ fofw_runs_all <-
   rename(market = market_name)
 
 # Output as a csv
-write_csv(fofw_runs_all, "Data/T20s/CPL/scraped_odds/bet365_runs_at_first_wicket.csv")
+write_csv(fofw_runs_all, "Data/T20s/Internationals/scraped_odds/bet365_runs_at_first_wicket.csv")
