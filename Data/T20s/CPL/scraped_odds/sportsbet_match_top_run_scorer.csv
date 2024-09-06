@@ -1,36 +1,4 @@
 match,market,home_team,away_team,player_name,price
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Nicholas Pooran,4.3
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Brandon King,6.25
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Fakhar Zaman,6.25
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jason Roy,6.5
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Andries Gous,9.25
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Sunil Narine,10.5
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jewel Andrew,12
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Keacy Carty,12
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Justin Greaves,13
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Sam Billings,13
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shaqkere Parris,13
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Kofi James,14
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Mark Deyal,14
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Teddy Bishop,14
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Kieron Pollard,15
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Andre Russell,17
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Imad Wasim,26
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jahmar Hamilton,26
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Fabian Allen,61
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Akeal Hosein,71
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Dwayne Bravo,71
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Chris Green,91
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Hayden Walsh Jr,91
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Joshua James,91
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Nathan Edward,91
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Joshua Little,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Mohammad Amir,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Muhammad Ahsan Ali Khan,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Roshon Primus,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shamar Springer,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Terrance Hinds,101
-Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Match Run Scorer,Antigua and Barbuda Falcons,Trinbago Knight Riders,Waqar Salamkheil,101
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Quinton de Kock,5.4
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Evin Lewis,6.75
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Alick Athanaze,7.75
@@ -61,3 +29,35 @@ St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and 
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Rivaldo Clarke,101
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Ryan John,101
 St Kitts and Nevis Patriots v Barbados Royals,Top Match Run Scorer,St Kitts and Nevis Patriots,Barbados Royals,Veerasammy Permaul,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Faf du Plessis,5.1
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Shai Hope,6.75
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Johnson Charles,7.5
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Bhanuka Rajapaksa,8
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Rahmanullah Gurbaz,8
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Shimron Hetmyer,8.25
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Johann Jeremiah,11.5
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Kevlon Anderson,11
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Mohammad Azam Khan,12
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Ackeem Auguste,15
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Tim Seifert,15
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Sadrack Descartes,17
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Kevin Sinclair,19
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Matthew Nandu,19
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Aaron Jones,26
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Roston Chase,26
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Gudakesh Motie,34
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Raymon Reifer,41
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Romario Shepherd,41
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Keemo Paul,46
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Ronaldo Alimohamed,46
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,David Wiese,67
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Dwaine Pretorius,67
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Khari Campbell,67
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Alzarri Joseph,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Imran Tahir,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Junior Sinclair,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Khary Pierre,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Matthew Forde,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Mc Kenny Clarke,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Noor Ahmad,101
+St Lucia Kings v Guyana Amazon Warriors,Top Match Run Scorer,St Lucia Kings,Guyana Amazon Warriors,Shamar Joseph,101
