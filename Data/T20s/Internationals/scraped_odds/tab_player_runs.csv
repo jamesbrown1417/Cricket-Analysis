@@ -1,1 +1,41 @@
-match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
+match,market,home_team,away_team,line,over_price,under_price,agency,player_name
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.45,NA,TAB,Brandon McMullen
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2.5,NA,TAB,Brandon McMullen
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,5.5,NA,TAB,Brandon McMullen
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,67,NA,TAB,Brandon McMullen
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.42,NA,TAB,George Munsey
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2.4,NA,TAB,George Munsey
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,5,NA,TAB,George Munsey
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,51,NA,TAB,George Munsey
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.33,NA,TAB,Jake Fraser-McGurk
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2,NA,TAB,Jake Fraser-McGurk
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,3.6,NA,TAB,Jake Fraser-McGurk
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,17,NA,TAB,Jake Fraser-McGurk
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.38,NA,TAB,Josh Inglis
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2.2,NA,TAB,Josh Inglis
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,4.5,NA,TAB,Josh Inglis
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,29,NA,TAB,Josh Inglis
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.25,NA,TAB,Mitchell Marsh
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,1.8,NA,TAB,Mitchell Marsh
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,3.2,NA,TAB,Mitchell Marsh
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,13,NA,TAB,Mitchell Marsh
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.48,NA,TAB,Ollie Hairs
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2.6,NA,TAB,Ollie Hairs
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,6,NA,TAB,Ollie Hairs
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,81,NA,TAB,Ollie Hairs
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.42,NA,TAB,Richie Berrington
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,2.4,NA,TAB,Richie Berrington
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,5,NA,TAB,Richie Berrington
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,51,NA,TAB,Richie Berrington
+Scotland v Australia,Player Runs,Scotland,Australia,9.5,1.24,NA,TAB,Travis Head
+Scotland v Australia,Player Runs,Scotland,Australia,24.5,1.7,NA,TAB,Travis Head
+Scotland v Australia,Player Runs,Scotland,Australia,49.5,2.6,NA,TAB,Travis Head
+Scotland v Australia,Player Runs,Scotland,Australia,99.5,10,NA,TAB,Travis Head
+Scotland v Australia,Player Runs,Scotland,Australia,15.5,2,1.75,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,16.5,1.75,2,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,17.5,1.75,2,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,18.5,1.87,1.87,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,21.5,1.87,1.87,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,23.5,1.87,1.87,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,25.5,1.87,1.87,TAB,NA
+Scotland v Australia,Player Runs,Scotland,Australia,27.5,1.87,1.87,TAB,NA

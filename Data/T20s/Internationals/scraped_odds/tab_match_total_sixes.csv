@@ -1,11 +1,1 @@
-match,home_team,away_team,market,line,over_price,under_price,agency
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,11.5,1.87,1.87,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,3.5,1.02,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,5.5,1.1,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,7.5,1.22,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,9.5,1.5,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,11.5,1.87,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,13.5,2.4,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,15.5,3.25,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,17.5,4.5,NA,TAB
-Zimbabwe v India,Zimbabwe,India,Match Total Sixes,19.5,7,NA,TAB
+match,market,line,over_price,under_price,agency

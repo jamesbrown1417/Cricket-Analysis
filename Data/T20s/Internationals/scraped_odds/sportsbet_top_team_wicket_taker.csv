@@ -1,18 +1,32 @@
-match,market,home_team,away_team,player_name,player_team,opposition_team,price
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Blessing Muzarabani,Zimbabwe,India,4.5
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Richard Ngarava,Zimbabwe,India,4.1
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Sikandar Raza,Zimbabwe,India,4.6
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Tendai Chatara,Zimbabwe,India,5
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Brandon Mavuta,Zimbabwe,India,6.25
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Faraz Akram,Zimbabwe,India,6.25
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Wellington Masakadza,Zimbabwe,India,6
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Brian Bennet,Zimbabwe,India,8.75
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Mukesh Kumar,India,Zimbabwe,3.6
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Ravi Bishnoi,India,Zimbabwe,3.8
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Avesh Khan,India,Zimbabwe,4.6
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Khaleel Ahmed,India,Zimbabwe,4.3
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Washington Sundar,India,Zimbabwe,4.6
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Abhishek Sharma,India,Zimbabwe,7.5
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Harshit Rana,India,Zimbabwe,9.75
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Tushar Deshpande,India,Zimbabwe,9.75
-Zimbabwe v India,Top Team Wicket Taker,Zimbabwe,India,Shivam Dube,India,Zimbabwe,10.5
+match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Brad Wheal,Scotland,Australia,4.8,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Mark Watt,Scotland,Australia,4.25,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Bradley Currie,Scotland,Australia,5.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Charlie Cassell,Scotland,Australia,5.4,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Brandon McMullen,Scotland,Australia,7.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Charlie Tear,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Chris Sole,Scotland,Australia,5.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Christopher Nicholas Greaves,Scotland,Australia,5.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,George Munsey,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Safyaan Sharif,Scotland,Australia,5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Jasper Davidson,Scotland,Australia,6.75,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Jack Jarvis,Scotland,Australia,7.25,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Matty Cross,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Michael Jones,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Michael Leask,Scotland,Australia,7.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Ollie Hairs,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Richie Berrington,Scotland,Australia,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Adam Zampa,Australia,Scotland,4.1,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Cooper Connolly,Australia,Scotland,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Jake Fraser-McGurk,Australia,Scotland,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Josh Inglis,Australia,Scotland,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Nathan Ellis,Australia,Scotland,4.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Riley Meredith,Australia,Scotland,4.8,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Sean Abbott,Australia,Scotland,4.75,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Xavier Bartlett,Australia,Scotland,4.8,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Cameron Green,Australia,Scotland,9.75,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Marcus Stoinis,Australia,Scotland,9,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Aaron Hardie,Australia,Scotland,10.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Mitchell Marsh,Australia,Scotland,10.5,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Tim David,Australia,Scotland,NA,Sportsbet
+Scotland v Australia,Top Team Wicket Taker,Scotland,Australia,Travis Michael Head,Australia,Scotland,NA,Sportsbet

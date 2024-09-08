@@ -1,11 +1,10 @@
-match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency,country
-Zimbabwe v India,Player Runs,Zimbabwe,India,Abhishek Sharma,India,Zimbabwe,21.5,1.87,1.87,Sportsbet,India
-Zimbabwe v India,Player Runs,Zimbabwe,India,Brian Bennett,Zimbabwe,India,15.5,1.87,1.87,Sportsbet,Zimbabwe
-Zimbabwe v India,Player Runs,Zimbabwe,India,Dion Myers,Zimbabwe,India,14.5,1.87,1.87,Sportsbet,Zimbabwe
-Zimbabwe v India,Player Runs,Zimbabwe,India,Ruturaj Gaikwad,India,Zimbabwe,24.5,1.87,1.87,Sportsbet,India
-Zimbabwe v India,Player Runs,Zimbabwe,India,Sanju Samson,India,Zimbabwe,15.5,1.87,1.87,Sportsbet,India
-Zimbabwe v India,Player Runs,Zimbabwe,India,Shubman Gill,India,Zimbabwe,28.5,1.87,1.87,Sportsbet,India
-Zimbabwe v India,Player Runs,Zimbabwe,India,Sikandar Raza,Zimbabwe,India,17.5,1.87,1.87,Sportsbet,Zimbabwe
-Zimbabwe v India,Player Runs,Zimbabwe,India,Tadiwanashe Marumani,Zimbabwe,India,11.5,1.87,1.87,Sportsbet,Zimbabwe
-Zimbabwe v India,Player Runs,Zimbabwe,India,Wessly Madhevere,Zimbabwe,India,12.5,1.87,1.87,Sportsbet,Zimbabwe
-Zimbabwe v India,Player Runs,Zimbabwe,India,Yashasvi Jaiswal,India,Zimbabwe,25.5,1.87,1.87,Sportsbet,India
+match,market,home_team,away_team,player_name,line,over_price,under_price,agency
+Scotland v Australia,Player Runs,Scotland,Australia,Brandon McMullen,17.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,George Munsey,18.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Jake Fraser-McGurk,24.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Josh Inglis,23.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Matty Cross,13.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Michael Jones,16.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Mitchell Marsh,27.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Richie Berrington,18.5,1.87,1.87,Sportsbet
+Scotland v Australia,Player Runs,Scotland,Australia,Travis Michael Head,28.5,1.87,1.87,Sportsbet
