@@ -333,7 +333,12 @@ ui <- page_navbar(
                         "First Over Runs",
                         "Chasing Team Win",
                         "4s",
-                        "6s"),
+                        "6s",
+                        "Total Match Runs",
+                        "Total Match Wickets",
+                        "Total Match 4s",
+                        "Total Match 6s"
+                        ),
             multiple = FALSE,
             selected = "Innings Total"
           ),
@@ -674,8 +679,7 @@ server <- function(input, output, session) {
   #=============================================================================
   
   filtered_team_stats <- reactive({
-    # Filter player stats
-  
+    # Filter team stats
       filtered_team_stats <-
         innings_stats_long |>
         select(Date = match_date,
@@ -702,13 +706,6 @@ server <- function(input, output, session) {
                `First Over 4s` = first_over_fours,
                `First Over 6s` = first_over_sixes) |> 
         arrange(desc(Date))
-    
-    # Filter by last n games
-    if (!is.na(input$last_games_c)) {
-      filtered_team_stats <-
-        filtered_team_stats |>
-        slice_head(n = input$last_games_c)
-    }
     
     # Filter by innings balls bowled
     if (!is.na(input$innings_balls_bowled_min_c)) {
@@ -746,9 +743,76 @@ server <- function(input, output, session) {
       filtered_team_stats |>
       mutate(game_number = row_number())
     
+    # Filter by last n games
+    if (!is.na(input$last_games_c)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        slice_head(n = input$last_games_c)
+    }
+    
     # Return filtered player stats
     return(filtered_team_stats)
     
+  })
+  
+  #=============================================================================
+  # Get match instead of innings stats
+  #=============================================================================
+  
+  filtered_match_stats <- reactive({
+    # Get match stats
+    filtered_match_stats <-
+      innings_stats_long |>
+      group_by(match_id) |>
+      summarise(
+        Date = first(match_date),
+        Event = first(event),
+        Venue = first(venue),
+        Team_1 = first(first_over_batting_team),
+        Team_2 = first(first_over_bowling_team),
+        `Match Winner` = first(match_winner),
+        `Chasing Team Win` = first(chasing_team_won),
+        `Toss Winner` = first(toss_winner),
+        `Toss Decision` = first(toss_decision),
+        `Total Match Runs` = sum(innings_total),
+        `Total Match Wickets` = sum(innings_wickets),
+        `Total Match 4s` = sum(innings_fours),
+        `Total Match 6s` = sum(innings_sixes)
+      )
+    
+    # Filter by event
+    filtered_match_stats <-
+      filtered_match_stats |>
+      filter(Event %in% input$event_input_c)
+    
+    # Filter by venue  
+    if (!is.null(input$venue_input_c)) {
+      filtered_match_stats <-
+        filtered_match_stats |>
+        filter(Venue %in% input$venue_input_c)
+    }
+    
+    # Filter by team
+    if (!is.null(input$team_name_input_c)) {
+      filtered_match_stats <-
+        filtered_match_stats |>
+        filter(Team_1 %in% input$team_name_input_c | Team_2 %in% input$team_name_input_c)
+    }
+    
+    # Now make game number
+    filtered_match_stats <-
+      filtered_match_stats |>
+      mutate(game_number = row_number())
+    
+    # Filter by last n games
+    if (!is.na(input$last_games_c)) {
+      filtered_match_stats <-
+        filtered_match_stats |>
+        slice_head(n = input$last_games_c)
+    }
+    
+    # Return match stats
+    return(filtered_match_stats)
   })
   
   #=============================================================================
@@ -756,32 +820,66 @@ server <- function(input, output, session) {
   #=============================================================================
   
   proportion_above_reference_line_team <- reactive({
-    # Get proportion above reference line
-    proportion_above_reference_line_team <-
-      filtered_team_stats() |>
-      filter(!!sym(input$stat_input_c) >= input$reference_line_c) |>
-      nrow() / nrow(filtered_team_stats())
     
-    # Get implied Odds
-    implied_odds <- 1 / proportion_above_reference_line_team
-    implied_odds_under <- 1 / (1 - proportion_above_reference_line_team)
+    if (input$stat_input_c %in% c("Total Match Runs", "Total Match Wickets", "Total Match 4s", "Total Match 6s")) {
+      # Get proportion above reference line
+      proportion_above_reference_line_team <-
+        filtered_match_stats() |>
+        filter(!!sym(input$stat_input_c) >= input$reference_line_c) |>
+        nrow() / nrow(filtered_match_stats())
+      
+      # Get implied Odds
+      implied_odds <- 1 / proportion_above_reference_line_team
+      implied_odds_under <- 1 / (1 - proportion_above_reference_line_team)
+      
+      # Get string to output
+      output_string_team <- paste0(
+        "Proportion Above Reference Line: ",
+        round(proportion_above_reference_line_team, 2),
+        "\n",
+        "Implied Odds - Over: ",
+        round(implied_odds, 2),
+        "\n",
+        "Implied Odds - Under: ",
+        round(implied_odds_under, 2),
+        "\n",
+        "Sample Size: ",
+        nrow(filtered_match_stats())
+      )
+      
+      return(output_string_team)
+    }
     
-    # Get string to output
-    output_string_team <- paste0(
-      "Proportion Above Reference Line: ",
-      round(proportion_above_reference_line_team, 2),
-      "\n",
-      "Implied Odds - Over: ",
-      round(implied_odds, 2),
-      "\n",
-      "Implied Odds - Under: ",
-      round(implied_odds_under, 2),
-      "\n",
-      "Sample Size: ",
-      nrow(filtered_team_stats())
-    )
+    else {
+      # Get proportion above reference line
+      proportion_above_reference_line_team <-
+        filtered_team_stats() |>
+        filter(!!sym(input$stat_input_c) >= input$reference_line_c) |>
+        nrow() / nrow(filtered_team_stats())
+      
+      # Get implied Odds
+      implied_odds <- 1 / proportion_above_reference_line_team
+      implied_odds_under <- 1 / (1 - proportion_above_reference_line_team)
+      
+      # Get string to output
+      output_string_team <- paste0(
+        "Proportion Above Reference Line: ",
+        round(proportion_above_reference_line_team, 2),
+        "\n",
+        "Implied Odds - Over: ",
+        round(implied_odds, 2),
+        "\n",
+        "Implied Odds - Under: ",
+        round(implied_odds_under, 2),
+        "\n",
+        "Sample Size: ",
+        nrow(filtered_team_stats())
+      )
+      
+      return(output_string_team)
+    }
     
-    return(output_string_team)
+    
     
   })
   
@@ -790,70 +888,140 @@ server <- function(input, output, session) {
   #=============================================================================
   
   output$team_stat_plot <- renderPlot({
-    # Create a new variable that checks if the y-value is above the reference line
-    df_with_color <- filtered_team_stats() %>%
-      mutate(color_condition = ifelse(
-        !!sym(input$stat_input_c) >= input$reference_line_c,
-        "limegreen",
-        "red1"
-      ))
+    if (input$stat_input_c %in% c("Total Match Runs", "Total Match Wickets", "Total Match 4s", "Total Match 6s")) {
+      # Create a new variable that checks if the y-value is above the reference line
+      df_with_color <- filtered_match_stats() %>%
+        mutate(color_condition = ifelse(
+          !!sym(input$stat_input_c) >= input$reference_line_c,
+          "limegreen",
+          "red1"
+        ))
+      
+      # Plot player stats
+      p <- df_with_color %>%
+        ggplot(aes(
+          x = game_number,
+          y = !!sym(input$stat_input_c),
+          color = color_condition
+        )) +
+        
+        # Basic Elements
+        geom_point(size = 3) +
+        geom_smooth(
+          method = "loess",
+          se = FALSE,
+          inherit.aes = FALSE,
+          mapping = aes(x = game_number, y = !!sym(input$stat_input_c))
+        ) +
+        geom_hline(
+          yintercept = input$reference_line_c,
+          linetype = "dashed",
+          color = "grey4",
+          size = 1
+        )+
+        
+        # Add text
+        annotate(
+          geom = "text",
+          x = 1,
+          y = max(filtered_match_stats() %>% pull(!!sym(
+            input$stat_input_c
+          ))),
+          label = proportion_above_reference_line_team(),
+          hjust = 0,
+          vjust = 1,
+          color = "black",
+          size = 6
+        ) +
+        
+        # Aesthetics
+        theme_bw() +
+        theme(
+          plot.background = element_rect(fill = "white", colour = "white"),
+          axis.title = element_text(size = 14),
+          axis.text = element_text(size = 12)
+        ) +
+        
+        # Labels & Titles
+        labs(title = "",
+             x = "Game Number") +
+        
+        # Set manual color scale
+        scale_color_identity() +
+        
+        # Additional
+        theme(legend.position = "none")
+      
+      print(p)
+    }
     
-    # Plot player stats
-    p <- df_with_color %>%
-      ggplot(aes(
-        x = game_number,
-        y = !!sym(input$stat_input_c),
-        color = color_condition
-      )) +
+    else {
+      # Create a new variable that checks if the y-value is above the reference line
+      df_with_color <- filtered_team_stats() %>%
+        mutate(color_condition = ifelse(
+          !!sym(input$stat_input_c) >= input$reference_line_c,
+          "limegreen",
+          "red1"
+        ))
       
-      # Basic Elements
-      geom_point(size = 3) +
-      geom_smooth(
-        method = "loess",
-        se = FALSE,
-        inherit.aes = FALSE,
-        mapping = aes(x = game_number, y = !!sym(input$stat_input_c))
-      ) +
-      geom_hline(
-        yintercept = input$reference_line_c,
-        linetype = "dashed",
-        color = "grey4",
-        size = 1
-      )+
+      # Plot player stats
+      p <- df_with_color %>%
+        ggplot(aes(
+          x = game_number,
+          y = !!sym(input$stat_input_c),
+          color = color_condition
+        )) +
+        
+        # Basic Elements
+        geom_point(size = 3) +
+        geom_smooth(
+          method = "loess",
+          se = FALSE,
+          inherit.aes = FALSE,
+          mapping = aes(x = game_number, y = !!sym(input$stat_input_c))
+        ) +
+        geom_hline(
+          yintercept = input$reference_line_c,
+          linetype = "dashed",
+          color = "grey4",
+          size = 1
+        )+
+        
+        # Add text
+        annotate(
+          geom = "text",
+          x = 1,
+          y = max(filtered_team_stats() %>% pull(!!sym(
+            input$stat_input_c
+          ))),
+          label = proportion_above_reference_line_team(),
+          hjust = 0,
+          vjust = 1,
+          color = "black",
+          size = 6
+        ) +
+        
+        # Aesthetics
+        theme_bw() +
+        theme(
+          plot.background = element_rect(fill = "white", colour = "white"),
+          axis.title = element_text(size = 14),
+          axis.text = element_text(size = 12)
+        ) +
+        
+        # Labels & Titles
+        labs(title = "",
+             x = "Game Number") +
+        
+        # Set manual color scale
+        scale_color_identity() +
+        
+        # Additional
+        theme(legend.position = "none")
       
-      # Add text
-      annotate(
-        geom = "text",
-        x = 1,
-        y = max(filtered_team_stats() %>% pull(!!sym(
-          input$stat_input_c
-        ))),
-        label = proportion_above_reference_line_team(),
-        hjust = 0,
-        vjust = 1,
-        color = "black",
-        size = 6
-      ) +
-      
-      # Aesthetics
-      theme_bw() +
-      theme(
-        plot.background = element_rect(fill = "white", colour = "white"),
-        axis.title = element_text(size = 14),
-        axis.text = element_text(size = 12)
-      ) +
-      
-      # Labels & Titles
-      labs(title = "",
-           x = "Game Number") +
-      
-      # Set manual color scale
-      scale_color_identity() +
-      
-      # Additional
-      theme(legend.position = "none")
-    
-    print(p)
+      print(p)
+    }
+   
   })
   
   #=============================================================================
@@ -861,12 +1029,22 @@ server <- function(input, output, session) {
   #=============================================================================
   
   output$team_stat_table <- renderDT({
-    datatable(
-      filtered_team_stats(),
-      options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
-      width = "100%",
-      height = "800px"
-    )
+    if (input$stat_input_c %in% c("Total Match Runs", "Total Match Wickets", "Total Match 4s", "Total Match 6s")) {
+      datatable(
+        filtered_match_stats(),
+        options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+        width = "100%",
+        height = "800px"
+      )
+    }
+    else {
+      datatable(
+        filtered_team_stats(),
+        options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+        width = "100%",
+        height = "800px"
+      )
+    }
   })
   
   #=============================================================================
@@ -874,20 +1052,38 @@ server <- function(input, output, session) {
   #=============================================================================
   
   output$team_stat_summary <- renderDT({
-    datatable(
-      filtered_team_stats() |> 
-        summarise(
-          mean = round(mean(!!sym(input$stat_input_c), na.rm = TRUE), 2),
-          median = round(median(!!sym(input$stat_input_c), na.rm = TRUE), 2),
-          sd = round(sd(!!sym(input$stat_input_c), na.rm = TRUE), 2),
-          min = round(min(!!sym(input$stat_input_c), na.rm = TRUE), 2),
-          max = round(max(!!sym(input$stat_input_c), na.rm = TRUE), 2),
-          n = n()  
-        ),
-      options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
-      width = "100%",
-      height = "800px"
-    )
+    if (input$stat_input_c %in% c("Total Match Runs", "Total Match Wickets", "Total Match 4s", "Total Match 6s")) {
+      datatable(
+        filtered_match_stats() |> 
+          summarise(
+            mean = round(mean(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            median = round(median(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            sd = round(sd(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            min = round(min(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            max = round(max(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            n = n()  
+          ),
+        options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+        width = "100%",
+        height = "800px"
+      )
+      }
+    else {
+      datatable(
+        filtered_team_stats() |> 
+          summarise(
+            mean = round(mean(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            median = round(median(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            sd = round(sd(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            min = round(min(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            max = round(max(!!sym(input$stat_input_c), na.rm = TRUE), 2),
+            n = n()  
+          ),
+        options = list(pageLength = 15, autoWidth = TRUE, scrollX = TRUE, scrollY = TRUE),
+        width = "100%",
+        height = "800px"
+      ) 
+    }
   })
   
   #=============================================================================

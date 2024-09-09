@@ -1,0 +1,176 @@
+---
+title: "CPL First Over Runs"
+execute:
+  echo: false
+  message: false
+  warning: false
+author: "James Brown"
+date: "2024-09-09"
+format:
+  html:
+    df-print: default
+    theme: cosmo
+    self-contained: true
+    toc: true
+    toc-depth: 3
+    fig-width: 8
+    fig-height: 6
+editor: visual
+---
+
+```{r}
+# Libraries and functions
+library(tidyverse)
+
+# Read in data
+for_data <- for_data <-
+  read_rds("../../Data/T20s/CPL/cpl_first_over_data.rds")
+```
+
+# Plot of First Over Runs
+
+```{r}
+# Plot of First Over Runs
+for_data |> 
+  count(first_over_total) |>
+  ggplot(aes(x = first_over_total, y = n)) +
+  geom_col() +
+  labs(
+    title = "First Over Runs",
+    x = "Runs",
+    y = "Count"
+  ) +
+  # Make each bar have a label
+  geom_text(aes(label = n), vjust = -0.5) +
+  # Give more x axis ticks
+  scale_x_continuous(breaks = seq(0, 26, 1))
+```
+
+# Summary of First Over Runs
+
+```{r}
+# Summary of First Over Runs
+for_data |> 
+  summarise(
+    mean = mean(first_over_total),
+    median = median(first_over_total),
+    min = min(first_over_total),
+    max = max(first_over_total)
+  )
+```
+
+# Get probabilities of going over and under common lines
+
+```{r}
+# Get probabilities of going over and under common lines
+
+## 4.5 Runs
+for_4.5 <-
+for_data |> 
+  mutate(
+    over_4_5 = first_over_total > 4.5,
+    under_4_5 = first_over_total <= 4.5
+  ) |> 
+  summarise(
+    over_prob = mean(over_4_5),
+    under_prob = mean(under_4_5)
+  ) |> 
+  mutate(line = 4.5) |> 
+  relocate(line, .before = over_prob)
+
+## 5.5 Runs
+for_5.5 <-
+for_data |> 
+  mutate(
+    over_5_5 = first_over_total > 5.5,
+    under_5_5 = first_over_total <= 5.5
+  ) |> 
+  summarise(
+    over_prob = mean(over_5_5),
+    under_prob = mean(under_5_5)
+  ) |> 
+  mutate(line = 5.5) |> 
+  relocate(line, .before = over_prob)
+
+## 6.5 Runs
+for_6.5 <-
+for_data |> 
+  mutate(
+    over_6_5 = first_over_total > 6.5,
+    under_6_5 = first_over_total <= 6.5
+  ) |> 
+  summarise(
+    over_prob = mean(over_6_5),
+    under_prob = mean(under_6_5)
+  ) |> 
+  mutate(line = 6.5) |> 
+  relocate(line, .before = over_prob)
+
+## 7.5 Runs
+for_7.5 <-
+for_data |> 
+  mutate(
+    over_7_5 = first_over_total > 7.5,
+    under_7_5 = first_over_total <= 7.5
+  ) |> 
+  summarise(
+    over_prob = mean(over_7_5),
+    under_prob = mean(under_7_5)
+  ) |> 
+  mutate(line = 7.5) |> 
+  relocate(line, .before = over_prob)
+
+# Bind Rows
+for_probs <-
+  bind_rows(for_4.5, for_5.5, for_6.5, for_7.5) |>
+  mutate(over_prob = round(over_prob, 3),
+         under_prob = round(under_prob, 3))
+```
+
+# Summarise First Over Runs by Venue
+
+```{r}
+# Summarise First Over Runs by Venue
+for_data |> 
+  group_by(venue) |> 
+  summarise(
+    games = n(),
+    mean = mean(first_over_total),
+    median = median(first_over_total),
+    min = min(first_over_total),
+    max = max(first_over_total)
+  ) |> 
+  arrange(median)
+```
+
+# Summarise First Over Runs by Bowler
+
+```{r}
+# Summarise First Over Runs by Bowler
+for_data |> 
+  group_by(first_over_bowler) |> 
+  summarise(
+    games = n(),
+    mean = mean(first_over_total),
+    median = median(first_over_total),
+    min = min(first_over_total),
+    max = max(first_over_total)
+  ) |> 
+  arrange(median) |> 
+  filter(games > 5)
+```
+
+# Summarise First Over Runs by Innings
+
+```{r}
+# Summarise First Over Runs by Innings
+for_data |> 
+  group_by(innings) |> 
+  summarise(
+    games = n(),
+    mean = mean(first_over_total),
+    median = median(first_over_total),
+    min = min(first_over_total),
+    max = max(first_over_total)
+  )
+```

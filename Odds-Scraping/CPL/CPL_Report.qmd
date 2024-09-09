@@ -26,10 +26,60 @@ editor: visual
 library(tidyverse)
 library(DT)
 
+# Function to calculate middle probability
+source("../../Functions/get_middle_probability.R")
+
 # Read in data
 processed_odds_files <- list.files("../../Data/T20s/CPL/processed_odds", full.names = TRUE)
 
-# Read in all data
+# Read in stats-----------------------------------------------------------------
+
+# Match Innings Data
+match_innings_data <- read_rds("../../Data/T20s/CPL/cpl_match_innings_data.rds")
+
+# Fall of first wicket
+fofw_data <-
+  match_innings_data |> 
+  select(match_id, match_date, innings_1_fall_of_first_wicket, innings_2_fall_of_first_wicket) |> 
+  pivot_longer(cols = starts_with("innings"), names_to = "innings", values_to = "fall_of_first_wicket") |> 
+  mutate(innings = str_remove(innings, "innings_")) |>
+  mutate(innings = str_remove(innings, "_fall_of_first_wicket")) |> 
+  arrange(match_id, innings)
+
+# First over runs
+for_data <-
+  read_rds("../../Data/T20s/CPL/cpl_first_over_data.rds") |> 
+  select(match_id, match_date, innings, first_over_total)
+
+# Team Fours and Sixes
+team_fours_data <-
+  match_innings_data |> 
+  select(match_id, match_date, innings_1_fours, innings_2_fours) |>
+  pivot_longer(cols = starts_with("innings"), names_to = "innings", values_to = "team_fours") |> 
+  mutate(innings = str_remove(innings, "innings_")) |>
+  mutate(innings = str_remove(innings, "_fours")) |> 
+  arrange(match_id, innings)
+
+team_sixes_data <-
+  match_innings_data |> 
+  select(match_id, match_date, innings_1_sixes, innings_2_sixes) |>
+  pivot_longer(cols = starts_with("innings"), names_to = "innings", values_to = "team_sixes") |> 
+  mutate(innings = str_remove(innings, "innings_")) |>
+  mutate(innings = str_remove(innings, "_sixes")) |> 
+  arrange(match_id, innings)
+
+# Match Fours and Sixes
+match_fours_data <-
+  match_innings_data |> 
+  mutate(match_fours = innings_1_fours + innings_2_fours) |>
+  select(match_id, match_date, match_fours)
+
+match_sixes_data <-
+  match_innings_data |> 
+  mutate(match_sixes = innings_1_sixes + innings_2_sixes) |>
+  select(match_id, match_date, match_sixes)
+
+# Read in all odds data---------------------------------------------------------
 processed_odds_data <-
   map(processed_odds_files, read_rds) |> 
   set_names(basename(processed_odds_files) |> str_remove("\\.rds"))
@@ -118,6 +168,33 @@ fofw <-
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
+# Get middle table
+middle_table_fofw <-
+  tibble(
+    value_column = "fall_of_first_wicket",
+    low_line_limit = fofw$over_line,
+    high_line_limit = fofw$under_line,
+    low_line_price = fofw$over_price,
+    high_line_price = fofw$under_price
+  )
+
+# Calculate middle ROI
+middle_table_fofw <- pmap_dfr(middle_table_fofw, calculate_middle_roi, fofw_data)
+
+if (nrow(middle_table_fofw) == 0) {
+  middle_table_fofw <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+fofw <- cbind(fofw, middle_table_fofw[,"roi_percentage"])
+
 if (nrow(fofw) > 0) {
   datatable(fofw, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
@@ -156,6 +233,33 @@ first_over_runs <-
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
 
+# Get middle table
+middle_table_for <-
+  tibble(
+    value_column = "first_over_runs",
+    low_line_limit = first_over_runs$over_line,
+    high_line_limit = first_over_runs$under_line,
+    low_line_price = first_over_runs$over_price,
+    high_line_price = first_over_runs$under_price
+  )
+
+# Calculate middle ROI
+middle_table_for <- pmap_dfr(middle_table_for, calculate_middle_roi, for_data)
+
+if (nrow(middle_table_for) == 0) {
+  middle_table_for <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+first_over_runs <- cbind(first_over_runs, middle_table_for[,"roi_percentage"])
+
 if (nrow(first_over_runs) > 0) {
   datatable(first_over_runs, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
 } else {
@@ -190,9 +294,36 @@ team_fours <-
   filter(under_line > over_line) |> 
   mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
   mutate(margin = round(margin, 2)) |>
-  filter(margin <= 10) |> 
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
+
+# Get middle table
+middle_table_fours <-
+  tibble(
+    value_column = "team_fours",
+    low_line_limit = team_fours$over_line,
+    high_line_limit = team_fours$under_line,
+    low_line_price = team_fours$over_price,
+    high_line_price = team_fours$under_price
+  )
+
+# Calculate middle ROI
+middle_table_fours <- pmap_dfr(middle_table_fours, calculate_middle_roi, team_fours_data)
+
+if (nrow(middle_table_fours) == 0) {
+  middle_table_fours <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+team_fours <- cbind(team_fours, middle_table_fours[,"roi_percentage"])
 
 if (nrow(team_fours) > 0) {
   datatable(team_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
@@ -228,9 +359,36 @@ team_sixes <-
   filter(under_line > over_line) |> 
   mutate(margin = 100*((1 / over_price + 1 / under_price) - 1)) |> 
   mutate(margin = round(margin, 2)) |>
-  filter(margin <= 10) |> 
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
+
+# Get middle table
+middle_table_sixes <-
+  tibble(
+    value_column = "team_sixes",
+    low_line_limit = team_sixes$over_line,
+    high_line_limit = team_sixes$under_line,
+    low_line_price = team_sixes$over_price,
+    high_line_price = team_sixes$under_price
+  )
+
+# Calculate middle ROI
+middle_table_sixes <- pmap_dfr(middle_table_sixes, calculate_middle_roi, team_sixes_data)
+
+if (nrow(middle_table_sixes) == 0) {
+  middle_table_sixes <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+team_sixes <- cbind(team_sixes, middle_table_sixes[,"roi_percentage"])
 
 if (nrow(team_sixes) > 0) {
     datatable(team_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
@@ -263,9 +421,36 @@ match_fours <-
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
   mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
+
+# Get middle table
+middle_table_fours <-
+  tibble(
+    value_column = "match_fours",
+    low_line_limit = match_fours$over_line,
+    high_line_limit = match_fours$under_line,
+    low_line_price = match_fours$over_price,
+    high_line_price = match_fours$under_price
+  )
+
+# Calculate middle ROI
+middle_table_fours <- pmap_dfr(middle_table_fours, calculate_middle_roi, match_fours_data)
+
+if (nrow(middle_table_fours) == 0) {
+  middle_table_fours <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+match_fours <- cbind(match_fours, middle_table_fours[,"roi_percentage"])
 
 if (nrow(match_fours) > 0) {
     datatable(match_fours, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
@@ -298,9 +483,36 @@ match_sixes <-
   filter(over_agency != under_agency) |>
   filter(under_line > over_line) |> 
   mutate(margin = round(1 / over_price + 1 / under_price, 2)) |>
-  filter(margin <= 1.2) |> 
+  filter(margin <= 20) |> 
   mutate(diff = under_line - over_line) |> 
   arrange(desc(diff), margin)
+
+# Get middle table
+middle_table_sixes <-
+  tibble(
+    value_column = "match_sixes",
+    low_line_limit = match_sixes$over_line,
+    high_line_limit = match_sixes$under_line,
+    low_line_price = match_sixes$over_price,
+    high_line_price = match_sixes$under_price
+  )
+
+# Calculate middle ROI
+middle_table_sixes <- pmap_dfr(middle_table_sixes, calculate_middle_roi, match_sixes_data)
+
+if (nrow(middle_table_sixes) == 0) {
+  middle_table_sixes <- tibble(
+    value_column = character(),
+    low_line_limit = numeric(),
+    high_line_limit = numeric(),
+    low_line_price = numeric(),
+    high_line_price = numeric(),
+    roi_percentage = numeric()
+  )
+}
+
+# Combine with main data
+match_sixes <- cbind(match_sixes, middle_table_sixes[,"roi_percentage"])
 
 if (nrow(match_sixes) > 0) {
     datatable(match_sixes, filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
@@ -591,5 +803,4 @@ if (nrow(bowler_wickets) > 0) {
   cat("No arbitrage opportunities found")
 }
 ```
-
 :::
