@@ -1,8 +1,4 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Alzarri Joseph,St Lucia Kings,Trinbago Knight Riders,0.5,1.35,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Alzarri Joseph,St Lucia Kings,Trinbago Knight Riders,1.5,2.75,1.39,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Alzarri Joseph,St Lucia Kings,Trinbago Knight Riders,2.5,6,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Alzarri Joseph,St Lucia Kings,Trinbago Knight Riders,3.5,13,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Imad Wasim,Antigua and Barbuda Falcons,Barbados Royals,0.5,1.4,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Imad Wasim,Antigua and Barbuda Falcons,Barbados Royals,1.5,2.85,1.37,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Imad Wasim,Antigua and Barbuda Falcons,Barbados Royals,2.5,6.25,NA,TopSport
@@ -11,10 +7,6 @@ Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Ant
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Maheesh Theekshana,Barbados Royals,Antigua and Barbuda Falcons,1.5,2.35,1.53,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Maheesh Theekshana,Barbados Royals,Antigua and Barbuda Falcons,2.5,5.1,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Maheesh Theekshana,Barbados Royals,Antigua and Barbuda Falcons,3.5,11,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Noor Ahmad,St Lucia Kings,Trinbago Knight Riders,0.5,1.25,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Noor Ahmad,St Lucia Kings,Trinbago Knight Riders,1.5,2.3,1.55,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Noor Ahmad,St Lucia Kings,Trinbago Knight Riders,2.5,5,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Noor Ahmad,St Lucia Kings,Trinbago Knight Riders,3.5,11,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Obed McCoy,Barbados Royals,Antigua and Barbuda Falcons,0.5,1.24,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Obed McCoy,Barbados Royals,Antigua and Barbuda Falcons,1.5,2.25,1.57,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Obed McCoy,Barbados Royals,Antigua and Barbuda Falcons,2.5,4.9,NA,TopSport
@@ -23,11 +15,3 @@ Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Ant
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Shamar Springer,Antigua and Barbuda Falcons,Barbados Royals,1.5,2.85,1.37,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Shamar Springer,Antigua and Barbuda Falcons,Barbados Royals,2.5,6.25,NA,TopSport
 Barbados Royals v Antigua and Barbuda Falcons,Player Wickets,Barbados Royals,Antigua and Barbuda Falcons,Shamar Springer,Antigua and Barbuda Falcons,Barbados Royals,3.5,13,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Sunil Narine,Trinbago Knight Riders,St Lucia Kings,0.5,1.27,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Sunil Narine,Trinbago Knight Riders,St Lucia Kings,1.5,2.4,1.51,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Sunil Narine,Trinbago Knight Riders,St Lucia Kings,2.5,5.2,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Sunil Narine,Trinbago Knight Riders,St Lucia Kings,3.5,11,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Waqar Salamkheil,Trinbago Knight Riders,St Lucia Kings,0.5,1.31,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Waqar Salamkheil,Trinbago Knight Riders,St Lucia Kings,1.5,2.48,1.5,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Waqar Salamkheil,Trinbago Knight Riders,St Lucia Kings,2.5,5.5,NA,TopSport
-St Lucia Kings v Trinbago Knight Riders,Player Wickets,St Lucia Kings,Trinbago Knight Riders,Waqar Salamkheil,Trinbago Knight Riders,St Lucia Kings,3.5,12,NA,TopSport
