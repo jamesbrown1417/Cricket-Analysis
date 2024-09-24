@@ -736,7 +736,23 @@ highest_opening_partnership_markets <-
 # Map function
 highest_opening_partnership <-
   map(highest_opening_partnership_markets, read_topsport_html) |> 
-  bind_rows() |> 
+  bind_rows()
+
+# If nrow is zero make empty tibble
+if (nrow(highest_opening_partnership) == 0) {
+  highest_opening_partnership <-
+    tibble(match = character(),
+           player_team = character(),
+           start_date = character(),
+           market_name = character(),
+           Selection = character(),
+           line = numeric(),
+           Win = numeric(),
+           agency = character())
+}
+
+highest_opening_partnership <-
+highest_opening_partnership |>  
   separate(match, c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
