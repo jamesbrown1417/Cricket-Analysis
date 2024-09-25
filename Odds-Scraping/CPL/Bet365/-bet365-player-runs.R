@@ -244,6 +244,8 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "TL Seifert") ~ "Tim Seifert",
     str_detect(player_name_vector, "M Louis") ~ "Mikyle Louis",
     str_detect(player_name_vector, "PBB Rajapaksa") ~ "Bhanuka Rajapaksa",
+    str_detect(player_name_vector, "K Alleyne") ~ "Kadeem Alleyne",
+    str_detect(player_name_vector, "MM Ali") ~ "Moeen Ali",
     TRUE ~ player_name_vector
   )
 }

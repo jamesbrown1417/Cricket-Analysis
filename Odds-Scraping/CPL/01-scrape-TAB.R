@@ -476,7 +476,7 @@ fall_of_first_wicket_overs |>
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
-                          team == "Brb" ~ "Barbados Royals",
+                          team == "Brb" | team == "Bar" ~ "Barbados Royals",
                           team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_runs_at_first_wicket.csv")
@@ -528,7 +528,7 @@ first_over_runs_overs |>
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
-                          team == "Brb" ~ "Barbados Royals",
+                          team == "Brb" | team == "Bar" ~ "Barbados Royals",
                           team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_first_over_runs.csv")
@@ -580,7 +580,7 @@ team_boundaries_overs |>
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
-                          team == "Brb" ~ "Barbados Royals",
+                          team == "Brb" | team == "Bar" ~ "Barbados Royals",
                           team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_4s.csv")
@@ -632,7 +632,7 @@ team_boundaries_overs |>
                           team == "StK" ~ "St Kitts and Nevis Patriots",
                           team == "Guy" ~ "Guyana Amazon Warriors",
                           team == "Tbg" ~ "Trinbago Knight Riders",
-                          team == "Brb" ~ "Barbados Royals",
+                          team == "Brb" | team == "Bar" ~ "Barbados Royals",
                           team == "StL" ~ "St Lucia Kings",
                           TRUE ~ team)) |>
   write_csv("Data/T20s/CPL/scraped_odds/tab_team_total_6s.csv")
@@ -753,7 +753,7 @@ most_team_wickets <-
       team == "StK" ~ "St Kitts and Nevis Patriots",
       team == "Guy" ~ "Guyana Amazon Warriors",
       team == "Tbg" ~ "Trinbago Knight Riders",
-      team == "Brb" ~ "Barbados Royals",
+      team == "Brb" | team == "Bar" ~ "Barbados Royals",
       team == "StL" ~ "St Lucia Kings",
       TRUE ~ team
     )

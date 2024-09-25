@@ -223,6 +223,12 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "I Wasim") ~ "Imad Wasim",
     str_detect(player_name_vector, "M Amir") ~ "Mohammad Amir",
     str_detect(player_name_vector, "M Clarke") ~ "McKenny Clarke",
+    str_detect(player_name_vector, "MM Ali") ~ "Moeen Ali",
+    str_detect(player_name_vector, "JO Holder") ~ "Jason Holder",
+    str_detect(player_name_vector, "I Tahir") ~ "Imran Tahir",
+    str_detect(player_name_vector, "K Maharaj") ~ "Keshav Maharaj",
+    str_detect(player_name_vector, "OC McCoy") ~ "Obed McCoy",
+    str_detect(player_name_vector, "MM Theekshana") ~ "Maheesh Theekshana",
     TRUE ~ player_name_vector
   )
   return(player_name_vector)

@@ -1,79 +1,39 @@
 match,player_name,player_team,line,over_price,under_price,market,agency
-Trinbago Knight Riders v St Lucia Kings,AJ Hosein,Trinbago Knight Riders,0.5,1.33,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,AJ Hosein,Trinbago Knight Riders,1.5,2.75,1.4,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,AJ Hosein,Trinbago Knight Riders,1.5,2.75,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,AJ Hosein,Trinbago Knight Riders,2.5,6.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,AJ Hosein,Trinbago Knight Riders,3.5,19,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Alzarri Joseph,St Lucia Kings,0.5,1.36,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Alzarri Joseph,St Lucia Kings,1.5,2.75,1.4,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Alzarri Joseph,St Lucia Kings,1.5,2.75,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Alzarri Joseph,St Lucia Kings,2.5,7,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Alzarri Joseph,St Lucia Kings,3.5,19,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,CJ Jordan,Trinbago Knight Riders,0.5,1.25,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,CJ Jordan,Trinbago Knight Riders,1.5,2.37,1.53,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,CJ Jordan,Trinbago Knight Riders,1.5,2.37,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,CJ Jordan,Trinbago Knight Riders,2.5,5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,CJ Jordan,Trinbago Knight Riders,3.5,13,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,D Wiese,St Lucia Kings,0.5,1.44,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,D Wiese,St Lucia Kings,1.5,3.5,1.28,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,D Wiese,St Lucia Kings,1.5,3.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,D Wiese,St Lucia Kings,2.5,9,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,D Wiese,St Lucia Kings,3.5,26,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,DJ Bravo,Trinbago Knight Riders,0.5,1.33,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,DJ Bravo,Trinbago Knight Riders,1.5,3,1.36,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,DJ Bravo,Trinbago Knight Riders,1.5,3,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,DJ Bravo,Trinbago Knight Riders,2.5,6.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,DJ Bravo,Trinbago Knight Riders,3.5,19,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Noor Ahmad,St Lucia Kings,0.5,1.3,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Noor Ahmad,St Lucia Kings,1.5,2.75,1.4,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Noor Ahmad,St Lucia Kings,1.5,2.75,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Noor Ahmad,St Lucia Kings,2.5,6,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,Noor Ahmad,St Lucia Kings,3.5,17,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,RL Chase,St Lucia Kings,0.5,1.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,RL Chase,St Lucia Kings,1.5,3.5,1.28,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,RL Chase,St Lucia Kings,1.5,3.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,RL Chase,St Lucia Kings,2.5,10,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,RL Chase,St Lucia Kings,3.5,29,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,W Salamkheil,Trinbago Knight Riders,0.5,1.22,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,W Salamkheil,Trinbago Knight Riders,1.5,2.25,1.57,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,W Salamkheil,Trinbago Knight Riders,1.5,2.25,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,W Salamkheil,Trinbago Knight Riders,2.5,4.5,NA,Player Wickets,Bet365
-Trinbago Knight Riders v St Lucia Kings,W Salamkheil,Trinbago Knight Riders,3.5,13,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Gudakesh Motie,Guyana Amazon Warriors,0.5,1.22,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Gudakesh Motie,Guyana Amazon Warriors,1.5,2.2,1.61,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Gudakesh Motie,Guyana Amazon Warriors,1.5,2.2,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Gudakesh Motie,Guyana Amazon Warriors,2.5,4.33,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Gudakesh Motie,Guyana Amazon Warriors,3.5,11,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,I Tahir,Guyana Amazon Warriors,0.5,1.22,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,I Tahir,Guyana Amazon Warriors,1.5,2.25,1.57,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,I Tahir,Guyana Amazon Warriors,1.5,2.25,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,I Tahir,Guyana Amazon Warriors,2.5,4.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,I Tahir,Guyana Amazon Warriors,3.5,13,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,JO Holder,Barbados Royals,0.5,1.33,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,JO Holder,Barbados Royals,1.5,2.5,1.5,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,JO Holder,Barbados Royals,1.5,2.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,JO Holder,Barbados Royals,2.5,6.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,JO Holder,Barbados Royals,3.5,19,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,K Maharaj,Barbados Royals,0.5,1.33,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,K Maharaj,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,K Maharaj,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,K Maharaj,Barbados Royals,2.5,6.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,K Maharaj,Barbados Royals,3.5,19,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Ali,Guyana Amazon Warriors,0.5,1.3,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Ali,Guyana Amazon Warriors,1.5,2.62,1.44,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Ali,Guyana Amazon Warriors,1.5,2.62,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Ali,Guyana Amazon Warriors,2.5,6,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Ali,Guyana Amazon Warriors,3.5,17,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Theekshana,Barbados Royals,0.5,1.28,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Theekshana,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Theekshana,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Theekshana,Barbados Royals,2.5,5.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,MM Theekshana,Barbados Royals,3.5,15,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,OC McCoy,Barbados Royals,0.5,1.28,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,OC McCoy,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,OC McCoy,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,OC McCoy,Barbados Royals,2.5,5.5,NA,Player Wickets,Bet365
-Guyana Amazon Warriors v Barbados Royals,OC McCoy,Barbados Royals,3.5,15,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Imran Tahir,Guyana Amazon Warriors,0.5,1.22,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Imran Tahir,Guyana Amazon Warriors,1.5,2.25,1.57,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Imran Tahir,Guyana Amazon Warriors,1.5,2.25,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Imran Tahir,Guyana Amazon Warriors,2.5,4.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Imran Tahir,Guyana Amazon Warriors,3.5,13,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Jason Holder,Barbados Royals,0.5,1.33,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Jason Holder,Barbados Royals,1.5,2.5,1.5,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Jason Holder,Barbados Royals,1.5,2.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Jason Holder,Barbados Royals,2.5,6.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Jason Holder,Barbados Royals,3.5,19,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Keshav Maharaj,Barbados Royals,0.5,1.33,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Keshav Maharaj,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Keshav Maharaj,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Keshav Maharaj,Barbados Royals,2.5,6.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Keshav Maharaj,Barbados Royals,3.5,19,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Moeen Ali,Guyana Amazon Warriors,0.5,1.3,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Moeen Ali,Guyana Amazon Warriors,1.5,2.62,1.44,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Moeen Ali,Guyana Amazon Warriors,1.5,2.62,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Moeen Ali,Guyana Amazon Warriors,2.5,6,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Moeen Ali,Guyana Amazon Warriors,3.5,17,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Maheesh Theekshana,Barbados Royals,0.5,1.28,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Maheesh Theekshana,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Maheesh Theekshana,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Maheesh Theekshana,Barbados Royals,2.5,5.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Maheesh Theekshana,Barbados Royals,3.5,15,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Obed McCoy,Barbados Royals,0.5,1.28,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Obed McCoy,Barbados Royals,1.5,2.62,1.44,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Obed McCoy,Barbados Royals,1.5,2.62,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Obed McCoy,Barbados Royals,2.5,5.5,NA,Player Wickets,Bet365
+Guyana Amazon Warriors v Barbados Royals,Obed McCoy,Barbados Royals,3.5,15,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Shamar Joseph,Guyana Amazon Warriors,0.5,1.28,NA,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Shamar Joseph,Guyana Amazon Warriors,1.5,2.5,1.5,Player Wickets,Bet365
 Guyana Amazon Warriors v Barbados Royals,Shamar Joseph,Guyana Amazon Warriors,1.5,2.5,NA,Player Wickets,Bet365

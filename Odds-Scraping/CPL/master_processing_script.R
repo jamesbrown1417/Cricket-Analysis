@@ -251,7 +251,20 @@ ttwt_data <-
   bind_rows() |> 
   arrange(match, player_team, player_name, desc(price)) |> 
   select(-home_team, -away_team) |> 
-  filter(!is.na(price)) |> 
-  group_by(match, player_team, player_name) |>
-  slice_head(n = 1)
+  filter(!is.na(price))
 
+#===============================================================================
+# Highest Opening Partnership
+#===============================================================================
+
+# Read in all highest opening partnership data
+list_of_hop_files <- list.files("Data/T20s/CPL/scraped_odds/", full.names = TRUE, pattern = "highest_opening_partnership")
+
+# Read in all highest opening partnership data
+list_of_hop_data <- map(list_of_hop_files, read_csv)
+
+# Combine
+hop_data <-
+  list_of_hop_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows()
