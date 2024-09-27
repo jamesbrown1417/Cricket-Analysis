@@ -89,7 +89,7 @@ get_match_info <- function(matches) {
 }
 
 # List of matches
-matches <- list(matches[1,], matches[2,])
+matches <- map(1:nrow(tab_response$matches), ~ tab_response$matches[., ])
 
 # Map functions to data
 all_tab_markets <-
