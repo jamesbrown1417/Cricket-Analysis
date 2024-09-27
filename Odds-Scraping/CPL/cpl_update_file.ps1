@@ -12,6 +12,8 @@ Remove-Item -Path "C:\Users\james\OneDrive\Desktop\Projects\Cricket-Analysis\Odd
 & "C:/Users/james/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/james/OneDrive/Desktop/Projects/Cricket-Analysis/Odds-Scraping/CPL/Bet365/04-get_bet365_team.py"
 & "C:/Users/james/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/james/OneDrive/Desktop/Projects/Cricket-Analysis/Odds-Scraping/CPL/Bet365/05-get_bet365_first_over.py"
 & "C:/Users/james/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/james/OneDrive/Desktop/Projects/Cricket-Analysis/Odds-Scraping/CPL/Bet365/06-get_bet365_first_innings.py"
+& "C:/Users/james/AppData/Local/Microsoft/WindowsApps/python3.12.exe" "c:/Users/james/OneDrive/Desktop/Projects/Cricket-Analysis/Odds-Scraping/CPL/TAB/get-TAB-response.py"
+
 & "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-fall-of-first-wicket.R"
 & "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-first-over-runs.R"
 & "Rscript" "Odds-Scraping\CPL\Bet365\-bet365-h2h.R"
