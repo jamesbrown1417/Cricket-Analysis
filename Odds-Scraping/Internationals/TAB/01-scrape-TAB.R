@@ -5,33 +5,8 @@ library(httr2)
 library(httr)
 library(jsonlite)
 
-# Define the URL for the GET request
-tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals?jurisdiction=SA"
-
-# Set the headers
-headers <- c(
-  "accept" = "application/json, text/plain, */*",
-  "accept-language" = "en-US,en;q=0.9",
-  "origin" = "https://www.tab.com.au",
-  "referer" = "https://www.tab.com.au/",
-  "sec-ch-ua" = '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
-  "sec-ch-ua-mobile" = "?0",
-  "sec-ch-ua-platform" = '"Windows"',
-  "sec-fetch-dest" = "empty",
-  "sec-fetch-mode" = "cors",
-  "sec-fetch-site" = "same-site",
-  "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-)
-
-# Try response, if nothing in 10 seconds, make it null
-response <- tryCatch({
-  GET(tab_url, add_headers(.headers = headers), timeout(10))
-}, error = function(e) {
-  return(NULL)
-})
-
 # Get response body
-tab_response <- content(response, as = "parsed")
+tab_response <- fromJSON("Odds-Scraping/Internationals/TAB/tab_response.json")
 
 # Function to extract market info from response---------------------------------
 get_market_info <- function(markets) {
@@ -53,7 +28,9 @@ get_match_info <- function(matches) {
   match_start_time = matches$startTime
   
   # Market info
-  market_info = map(matches$markets, get_market_info) |> bind_rows()
+  market_info =
+    map(matches$markets, get_market_info) |>
+    bind_rows()
   
   # Output Tibble
   tibble(
@@ -65,30 +42,28 @@ get_match_info <- function(matches) {
   )
 }
 
+# List of matches
+matches <- map(1:nrow(tab_response$matches), ~ tab_response$matches[., ])
+
 # Map functions to data
 all_tab_markets <-
-  map(tab_response$matches, get_match_info) |> bind_rows()
+  map(matches, get_match_info) |> bind_rows()
 
 # Expand list col into multiple cols
 all_tab_markets <-
   all_tab_markets |>
-  unnest_wider(col = propositions, names_sep = "_") |>
+  unnest(cols = c(propositions)) |> 
   select(any_of(c("match",
                   "round",
                   "start_time",
                   "market_name")),
-         prop_name = propositions_name,
-         price = propositions_returnWin)
+         prop_name = name,
+         price = returnWin)
 
-# Function to fix team names for TAB Internationals
+# Function to fix team names for TAB International
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
-    str_detect(team_name_vector, "Guyana|Guy") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
-    str_detect(team_name_vector, "St Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "UAE") ~ "United Arab Emirates",
     TRUE ~ team_name_vector
   )
 }

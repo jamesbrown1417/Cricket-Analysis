@@ -1,0 +1,406 @@
+{
+    "id": "539",
+    "name": "Twenty20 Internationals",
+    "spectrumId": "539",
+    "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals?jurisdiction=SA",
+        "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
+        "tournaments": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/tournaments?jurisdiction=SA",
+        "matches": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/matches?jurisdiction=SA",
+        "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/markets?jurisdiction=SA",
+        "markets:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/markets/all-channels?jurisdiction=SA"
+    },
+    "matches": [
+        {
+            "id": "UAEvUSA1",
+            "name": "UAE v USA",
+            "spectrumId": "UAEvUSA1",
+            "spectrumUniqueId": 2612852,
+            "competitionSpectrumId": "539",
+            "round": null,
+            "broadcastChannel": null,
+            "broadcastChannels": [],
+            "startTime": "2024-09-30T12:00:00.000Z",
+            "_links": {
+                "self": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/matches/UAE%20v%20USA?jurisdiction=SA",
+                "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/matches/UAE%20v%20USA?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/matches/UAE%20v%20USA/markets?jurisdiction=SA"
+            },
+            "contestants": [
+                {
+                    "name": "UAE",
+                    "position": "HOME",
+                    "isHome": true
+                },
+                {
+                    "name": "USA",
+                    "position": "AWAY",
+                    "isHome": false
+                }
+            ],
+            "competitors": [
+                "UAE",
+                "USA"
+            ],
+            "openMarketCount": 1,
+            "futureMarketCount": 0,
+            "nonFutureMarketCount": 1,
+            "markets": [
+                {
+                    "id": "104435259",
+                    "name": "T20 UAE-USA Hd to Hd",
+                    "shortName": "T20 UAE-USA Hd to Hd",
+                    "betOption": "Head To Head",
+                    "betOptionSpectrumId": "72",
+                    "betOptionPriority": 430,
+                    "marketUniqueId": 104435259,
+                    "closeTime": "2024-09-30T12:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Includes Super Over",
+                    "informationMessage": "Includes Super Over",
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650697",
+                            "name": "United Arab Emirates",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650697,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "position": "HOME"
+                        },
+                        {
+                            "id": "650698",
+                            "name": "USA",
+                            "returnWin": 1.95,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650698,
+                            "isOpen": true,
+                            "sortOrder": 2,
+                            "position": "AWAY"
+                        }
+                    ]
+                }
+            ],
+            "inPlay": false,
+            "goingInPlay": true
+        }
+    ],
+    "tournaments": [],
+    "hasMarkets": true,
+    "betOptionPriority": [
+        "Head To Head"
+    ],
+    "betOptions": [
+        {
+            "name": "Head To Head",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Twenty20%20Internationals/markets?jurisdiction=SA&betOptionName=Head%20To%20Head"
+            }
+        }
+    ],
+    "betOptionGroups": [
+        {
+            "name": "Main Markets",
+            "types": [
+                "ALL"
+            ],
+            "betOptions": [
+                "72",
+                "91",
+                "52",
+                "45",
+                "60",
+                "1932",
+                "3139",
+                "926",
+                "927",
+                "489",
+                "443",
+                "399",
+                "90",
+                "1943",
+                "1930",
+                "155",
+                "32",
+                "704",
+                "4849",
+                "2202",
+                "434",
+                "44",
+                "613",
+                "614",
+                "3136",
+                "1646",
+                "678",
+                "617",
+                "50",
+                "1312",
+                "2239",
+                "135",
+                "1658",
+                "2027",
+                "4757",
+                "4758",
+                "112",
+                "1323",
+                "2245",
+                "3105",
+                "2205"
+            ]
+        },
+        {
+            "name": "Main Markets",
+            "types": [
+                "SGM"
+            ],
+            "betOptions": [
+                "72",
+                "91",
+                "4283",
+                "685",
+                "4284",
+                "862",
+                "489",
+                "1928",
+                "1940",
+                "1802",
+                "1930",
+                "45",
+                "60",
+                "155"
+            ]
+        },
+        {
+            "name": "Player Dismissals",
+            "types": [
+                "ALL"
+            ],
+            "betOptions": [
+                "4734",
+                "4735"
+            ]
+        },
+        {
+            "name": "Totals",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1932",
+                "2123",
+                "926",
+                "927",
+                "836",
+                "4739",
+                "1942",
+                "1945",
+                "2027",
+                "2204",
+                "138",
+                "1980",
+                "2765",
+                "329",
+                "4849",
+                "1943",
+                "1930",
+                "681",
+                "1531",
+                "2412",
+                "3914",
+                "682",
+                "3133",
+                "2205"
+            ]
+        },
+        {
+            "name": "Player Runs",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "45",
+                "2100",
+                "4854",
+                "4283",
+                "685",
+                "4284",
+                "862",
+                "489",
+                "1743",
+                "4286",
+                "4287",
+                "443",
+                "2003",
+                "1024",
+                "399",
+                "2000",
+                "2595",
+                "956",
+                "653",
+                "114",
+                "1706",
+                "2116",
+                "716",
+                "3566",
+                "1658"
+            ]
+        },
+        {
+            "name": "Player Boundaries",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1940",
+                "1941",
+                "1959",
+                "1990",
+                "1804",
+                "1802",
+                "1929",
+                "1803",
+                "3132",
+                "1040"
+            ]
+        },
+        {
+            "name": "Wicket Taker",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "60",
+                "1928",
+                "1927",
+                "1533"
+            ]
+        },
+        {
+            "name": "Opening Partnership",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "158",
+                "779",
+                "2203",
+                "118",
+                "1365",
+                "2932",
+                "8053"
+            ]
+        },
+        {
+            "name": "Doubles",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "688",
+                "3333",
+                "1029",
+                "133",
+                "1018"
+            ]
+        },
+        {
+            "name": "Match",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "155",
+                "112",
+                "845",
+                "3134",
+                "704",
+                "691",
+                "417",
+                "90",
+                "2210",
+                "692",
+                "4270",
+                "693",
+                "3131",
+                "683",
+                "684",
+                "434",
+                "259",
+                "869",
+                "4271"
+            ]
+        },
+        {
+            "name": "Series Player Runs",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "46",
+                "3143",
+                "2250",
+                "1042",
+                "1666"
+            ]
+        },
+        {
+            "name": "Series Player Wickets",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "86",
+                "3144",
+                "2637",
+                "744"
+            ]
+        },
+        {
+            "name": "Series Novelties",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1039",
+                "4737",
+                "989",
+                "4736"
+            ]
+        }
+    ],
+    "hasFuturePredictions": false
+}

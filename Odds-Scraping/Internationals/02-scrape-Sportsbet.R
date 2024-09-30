@@ -11,12 +11,8 @@ sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/international-twen
 # Function to fix team names for Sportsbet Internationals
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St. Kitts") ~ "St Kitts and Nevis Patriots",
-    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
-    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St. Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "UAE|Uae") ~ "United Arab Emirates",
+    str_detect(team_name_vector, "Usa") ~ "USA",
     TRUE ~ team_name_vector
   )
 }
@@ -116,28 +112,14 @@ main_markets_function <- function() {
 ##%######################################################%##
 
 player_props_function <- function() {
-  # Function to get team names
-  get_team_names <- function(match) {
-    team_names <-
-      match |>
-      html_nodes(".participantText_fivg86r") |>
-      html_text()
-    
-    # Home team and Away Team
-    home_team <- team_names[1]
-    away_team <- team_names[2]
-    
-    # Output
-    tibble(home_team, away_team)
-  }
-  
-  
+
   # Get match links
   match_links <-
     sportsbet_url |>
     read_html() |>
-    html_nodes(".linkMultiMarket_fcmecz0") |>
-    html_attr("href")
+    html_nodes("*") |>
+    html_attr("href") |> 
+    str_subset("/betting/cricket/international-twenty20-matches/")
   
   # Get match IDs from links
   match_ids <-
@@ -151,9 +133,24 @@ player_props_function <- function() {
     read_html() |>
     html_nodes(".White_fqa53j6")
   
+  # Get team names from each match link
+  get_team_names <- function(match_link) {
+    team_names <-
+      match_link |>
+      str_extract("[a-z]{2,10}\\-v\\-[a-z]{2,10}") |> 
+      str_split("-v-")
+    
+    home_team <- team_names[[1]][1] |> str_to_title()
+    away_team <- team_names[[1]][2] |> str_to_title()
+    
+    tibble(home_team, away_team) |>
+      mutate(home_team = fix_team_names(home_team)) |>
+      mutate(away_team = fix_team_names(away_team))
+  }
+  
   # Get team names that correspond to each match link
   team_names <-
-    map_dfr(matches, get_team_names) |>
+    map_dfr(match_links, get_team_names) |>
     bind_cols("match_id" = match_ids)
   
   # Get all links
@@ -268,6 +265,64 @@ player_props_function <- function() {
   
   # Safe version that just returns NULL if there is an error
   safe_read_prop_url <- safely(read_prop_url, otherwise = NULL)
+  
+  #===============================================================================
+  # Top Markets
+  #===============================================================================
+  
+  # Map function to top markets urls
+  top_markets_data <-
+    map(top_markets_links, safe_read_prop_url)
+  
+  # Get just result part from output
+  top_markets_data <-
+    top_markets_data |>
+    map("result") |>
+    map_df(bind_rows) |>
+    mutate(url = str_extract(as.character(url), "[0-9]{6,8}")) |>
+    rename(match_id = url) |>
+    mutate(match_id = as.numeric(match_id)) |>
+    left_join(team_names, by = "match_id") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
+    mutate(match = paste(home_team, "v", away_team))
+  
+  # Get head to head
+  head_to_head <-
+    top_markets_data |>
+    filter(prop_market_name == "Match Betting") |>
+    select(match, selection_name_prop, prop_market_price, prop_market_selection)
+  
+  head_to_head_home <-
+    head_to_head |>
+    filter(prop_market_selection == "H") |> 
+    separate(match, c("home_team", "away_team"), sep = " v ") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |> 
+    mutate(match = paste(away_team, "v", home_team)) |> 
+    select(match, home_team, away_team, home_win = prop_market_price)
+  
+  head_to_head_away <-
+    head_to_head |>
+    filter(prop_market_selection == "A") |> 
+    separate(match, c("home_team", "away_team"), sep = " v ") |>
+    mutate(home_team = fix_team_names(home_team)) |>
+    mutate(away_team = fix_team_names(away_team)) |>
+    mutate(match = paste(away_team, "v", home_team)) |> 
+    select(match, home_team, away_team, away_win = prop_market_price)
+  
+  head_to_head_all <-
+    head_to_head_home |>
+    left_join(head_to_head_away) |> 
+    mutate(market_name = "Head to Head") |> 
+    select(match,
+           market_name,
+           home_team,
+           home_win,
+           away_team,
+           away_win) |>
+    mutate(margin = round((1 / home_win + 1 / away_win), digits = 3)) |>
+    mutate(agency = "Sportsbet")
   
   #===============================================================================
   # Player Runs
