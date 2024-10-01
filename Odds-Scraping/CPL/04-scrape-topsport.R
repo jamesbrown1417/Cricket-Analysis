@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL of website
-topsport_url = "https://www.topsport.com.au/Sport/Cricket/CPL_Matches/Matches"
+topsport_url = "https://www.topsport.com.au/Sport/Cricket/Caribbean_Twenty20/Matches"
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
