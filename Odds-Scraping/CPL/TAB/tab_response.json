@@ -44,9 +44,9 @@
                 "Trinbago",
                 "Barbados"
             ],
-            "openMarketCount": 11,
+            "openMarketCount": 10,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 11,
+            "nonFutureMarketCount": 10,
             "markets": [
                 {
                     "id": "104504705",
@@ -79,7 +79,7 @@
                         {
                             "id": "650066",
                             "name": "Trinbago Knight Riders",
-                            "returnWin": 1.58,
+                            "returnWin": 1.52,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -92,7 +92,7 @@
                         {
                             "id": "650069",
                             "name": "Barbados Royals",
-                            "returnWin": 2.35,
+                            "returnWin": 2.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -181,18 +181,6 @@
                             "sortOrder": 4
                         },
                         {
-                            "id": "650152",
-                            "name": "Shamarh Brooks (Brb)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650152,
-                            "isOpen": true,
-                            "sortOrder": 18
-                        },
-                        {
                             "id": "650131",
                             "name": "Rovman Powell (Brb)",
                             "returnWin": 6.5,
@@ -217,18 +205,6 @@
                             "sortOrder": 13
                         },
                         {
-                            "id": "650133",
-                            "name": "Rivaldo Clarke (Brb)",
-                            "returnWin": 8.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650133,
-                            "isOpen": true,
-                            "sortOrder": 7
-                        },
-                        {
                             "id": "650132",
                             "name": "Jason Holder (Brb)",
                             "returnWin": 12,
@@ -239,54 +215,6 @@
                             "number": 650132,
                             "isOpen": true,
                             "sortOrder": 6
-                        },
-                        {
-                            "id": "650138",
-                            "name": "Kevin Wickham (Brb)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650138,
-                            "isOpen": true,
-                            "sortOrder": 12
-                        },
-                        {
-                            "id": "650150",
-                            "name": "Nyeem Young (Brb)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650150,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
-                            "id": "650151",
-                            "name": "Nathan Sealy (Brb)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650151,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
-                            "id": "650134",
-                            "name": "Keshav Maharaj (Brb)",
-                            "returnWin": 41,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650134,
-                            "isOpen": true,
-                            "sortOrder": 8
                         },
                         {
                             "id": "650142",
@@ -335,18 +263,6 @@
                             "number": 650136,
                             "isOpen": true,
                             "sortOrder": 10
-                        },
-                        {
-                            "id": "650137",
-                            "name": "Isai Thorne (Brb)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650137,
-                            "isOpen": true,
-                            "sortOrder": 11
                         }
                     ]
                 },
@@ -415,30 +331,6 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "650112",
-                            "name": "Mark Deyal (Tbg)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650112,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "650110",
-                            "name": "Shaqkere Parris (Tbg)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650110,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
                             "id": "650125",
                             "name": "Keacy Carty (Tbg)",
                             "returnWin": 6,
@@ -487,18 +379,6 @@
                             "sortOrder": 6
                         },
                         {
-                            "id": "650123",
-                            "name": "Nathan Edwards (Tbg)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650123,
-                            "isOpen": true,
-                            "sortOrder": 15
-                        },
-                        {
                             "id": "650115",
                             "name": "Chris Jordan (Tbg)",
                             "returnWin": 26,
@@ -523,18 +403,6 @@
                             "sortOrder": 8
                         },
                         {
-                            "id": "650126",
-                            "name": "Bryan Charles (Tbg)",
-                            "returnWin": 34,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650126,
-                            "isOpen": true,
-                            "sortOrder": 18
-                        },
-                        {
                             "id": "650121",
                             "name": "Terrance Hinds (Tbg)",
                             "returnWin": 51,
@@ -557,42 +425,6 @@
                             "number": 650122,
                             "isOpen": true,
                             "sortOrder": 14
-                        },
-                        {
-                            "id": "650119",
-                            "name": "Josh Little (Tbg)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650119,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
-                            "id": "650118",
-                            "name": "Jayden Seales (Tbg)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650118,
-                            "isOpen": true,
-                            "sortOrder": 10
-                        },
-                        {
-                            "id": "650117",
-                            "name": "Ali Khan (Tbg)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650117,
-                            "isOpen": true,
-                            "sortOrder": 9
                         }
                     ]
                 },
@@ -693,7 +525,7 @@
                         {
                             "id": "650098",
                             "name": "Barbados Over 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -705,7 +537,7 @@
                         {
                             "id": "650100",
                             "name": "Barbados Under 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -747,7 +579,7 @@
                         {
                             "id": "650091",
                             "name": "Trinbago Over 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -759,7 +591,7 @@
                         {
                             "id": "650093",
                             "name": "Trinbago Under 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -835,18 +667,6 @@
                             "sortOrder": 10
                         },
                         {
-                            "id": "650178",
-                            "name": "Keshav Maharaj (Brb)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650178,
-                            "isOpen": true,
-                            "sortOrder": 8
-                        },
-                        {
                             "id": "650176",
                             "name": "Jason Holder (Brb)",
                             "returnWin": 4.5,
@@ -857,18 +677,6 @@
                             "number": 650176,
                             "isOpen": true,
                             "sortOrder": 6
-                        },
-                        {
-                            "id": "650181",
-                            "name": "Isai Thorne (Brb)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650181,
-                            "isOpen": true,
-                            "sortOrder": 11
                         },
                         {
                             "id": "650183",
@@ -893,30 +701,6 @@
                             "number": 650184,
                             "isOpen": true,
                             "sortOrder": 14
-                        },
-                        {
-                            "id": "650186",
-                            "name": "Nyeem Young (Brb)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650186,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
-                            "id": "650187",
-                            "name": "Nathan Sealy (Brb)",
-                            "returnWin": 8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650187,
-                            "isOpen": true,
-                            "sortOrder": 17
                         },
                         {
                             "id": "650175",
@@ -997,18 +781,6 @@
                             "sortOrder": 16
                         },
                         {
-                            "id": "650163",
-                            "name": "Josh Little (Tbg)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650163,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
                             "id": "650164",
                             "name": "Sunil Narine (Tbg)",
                             "returnWin": 4.5,
@@ -1019,18 +791,6 @@
                             "number": 650164,
                             "isOpen": true,
                             "sortOrder": 12
-                        },
-                        {
-                            "id": "650167",
-                            "name": "Nathan Edwards (Tbg)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650167,
-                            "isOpen": true,
-                            "sortOrder": 15
                         },
                         {
                             "id": "650160",
@@ -1057,42 +817,6 @@
                             "sortOrder": 13
                         },
                         {
-                            "id": "650162",
-                            "name": "Jayden Seales (Tbg)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650162,
-                            "isOpen": true,
-                            "sortOrder": 10
-                        },
-                        {
-                            "id": "650161",
-                            "name": "Ali Khan (Tbg)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650161,
-                            "isOpen": true,
-                            "sortOrder": 9
-                        },
-                        {
-                            "id": "650170",
-                            "name": "Bryan Charles (Tbg)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650170,
-                            "isOpen": true,
-                            "sortOrder": 18
-                        },
-                        {
                             "id": "650158",
                             "name": "Kieron Pollard (Tbg)",
                             "returnWin": 7.5,
@@ -1103,84 +827,6 @@
                             "number": 650158,
                             "isOpen": true,
                             "sortOrder": 6
-                        },
-                        {
-                            "id": "650156",
-                            "name": "Mark Deyal (Tbg)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650156,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        }
-                    ]
-                },
-                {
-                    "id": "104504709",
-                    "name": "CPL Trinbago-Barbados Mst63W",
-                    "shortName": "CPL Tbgo-Brbd Mst63W",
-                    "betOption": "Most Sixes 3 Way",
-                    "betOptionSpectrumId": "692",
-                    "betOptionPriority": 8105,
-                    "marketUniqueId": 104504709,
-                    "closeTime": "2024-10-01T23:00:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "AvailableSoon",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650106",
-                            "name": "Trinbago",
-                            "returnWin": 1.58,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650106,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650107",
-                            "name": "tie",
-                            "returnWin": 8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650107,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650108",
-                            "name": "Barbados",
-                            "returnWin": 2.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650108,
-                            "isOpen": true,
-                            "sortOrder": 3
                         }
                     ]
                 },
@@ -2601,7 +2247,7 @@
         {
             "name": "Most Sixes 3 Way",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Most%20Sixes%203%20Way"
             }
