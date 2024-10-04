@@ -1,0 +1,145 @@
+match,market,home_team,away_team,player_name,line,over_price,agency
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Laura Wolvaardt,0.5,1.18,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Marizanne Kapp,0.5,1.25,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Tazmin Brits,0.5,1.3,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Sune Luus,0.5,1.42,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Hayley Matthews,0.5,1.18,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Deandra Dottin,0.5,1.25,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Stafanie Taylor,0.5,1.25,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Shemaine Campbelle,0.5,1.55,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Laura Wolvaardt,1.5,1.36,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Marizanne Kapp,1.5,1.55,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Tazmin Brits,1.5,1.6,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Sune Luus,1.5,1.87,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Hayley Matthews,1.5,1.36,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Deandra Dottin,1.5,1.55,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Stafanie Taylor,1.5,1.55,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Shemaine Campbelle,1.5,2.1,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Laura Wolvaardt,2.5,1.75,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Marizanne Kapp,2.5,2.1,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Tazmin Brits,2.5,2.2,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Sune Luus,2.5,2.75,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Hayley Matthews,2.5,1.75,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Deandra Dottin,2.5,2.1,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Stafanie Taylor,2.5,2.1,TAB
+South Africa v West Indies,Number of 4s,South Africa,West Indies,Shemaine Campbelle,2.5,3.25,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Marizanne Kapp,0.5,3,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Laura Wolvaardt,0.5,4,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Sune Luus,0.5,4,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Tazmin Brits,0.5,4,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Hayley Matthews,0.5,2.5,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Stafanie Taylor,0.5,3.5,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Deandra Dottin,0.5,4,TAB
+South Africa v West Indies,Number of 6s,South Africa,West Indies,Shemaine Campbelle,0.5,6,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Smriti Mandhana,0.5,1.12,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Jemimah Rodrigues,0.5,1.18,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Shafali Verma,0.5,1.18,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Harmanpreet Kaur,0.5,1.3,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Suzie Bates,0.5,1.2,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Amelia Kerr,0.5,1.25,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Sophie Devine,0.5,1.25,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Georgia Plimmer,0.5,1.36,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Smriti Mandhana,1.5,1.25,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Jemimah Rodrigues,1.5,1.36,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Shafali Verma,1.5,1.36,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Harmanpreet Kaur,1.5,1.6,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Suzie Bates,1.5,1.42,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Amelia Kerr,1.5,1.5,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Sophie Devine,1.5,1.55,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Georgia Plimmer,1.5,1.75,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Smriti Mandhana,2.5,1.55,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Jemimah Rodrigues,2.5,1.75,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Shafali Verma,2.5,1.75,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Harmanpreet Kaur,2.5,2.2,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Suzie Bates,2.5,1.85,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Amelia Kerr,2.5,2,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Sophie Devine,2.5,2.1,TAB
+India v New Zealand,Number of 4s,India,New Zealand,Georgia Plimmer,2.5,2.5,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Shafali Verma,0.5,2,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Smriti Mandhana,0.5,2.4,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Harmanpreet Kaur,0.5,2.5,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Jemimah Rodrigues,0.5,5,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Sophie Devine,0.5,1.75,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Amelia Kerr,0.5,3.5,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Suzie Bates,0.5,5.5,TAB
+India v New Zealand,Number of 6s,India,New Zealand,Georgia Plimmer,0.5,8,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Beth Mooney,0.5,1.12,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Alyssa Healy,0.5,1.15,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ellyse Perry,0.5,1.22,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ashleigh Gardner,0.5,1.3,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Chamari Athapaththu,0.5,1.28,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Vishmi Gunaratne,0.5,1.4,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,H Samarawickrama,0.5,1.42,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Kavisha Dilhari,0.5,1.5,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Beth Mooney,1.5,1.25,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Alyssa Healy,1.5,1.3,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ellyse Perry,1.5,1.45,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ashleigh Gardner,1.5,1.6,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Chamari Athapaththu,1.5,1.57,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Vishmi Gunaratne,1.5,1.8,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,H Samarawickrama,1.5,1.87,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Kavisha Dilhari,1.5,2,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Beth Mooney,2.5,1.5,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Alyssa Healy,2.5,1.6,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ellyse Perry,2.5,1.9,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Ashleigh Gardner,2.5,2.2,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Chamari Athapaththu,2.5,2.15,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Vishmi Gunaratne,2.5,2.6,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,H Samarawickrama,2.5,2.75,TAB
+Australia v Sri Lanka,Number of 4s,Australia,Sri Lanka,Kavisha Dilhari,2.5,3,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ashleigh Gardner,0.5,2.2,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Alyssa Healy,0.5,2.3,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ellyse Perry,0.5,2.5,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Beth Mooney,0.5,3,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Chamari Athapaththu,0.5,3.25,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,H Samarawickrama,0.5,7,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Vishmi Gunaratne,0.5,7,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Kavisha Dilhari,0.5,9,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ashleigh Gardner,1.5,3.8,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Alyssa Healy,1.5,4.25,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ellyse Perry,1.5,4.5,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Beth Mooney,1.5,6.5,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ashleigh Gardner,2.5,7.5,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Alyssa Healy,2.5,8.5,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Ellyse Perry,2.5,10,TAB
+Australia v Sri Lanka,Number of 6s,Australia,Sri Lanka,Beth Mooney,2.5,17,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nigar Sultana,0.5,1.36,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Murshida Khatun,0.5,1.42,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Shathi Rani,0.5,1.42,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sobhana Mostary,0.5,1.62,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sophia Dunkley,0.5,1.12,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nat Sciver-Brunt,0.5,1.15,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Alice Capsey,0.5,1.16,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Danni Wyatt-Hodge,0.5,1.18,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nigar Sultana,1.5,1.75,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Murshida Khatun,1.5,1.87,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Shathi Rani,1.5,1.87,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sobhana Mostary,1.5,2.25,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sophia Dunkley,1.5,1.25,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nat Sciver-Brunt,1.5,1.3,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Alice Capsey,1.5,1.32,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Danni Wyatt-Hodge,1.5,1.36,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nigar Sultana,2.5,2.5,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Murshida Khatun,2.5,2.75,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Shathi Rani,2.5,2.75,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sobhana Mostary,2.5,3.5,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Sophia Dunkley,2.5,1.55,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Nat Sciver-Brunt,2.5,1.6,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Alice Capsey,2.5,1.65,TAB
+Bangladesh v England,Number of 4s,Bangladesh,England,Danni Wyatt-Hodge,2.5,1.75,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Nigar Sultana,0.5,5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Sobhana Mostary,0.5,8,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Murshida Khatun,0.5,13,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Shathi Rani,0.5,13,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Alice Capsey,0.5,2.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Sophia Dunkley,0.5,2.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Danni Wyatt-Hodge,0.5,2.75,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Nat Sciver-Brunt,0.5,3,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Alice Capsey,1.5,4.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Sophia Dunkley,1.5,4.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Danni Wyatt-Hodge,1.5,5.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Nat Sciver-Brunt,1.5,6.5,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Alice Capsey,2.5,10,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Sophia Dunkley,2.5,10,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Danni Wyatt-Hodge,2.5,13,TAB
+Bangladesh v England,Number of 6s,Bangladesh,England,Nat Sciver-Brunt,2.5,17,TAB

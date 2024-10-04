@@ -1,0 +1,9 @@
+match,market,home_team,away_team,team,overs,line,over_price,under_price,agency
+South Africa v West Indies,Team X Over Total Runs,South Africa,West Indies,South Africa Women,10,61.5,1.8,1.83,Sportsbet
+South Africa v West Indies,Team X Over Total Runs,South Africa,West Indies,West Indies Women,10,57.5,1.83,1.83,Sportsbet
+India v New Zealand,Team X Over Total Runs,India,New Zealand,India,10,69.5,1.8,1.83,Sportsbet
+India v New Zealand,Team X Over Total Runs,India,New Zealand,New Zealand Women,10,58.5,1.8,1.83,Sportsbet
+Australia v Sri Lanka,Team X Over Total Runs,Australia,Sri Lanka,Australia,10,78.5,1.83,1.83,Sportsbet
+Australia v Sri Lanka,Team X Over Total Runs,Australia,Sri Lanka,Sri Lanka Women,10,55.5,1.72,1.91,Sportsbet
+Bangladesh v England,Team X Over Total Runs,Bangladesh,England,Bangladesh,10,46.5,1.83,1.83,Sportsbet
+Bangladesh v England,Team X Over Total Runs,Bangladesh,England,England,10,67.5,1.83,1.83,Sportsbet
