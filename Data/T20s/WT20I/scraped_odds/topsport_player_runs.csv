@@ -1,13 +1,25 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-India v New Zealand W,Player Runs,India,New Zealand W,Amelia Kerr,New Zealand Women,NA,19.5,1.81,1.89,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Anne Bosch,South Africa Women,NA,15.5,1.85,1.85,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Deandra Dottin,West Indies Women,NA,16.5,1.88,1.82,TopSport
-India v New Zealand W,Player Runs,India,New Zealand W,Georgia Plimmer,New Zealand Women,NA,13.5,1.81,1.89,TopSport
-India v New Zealand W,Player Runs,India,New Zealand W,Harmanpreet Kaur,India,New Zealand W,20.5,1.91,1.79,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Hayley Matthews,West Indies Women,NA,23.5,1.91,1.79,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Laura Wolvaardt,South Africa Women,NA,23.5,1.81,1.89,TopSport
-India v New Zealand W,Player Runs,India,New Zealand W,Shefali Verma,India,New Zealand W,19.5,1.91,1.79,TopSport
-India v New Zealand W,Player Runs,India,New Zealand W,Smriti Mandhana,India,New Zealand W,23.5,1.91,1.79,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Stafanie Taylor,West Indies Women,NA,20.5,1.85,1.85,TopSport
-India v New Zealand W,Player Runs,India,New Zealand W,Suzie Bates,New Zealand Women,NA,18.5,1.85,1.85,TopSport
-South Africa W v West Indies W,Player Runs,South Africa W,West Indies W,Tazmin Brits,South Africa Women,NA,18.5,1.85,1.85,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Alice Capsey,England,Bangladesh,23.5,2.05,1.7,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Alyssa Healy,Australia,Sri Lanka,23.5,2.05,1.69,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Beth Mooney,Australia,Sri Lanka,26.5,1.9,1.8,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Chamari Athapaththu,Sri Lanka,Australia,18.5,1.9,1.8,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Danielle Wyatt,England,Bangladesh,22.5,1.95,1.76,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Ellyse Perry,Australia,Sri Lanka,23.5,1.95,1.76,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Gull Feroza,Pakistan,India,14.5,2,1.72,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Harmanpreet Kaur,India,Pakistan,23.5,1.91,1.79,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Harshitha Samarawickrama,Sri Lanka,Australia,14.5,1.85,1.85,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Hayley Matthews,West Indies,Scotland Women,26.5,1.9,1.8,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Kathryn Bryce,Scotland Women,West Indies,16.5,2,1.72,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Muneeba Ali,Pakistan,India,16.5,1.9,1.8,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Murshida Khatun,Bangladesh,England,14.5,2,1.72,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Qiana Joseph,West Indies,Scotland Women,16.5,2,1.72,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Sarah Bryce,Scotland Women,West Indies,17.5,1.95,1.76,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Saskia Horley,Scotland Women,West Indies,15.5,2,1.72,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Shathi Rani,Bangladesh,England,12.5,2.05,1.69,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Shefali Verma,India,Pakistan,22.5,1.91,1.79,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Sidra Ameen,Pakistan,India,15.5,1.95,1.76,TopSport
+India v Pakistan,Player Runs,India,Pakistan,Smriti Mandhana,India,Pakistan,25.5,1.85,1.85,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Sobhana Mostary,Bangladesh,England,13.5,2,1.72,TopSport
+Bangladesh v England,Player Runs,Bangladesh,England,Sophie Dunkley,England,Bangladesh,24.5,1.9,1.8,TopSport
+West Indies v Scotland Women,Player Runs,West Indies,Scotland Women,Stafanie Taylor,West Indies,Scotland Women,23.5,1.95,1.76,TopSport
+Australia v Sri Lanka,Player Runs,Australia,Sri Lanka,Vishmi Gunaratne,Sri Lanka,Australia,14.5,2,1.72,TopSport

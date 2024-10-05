@@ -1,42 +1,79 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Marizanne Kapp,South Africa,South Africa,3.9,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Ayabonga Khaka,South Africa,South Africa,4.6,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Nonkululeko Mlaba,South Africa,South Africa,4.8,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Nadine de Klerk,South Africa,South Africa,5.5,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Tumi Sekhukhune,South Africa,South Africa,5.5,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Ayanda Hlubi,South Africa,South Africa,6,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Seshnie Naidu,South Africa,South Africa,6,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Chloe Tryon,South Africa,South Africa,7,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Annerie Dercksen,South Africa,South Africa,7.5,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Sune Luus,South Africa,South Africa,10,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Hayley Matthews,West Indies,South Africa,3.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Afy Fletcher,West Indies,South Africa,4.8,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Karishma Ramharack,West Indies,South Africa,5.5,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Deandra Dottin,West Indies,South Africa,5.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Shamilia Connell,West Indies,South Africa,5.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Aaliyah Alleyne,West Indies,South Africa,6.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Chinelle Henry,West Indies,South Africa,6.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Mandy Mangru,West Indies,South Africa,7.25,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Qiana Joseph,West Indies,South Africa,7.75,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Nerissa Crafton,West Indies,South Africa,8,TopSport
-South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Zaida James,West Indies,South Africa,8,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Deepti Sharma,India,India,4,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Shreyanka Patil,India,India,4.2,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Pooja Vastrakar,India,India,4.5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Radha Yadav,India,India,4.5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Arundhati Reddy,India,India,4.8,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Renuka Singh,India,India,4.8,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Sobhana Asha,India,India,5.25,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Sajeevan Sajana,India,India,7.25,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Harmanpreet Kaur,India,India,10,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Amelia Kerr,New Zealand,India,3.5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Lea Tahuhu,New Zealand,India,4.6,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Fran Jonas,New Zealand,India,4.8,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Leigh Kasperek,New Zealand,India,4.8,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Jess Kerr,New Zealand,India,5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Rosemary Mair,New Zealand,India,5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Brooke Halliday,New Zealand,India,5.25,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Eden Carson,New Zealand,India,5.5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Molly Penfold,New Zealand,India,5.5,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Hannah Rowe,New Zealand,India,6,TopSport
-India v New Zealand,Top Team Wicket Taker,India,New Zealand,Sophie Devine,New Zealand,India,6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Ashleigh Gardner,Australia,Sri Lanka,4.4,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Alana King,Australia,Sri Lanka,4.6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Darcie Brown,Australia,Sri Lanka,4.6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Georgia Wareham,Australia,Sri Lanka,4.8,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Megan Schutt,Australia,Sri Lanka,4.8,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Annabel Sutherland,Australia,Sri Lanka,5.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Heather Graham,Australia,Sri Lanka,5.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Sophie Molineux,Australia,Sri Lanka,5.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Tayla Vlaeminck,Australia,Sri Lanka,6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Ellyse Perry,Australia,Sri Lanka,6.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Kim Garth,Australia,Sri Lanka,6.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Inoka Ranaweera,Sri Lanka,Australia,4,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Inoshi Priyadharshani,Sri Lanka,Australia,4,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Udeshika Prabodhani,Sri Lanka,Australia,4,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Shashini Gimhani,Sri Lanka,Australia,4.2,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Achini Kulasuriya,Sri Lanka,Australia,4.6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Chamari Athapaththu,Sri Lanka,Australia,4.6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Ama Kanchana,Sri Lanka,Australia,5.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Kavisha Dilhari,Sri Lanka,Australia,5.5,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Sugandika Kumari,Sri Lanka,Australia,6,TopSport
+Australia v Sri Lanka,Top Team Wicket Taker,Australia,Sri Lanka,Sachini Nisansala,Sri Lanka,Australia,6.5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Nahida Akter,Bangladesh,England,3.7,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Rabeya Khan,Bangladesh,England,4.4,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Fahima Khatun,Bangladesh,England,4.8,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Marufa Akter,Bangladesh,England,4.8,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Jahanara Alam,Bangladesh,England,5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Shorna Akter,Bangladesh,England,5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Disha Biswas,Bangladesh,England,5.5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Sultana Khatun,Bangladesh,England,6,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Ritu Moni,Bangladesh,England,7.5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Sophie Ecclestone,England,Bangladesh,3.7,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Lauren Bell,England,Bangladesh,4.2,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Sarah Glenn,England,Bangladesh,4.2,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Charlie Dean,England,Bangladesh,4.4,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Lauren Filer,England,Bangladesh,4.8,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Natalie Sciver Brunt,England,Bangladesh,5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Freya Kemp,England,Bangladesh,5.5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Linsey Smith,England,Bangladesh,5.5,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Danielle Wyatt,England,Bangladesh,7,TopSport
+Bangladesh v England,Top Team Wicket Taker,Bangladesh,England,Heather Knight,England,Bangladesh,8,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Deepti Sharma,India,Pakistan,3.8,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Shreyanka Patil,India,Pakistan,4.4,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Radha Yadav,India,Pakistan,4.6,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Arundhati Reddy,India,Pakistan,5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Asha Sobhana,India,Pakistan,5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Renuka Singh,India,Pakistan,5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Pooja Vastrakar,India,Pakistan,5.5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Sajeevan Sajana,India,Pakistan,7,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Harmanpreet Kaur,India,Pakistan,10,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Sadia Iqbal,Pakistan,India,4,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Fatima Sana,Pakistan,India,4.6,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Nashra Sandhu,Pakistan,India,4.8,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Nida Dar,Pakistan,India,4.8,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Syeda Aroob Shah,Pakistan,India,4.8,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Tasmia Rubab,Pakistan,India,5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Diana Baig,Pakistan,India,6.5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Tuba Hassan,Pakistan,India,6.5,TopSport
+India v Pakistan,Top Team Wicket Taker,India,Pakistan,Aliya Riaz,Pakistan,India,9.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Kathryn Bryce,Scotland Women,West Indies,4.2,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Abtaha Maqsood,Scotland Women,West Indies,4.4,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Katherine Fraser,Scotland Women,West Indies,4.6,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Olivia Bell,Scotland Women,West Indies,4.8,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Rachel Slater,Scotland Women,West Indies,5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Saskia Horley,Scotland Women,West Indies,5.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Chloe Abel,Scotland Women,West Indies,6,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Hannah Rainey,Scotland Women,West Indies,6.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Darcey Carter,Scotland Women,West Indies,7.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Priyanaz Chatterji,Scotland Women,West Indies,8.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Hayley Matthews,West Indies,Scotland Women,3.6,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Afy Fletcher,West Indies,Scotland Women,4.2,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Karishma Ramharack,West Indies,Scotland Women,5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Deandra Dottin,West Indies,Scotland Women,6,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Shamilia Connell,West Indies,Scotland Women,6,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Aaliyah Alleyne,West Indies,Scotland Women,6.5,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Qiana Joseph,West Indies,Scotland Women,8,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Nerissa Crafton,West Indies,Scotland Women,9,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Mandy Mangru,West Indies,Scotland Women,11,TopSport
+West Indies v Scotland Women,Top Team Wicket Taker,West Indies,Scotland Women,Zaida James,West Indies,Scotland Women,11,TopSport
