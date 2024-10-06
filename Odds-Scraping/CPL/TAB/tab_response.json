@@ -44,9 +44,9 @@
                 "St Lucia",
                 "Guyana"
             ],
-            "openMarketCount": 12,
+            "openMarketCount": 11,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 12,
+            "nonFutureMarketCount": 11,
             "markets": [
                 {
                     "id": "104735748",
@@ -169,6 +169,18 @@
                             "sortOrder": 12
                         },
                         {
+                            "id": "650083",
+                            "name": "Shimron Hetmyer (Guy)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650083,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
                             "id": "650080",
                             "name": "Moeen Ali (Guy)",
                             "returnWin": 5,
@@ -191,18 +203,6 @@
                             "number": 650085,
                             "isOpen": true,
                             "sortOrder": 5
-                        },
-                        {
-                            "id": "650083",
-                            "name": "Shimron Hetmyer (Guy)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650083,
-                            "isOpen": true,
-                            "sortOrder": 4
                         },
                         {
                             "id": "650180",
@@ -253,6 +253,18 @@
                             "sortOrder": 15
                         },
                         {
+                            "id": "650088",
+                            "name": "Romario Shepherd (Guy)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650088,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
                             "id": "650552",
                             "name": "Kevin Sinclair (Guy)",
                             "returnWin": 17,
@@ -263,18 +275,6 @@
                             "number": 650552,
                             "isOpen": true,
                             "sortOrder": 16
-                        },
-                        {
-                            "id": "650088",
-                            "name": "Romario Shepherd (Guy)",
-                            "returnWin": 21,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650088,
-                            "isOpen": true,
-                            "sortOrder": 7
                         },
                         {
                             "id": "650559",
@@ -1083,66 +1083,12 @@
                     ]
                 },
                 {
-                    "id": "104735753",
-                    "name": "CPL StLc-Guyn WinTos",
-                    "shortName": "CPL StLc-Guyn WinTos",
-                    "betOption": "Winner Of The Toss",
-                    "betOptionSpectrumId": "845",
-                    "betOptionPriority": 3200,
-                    "marketUniqueId": 104735753,
-                    "closeTime": "2024-10-06T23:00:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650005",
-                            "name": "St Lucia",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650005,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650006",
-                            "name": "Guyana",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650006,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "104735752",
                     "name": "CPL St Lucia-Guyana Mst63W",
                     "shortName": "CPL StLc-Guyn Mst63W",
                     "betOption": "Most Sixes 3 Way",
                     "betOptionSpectrumId": "692",
-                    "betOptionPriority": 8105,
+                    "betOptionPriority": 8110,
                     "marketUniqueId": 104735752,
                     "closeTime": "2024-10-06T23:00:00.000Z",
                     "bettingStatus": "Open",
@@ -1208,7 +1154,7 @@
                     "shortName": "CPL Guyana 1stOvR 6.5",
                     "betOption": "First Over Runs O/U",
                     "betOptionSpectrumId": "1980",
-                    "betOptionPriority": 18365,
+                    "betOptionPriority": 18370,
                     "marketUniqueId": 104735742,
                     "closeTime": "2024-10-06T23:00:00.000Z",
                     "bettingStatus": "Open",
@@ -1262,7 +1208,7 @@
                     "shortName": "CPL St Lucia 1stOvR 6.5",
                     "betOption": "First Over Runs O/U",
                     "betOptionSpectrumId": "1980",
-                    "betOptionPriority": 18365,
+                    "betOptionPriority": 18370,
                     "marketUniqueId": 104735743,
                     "closeTime": "2024-10-06T23:00:00.000Z",
                     "bettingStatus": "Open",
@@ -1323,7 +1269,6 @@
         "Highest Opening Partnership",
         "Fall Of 1st Wicket",
         "Most Wickets",
-        "Winner Of The Toss",
         "Most Sixes 3 Way",
         "First Over Runs O/U"
     ],
@@ -1366,14 +1311,6 @@
             "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Most%20Wickets"
-            }
-        },
-        {
-            "name": "Winner Of The Toss",
-            "hasFutureMarket": false,
-            "openMarketCount": 1,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
         },
         {
