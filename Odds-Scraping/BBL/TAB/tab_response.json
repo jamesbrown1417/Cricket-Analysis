@@ -1,0 +1,1614 @@
+{
+    "id": "513",
+    "name": "Caribbean Premier League",
+    "spectrumId": "513",
+    "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League?jurisdiction=SA",
+        "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
+        "tournaments": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/tournaments?jurisdiction=SA",
+        "matches": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/matches?jurisdiction=SA",
+        "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA",
+        "markets:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets/all-channels?jurisdiction=SA"
+    },
+    "matches": [
+        {
+            "id": "StLcvGuyn",
+            "name": "St Lucia v Guyana",
+            "spectrumId": "StLcvGuyn",
+            "spectrumUniqueId": 2620911,
+            "competitionSpectrumId": "513",
+            "round": null,
+            "broadcastChannel": "Fox Cricket",
+            "broadcastChannels": [
+                "Fox Cricket"
+            ],
+            "startTime": "2024-10-06T23:00:00.000Z",
+            "_links": {
+                "self": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/matches/St%20Lucia%20v%20Guyana?jurisdiction=SA",
+                "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/matches/St%20Lucia%20v%20Guyana?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/matches/St%20Lucia%20v%20Guyana/markets?jurisdiction=SA"
+            },
+            "contestants": [
+                {
+                    "name": "St Lucia",
+                    "position": "HOME",
+                    "isHome": true
+                },
+                {
+                    "name": "Guyana",
+                    "position": "AWAY",
+                    "isHome": false
+                }
+            ],
+            "competitors": [
+                "St Lucia",
+                "Guyana"
+            ],
+            "openMarketCount": 11,
+            "futureMarketCount": 0,
+            "nonFutureMarketCount": 11,
+            "markets": [
+                {
+                    "id": "104735748",
+                    "name": "CPL St Lucia-Guyana Hd to Hd",
+                    "shortName": "CPL SLucia-Guyana Hd to Hd",
+                    "betOption": "Head To Head",
+                    "betOptionSpectrumId": "72",
+                    "betOptionPriority": 430,
+                    "marketUniqueId": 104735748,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Includes Super Over",
+                    "informationMessage": "Includes Super Over",
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650002",
+                            "name": "St Lucia Kings",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650002,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "position": "HOME"
+                        },
+                        {
+                            "id": "650004",
+                            "name": "Guyana Amazon Warriors",
+                            "returnWin": 1.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650004,
+                            "isOpen": true,
+                            "sortOrder": 2,
+                            "position": "AWAY"
+                        }
+                    ]
+                },
+                {
+                    "id": "104735746",
+                    "name": "CPL Guyana High Bat",
+                    "shortName": "CPL Guyana High Bat",
+                    "betOption": "High Bat",
+                    "betOptionSpectrumId": "45",
+                    "betOptionPriority": 1500,
+                    "marketUniqueId": 104735746,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650082",
+                            "name": "Shai Hope (Guy)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650082,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "650077",
+                            "name": "Rahmanullah Gurbaz (Guy)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650077,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650094",
+                            "name": "Matthew Nandu (Guy)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650094,
+                            "isOpen": true,
+                            "sortOrder": 12
+                        },
+                        {
+                            "id": "650083",
+                            "name": "Shimron Hetmyer (Guy)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650083,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650080",
+                            "name": "Moeen Ali (Guy)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650080,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650085",
+                            "name": "Azam Khan (Guy)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650085,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "650180",
+                            "name": "Kevlon Anderson (Guy)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650180,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
+                            "id": "650188",
+                            "name": "Keemo Paul (Guy)",
+                            "returnWin": 8.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650188,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650087",
+                            "name": "Raymon Reifer (Guy)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650087,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "650191",
+                            "name": "Dwaine Pretorius (Guy)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650191,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650088",
+                            "name": "Romario Shepherd (Guy)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650088,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650552",
+                            "name": "Kevin Sinclair (Guy)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650552,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650559",
+                            "name": "Gudakesh Motie (Guy)",
+                            "returnWin": 41,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650559,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "650089",
+                            "name": "Ronaldo Alimohamed (Guy)",
+                            "returnWin": 41,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650089,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650561",
+                            "name": "Nathan Sowter (Guy)",
+                            "returnWin": 81,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650561,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650092",
+                            "name": "Junior Sinclair (Guy)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650092,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650091",
+                            "name": "Imran Tahir (Guy)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650091,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650090",
+                            "name": "Shamar Joseph (Guy)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650090,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        }
+                    ]
+                },
+                {
+                    "id": "104735747",
+                    "name": "CPL St Lucia High Bat",
+                    "shortName": "CPL St Lucia High Bat",
+                    "betOption": "High Bat",
+                    "betOptionSpectrumId": "45",
+                    "betOptionPriority": 1500,
+                    "marketUniqueId": 104735747,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650045",
+                            "name": "Faf du Plessis (StL)",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650045,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650044",
+                            "name": "Johnson Charles (StL)",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650044,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650051",
+                            "name": "Tim Seifert (StL)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650051,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "650049",
+                            "name": "Roston Chase (StL)",
+                            "returnWin": 6.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650049,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650053",
+                            "name": "Bhanuka Rajapaksa (StL)",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650053,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "650061",
+                            "name": "Aaron Jones (StL)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650061,
+                            "isOpen": true,
+                            "sortOrder": 12
+                        },
+                        {
+                            "id": "650055",
+                            "name": "David Wiese (StL)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650055,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650047",
+                            "name": "Ackeem Auguste (StL)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650047,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "650072",
+                            "name": "Johann Jeremiah (StL)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650072,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "650066",
+                            "name": "Shadrack Descarte (StL)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650066,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650057",
+                            "name": "Matthew Forde (StL)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650057,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650063",
+                            "name": "Khari Campbell (StL)",
+                            "returnWin": 21,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650063,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
+                            "id": "650070",
+                            "name": "Mikkel Govia (StL)",
+                            "returnWin": 51,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650070,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650068",
+                            "name": "Khary Pierre (StL)",
+                            "returnWin": 67,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650068,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650058",
+                            "name": "Alzarri Joseph (StL)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650058,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650060",
+                            "name": "McKenny Clarke (StL)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650060,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650059",
+                            "name": "Noor Ahmad (StL)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650059,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "104735749",
+                    "name": "CPL St Lucia-Guyana HiOpPart",
+                    "shortName": "CPL StLc-Guyn HiOpPart",
+                    "betOption": "Highest Opening Partnership",
+                    "betOptionSpectrumId": "158",
+                    "betOptionPriority": 1675,
+                    "marketUniqueId": 104735749,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "AvailableSoon",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650026",
+                            "name": "St Lucia",
+                            "returnWin": 1.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650026,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650029",
+                            "name": "tie",
+                            "returnWin": 34,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650029,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650031",
+                            "name": "Guyana",
+                            "returnWin": 2.05,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650031,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "104735744",
+                    "name": "CPL Guyana FallWkt1 22.5",
+                    "shortName": "CPL Guyana FallWkt1 22.5",
+                    "betOption": "Fall Of 1st Wicket",
+                    "betOptionSpectrumId": "2203",
+                    "betOptionPriority": 1910,
+                    "marketUniqueId": 104735744,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650021",
+                            "name": "Guyana Over 22.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650021,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650023",
+                            "name": "Guyana Under 22.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650023,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "104735745",
+                    "name": "CPL St Lucia FallWkt1 26.5",
+                    "shortName": "CPL St Lucia FallWkt1 26.5",
+                    "betOption": "Fall Of 1st Wicket",
+                    "betOptionSpectrumId": "2203",
+                    "betOptionPriority": 1910,
+                    "marketUniqueId": 104735745,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650018",
+                            "name": "St Lucia Over 26.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650018,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650020",
+                            "name": "St Lucia Under 26.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650020,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "104735750",
+                    "name": "CPL Guyana MostWick",
+                    "shortName": "CPL Guyana MostWick",
+                    "betOption": "Most Wickets",
+                    "betOptionSpectrumId": "60",
+                    "betOptionPriority": 2065,
+                    "marketUniqueId": 104735750,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650784",
+                            "name": "Gudakesh Motie (Guy)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650784,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "650777",
+                            "name": "Imran Tahir (Guy)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650777,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650776",
+                            "name": "Shamar Joseph (Guy)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650776,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650774",
+                            "name": "Romario Shepherd (Guy)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650774,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650769",
+                            "name": "Moeen Ali (Guy)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650769,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650785",
+                            "name": "Nathan Sowter (Guy)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650785,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650782",
+                            "name": "Dwaine Pretorius (Guy)",
+                            "returnWin": 6.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650782,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650775",
+                            "name": "Ronaldo Alimohamed (Guy)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650775,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650781",
+                            "name": "Keemo Paul (Guy)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650781,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650778",
+                            "name": "Junior Sinclair (Guy)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650778,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650773",
+                            "name": "Raymon Reifer (Guy)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650773,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "650783",
+                            "name": "Kevin Sinclair (Guy)",
+                            "returnWin": 8.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650783,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        }
+                    ]
+                },
+                {
+                    "id": "104735751",
+                    "name": "CPL St Lucia MostWick",
+                    "shortName": "CPL St Lucia MostWick",
+                    "betOption": "Most Wickets",
+                    "betOptionSpectrumId": "60",
+                    "betOptionPriority": 2065,
+                    "marketUniqueId": 104735751,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650584",
+                            "name": "Noor Ahmad (StL)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650584,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650582",
+                            "name": "Alzarri Joseph (StL)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650582,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650758",
+                            "name": "Khary Pierre (StL)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650758,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650579",
+                            "name": "David Wiese (StL)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650579,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650581",
+                            "name": "Matthew Forde (StL)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650581,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650587",
+                            "name": "McKenny Clarke (StL)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650587,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650575",
+                            "name": "Roston Chase (StL)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650575,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650761",
+                            "name": "Mikkel Govia (StL)",
+                            "returnWin": 6.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650761,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650640",
+                            "name": "Shadrack Descarte (StL)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650640,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650634",
+                            "name": "Khari Campbell (StL)",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650634,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        }
+                    ]
+                },
+                {
+                    "id": "104735752",
+                    "name": "CPL St Lucia-Guyana Mst63W",
+                    "shortName": "CPL StLc-Guyn Mst63W",
+                    "betOption": "Most Sixes 3 Way",
+                    "betOptionSpectrumId": "692",
+                    "betOptionPriority": 8110,
+                    "marketUniqueId": 104735752,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "AvailableSoon",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650033",
+                            "name": "St Lucia",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650033,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650035",
+                            "name": "tie",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650035,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650037",
+                            "name": "Guyana",
+                            "returnWin": 1.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650037,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "104735742",
+                    "name": "CPL Guyana 1stOvR 6.5",
+                    "shortName": "CPL Guyana 1stOvR 6.5",
+                    "betOption": "First Over Runs O/U",
+                    "betOptionSpectrumId": "1980",
+                    "betOptionPriority": 18370,
+                    "marketUniqueId": 104735742,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "AvailableSoon",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650013",
+                            "name": "Guyana Over 6.5 Runs",
+                            "returnWin": 2.05,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650013,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650014",
+                            "name": "Guyana Under 6.5 Runs",
+                            "returnWin": 1.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650014,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "104735743",
+                    "name": "CPL St Lucia 1stOvR 6.5",
+                    "shortName": "CPL St Lucia 1stOvR 6.5",
+                    "betOption": "First Over Runs O/U",
+                    "betOptionSpectrumId": "1980",
+                    "betOptionPriority": 18370,
+                    "marketUniqueId": 104735743,
+                    "closeTime": "2024-10-06T23:00:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "AvailableSoon",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650009",
+                            "name": "St Lucia Over 6.5 Runs",
+                            "returnWin": 2.05,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650009,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650011",
+                            "name": "St Lucia Under 6.5 Runs",
+                            "returnWin": 1.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650011,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                }
+            ],
+            "inPlay": false,
+            "goingInPlay": true
+        }
+    ],
+    "tournaments": [],
+    "hasMarkets": true,
+    "betOptionPriority": [
+        "Head To Head",
+        "High Bat",
+        "Highest Opening Partnership",
+        "Fall Of 1st Wicket",
+        "Most Wickets",
+        "Most Sixes 3 Way",
+        "First Over Runs O/U"
+    ],
+    "betOptions": [
+        {
+            "name": "Head To Head",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Head%20To%20Head"
+            }
+        },
+        {
+            "name": "High Bat",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=High%20Bat"
+            }
+        },
+        {
+            "name": "Highest Opening Partnership",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Highest%20Opening%20Partnership"
+            }
+        },
+        {
+            "name": "Fall Of 1st Wicket",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Fall%20Of%201st%20Wicket"
+            }
+        },
+        {
+            "name": "Most Wickets",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Most%20Wickets"
+            }
+        },
+        {
+            "name": "Most Sixes 3 Way",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=Most%20Sixes%203%20Way"
+            }
+        },
+        {
+            "name": "First Over Runs O/U",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League/markets?jurisdiction=SA&betOptionName=First%20Over%20Runs%20O%2FU"
+            }
+        }
+    ],
+    "betOptionGroups": [
+        {
+            "name": "Main Markets",
+            "types": [
+                "ALL"
+            ],
+            "betOptions": [
+                "72",
+                "91",
+                "52",
+                "45",
+                "60",
+                "1932",
+                "3139",
+                "926",
+                "927",
+                "489",
+                "443",
+                "399",
+                "90",
+                "1943",
+                "1930",
+                "155",
+                "32",
+                "704",
+                "4849",
+                "2202",
+                "434",
+                "44",
+                "613",
+                "614",
+                "3136",
+                "1646",
+                "678",
+                "617",
+                "50",
+                "1312",
+                "2239",
+                "135",
+                "1658",
+                "2027",
+                "4757",
+                "4758",
+                "112",
+                "1323",
+                "2245",
+                "3105",
+                "2205"
+            ]
+        },
+        {
+            "name": "Main Markets",
+            "types": [
+                "SGM"
+            ],
+            "betOptions": [
+                "72",
+                "91",
+                "4283",
+                "685",
+                "4284",
+                "862",
+                "489",
+                "1928",
+                "1940",
+                "1802",
+                "1930",
+                "45",
+                "60",
+                "155"
+            ]
+        },
+        {
+            "name": "Player Dismissals",
+            "types": [
+                "ALL"
+            ],
+            "betOptions": [
+                "4734",
+                "4735"
+            ]
+        },
+        {
+            "name": "Totals",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1932",
+                "2123",
+                "926",
+                "927",
+                "836",
+                "4739",
+                "1942",
+                "1945",
+                "2027",
+                "2204",
+                "138",
+                "1980",
+                "2765",
+                "329",
+                "4849",
+                "1943",
+                "1930",
+                "681",
+                "1531",
+                "2412",
+                "3914",
+                "682",
+                "3133",
+                "2205"
+            ]
+        },
+        {
+            "name": "Player Runs",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "45",
+                "2100",
+                "4854",
+                "4283",
+                "685",
+                "4284",
+                "862",
+                "489",
+                "1743",
+                "4286",
+                "4287",
+                "443",
+                "2003",
+                "1024",
+                "399",
+                "2000",
+                "2595",
+                "956",
+                "653",
+                "114",
+                "1706",
+                "2116",
+                "716",
+                "3566",
+                "1658"
+            ]
+        },
+        {
+            "name": "Player Boundaries",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1940",
+                "1941",
+                "1959",
+                "1990",
+                "1804",
+                "1802",
+                "1929",
+                "1803",
+                "3132",
+                "1040"
+            ]
+        },
+        {
+            "name": "Wicket Taker",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "60",
+                "1928",
+                "1927",
+                "1533"
+            ]
+        },
+        {
+            "name": "Opening Partnership",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "158",
+                "779",
+                "2203",
+                "118",
+                "1365",
+                "2932",
+                "8053"
+            ]
+        },
+        {
+            "name": "Doubles",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "688",
+                "3333",
+                "1029",
+                "133",
+                "1018"
+            ]
+        },
+        {
+            "name": "Match",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "155",
+                "112",
+                "845",
+                "3134",
+                "704",
+                "691",
+                "417",
+                "90",
+                "2210",
+                "692",
+                "4270",
+                "693",
+                "3131",
+                "683",
+                "684",
+                "434",
+                "259",
+                "869",
+                "4271"
+            ]
+        },
+        {
+            "name": "Series Player Runs",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "46",
+                "3143",
+                "2250",
+                "1042",
+                "1666"
+            ]
+        },
+        {
+            "name": "Series Player Wickets",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "86",
+                "3144",
+                "2637",
+                "744"
+            ]
+        },
+        {
+            "name": "Series Novelties",
+            "types": [
+                "ALL",
+                "SGM"
+            ],
+            "betOptions": [
+                "1039",
+                "4737",
+                "989",
+                "4736"
+            ]
+        }
+    ],
+    "hasFuturePredictions": false
+}

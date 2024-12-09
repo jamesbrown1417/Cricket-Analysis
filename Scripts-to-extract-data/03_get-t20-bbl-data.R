@@ -52,6 +52,34 @@ bbl_ball_by_ball_data <-
                   gender = "male")
 
 #===============================================================================
+# Tidy up venue data
+#===============================================================================
+
+# Define the function to clean venue names based on predefined rules
+clean_venue_names <- function(venues) {
+  venues_cleaned <- sapply(venues, function(venue) {
+    case_when(
+      str_detect(venue, "Kensington") ~ "Kensington Oval, Bridgetown, Barbados",
+      str_detect(venue, "Brian Lara") ~ "Brian Lara Cricket Academy, Tarouba, Trinidad",
+      str_detect(venue, "Queen's Park Oval") ~ "Queen's Park Oval, Port of Spain, Trinidad",
+      str_detect(venue, "Providence") ~ "Providence Stadium, Guyana",
+      str_detect(venue, "Warner Park") ~ "Warner Park, Basseterre, St Kitts",
+      str_detect(venue, "Sabina Park") ~ "Sabina Park, Kingston, Jamaica",
+      str_detect(venue, "Daren Sammy") ~ "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+      str_detect(venue, "Central Broward") ~ "Central Broward Regional Park Stadium Turf Ground, Lauderhill, Florida",
+      str_detect(venue, "National Cricket Stadium") ~ "National Cricket Stadium, St George's, Grenada",
+      str_detect(venue, "Sir Vivian Richards") ~ "Sir Vivian Richards Stadium, North Sound, Antigua",
+      TRUE ~ venue  # Default case to return the original if no matches found
+    )
+  })
+  
+  return(venues_cleaned)
+}
+
+# Apply the function to the venue data
+bbl_match_data$venue <- clean_venue_names(bbl_match_data$venue)
+
+#===============================================================================
 # Add player metadata to player data
 #===============================================================================
 
@@ -60,7 +88,6 @@ bbl_player_data <-
   bbl_player_data |>
   left_join(player_metadata,
             by = c("player" = "unique_name"))
-
 
 #===============================================================================
 # Get Match Innings Data
@@ -197,7 +224,6 @@ bbl_match_innings_data <-
   rename(match_id_number = match_id) |>
   mutate(match_id_number = as.integer(match_id_number)) |>
   pmap_dfr(get_match_innings_data, .progress = TRUE)
-
 
 #===============================================================================
 # Get First Over Data
