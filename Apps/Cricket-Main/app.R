@@ -228,7 +228,7 @@ ui <- page_navbar(
           selectInput(
             inputId = "player_name_input_a",
             label = "Select Player:",
-            selected = "Sunil Philip Narine",
+            selected = "Matthew William Short",
             choices = unique_players,
           ),
           selectInput(
@@ -236,8 +236,16 @@ ui <- page_navbar(
             label = "Select Event:",
             choices = unique_events,
             multiple = TRUE,
-            selected = unique_events
+            selected = "Big Bash League"
           ),
+          dateInput(
+            inputId = "start_date",
+            label = "Select Start Date:",
+            value = "2023-01-12"),
+          dateInput(
+            inputId = "end_date",
+            label = "Select End Date:",
+            value = NULL),
           selectInput(
             inputId = "stat_input_a",
             label = "Select Statistic:",
@@ -520,13 +528,6 @@ server <- function(input, output, session) {
         arrange(desc(Date))
     }
     
-    # Filter by last n games
-    if (!is.na(input$last_games)) {
-      filtered_player_stats <-
-        filtered_player_stats |>
-        slice_head(n = input$last_games)
-    }
-    
     # Filter by innings balls bowled
     if (!is.na(input$innings_balls_bowled_min)) {
       filtered_player_stats <-
@@ -550,6 +551,30 @@ server <- function(input, output, session) {
       filtered_player_stats |>
       filter(Venue %in% input$venue_input_a)
     }
+    
+    # Filter by date
+    if (!is.null(input$start_date)) {
+      filtered_player_stats <-
+        filtered_player_stats |>
+        filter(Date >= input$start_date)
+    }
+    
+    if (!is.null(input$end_date)) {
+      filtered_player_stats <-
+        filtered_player_stats |>
+        filter(Date <= input$end_date)
+    }
+    
+    # Filter by last n games
+    if (!is.na(input$last_games)) {
+      filtered_player_stats <-
+        filtered_player_stats |>
+        slice_head(n = input$last_games)
+    }
+    
+    filtered_player_stats <-
+    filtered_player_stats |> 
+      mutate(game_number = row_number())
     
     # Return filtered player stats
     return(filtered_player_stats)
