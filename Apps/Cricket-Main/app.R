@@ -329,8 +329,16 @@ ui <- page_navbar(
             label = "Select Event:",
             choices = unique_events,
             multiple = TRUE,
-            selected = unique_events
+            selected = "Big Bash League"
           ),
+          dateInput(
+            inputId = "start_date_team",
+            label = "Select Start Date:",
+            value = "2023-01-12"),
+          dateInput(
+            inputId = "end_date_team",
+            label = "Select End Date:",
+            value = NULL),
           selectInput(
             inputId = "stat_input_c",
             label = "Select Statistic:",
@@ -824,17 +832,30 @@ server <- function(input, output, session) {
         filter(Team_1 %in% input$team_name_input_c | Team_2 %in% input$team_name_input_c)
     }
     
-    # Now make game number
-    filtered_match_stats <-
-      filtered_match_stats |>
-      mutate(game_number = row_number())
-    
     # Filter by last n games
     if (!is.na(input$last_games_c)) {
       filtered_match_stats <-
         filtered_match_stats |>
         slice_head(n = input$last_games_c)
     }
+    
+    # Filter by start date
+    if (!is.null(input$start_date_team)) {
+      filtered_match_stats <-
+        filtered_match_stats |>
+        filter(Date >= input$start_date_team)
+    }
+    
+    if (!is.null(input$end_date_team)) {
+      filtered_match_stats <-
+        filtered_match_stats |>
+        filter(Date <= input$end_date_team)
+    }
+    
+    # Now make game number
+    filtered_match_stats <-
+      filtered_match_stats |>
+      mutate(game_number = row_number())
     
     # Return match stats
     return(filtered_match_stats)
