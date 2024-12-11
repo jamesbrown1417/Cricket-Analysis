@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the URL for the GET request (for Caribbean Premier League odds)
-tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Caribbean%20Premier%20League?jurisdiction=SA"
+tab_url = "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash?jurisdiction=SA"
 
 # Set the headers required for the request (simulating a browser request)
 headers = {
@@ -40,7 +40,7 @@ else:
 # If the response was successfully parsed, write the JSON data to a file.
 if tab_response is not None:
     # Specify the path and file name where the JSON data will be saved.
-    with open("Odds-Scraping/CPL/TAB/tab_response.json", "w") as json_file:
+    with open("Odds-Scraping/BBL/TAB/tab_response.json", "w") as json_file:
         # Write the JSON data to the file with pretty formatting (indentation).
         json.dump(tab_response, json_file, indent=4)
 else:

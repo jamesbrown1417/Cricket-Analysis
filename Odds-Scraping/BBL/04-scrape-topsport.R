@@ -5,7 +5,7 @@ library(httr2)
 library(jsonlite)
 
 # URL of website
-topsport_url = "https://www.topsport.com.au/Sport/Cricket/Caribbean_Twenty20/Matches"
+topsport_url = "https://www.topsport.com.au/Sport/Cricket/BBL_Matches/Matches"
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -41,16 +41,17 @@ topsport_other_markets <- paste0("https://www.topsport.com.au", topsport_other_m
 # Get only distinct URLs
 topsport_other_markets <- unique(topsport_other_markets)
 
-# Function to fix team names for TopSport CPL
+# Function to fix team names for TopSport Big Bash
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
-    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
-    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St Lucia|St\\. Lucia|Saint Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "Thunder") ~ "Sydney Thunder",
+    str_detect(team_name_vector, "Sixers") ~ "Sydney Sixers",
+    str_detect(team_name_vector, "Scorchers") ~ "Perth Scorchers",
+    str_detect(team_name_vector, "Heat") ~ "Brisbane Heat",
+    str_detect(team_name_vector, "Strikers") ~ "Adelaide Strikers",
+    str_detect(team_name_vector, "Hurricanes") ~ "Hobart Hurricanes",
+    str_detect(team_name_vector, "Stars") ~ "Melbourne Stars",
+    str_detect(team_name_vector, "Renegades") ~ "Melbourne Renegades",
     TRUE ~ team_name_vector
   )
 }
@@ -100,7 +101,7 @@ head_to_head_main <- function() {
     filter(!is.na(home_win))
   
   # Write to csv
-  write_csv(topsport_h2h, "Data/T20s/CPL/scraped_odds/topsport_h2h.csv")
+  write_csv(topsport_h2h, "Data/T20s/Big Bash/scraped_odds/topsport_h2h.csv")
 }
 
 head_to_head_main()
@@ -279,7 +280,7 @@ player_runs_all <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_runs_all |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_runs.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_player_runs.csv")
 
 #===============================================================================
 # Player Wickets
@@ -406,7 +407,7 @@ player_wickets <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, under_price, .keep_all = TRUE)
 
 player_wickets |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_wickets.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_player_wickets.csv")
 
 #===============================================================================
 # Boundaries
@@ -526,7 +527,7 @@ player_boundaries <-
   distinct(match, player_name, player_team, opposition_team, line, over_price, .keep_all = TRUE)
 
 player_boundaries |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_player_boundaries.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_player_boundaries.csv")
 
 #===============================================================================
 # First Over Runs
@@ -595,7 +596,7 @@ first_over_runs <-
 
 # Write out first over runs
 first_over_runs |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_first_over_runs.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_first_over_runs.csv")
 
 #===============================================================================
 # Runs At Fall of First Wicket - Team
@@ -664,7 +665,7 @@ runs_at_first_wicket_team_runs_all <-
 
 # Write out
 runs_at_first_wicket_team_runs_all |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_runs_at_first_wicket.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_runs_at_first_wicket.csv")
 
 #===============================================================================
 # Most Team Wickets
@@ -721,7 +722,7 @@ most_team_wickets <-
 
 # Write out
 most_team_wickets |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_top_team_wicket_taker.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_top_team_wicket_taker.csv")
 
 #===============================================================================
 # Highest Opening Partnership
@@ -787,4 +788,4 @@ highest_opening_partnership <-
 
 # Write out
 highest_opening_partnership |> 
-  write_csv("Data/T20s/CPL/scraped_odds/topsport_highest_opening_partnership.csv")
+  write_csv("Data/T20s/Big Bash/scraped_odds/topsport_highest_opening_partnership.csv")

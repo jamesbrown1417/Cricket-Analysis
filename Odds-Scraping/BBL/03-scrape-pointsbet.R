@@ -8,7 +8,7 @@ library(tidyjson)
 pointsbet_h2h_main <- function() {
   
   # URL of website
-  pointsbet_url = "https://api.au.pointsbet.com/api/v2/competitions/85945/events/featured?includeLive=false"
+  pointsbet_url = "https://api.au.pointsbet.com/api/v2/competitions/20040/events/featured?includeLive=false"
   
   # Make request and get response
   pointsbet_response <-
@@ -92,7 +92,7 @@ pointsbet_h2h_main <- function() {
     mutate(agency = "Pointsbet")
   
   # Write to csv
-  write_csv(pointsbet_h2h, "Data/T20s/The Hundred/scraped_odds/pointsbet_h2h.csv")
+  write_csv(pointsbet_h2h, "Data/T20s/Big Bash/scraped_odds/pointsbet_h2h.csv")
   
   #===============================================================================
   # Player Props
@@ -184,16 +184,12 @@ pointsbet_h2h_main <- function() {
     mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
                                outcome == "Steven Smith" ~ "Steve Smith",
                                .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -217,16 +213,12 @@ pointsbet_h2h_main <- function() {
     mutate(player_name = case_when(player_name == "Tom Rogers" ~ "Tom F Rogers",
                                    player_name == "Steven Smith" ~ "Steve Smith",
                                    .default = player_name)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |> 
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -243,16 +235,12 @@ pointsbet_h2h_main <- function() {
     mutate(player_name = case_when(player_name == "Tom Rogers" ~ "Tom F Rogers",
                                    player_name == "Steven Smith" ~ "Steve Smith",
                                    .default = player_name)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |> 
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name,
-      player_team,
-      opposition_team,
       line,
       under_price = price,
       agency = "Pointsbet")
@@ -261,12 +249,12 @@ pointsbet_h2h_main <- function() {
   pointsbet_player_runs_over_under <- 
     pointsbet_player_runs_over |>
     left_join(pointsbet_player_runs_under) |>
-    select(match, home_team, away_team, market, player_name, player_team, opposition_team, line, over_price, under_price, agency)
+    select(match, home_team, away_team, market, player_name, line, over_price, under_price, agency)
   
   # Write to csv----------------------------------------------------------------
   pointsbet_player_runs_lines |> 
     bind_rows(pointsbet_player_runs_over_under) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_runs.csv")
+    write_csv("Data/T20s/Big Bash/scraped_odds/pointsbet_player_runs.csv")
   
   #===============================================================================
   # Player Wickets
@@ -288,23 +276,19 @@ pointsbet_h2h_main <- function() {
                                outcome == "Tom S. Rogers" ~ "Tom Rogers",
                                outcome == "Andrew tye" ~ "Andrew Tye",
                                .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Wickets",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
   
   # Write to csv----------------------------------------------------------------
   pointsbet_player_wickets_lines |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_wickets.csv")
+    write_csv("Data/T20s/Big Bash/scraped_odds/pointsbet_player_wickets.csv")
   
   #===============================================================================
   # Player Boundaries
@@ -324,16 +308,12 @@ pointsbet_h2h_main <- function() {
     mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
                                outcome == "Steven Smith" ~ "Steve Smith",
                                .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Number of 4s",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -352,16 +332,12 @@ pointsbet_h2h_main <- function() {
     mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
                                outcome == "Steven Smith" ~ "Steve Smith",
                                .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Number of 6s",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -369,8 +345,58 @@ pointsbet_h2h_main <- function() {
   # Write to csv----------------------------------------------------------------
   pointsbet_player_sixes_lines |> 
     bind_rows(pointsbet_player_fours_lines) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_boundaries.csv")
+    write_csv("Data/T20s/Big Bash/scraped_odds/pointsbet_player_boundaries.csv")
   
+  
+  #===============================================================================
+  # First Over Runs
+  #===============================================================================
+  
+  # Filter list to first over runs
+  pointsbet_first_over_runs <-
+    pointsbet_data_player_props |>
+    filter(str_detect(market, "1st Over Runs")) |>
+    mutate(team = str_remove(market, " 1st Over Runs.*$")) |>
+    mutate(line = str_extract(outcome, "[0-9]{1,3}\\.?[0-9]{0,1}"))
+  
+  # First Over Runs - Overs
+  pointsbet_first_over_runs_over <-
+    pointsbet_first_over_runs |> 
+    filter(str_detect(outcome, "Over")) |>
+    mutate(line = as.numeric(line)) |>
+    separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
+    transmute(
+      match,
+      home_team,
+      away_team,
+      market = "First Over Runs",
+      team,
+      line,
+      over_price = price,
+      agency = "Pointsbet")
+  
+  # First Over Runs - Unders
+  pointsbet_first_over_runs_under <-
+    pointsbet_first_over_runs |> 
+    filter(str_detect(outcome, "Under")) |>
+    mutate(line = as.numeric(line)) |>
+    separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
+    transmute(
+      match,
+      
+      home_team,
+      away_team,
+      market = "First Over Runs",
+      team,
+      line,
+      under_price = price,
+      agency = "Pointsbet")
+  
+  # Combine overs and unders
+  pointsbet_first_over_runs <- 
+    pointsbet_first_over_runs_over |>
+    left_join(pointsbet_first_over_runs_under) |>
+    select(match, home_team, away_team, market, team, line, over_price, under_price, agency)
 }
 
 ##%######################################################%##

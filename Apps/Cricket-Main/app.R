@@ -172,25 +172,27 @@ unique_teams <-
 # Read in processed odds
 #===============================================================================
 
-# CPL---------------------------------------------------------------------------
-all_files_cpl <- list.files("../../Data/T20s/CPL/processed_odds/", full.names = TRUE, pattern = "rds")
+# BBL---------------------------------------------------------------------------
+all_files_bbl <- list.files("../../Data/T20s/Big Bash/processed_odds/", full.names = TRUE, pattern = "rds")
 
 # Get names
-all_files_cpl_names <- all_files_cpl |> str_remove("../../Data/T20s/CPL/processed_odds/") |> str_remove(".rds")
+all_files_bbl_names <- all_files_bbl |> str_remove("../../Data/T20s/Big Bash/processed_odds/") |> str_remove(".rds")
 
 # Read in files in a loop
-cpl_odds <-
-  map(all_files_cpl, read_rds) |> 
-  set_names(all_files_cpl_names)
+bbl_odds <-
+  map(all_files_bbl, read_rds) |> 
+  set_names(all_files_bbl_names)
 
 # Combine all
-player_runs <- bind_rows(cpl_odds$player_runs)
-fall_of_first_wicket <- bind_rows(cpl_odds$runs_at_first_wicket)
-first_over_runs <- bind_rows(cpl_odds$first_over_runs)
-match_sixes <- bind_rows(cpl_odds$match_sixes)
-team_sixes <- bind_rows(cpl_odds$team_sixes)
-match_fours <- bind_rows(cpl_odds$match_fours)
-team_fours <- bind_rows(cpl_odds$team_fours)
+player_runs <- bind_rows(bbl_odds$player_runs)
+player_wickets <- bind_rows(bbl_odds$player_wickets)
+player_boundaries <- bind_rows(bbl_odds$player_boundaries)
+fall_of_first_wicket <- bind_rows(bbl_odds$runs_at_first_wicket)
+first_over_runs <- bind_rows(bbl_odds$first_over_runs)
+match_sixes <- bind_rows(bbl_odds$match_sixes)
+team_sixes <- bind_rows(bbl_odds$team_sixes)
+match_fours <- bind_rows(bbl_odds$match_fours)
+team_fours <- bind_rows(bbl_odds$team_fours)
 
 #===============================================================================
 # UI
@@ -244,8 +246,7 @@ ui <- page_navbar(
             value = "2023-01-12"),
           dateInput(
             inputId = "end_date",
-            label = "Select End Date:",
-            value = NULL),
+            label = "Select End Date:"),
           selectInput(
             inputId = "stat_input_a",
             label = "Select Statistic:",
@@ -337,8 +338,7 @@ ui <- page_navbar(
             value = "2023-01-12"),
           dateInput(
             inputId = "end_date_team",
-            label = "Select End Date:",
-            value = NULL),
+            label = "Select End Date:"),
           selectInput(
             inputId = "stat_input_c",
             label = "Select Statistic:",
@@ -427,10 +427,25 @@ ui <- page_navbar(
             choices = c("Player Runs", "Fall of First Wicket - Team", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Boundaries"),
             multiple = FALSE
           ),
-          textInput(
+          selectInput(
+            inputId = "match_input_odds",
+            label = "Select Match:",
+            choices = player_runs$match,
+            selected = player_runs$match,
+            multiple = TRUE
+          ),
+          selectInput(
+            inputId = "competition_input",
+            label = "Select Competition:",
+            choices = c("BBL"),
+            selected = c("BBL"),
+            multiple = TRUE
+          ),
+          selectInput(
             inputId = "player_name_input_b",
             label = "Select Player:",
-            value = NA
+            choices = unique(c(player_runs$player_name, player_wickets$player_name, player_boundaries$player_name)),
+            multiple = TRUE
           ),
           checkboxInput(
             inputId = "only_unders",
@@ -771,17 +786,23 @@ server <- function(input, output, session) {
         filter(Batting %in% input$team_name_input_c)
     }
     
-    # Now make game number
-    filtered_team_stats <-
-      filtered_team_stats |>
-      mutate(game_number = row_number())
-    
     # Filter by last n games
     if (!is.na(input$last_games_c)) {
       filtered_team_stats <-
         filtered_team_stats |>
         slice_head(n = input$last_games_c)
     }
+    
+    # Filter by start date
+    filtered_team_stats <-
+      filtered_team_stats |>
+      filter(Date >= input$start_date_team) |> 
+      filter(Date <= input$end_date_team)
+    
+    # Now make game number
+    filtered_team_stats <-
+      filtered_team_stats |>
+      mutate(game_number = row_number())
     
     # Return filtered player stats
     return(filtered_team_stats)
@@ -840,17 +861,10 @@ server <- function(input, output, session) {
     }
     
     # Filter by start date
-    if (!is.null(input$start_date_team)) {
       filtered_match_stats <-
         filtered_match_stats |>
-        filter(Date >= input$start_date_team)
-    }
-    
-    if (!is.null(input$end_date_team)) {
-      filtered_match_stats <-
-        filtered_match_stats |>
+        filter(Date >= input$start_date_team) |> 
         filter(Date <= input$end_date_team)
-    }
     
     # Now make game number
     filtered_match_stats <-
@@ -1142,20 +1156,19 @@ server <- function(input, output, session) {
     # Player Runs
     if (input$market_input == "Player Runs") {
       odds <-
-        player_runs |> 
-        select(-player_team, -opposition_team)
+        player_runs
     }
     
     # Player Boundaries
     if (input$market_input == "Player Boundaries") {
       odds <-
-        player_boundaries_data
+        player_boundaries
     }
     
     # Player Wickets
     if (input$market_input == "Player Wickets") {
       odds <-
-        player_wickets_data
+        player_wickets
     }
     
     # Fall of First Wicket
@@ -1195,10 +1208,10 @@ server <- function(input, output, session) {
     }
     
     if (input$market_input %in% c("Player Runs", "Player Wickets", "Player Boundaries")) {
-      if (input$player_name_input_b != "") {
+      if (!is.null(input$player_name_input_b)) {
         odds <-
           odds |>
-          filter(str_detect(player_name, input$player_name_input_b))
+          filter(player_name %in% input$player_name_input_b)
       }
       
       if (input$only_best == TRUE) {
@@ -1225,6 +1238,11 @@ server <- function(input, output, session) {
           filter(!is.na(under_price))
       }
     }
+    
+    odds <-
+      odds |>
+      filter(competition %in% input$competition_input) |> 
+      filter(match %in% input$match_input_odds)
     
     # Return odds
     return(odds)
