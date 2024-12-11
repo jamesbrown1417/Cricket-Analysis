@@ -17,7 +17,7 @@ run_scraping <- function(script_name) {
 # Run all odds scraping scripts-------------------------------------------------
 # run_scraping("Odds-Scraping/BBL/scrape_betr.R")
 run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
-# run_scraping("Odds-Scraping/BBL/scrape_pointsbet.R")
+run_scraping("Odds-Scraping/BBL/03-scrape-pointsbet.R")
 run_scraping("Odds-Scraping/BBL/02-scrape-Sportsbet.R")
 run_scraping("Odds-Scraping/BBL/TAB/01-scrape-TAB.R")
 run_scraping("Odds-Scraping/BBL/04-scrape-topsport.R")
@@ -209,7 +209,7 @@ list_of_br_data <-
 # Combine
 br_data <-
   list_of_br_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_name) |> 
   select(-home_team, -away_team) |> 
@@ -234,7 +234,7 @@ list_of_bw_data <- map(list_of_bw_files, read_csv)
 # Combine
 bw_data <-
   list_of_bw_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_name) |> 
   select(-home_team, -away_team) |> 
@@ -257,7 +257,7 @@ list_of_ttwt_data <- map(list_of_ttwt_files, read_csv)
 # Combine
 ttwt_data <-
   list_of_ttwt_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_team, player_name, desc(price)) |> 
   select(-home_team, -away_team) |> 
@@ -277,7 +277,7 @@ list_of_hop_data <- map(list_of_hop_files, read_csv)
 # Combine
 hop_data <-
   list_of_hop_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |>
   mutate(competition = "BBL")
 

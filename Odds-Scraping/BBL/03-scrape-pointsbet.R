@@ -383,7 +383,7 @@ pointsbet_h2h_main <- function() {
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
     transmute(
       match,
-      
+      market = "First Over Runs - Team",
       home_team,
       away_team,
       market = "First Over Runs",
@@ -397,6 +397,9 @@ pointsbet_h2h_main <- function() {
     pointsbet_first_over_runs_over |>
     left_join(pointsbet_first_over_runs_under) |>
     select(match, home_team, away_team, market, team, line, over_price, under_price, agency)
+  
+  pointsbet_first_over_runs |> 
+  write_csv("Data/T20s/Big Bash/scraped_odds/pointsbet_first_over_runs.csv")
 }
 
 ##%######################################################%##
