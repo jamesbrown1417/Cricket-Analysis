@@ -280,4 +280,3 @@ hop_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |>
   mutate(competition = "BBL")
-

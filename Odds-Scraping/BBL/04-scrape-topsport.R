@@ -172,7 +172,7 @@ if (nrow(player_runs_alternate) == 0) {
 
 player_runs_alternate <- 
   player_runs_alternate |> 
-  mutate(line = line - 0.5) |>
+  mutate(line = as.numeric(line) - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
   mutate(player_name = str_remove(player_name, " \\(.*\\)$")) |>
@@ -417,7 +417,7 @@ player_wickets |>
 
 # Get URLs
 pick_your_own_fours_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Player Fours")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player.*Fours")]
 
 # Map function
 player_fours_alternate <-
@@ -439,7 +439,7 @@ if (nrow(player_fours_alternate) == 0) {
 
 player_fours_alternate <-
   player_fours_alternate |>
-  mutate(line = line - 0.5) |>
+  mutate(line = as.numeric(line) - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
   mutate(player_name = str_remove(player_name, " \\(.*\\)$")) |>
@@ -449,13 +449,13 @@ player_fours_alternate <-
 player_fours_alternate <-
   player_fours_alternate |> 
   mutate(market_name = "Number of 4s", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, player_team, line, over_price, agency)
+  select(match, market_name, player_name, line, over_price, agency)
 
 # Get data for pick your own sixes----------------------------------------------
 
 # Get URLs
 pick_your_own_sixes_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Player Sixes")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Player.*Sixes")]
 
 # Map function
 player_sixes_alternate <-
@@ -477,7 +477,7 @@ if (nrow(player_sixes_alternate) == 0) {
 
 player_sixes_alternate <-
   player_sixes_alternate |>
-  mutate(line = line - 0.5) |>
+  mutate(line = as.numeric(line) - 0.5) |>
   rename(over_price = Win) |> 
   rename(player_name = Selection) |> 
   mutate(player_name = str_remove(player_name, " \\(.*\\)$")) |>
@@ -487,7 +487,7 @@ player_sixes_alternate <-
 player_sixes_alternate <-
   player_sixes_alternate |> 
   mutate(market_name = "Number of 6s", agency = "TopSport") |>
-  select(match, start_date, market_name, player_name, player_team, line, over_price, agency)
+  select(match, market_name, player_name, line, over_price, agency)
 
 # Write out all player boundaries
 player_boundaries <- 
@@ -503,28 +503,19 @@ player_boundaries <-
   ) |>
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
-  mutate(player_team = fix_team_names(player_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
-  mutate(
-    opposition_team = case_when(
-      player_team == home_team ~ away_team,
-      player_team == away_team ~ home_team
-    )
-  ) |>
   select(
     match,
     market = market_name,
     home_team,
     away_team,
     player_name,
-    player_team,
-    opposition_team,
     line,
     over_price,
     agency
   ) |> 
   arrange(player_name, line) |> 
-  distinct(match, player_name, player_team, opposition_team, line, over_price, .keep_all = TRUE)
+  distinct(match, player_name, line, over_price, .keep_all = TRUE)
 
 player_boundaries |> 
   write_csv("Data/T20s/Big Bash/scraped_odds/topsport_player_boundaries.csv")
@@ -732,7 +723,7 @@ most_team_wickets |>
 
 # Get URLs
 highest_opening_partnership_markets <- 
-  topsport_other_markets[str_detect(topsport_other_markets, "Highest_Opening_Partnership")]
+  topsport_other_markets[str_detect(topsport_other_markets, "Highest_Opening_Partnership\\/")]
 
 # Map function
 highest_opening_partnership <-
