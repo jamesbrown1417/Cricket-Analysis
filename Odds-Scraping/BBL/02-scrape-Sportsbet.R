@@ -54,12 +54,7 @@ separated_names <-
 # Function to fix team names for Sportsbet Big Bash
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St. Kitts") ~ "St Kitts and Nevis Patriots",
-    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
-    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St. Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "Melbourne R") ~ "Melbourne Renegades",
     TRUE ~ team_name_vector
   )
 }
@@ -732,28 +727,28 @@ player_props_function <- function() {
   # Team Sixes------------------------------------------------------------------
   team_sixes_overs <-
     match_markets |>
-    filter(str_detect(prop_market_name, "[AZ]* Total Sixes")) |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Sixes")) |>
     filter(str_detect(selection_name_prop, "Over")) |>
     transmute(
       match,
       market = "Total Team Sixes",
       home_team,
       away_team,
-      team = str_remove(prop_market_name, " Total Sixes .*"),
+      team = str_remove(prop_market_name, " Total Match Sixes.*"),
       line = handicap,
       over_price = prop_market_price
     )
   
   team_sixes_unders <-
     match_markets |>
-    filter(str_detect(prop_market_name, "[AZ]* Total Sixes")) |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Sixes")) |>
     filter(str_detect(selection_name_prop, "Under")) |>
     transmute(
       match,
       market = "Total Team Sixes",
       home_team,
       away_team,
-      team = str_remove(prop_market_name, " Total Sixes .*"),
+      team = str_remove(prop_market_name, " Total Match Sixes.*"),
       line = handicap,
       under_price = prop_market_price
     )
@@ -767,28 +762,28 @@ player_props_function <- function() {
   # Team Fours------------------------------------------------------------------
   team_fours_overs <-
     match_markets |>
-    filter(str_detect(prop_market_name, "[AZ]* Total Fours")) |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Fours")) |>
     filter(str_detect(selection_name_prop, "Over")) |>
     transmute(
       match,
       market = "Total Team Fours",
       home_team,
       away_team,
-      team = str_remove(prop_market_name, " Total Fours .*"),
+      team = str_remove(prop_market_name, " Total Match Fours.*"),
       line = handicap,
       over_price = prop_market_price
     )
   
   team_fours_unders <-
     match_markets |>
-    filter(str_detect(prop_market_name, "[AZ]* Total Fours")) |>
+    filter(str_detect(prop_market_name, "[AZ]* Total Match Fours")) |>
     filter(str_detect(selection_name_prop, "Under")) |>
     transmute(
       match,
       market = "Total Team Fours",
       home_team,
       away_team,
-      team = str_remove(prop_market_name, " Total Fours .*"),
+      team = str_remove(prop_market_name, " Total Match Fours.*"),
       line = handicap,
       under_price = prop_market_price
     )

@@ -16,7 +16,7 @@ run_scraping <- function(script_name) {
 
 # Run all odds scraping scripts-------------------------------------------------
 # run_scraping("Odds-Scraping/BBL/scrape_betr.R")
-run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
+# run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
 run_scraping("Odds-Scraping/BBL/03-scrape-pointsbet.R")
 run_scraping("Odds-Scraping/BBL/02-scrape-Sportsbet.R")
 run_scraping("Odds-Scraping/BBL/TAB/01-scrape-TAB.R")
@@ -80,7 +80,7 @@ fofw_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, team) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   mutate(competition = "BBL")
 
 # Write out 
@@ -112,7 +112,7 @@ write_rds(for_data, "Data/T20s/Big Bash/processed_odds/first_over_runs.rds")
 #===============================================================================
 
 # Read in all match sixes data
-list_of_ms_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "match_sixes")
+list_of_ms_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "match_sixes|total_sixes")
 
 # Read in all match sixes data
 list_of_ms_data <- map(list_of_ms_files, read_csv)
@@ -123,10 +123,10 @@ ms_data <-
   keep(~ncol(.x) > 0) |>
   bind_rows() |> 
   arrange(match) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   mutate(competition = "BBL")
 
-# Write out 
+# Write out
 write_rds(ms_data, "Data/T20s/Big Bash/processed_odds/match_sixes.rds")
 
 #===============================================================================
@@ -134,7 +134,7 @@ write_rds(ms_data, "Data/T20s/Big Bash/processed_odds/match_sixes.rds")
 #===============================================================================
 
 # Read in all match fours data
-list_of_mf_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "match_fours")
+list_of_mf_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "match_fours|match_4s|total_fours")
 
 # Read in all match fours data
 list_of_mf_data <- map(list_of_mf_files, read_csv)
@@ -145,7 +145,7 @@ mf_data <-
   keep(~ncol(.x) > 0) |>
   bind_rows() |> 
   arrange(match) |> 
-  select(-home_team, -away_team) |> 
+  select(-any_of(c("home_team", "away_team"))) |>
   mutate(competition = "BBL")
 
 # Write out 
@@ -156,7 +156,7 @@ write_rds(mf_data, "Data/T20s/Big Bash/processed_odds/match_fours.rds")
 #===============================================================================
 
 # Read in all team sixes data
-list_of_ts_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "team_sixes")
+list_of_ts_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "team_sixes|team_total_6s")
 
 # Read in all team sixes data
 list_of_ts_data <- map(list_of_ts_files, read_csv)
@@ -164,10 +164,10 @@ list_of_ts_data <- map(list_of_ts_files, read_csv)
 # Combine
 ts_data <-
   list_of_ts_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, team) |> 
-  select(-home_team, -away_team) |> 
+  select(-any_of(c("home_team", "away_team"))) |>
   mutate(competition = "BBL")
 
 # Write out
@@ -178,7 +178,7 @@ write_rds(ts_data, "Data/T20s/Big Bash/processed_odds/team_sixes.rds")
 #===============================================================================
 
 # Read in all team fours data
-list_of_tf_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "team_fours")
+list_of_tf_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "team_fours|team_total_4s")
 
 # Read in all team fours data
 list_of_tf_data <- map(list_of_tf_files, read_csv)
@@ -189,7 +189,7 @@ tf_data <-
   keep(~ncol(.x) > 0) |>
   bind_rows() |> 
   arrange(match, team) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   mutate(competition = "BBL")
 
 # Write out
@@ -212,7 +212,7 @@ br_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_name) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   arrange(match,player_name, line, desc(over_price)) |> 
   mutate(competition = "BBL") |> 
   mutate(market = "Player Runs") |> 
@@ -237,7 +237,7 @@ bw_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_name) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   arrange(match,player_name, line, desc(over_price)) |> 
   mutate(competition = "BBL")
 
@@ -260,7 +260,7 @@ ttwt_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_team, player_name, desc(price)) |> 
-  select(-home_team, -away_team) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
   filter(!is.na(price)) |> 
   mutate(competition = "BBL")
 
