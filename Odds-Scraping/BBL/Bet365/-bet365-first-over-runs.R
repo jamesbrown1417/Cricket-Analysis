@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_first_over <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "first_over")
+scraped_files_first_over <- list.files("Odds-Scraping/BBL/Bet365/HTML", full.names = TRUE, pattern = "first_over")
 
 # Main Function
 get_first_over_runs <- function(scraped_file) {
@@ -93,6 +93,19 @@ get_first_over_runs <- function(scraped_file) {
   return(first_over_team_runs)
 }
 
+# Get safe version
+get_first_over_runs_safe <- safely(get_first_over_runs)
+
+# Map Over all html files
+list_of_first_over_runs <- map(scraped_files_first_over, get_first_over_runs_safe)
+
+# Keep only elements with NULL error
+list_of_first_over_runs <- 
+  list_of_first_over_runs |> 
+  keep(~is.null(.x$error)) |> 
+  map(~.x$result) |> 
+  bind_rows()
+
 # Map Over all html files
 list_of_first_over_runs <- map(scraped_files_first_over, get_first_over_runs)
 
@@ -102,4 +115,4 @@ first_over_runs_all <-
   rename(market = market_name)
 
 # Output as a csv
-write_csv(first_over_runs_all, "Data/T20s/CPL/scraped_odds/bet365_first_over_runs.csv")
+write_csv(first_over_runs_all, "Data/T20s/Big Bash/scraped_odds/bet365_first_over_runs.csv")

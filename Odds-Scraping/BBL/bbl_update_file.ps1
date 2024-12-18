@@ -40,4 +40,4 @@ git commit -m $commitMessage
 git push origin master
 
 # Publish report using Quarto
-echo "1" | & "quarto" "publish" "quarto-pub" "Odds-Scraping\BBL\BBL_Report.qmd"
+# echo "1" | & "quarto" "publish" "quarto-pub" "Odds-Scraping\BBL\BBL_Report.qmd"

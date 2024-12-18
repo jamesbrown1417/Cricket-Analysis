@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_player <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "player")
+scraped_files_player <- list.files("Odds-Scraping/BBL/Bet365/HTML", full.names = TRUE, pattern = "player")
 
 # Main Function
 get_bowler_wickets <- function(scraped_file) {
@@ -187,8 +187,18 @@ get_bowler_wickets <- function(scraped_file) {
   return(bowler_all_match_wickets)
 }
 
+# Get safe version
+get_bowler_wickets_safe <- safely(get_bowler_wickets)
+
 # Map Over all html files
-list_of_player_wickets <- map(scraped_files_player, get_bowler_wickets)
+list_of_player_wickets <- map(scraped_files_player, get_bowler_wickets_safe)
+
+# Keep only elements with NULL error
+list_of_player_wickets <- 
+  list_of_player_wickets |> 
+  keep(~is.null(.x$error)) |> 
+  map(~.x$result) |> 
+  bind_rows()
 
 # Create function to fix the player names
 fix_player_names <- function(player_name_vector) {
@@ -229,6 +239,18 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "K Maharaj") ~ "Keshav Maharaj",
     str_detect(player_name_vector, "OC McCoy") ~ "Obed McCoy",
     str_detect(player_name_vector, "MM Theekshana") ~ "Maheesh Theekshana",
+    str_detect(player_name_vector, "A Zampa") ~ "Adam Zampa",
+    str_detect(player_name_vector, "B Stanlake") ~ "Billy Stanlake",
+    str_detect(player_name_vector, "F O'Neil") ~ "Fergus O'Neil",
+    str_detect(player_name_vector, "KW Richardson") ~ "Kane Richardson",
+    str_detect(player_name_vector, "N Ellis") ~ "Nathan Ellis",
+    str_detect(player_name_vector, "RP Meredith") ~ "Riley Meredith",
+    str_detect(player_name_vector, "TS Rogers") ~ "Tom Rogers",
+    str_detect(player_name_vector, "W Salamkheil") ~ "Waqar Salamkheil",
+    str_detect(player_name_vector, "B Dwarshuis") ~ "Ben Dwarshuis",
+    str_detect(player_name_vector, "H Kerr") ~ "Hayden Kerr",
+    str_detect(player_name_vector, "JM Bird") ~ "Jackson Bird",
+    str_detect(player_name_vector, "SA Abbott") ~ "Sean Abbott",
     TRUE ~ player_name_vector
   )
   return(player_name_vector)
@@ -241,4 +263,4 @@ player_wickets <-
   rename(market = market_name, player_name = player, player_team = team)
 
 # Output as a csv
-write_csv(player_wickets, "Data/T20s/CPL/scraped_odds/bet365_player_wickets.csv")
+write_csv(player_wickets, "Data/T20s/Big Bash/scraped_odds/bet365_player_wickets.csv")

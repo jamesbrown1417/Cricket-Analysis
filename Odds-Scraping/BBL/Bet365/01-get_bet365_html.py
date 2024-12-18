@@ -15,7 +15,7 @@ async def main():
     # options.add_argument("--headless=True")
 
     async with webdriver.Chrome(options=options) as driver:
-        await driver.get('https://www.bet365.com.au/#/AC/B3/C21000260/D720/E1246/F720/')
+        await driver.get('https://www.bet365.com.au/#/AC/B3/C21017607/D720/E1246/F720/')
         await driver.sleep(0.1)
         
         # wait 100s for elem to exist
@@ -23,7 +23,7 @@ async def main():
         body_html = await elem.get_attribute('outerHTML')
         
         # Write html to file - overwrite existing file
-        with open(f"Odds-Scraping/CPL/Bet365/HTML/h2h_html.txt", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/HTML/h2h_html.txt", 'w') as f:
             f.write(body_html)
         
         # Get all occurences of src-ParticipantFixtureDetailsHigher_Team, we want to click on each one
@@ -85,23 +85,23 @@ async def main():
             
         # Write URL as a csv
         match_url_list = '\n'.join(match_url_list)
-        with open(f"Odds-Scraping/CPL/Bet365/match_urls.csv", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/match_urls.csv", 'w') as f:
            f.write(match_url_list)
            
         player_url_list = '\n'.join(player_url_list)
-        with open(f"Odds-Scraping/CPL/Bet365/player_urls.csv", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/player_urls.csv", 'w') as f:
            f.write(player_url_list)
            
         first_over_url_list = '\n'.join(first_over_url_list)
-        with open(f"Odds-Scraping/CPL/Bet365/first_over_urls.csv", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/first_over_urls.csv", 'w') as f:
            f.write(first_over_url_list)
            
         first_innings_url_list = '\n'.join(first_innings_url_list)
-        with open(f"Odds-Scraping/CPL/Bet365/first_innings_urls.csv", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/first_innings_urls.csv", 'w') as f:
            f.write(first_innings_url_list)
            
         team_url_list = '\n'.join(team_url_list)
-        with open(f"Odds-Scraping/CPL/Bet365/team_urls.csv", 'w') as f:
+        with open(f"Odds-Scraping/BBL/Bet365/team_urls.csv", 'w') as f:
            f.write(team_url_list)
 
 asyncio.run(main())

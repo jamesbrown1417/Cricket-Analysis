@@ -9,7 +9,7 @@ library(glue)
 
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_player <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "player")
+scraped_files_player <- list.files("Odds-Scraping/BBL/Bet365/HTML", full.names = TRUE, pattern = "player")
 
 # Main Function
 get_player_runs <- function(scraped_file) {
@@ -210,8 +210,18 @@ get_player_runs <- function(scraped_file) {
   return(batter_all_match_runs)
 }
 
+# Get safe version
+get_player_runs_safe <- safely(get_player_runs)
+
 # Map Over all html files
-list_of_player_runs <- map(scraped_files_player, get_player_runs)
+list_of_player_runs <- map(scraped_files_player, get_player_runs_safe)
+
+# Keep only elements with NULL error
+list_of_player_runs <- 
+  list_of_player_runs |> 
+  keep(~is.null(.x$error)) |> 
+  map(~.x$result) |> 
+  bind_rows()
 
 # Create function to fix the player names
 fix_player_names <- function(player_name_vector) {
@@ -242,10 +252,25 @@ fix_player_names <- function(player_name_vector) {
     str_detect(player_name_vector, "F du Plessis") ~ "Faf du Plessis",
     str_detect(player_name_vector, "J Charles") ~ "Johnson Charles",
     str_detect(player_name_vector, "TL Seifert") ~ "Tim Seifert",
+    str_detect(player_name_vector, "BR McDermott") ~ "Ben McDermott",
+    str_detect(player_name_vector, "CP Jewell") ~ "Caleb Jewell",
+    str_detect(player_name_vector, "J Fraser-McGurk" ) ~ "Jake Fraser-McGurk",
+    str_detect(player_name_vector, "J Brown") ~ "Josh Brown",
+    str_detect(player_name_vector, "L Evans") ~ "Laurie Evans",
+    str_detect(player_name_vector, "JR Philippe") ~ "Josh Philippe",
+    str_detect(player_name_vector, "M Bryant") ~ "Max Bryant",
+    str_detect(player_name_vector, "M Labuschagne") ~ "Marnus Labuschagne",
+    str_detect(player_name_vector, "M Renshaw") ~ "Matt Renshaw",
+    str_detect(player_name_vector, "M Henriques") ~ "Moises Henriques",
+    str_detect(player_name_vector, "M Stoinis") ~ "Marcus Stoinis",
     str_detect(player_name_vector, "M Louis") ~ "Mikyle Louis",
     str_detect(player_name_vector, "PBB Rajapaksa") ~ "Bhanuka Rajapaksa",
     str_detect(player_name_vector, "K Alleyne") ~ "Kadeem Alleyne",
     str_detect(player_name_vector, "MM Ali") ~ "Moeen Ali",
+    str_detect(player_name_vector, "B Webster") ~ "Beau Webster",
+    str_detect(player_name_vector, "KR Patterson") ~ "Kurtis Patterson",
+    str_detect(player_name_vector, "JM Vince") ~ "James Vince",
+    str_detect(player_name_vector, "MS Wade") ~ "Matthew Wade",
     TRUE ~ player_name_vector
   )
 }
@@ -257,4 +282,4 @@ player_runs <-
   rename(market = market_name, player_name = player, player_team = team)
 
 # Output as a csv
-write_csv(player_runs, "Data/T20s/CPL/scraped_odds/bet365_player_runs.csv")
+write_csv(player_runs, "Data/T20s/Big Bash/scraped_odds/bet365_player_runs.csv")

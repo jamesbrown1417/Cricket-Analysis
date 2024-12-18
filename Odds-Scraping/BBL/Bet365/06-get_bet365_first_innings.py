@@ -10,7 +10,7 @@ time_stamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 # Read in CSV of URLs=========================================================
 import pandas as pd
 # Read csv (no header col)
-url_df = pd.read_csv('Odds-Scraping/CPL/Bet365/first_innings_urls.csv', header=None)
+url_df = pd.read_csv('Odds-Scraping/BBL/Bet365/first_innings_urls.csv', header=None)
 
 # Convert first column to a list
 url_df = url_df[0]
@@ -28,7 +28,7 @@ async def main():
                 await driver.get(url)
                 
                 # Wait for cm-MarketGroupWithIconsButton_Text to exist
-                await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text ')]", timeout=100)
+                await driver.find_element(By.XPATH, "//div[contains(@class, 'cm-MarketGroupWithIconsButton_Text ')]", timeout=10)
                 
                 # Print URL
                 print(f"Getting URL {url} which is match {index}")
@@ -37,7 +37,7 @@ async def main():
                 # wait for elem to exist
                 elem = await driver.find_element(By.XPATH, "//div[contains(@class, 'wcl-PageContainer_Colcontainer ')]")
                 body_html_first_innings = await elem.get_attribute('outerHTML')
-                with open(f"Odds-Scraping/CPL/Bet365/HTML/body_html_first_innings_match_{index}.txt", 'w') as f:
+                with open(f"Odds-Scraping/BBL/Bet365/HTML/body_html_first_innings_match_{index}.txt", 'w') as f:
                     f.write(body_html_first_innings)
                         
             except Exception as e:

@@ -6,7 +6,7 @@ library(jsonlite)
 library(glue)
 
 # Read scraped HTML from the BET365_HTML Folder
-scraped_files_fofw <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "body_html_team")
+scraped_files_fofw <- list.files("Odds-Scraping/BBL/Bet365/HTML", full.names = TRUE, pattern = "body_html_team")
 
 # Main Function
 get_fofw_runs <- function(scraped_file) {
@@ -93,8 +93,18 @@ get_fofw_runs <- function(scraped_file) {
   return(fofw_team_runs)
 }
 
+# Get safe version
+get_fofw_runs_safe <- safely(get_fofw_runs)
+
 # Map Over all html files
-list_of_fofw_runs <- map(scraped_files_fofw, get_fofw_runs)
+list_of_fofw_runs <- map(scraped_files_fofw, get_fofw_runs_safe)
+
+# Keep only elements with NULL error
+list_of_fofw_runs <- 
+  list_of_fofw_runs |> 
+  keep(~is.null(.x$error)) |> 
+  map(~.x$result) |> 
+  bind_rows()
 
 # Combine into a df
 fofw_runs_all <-
@@ -102,4 +112,4 @@ fofw_runs_all <-
   rename(market = market_name)
 
 # Output as a csv
-write_csv(fofw_runs_all, "Data/T20s/CPL/scraped_odds/bet365_runs_at_first_wicket.csv")
+write_csv(fofw_runs_all, "Data/T20s/Big Bash/scraped_odds/bet365_runs_at_first_wicket.csv")

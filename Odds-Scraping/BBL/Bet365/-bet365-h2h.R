@@ -12,7 +12,7 @@ library(glue)
 get_head_to_head <- function() {
   
   # Read scraped HTML from the BET365_HTML Folder
-  scraped_file <- list.files("Odds-Scraping/CPL/Bet365/HTML", full.names = TRUE, pattern = "h2h")[[1]]
+  scraped_file <- list.files("Odds-Scraping/BBL/Bet365/HTML", full.names = TRUE, pattern = "h2h")[[1]]
   
   # Get Teams
   bet365_teams <-
@@ -74,4 +74,4 @@ get_head_to_head <- function() {
 bet365_h2h <- get_head_to_head()
 
 # Write to csv
-write_csv(bet365_h2h, "Data/T20s/CPL/scraped_odds/bet365_h2h.csv")
+write_csv(bet365_h2h, "Data/T20s/Big Bash/scraped_odds/bet365_h2h.csv")
