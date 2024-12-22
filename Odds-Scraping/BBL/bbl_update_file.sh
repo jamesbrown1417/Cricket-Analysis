@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Give access to normal path vars
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 # Set the current directory to your project folder
 cd "/Users/jamesbrown/Projects/Cricket-Analysis" || exit
 
@@ -20,7 +23,7 @@ Rscript "Odds-Scraping/BBL/Bet365/-bet365-fall-of-first-wicket.R"
 Rscript "Odds-Scraping/BBL/Bet365/-bet365-first-over-runs.R"
 Rscript "Odds-Scraping/BBL/Bet365/-bet365-h2h.R"
 Rscript "Odds-Scraping/BBL/Bet365/-bet365-player-runs.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-bowerl-wickets.R"
+Rscript "Odds-Scraping/BBL/Bet365/-bet365-bowler-wickets.R"
 Rscript "Odds-Scraping/BBL/Bet365/-bet365-team-sixes-and-fours.R"
 Rscript "Odds-Scraping/BBL/Bet365/-bet365-match-sixes-and-fours.R"
 

@@ -239,11 +239,25 @@ bb_data <-
   arrange(match, player_name) |> 
     select(-any_of(c("home_team", "away_team"))) |>
   arrange(match,player_name, line, desc(over_price)) |> 
-  mutate(competition = "BBL") |> 
-  mutate(market = "Player Boundaries")
+  mutate(competition = "BBL")
+
+# Sixes
+player_sixes <-
+  bb_data |> 
+  filter(str_detect(market, "Sixes|6s|sixes")) |>
+  mutate(market = "Player Sixes") %>% 
+  select(-any_of(c("player_team")))
+
+# Fours
+player_fours <-
+  bb_data |> 
+  filter(str_detect(market, "Fours|4s|fours")) |>
+  mutate(market = "Player Fours") %>% 
+  select(-any_of(c("player_team")))
 
 # Write out
-write_rds(bb_data, "Data/T20s/Big Bash/processed_odds/player_boundaries.rds")
+write_rds(player_sixes, "Data/T20s/Big Bash/processed_odds/player_sixes.rds")
+write_rds(player_fours, "Data/T20s/Big Bash/processed_odds/player_fours.rds")
 
 #===============================================================================
 # Bowler Wickets

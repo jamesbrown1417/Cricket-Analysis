@@ -90,9 +90,9 @@
                 "Brisbane Heat",
                 "AdelaideStrikers"
             ],
-            "openMarketCount": 103,
+            "openMarketCount": 84,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 103,
+            "nonFutureMarketCount": 84,
             "markets": [
                 {
                     "id": "107485479",
@@ -442,6 +442,19 @@
                             "sameGame": true
                         },
                         {
+                            "id": "650025",
+                            "name": "Colin Munro (Bri)",
+                            "returnWin": 3.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650025,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
                             "id": "650027",
                             "name": "Matt Renshaw (Bri)",
                             "returnWin": 4,
@@ -452,19 +465,6 @@
                             "number": 650027,
                             "isOpen": true,
                             "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650025",
-                            "name": "Colin Munro (Bri)",
-                            "returnWin": 4.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650025,
-                            "isOpen": true,
-                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -3582,630 +3582,6 @@
                     ]
                 },
                 {
-                    "id": "107976607",
-                    "name": "BBL Adelaide InnRunOU 22/12",
-                    "shortName": "BBL Adelaide InnRunOU",
-                    "betOption": "Innings Runs Over/Under",
-                    "betOptionSpectrumId": "1932",
-                    "betOptionPriority": 1630,
-                    "marketUniqueId": 107976607,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652760",
-                            "name": "Ade Over 165.5 Runs",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652760,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652761",
-                            "name": "Ade Under 165.5 Runs",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652761,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976620",
-                    "name": "BBL Brisbane InnRunOU 22/12",
-                    "shortName": "BBL Brisbane InnRunOU",
-                    "betOption": "Innings Runs Over/Under",
-                    "betOptionSpectrumId": "1932",
-                    "betOptionPriority": 1630,
-                    "marketUniqueId": 107976620,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652716",
-                            "name": "Bri Over 167.5 Runs",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652716,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652717",
-                            "name": "Bri Under 167.5 Runs",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652717,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976608",
-                    "name": "BBL Adelaide InnRuns3Way 22/12",
-                    "shortName": "BBL Adelaide InnRuns3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 107976608,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652766",
-                            "name": "Ade 171 Runs or more",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652766,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652767",
-                            "name": "Ade 161 - 170 Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652767,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652772",
-                            "name": "Ade 160 Runs or less",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652772,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "107976621",
-                    "name": "BBL Brisbane InnRuns3Way 22/12",
-                    "shortName": "BBL Brisbane InnRuns3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 107976621,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652722",
-                            "name": "Bri 173 Runs or more",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652722,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652723",
-                            "name": "Bri 163 - 172 Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652723,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652724",
-                            "name": "Bri 162 Runs or less",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652724,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "107976609",
-                    "name": "BBL Adelaide InnRuns6Way 22/12",
-                    "shortName": "BBL Adelaide InnRuns6Way",
-                    "betOption": "Innings Runs 6-Way",
-                    "betOptionSpectrumId": "836",
-                    "betOptionPriority": 1655,
-                    "marketUniqueId": 107976609,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652773",
-                            "name": "Ade 201 Runs or more",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652773,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652774",
-                            "name": "Ade 181-200 Runs",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652774,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652776",
-                            "name": "Ade 161-180 Runs",
-                            "returnWin": 3.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652776,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652777",
-                            "name": "Ade 141-160 Runs",
-                            "returnWin": 3.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652777,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652779",
-                            "name": "Ade 121-140 Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652779,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652780",
-                            "name": "Ade 120 Runs or less",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652780,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "107976622",
-                    "name": "BBL Brisbane InnRuns6Way 22/12",
-                    "shortName": "BBL Brisbane InnRuns6Way",
-                    "betOption": "Innings Runs 6-Way",
-                    "betOptionSpectrumId": "836",
-                    "betOptionPriority": 1655,
-                    "marketUniqueId": 107976622,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652725",
-                            "name": "Bri 201 Runs or more",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652725,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652726",
-                            "name": "Bri 181-200 Runs",
-                            "returnWin": 4.25,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652726,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652728",
-                            "name": "Bri 161-180 Runs",
-                            "returnWin": 3.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652728,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652729",
-                            "name": "Bri 141-160 Runs",
-                            "returnWin": 3.75,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652729,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652730",
-                            "name": "Bri 121-140 Runs",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652730,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652732",
-                            "name": "Bri 120 Runs or less",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652732,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "107976624",
-                    "name": "BBL Brisbane AltRuns 22/12",
-                    "shortName": "BBL Brisbane AltRuns",
-                    "betOption": "Home Team Alternate Total Runs",
-                    "betOptionSpectrumId": "1942",
-                    "betOptionPriority": 1660,
-                    "marketUniqueId": 107976624,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652689",
-                            "name": "Bri 140+ Runs",
-                            "returnWin": 1.14,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652689,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652690",
-                            "name": "Bri 160+ Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652690,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652692",
-                            "name": "Bri 180+ Runs",
-                            "returnWin": 2.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652692,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652695",
-                            "name": "Bri 200+ Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652695,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652696",
-                            "name": "Bri 220+ Runs",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652696,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "107976601",
-                    "name": "BBL Adelaide AltRuns 22/12",
-                    "shortName": "BBL Adelaide AltRuns",
-                    "betOption": "Away Team Alternate Total Runs",
-                    "betOptionSpectrumId": "1945",
-                    "betOptionPriority": 1665,
-                    "marketUniqueId": 107976601,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652744",
-                            "name": "Ade 140+ Runs",
-                            "returnWin": 1.16,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652744,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652745",
-                            "name": "Ade 160+ Runs",
-                            "returnWin": 1.62,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652745,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652746",
-                            "name": "Ade 180+ Runs",
-                            "returnWin": 3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652746,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652747",
-                            "name": "Ade 200+ Runs",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652747,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652748",
-                            "name": "Ade 220+ Runs",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652748,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
                     "id": "108102875",
                     "name": "BBL Adelaide PlrRunOU 22/12",
                     "shortName": "BBL Adelaide PlrRunOU",
@@ -4350,7 +3726,7 @@
                         {
                             "id": "652889",
                             "name": "O Pope Over 17.5 Runs",
-                            "returnWin": 2.1,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4363,7 +3739,7 @@
                         {
                             "id": "652890",
                             "name": "O Pope Under 17.5 Runs",
-                            "returnWin": 1.65,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4521,7 +3897,7 @@
                         {
                             "id": "652257",
                             "name": "M Renshaw Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4534,7 +3910,7 @@
                         {
                             "id": "652261",
                             "name": "M Renshaw Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5245,60 +4621,6 @@
                     ]
                 },
                 {
-                    "id": "107976568",
-                    "name": "BBL Bris-Adel 4OvrLead 22/12",
-                    "shortName": "BBL Bris-Adel 4OvrLead",
-                    "betOption": "Leading Team After 4 Overs",
-                    "betOptionSpectrumId": "3134",
-                    "betOptionPriority": 1700,
-                    "marketUniqueId": 107976568,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652391",
-                            "name": "Brisbane Heat",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652391,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652392",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652392,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "107976603",
                     "name": "BBL Adelaide 1stBatDism 22/12",
                     "shortName": "BBL Adelaide 1stBatDism",
@@ -5617,7 +4939,7 @@
                         {
                             "id": "650017",
                             "name": "Ade Over 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5630,7 +4952,7 @@
                         {
                             "id": "650018",
                             "name": "Ade Under 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5675,7 +4997,7 @@
                         {
                             "id": "650015",
                             "name": "Bri Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5688,7 +5010,7 @@
                         {
                             "id": "650016",
                             "name": "Bri Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5701,72 +5023,6 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "108099909",
-                    "name": "BBL Brisbane-Adelaide Mtch6s3W",
-                    "shortName": "BBL Bris-Adel Mtch6s3W",
-                    "betOption": "Match Sixes 3-Way",
-                    "betOptionSpectrumId": "2210",
-                    "betOptionPriority": 1975,
-                    "marketUniqueId": 108099909,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650022",
-                            "name": "Brisbane Heat",
-                            "returnWin": 2.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650022,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650023",
-                            "name": "tie",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650023,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650024",
-                            "name": "AdelaideStrikers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650024,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
                 },
                 {
                     "id": "107976571",
@@ -5799,7 +5055,7 @@
                         {
                             "id": "652395",
                             "name": "Over 10.5 Sixes",
-                            "returnWin": 1.8,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5811,7 +5067,7 @@
                         {
                             "id": "652396",
                             "name": "Under 10.5 Sixes",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5853,7 +5109,7 @@
                         {
                             "id": "652407",
                             "name": "12 Sixes Or More",
-                            "returnWin": 2.1,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5879,7 +5135,7 @@
                         {
                             "id": "652409",
                             "name": "2 Sixes Or Less",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6073,7 +5329,7 @@
                         {
                             "id": "652419",
                             "name": "10+ Match Sixes",
-                            "returnWin": 1.7,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6086,7 +5342,7 @@
                         {
                             "id": "652420",
                             "name": "12+ Match Sixes",
-                            "returnWin": 2.15,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6125,7 +5381,7 @@
                         {
                             "id": "652423",
                             "name": "18+ Match Sixes",
-                            "returnWin": 6.5,
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6138,7 +5394,7 @@
                         {
                             "id": "652424",
                             "name": "20+ Match Sixes",
-                            "returnWin": 8,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6986,120 +6242,6 @@
                     "sameGameMultipleSelections": true
                 },
                 {
-                    "id": "107976570",
-                    "name": "BBL Bris-Adel WinMargin 22/12",
-                    "shortName": "BBL Bris-Adel WinMargin",
-                    "betOption": "Margin",
-                    "betOptionSpectrumId": "32",
-                    "betOptionPriority": 2620,
-                    "marketUniqueId": 107976570,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652384",
-                            "name": "Brisbn 41+ runs/8-10 wickets",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652384,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652385",
-                            "name": "Bris 21-40 runs/5-7 wickets",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652385,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652386",
-                            "name": "Brisbn 1-20 runs/1-4 wickets",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652386,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652387",
-                            "name": "Tie (Superover)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652387,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652388",
-                            "name": "Adelde 1-20 runs/1-4 wickets",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652388,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652389",
-                            "name": "Adel 21-40 runs/5-7 wickets",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652389,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
-                            "id": "652390",
-                            "name": "Adelde 41+ runs/8-10 wickets",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652390,
-                            "isOpen": true,
-                            "sortOrder": 7
-                        }
-                    ]
-                },
-                {
                     "id": "108102889",
                     "name": "BBL Bris-Adel PlrOfMch",
                     "shortName": "BBL Bris-Adel PlrOfMch",
@@ -7462,60 +6604,6 @@
                             "number": 650674,
                             "isOpen": true,
                             "sortOrder": 15
-                        }
-                    ]
-                },
-                {
-                    "id": "107976782",
-                    "name": "BBL Bris-Adel WinTos 22/12",
-                    "shortName": "BBL Bris-Adel WinTos",
-                    "betOption": "Winner Of The Toss",
-                    "betOptionSpectrumId": "845",
-                    "betOptionPriority": 3230,
-                    "marketUniqueId": 107976782,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652805",
-                            "name": "Brisbane Heat",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652805,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652806",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652806,
-                            "isOpen": true,
-                            "sortOrder": 2
                         }
                     ]
                 },
@@ -7952,384 +7040,6 @@
                     ]
                 },
                 {
-                    "id": "107976594",
-                    "name": "BBL Adelaide 4OvRun 22/12",
-                    "shortName": "BBL Adelaide 4OvRun",
-                    "betOption": "1st 4 Over Runs Over/Under",
-                    "betOptionSpectrumId": "2765",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 107976594,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652754",
-                            "name": "Ade Over 30.5 Runs",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652754,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652755",
-                            "name": "Ade Under 30.5 Runs",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652755,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976614",
-                    "name": "BBL Brisbane 4OvRun 22/12",
-                    "shortName": "BBL Brisbane 4OvRun",
-                    "betOption": "1st 4 Over Runs Over/Under",
-                    "betOptionSpectrumId": "2765",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 107976614,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652706",
-                            "name": "Bri Over 30.5 Runs",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652706,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652708",
-                            "name": "Bri Under 30.5 Runs",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652708,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976572",
-                    "name": "BBL Bris-Adel Most Fours 22/12",
-                    "shortName": "BBL Bris-Adel Most Fours",
-                    "betOption": "Team To Score Most Fours",
-                    "betOptionSpectrumId": "693",
-                    "betOptionPriority": 8135,
-                    "marketUniqueId": 107976572,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Dead Heat rules apply",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652393",
-                            "name": "Brisbane Heat",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652393,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652394",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652394,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976612",
-                    "name": "BBL Adelaide TeamFoursOU 22/12",
-                    "shortName": "BBL Adelaide TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8140,
-                    "marketUniqueId": 107976612,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652756",
-                            "name": "Ade Over 13.5 Fours",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652756,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652757",
-                            "name": "Ade Under 13.5 Fours",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652757,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976623",
-                    "name": "BBL Brisbane TeamFoursOU 22/12",
-                    "shortName": "BBL Brisbane TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8140,
-                    "marketUniqueId": 107976623,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652709",
-                            "name": "Bri Over 13.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652709,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652713",
-                            "name": "Bri Under 13.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652713,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976600",
-                    "name": "BBL Adelaide Tm6sOU 22/12",
-                    "shortName": "BBL Adelaide Tm6sOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 107976600,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652758",
-                            "name": "Ade Over 4.5 Sixes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652758,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652759",
-                            "name": "Ade Under 4.5 Sixes",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652759,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "107976618",
-                    "name": "BBL Brisbane Tm6sOU 22/12",
-                    "shortName": "BBL Brisbane Tm6sOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 107976618,
-                    "closeTime": "2024-12-22T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652714",
-                            "name": "Bri Over 4.5 Sixes",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652714,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652715",
-                            "name": "Bri Under 4.5 Sixes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652715,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "107976565",
                     "name": "BBL Bris-Adel Ttl4OU 22/12",
                     "shortName": "BBL Bris-Adel Ttl4OU",
@@ -8358,28 +7068,28 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "652403",
-                            "name": "Over 26.5 Fours",
-                            "returnWin": 1.8,
+                            "id": "652405",
+                            "name": "Over 27.5 Fours",
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652403,
+                            "number": 652405,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 5
                         },
                         {
-                            "id": "652404",
-                            "name": "Under 26.5 Fours",
-                            "returnWin": 1.9,
+                            "id": "652406",
+                            "name": "Under 27.5 Fours",
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652404,
+                            "number": 652406,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 6
                         }
                     ]
                 }
@@ -24934,7 +23644,7 @@
         {
             "name": "Innings Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%20Over%2FUnder"
             }
@@ -24942,7 +23652,7 @@
         {
             "name": "Innings Runs 3-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
             }
@@ -24950,7 +23660,7 @@
         {
             "name": "Innings Runs 6-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%206-Way"
             }
@@ -24958,7 +23668,7 @@
         {
             "name": "Home Team Alternate Total Runs",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Home%20Team%20Alternate%20Total%20Runs"
             }
@@ -24966,7 +23676,7 @@
         {
             "name": "Away Team Alternate Total Runs",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Away%20Team%20Alternate%20Total%20Runs"
             }
@@ -24998,7 +23708,7 @@
         {
             "name": "Leading Team After 4 Overs",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Leading%20Team%20After%204%20Overs"
             }
@@ -25030,7 +23740,7 @@
         {
             "name": "Match Sixes 3-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Match%20Sixes%203-Way"
             }
@@ -25102,7 +23812,7 @@
         {
             "name": "Margin",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Margin"
             }
@@ -25118,7 +23828,7 @@
         {
             "name": "Winner Of The Toss",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
@@ -25134,7 +23844,7 @@
         {
             "name": "1st 4 Over Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=1st%204%20Over%20Runs%20Over%2FUnder"
             }
@@ -25142,7 +23852,7 @@
         {
             "name": "Team To Score Most Fours",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20To%20Score%20Most%20Fours"
             }
@@ -25150,7 +23860,7 @@
         {
             "name": "Team Total Fours Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Fours%20Over%2FUnder"
             }
@@ -25158,7 +23868,7 @@
         {
             "name": "Team Total Sixes Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Sixes%20Over%2FUnder"
             }

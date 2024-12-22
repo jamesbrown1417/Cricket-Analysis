@@ -184,7 +184,8 @@ bbl_odds <-
 # Combine all
 player_runs <- bind_rows(bbl_odds$player_runs)
 player_wickets <- bind_rows(bbl_odds$player_wickets)
-player_boundaries <- bind_rows(bbl_odds$player_boundaries)
+player_fours <- bind_rows(bbl_odds$player_fours)
+player_sixes <- bind_rows(bbl_odds$player_sixes)
 fall_of_first_wicket <- bind_rows(bbl_odds$runs_at_first_wicket)
 first_over_runs <- bind_rows(bbl_odds$first_over_runs)
 match_sixes <- bind_rows(bbl_odds$match_sixes)
@@ -422,7 +423,7 @@ ui <- page_navbar(
           selectInput(
             inputId = "market_input",
             label = "Select Market:",
-            choices = c("Player Runs", "Fall of First Wicket - Team", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Boundaries"),
+            choices = c("Player Runs", "Fall of First Wicket - Team", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Fours", "Player Sixes"),
             multiple = FALSE
           ),
           selectInput(
@@ -1157,10 +1158,16 @@ server <- function(input, output, session) {
         player_runs
     }
     
-    # Player Boundaries
-    if (input$market_input == "Player Boundaries") {
+    # Player Fours
+    if (input$market_input == "Player Fours") {
       odds <-
-        player_boundaries
+        player_fours
+    }
+    
+    # Player Sixes
+    if (input$market_input == "Player Sixes") {
+      odds <-
+        player_sixes
     }
     
     # Player Wickets
@@ -1205,7 +1212,7 @@ server <- function(input, output, session) {
         team_fours
     }
     
-    if (input$market_input %in% c("Player Runs", "Player Wickets", "Player Boundaries")) {
+    if (input$market_input %in% c("Player Runs", "Player Wickets", "Player Fours", "Player Sixes")) {
       if (!is.null(input$player_name_input_b)) {
         odds <-
           odds |>
