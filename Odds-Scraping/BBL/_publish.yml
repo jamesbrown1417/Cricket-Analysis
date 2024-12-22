@@ -1,4 +1,8 @@
 - source: CPL_Report.qmd
   quarto-pub:
     - id: 584471e2-2041-46a7-9f72-c450687b2f2f
-      url: 'https://jamesbrown1417.quarto.pub/cpl-report'
+      url: https://jamesbrown1417.quarto.pub/cpl-report
+- source: BBL_Report.qmd
+  quarto-pub:
+    - id: 2c5c1d87-0d73-482b-9cf6-bf08254103ae
+      url: https://jamesbrown1417.quarto.pub/bbl-report

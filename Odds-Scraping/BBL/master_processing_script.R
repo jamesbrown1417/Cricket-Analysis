@@ -222,6 +222,30 @@ br_data <-
 write_rds(br_data, "Data/T20s/Big Bash/processed_odds/player_runs.rds")
 
 #===============================================================================
+# Batter Boundaries
+#===============================================================================
+
+# Read in all batter boundaries data
+list_of_bb_files <- list.files("Data/T20s/Big Bash/scraped_odds/", full.names = TRUE, pattern = "player_boundaries")
+
+# Read in all batter boundaries data
+list_of_bb_data <- map(list_of_bb_files, read_csv)
+
+# Combine
+bb_data <-
+  list_of_bb_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  arrange(match, player_name) |> 
+    select(-any_of(c("home_team", "away_team"))) |>
+  arrange(match,player_name, line, desc(over_price)) |> 
+  mutate(competition = "BBL") |> 
+  mutate(market = "Player Boundaries")
+
+# Write out
+write_rds(bb_data, "Data/T20s/Big Bash/processed_odds/player_boundaries.rds")
+
+#===============================================================================
 # Bowler Wickets
 #===============================================================================
 

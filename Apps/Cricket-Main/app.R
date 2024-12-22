@@ -174,7 +174,7 @@ unique_teams <-
 all_files_bbl <- list.files("../../Data/T20s/Big Bash/processed_odds/", full.names = TRUE, pattern = "rds")
 
 # Get names
-all_files_bbl_names <- all_files_bbl |> str_remove("../../Data/T20s/Big Bash/processed_odds/") |> str_remove(".rds")
+all_files_bbl_names <- all_files_bbl |> str_remove("../../Data/T20s/Big Bash/processed_odds//") |> str_remove("/.rds")
 
 # Read in files in a loop
 bbl_odds <-

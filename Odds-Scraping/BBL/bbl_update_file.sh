@@ -38,4 +38,4 @@ git commit -m "$commit_message"
 git push origin master
 
 # Create Report
-echo "1" | & "quarto" "publish" "quarto-pub" "Odds-Scraping\BBL\BBL_Report.qmd"
+echo "1" | quarto publish quarto-pub "Odds-Scraping/BBL/BBL_Report.qmd"
