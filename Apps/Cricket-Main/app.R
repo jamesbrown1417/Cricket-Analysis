@@ -443,7 +443,7 @@ ui <- page_navbar(
           selectInput(
             inputId = "player_name_input_b",
             label = "Select Player:",
-            choices = unique(c(player_runs$player_name, player_wickets$player_name, player_boundaries$player_name)),
+            choices = unique(c(player_runs$player_name, player_wickets$player_name, player_fours$player_name)),
             multiple = TRUE
           ),
           checkboxInput(

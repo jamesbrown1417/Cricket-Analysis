@@ -90,9 +90,9 @@
                 "Brisbane Heat",
                 "AdelaideStrikers"
             ],
-            "openMarketCount": 84,
+            "openMarketCount": 92,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 84,
+            "nonFutureMarketCount": 92,
             "markets": [
                 {
                     "id": "107485479",
@@ -125,7 +125,7 @@
                         {
                             "id": "651047",
                             "name": "Brisbane Heat",
-                            "returnWin": 1.8,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "651066",
                             "name": "Adelaide Strikers",
-                            "returnWin": 2,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -153,6 +153,204 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
+                },
+                {
+                    "id": "108154768",
+                    "name": "BBL Adelde In3WLv150-160",
+                    "shortName": "BBL Adelde In3WLv150-160",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108154768,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "772200",
+                            "name": "Over 160 Runs",
+                            "returnWin": 1.52,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772200,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "772201",
+                            "name": "Between 150-160 Runs",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772201,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "772202",
+                            "name": "Under 150 Runs",
+                            "returnWin": 3.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772202,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108154767",
+                    "name": "BBL Adelde In3WLv160-170",
+                    "shortName": "BBL Adelde In3WLv160-170",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108154767,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "772197",
+                            "name": "Over 170 Runs",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772197,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "772198",
+                            "name": "Between 160-170 Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772198,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "772199",
+                            "name": "Under 160 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772199,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108154766",
+                    "name": "BBL Adelde In3WLv170-180",
+                    "shortName": "BBL Adelde In3WLv170-180",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108154766,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "772194",
+                            "name": "Over 180 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772194,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "772195",
+                            "name": "Between 170-180 Runs",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772195,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "772196",
+                            "name": "Under 170 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772196,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
                 },
                 {
                     "id": "108099912",
@@ -209,6 +407,19 @@
                             "sameGame": true
                         },
                         {
+                            "id": "650071",
+                            "name": "DArcy Short (Ade)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650071,
+                            "isOpen": true,
+                            "sortOrder": 14,
+                            "sameGame": true
+                        },
+                        {
                             "id": "650069",
                             "name": "Ollie Pope (Ade)",
                             "returnWin": 5,
@@ -219,19 +430,6 @@
                             "number": 650069,
                             "isOpen": true,
                             "sortOrder": 12,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650071",
-                            "name": "DArcy Short (Ade)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650071,
-                            "isOpen": true,
-                            "sortOrder": 14,
                             "sameGame": true
                         },
                         {
@@ -246,30 +444,6 @@
                             "isOpen": true,
                             "sortOrder": 5,
                             "sameGame": true
-                        },
-                        {
-                            "id": "650061",
-                            "name": "Harry Nielsen (Ade)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650061,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "650063",
-                            "name": "Thomas Kelly (Ade)",
-                            "returnWin": 8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650063,
-                            "isOpen": true,
-                            "sortOrder": 6
                         },
                         {
                             "id": "650070",
@@ -297,18 +471,6 @@
                             "sortOrder": 7
                         },
                         {
-                            "id": "655073",
-                            "name": "Harry Manenti (Ade)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 655073,
-                            "isOpen": true,
-                            "sortOrder": 35
-                        },
-                        {
                             "id": "650065",
                             "name": "James Bazley (Ade)",
                             "returnWin": 26,
@@ -320,42 +482,6 @@
                             "isOpen": true,
                             "sortOrder": 8,
                             "sameGame": true
-                        },
-                        {
-                            "id": "650600",
-                            "name": "Liam Haskett (Ade)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650600,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
-                            "id": "650072",
-                            "name": "Jordan Buckingham (Ade)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650072,
-                            "isOpen": true,
-                            "sortOrder": 15
-                        },
-                        {
-                            "id": "650073",
-                            "name": "Brendan Doggett (Ade)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650073,
-                            "isOpen": true,
-                            "sortOrder": 16
                         },
                         {
                             "id": "650067",
@@ -431,7 +557,7 @@
                         {
                             "id": "650051",
                             "name": "Nathan McSweeney (Bri)",
-                            "returnWin": 3.6,
+                            "returnWin": 3.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -455,19 +581,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "650027",
-                            "name": "Matt Renshaw (Bri)",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650027,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
                             "id": "650026",
                             "name": "Jimmy Peirson (Bri)",
                             "returnWin": 4.5,
@@ -481,9 +594,22 @@
                             "sameGame": true
                         },
                         {
+                            "id": "650027",
+                            "name": "Matt Renshaw (Bri)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650027,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
                             "id": "650028",
                             "name": "Max Bryant (Bri)",
-                            "returnWin": 5.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -494,45 +620,9 @@
                             "sameGame": true
                         },
                         {
-                            "id": "650055",
-                            "name": "Jack Wood (Bri)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650055,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
-                            "id": "650052",
-                            "name": "Tom Alsop (Bri)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650052,
-                            "isOpen": true,
-                            "sortOrder": 13
-                        },
-                        {
-                            "id": "650029",
-                            "name": "Daniel Drew (Bri)",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650029,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
                             "id": "650030",
                             "name": "Paul Walter (Bri)",
-                            "returnWin": 9,
+                            "returnWin": 15,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -545,7 +635,7 @@
                         {
                             "id": "650031",
                             "name": "Xavier Bartlett (Bri)",
-                            "returnWin": 21,
+                            "returnWin": 34,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -554,31 +644,6 @@
                             "isOpen": true,
                             "sortOrder": 7,
                             "sameGame": true
-                        },
-                        {
-                            "id": "650057",
-                            "name": "Jack Wildermuth (Bri)",
-                            "returnWin": 41,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650057,
-                            "isOpen": true,
-                            "sortOrder": 18,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650056",
-                            "name": "Callum Vidler (Bri)",
-                            "returnWin": 41,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650056,
-                            "isOpen": true,
-                            "sortOrder": 17
                         },
                         {
                             "id": "650032",
@@ -592,18 +657,6 @@
                             "isOpen": true,
                             "sortOrder": 8,
                             "sameGame": true
-                        },
-                        {
-                            "id": "650053",
-                            "name": "Spencer Johnson (Bri)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650053,
-                            "isOpen": true,
-                            "sortOrder": 14
                         },
                         {
                             "id": "650033",
@@ -726,7 +779,7 @@
                     "betOptionSpectrumId": "4283",
                     "betOptionPriority": 1520,
                     "marketUniqueId": 108102947,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -734,7 +787,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -881,7 +934,7 @@
                     "betOptionSpectrumId": "685",
                     "betOptionPriority": 1525,
                     "marketUniqueId": 108102949,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1036,7 +1089,7 @@
                     "betOptionSpectrumId": "4284",
                     "betOptionPriority": 1530,
                     "marketUniqueId": 108102897,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1044,7 +1097,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1143,7 +1196,7 @@
                         {
                             "id": "652443",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 1.65,
+                            "returnWin": 1.55,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -1191,7 +1244,7 @@
                     "betOptionSpectrumId": "862",
                     "betOptionPriority": 1535,
                     "marketUniqueId": 108102944,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1199,7 +1252,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1227,7 +1280,7 @@
                         {
                             "id": "650744",
                             "name": "Nathan McSweeney (Bri)",
-                            "returnWin": 1.8,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -1298,7 +1351,7 @@
                         {
                             "id": "652465",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 2.2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -1346,7 +1399,7 @@
                     "betOptionSpectrumId": "489",
                     "betOptionPriority": 1540,
                     "marketUniqueId": 108102940,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1501,7 +1554,7 @@
                     "betOptionSpectrumId": "4286",
                     "betOptionPriority": 1545,
                     "marketUniqueId": 108102903,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1509,7 +1562,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1521,6 +1574,19 @@
                     "cashOutEligibility": "PreMatch",
                     "allowBundle": false,
                     "propositions": [
+                        {
+                            "id": "651663",
+                            "name": "Jimmy Peirson (Bri)",
+                            "returnWin": 2.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651663,
+                            "isOpen": true,
+                            "sortOrder": 2,
+                            "sameGame": true
+                        },
                         {
                             "id": "651662",
                             "name": "Colin Munro (Bri)",
@@ -1558,19 +1624,6 @@
                             "number": 651664,
                             "isOpen": true,
                             "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "651663",
-                            "name": "Jimmy Peirson (Bri)",
-                            "returnWin": 2.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651663,
-                            "isOpen": true,
-                            "sortOrder": 2,
                             "sameGame": true
                         }
                     ],
@@ -1656,7 +1709,7 @@
                     "betOptionSpectrumId": "4287",
                     "betOptionPriority": 1550,
                     "marketUniqueId": 108102907,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1664,7 +1717,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1763,7 +1816,7 @@
                         {
                             "id": "652501",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 4.5,
+                            "returnWin": 4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -1811,7 +1864,7 @@
                     "betOptionSpectrumId": "443",
                     "betOptionPriority": 1555,
                     "marketUniqueId": 108102910,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1918,7 +1971,7 @@
                         {
                             "id": "652511",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 11,
+                            "returnWin": 10,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -1966,7 +2019,7 @@
                     "betOptionSpectrumId": "1024",
                     "betOptionPriority": 1560,
                     "marketUniqueId": 108102912,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1974,7 +2027,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2073,7 +2126,7 @@
                         {
                             "id": "652638",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 21,
+                            "returnWin": 17,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -2121,7 +2174,7 @@
                     "betOptionSpectrumId": "399",
                     "betOptionPriority": 1565,
                     "marketUniqueId": 108102942,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2276,7 +2329,7 @@
                     "betOptionSpectrumId": "1940",
                     "betOptionPriority": 1580,
                     "marketUniqueId": 108102925,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2431,7 +2484,7 @@
                     "betOptionSpectrumId": "1941",
                     "betOptionPriority": 1585,
                     "marketUniqueId": 108102927,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2586,7 +2639,7 @@
                     "betOptionSpectrumId": "1959",
                     "betOptionPriority": 1590,
                     "marketUniqueId": 108102904,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2741,7 +2794,7 @@
                     "betOptionSpectrumId": "1990",
                     "betOptionPriority": 1595,
                     "marketUniqueId": 108102931,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2749,7 +2802,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2896,7 +2949,7 @@
                     "betOptionSpectrumId": "1804",
                     "betOptionPriority": 1600,
                     "marketUniqueId": 108102929,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2904,7 +2957,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3051,7 +3104,7 @@
                     "betOptionSpectrumId": "1802",
                     "betOptionPriority": 1605,
                     "marketUniqueId": 108102933,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -3206,7 +3259,7 @@
                     "betOptionSpectrumId": "1929",
                     "betOptionPriority": 1610,
                     "marketUniqueId": 108102900,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3361,7 +3414,7 @@
                     "betOptionSpectrumId": "1803",
                     "betOptionPriority": 1615,
                     "marketUniqueId": 108102922,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -3511,7 +3564,7 @@
                     "betOptionSpectrumId": "3132",
                     "betOptionPriority": 1620,
                     "marketUniqueId": 108102909,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3582,6 +3635,252 @@
                     ]
                 },
                 {
+                    "id": "107976607",
+                    "name": "BBL Adelaide InnRunOU 22/12",
+                    "shortName": "BBL Adelaide InnRunOU",
+                    "betOption": "Innings Runs Over/Under",
+                    "betOptionSpectrumId": "1932",
+                    "betOptionPriority": 1630,
+                    "marketUniqueId": 107976607,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652762",
+                            "name": "Ade Over 169.5 Runs",
+                            "returnWin": 1.87,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652762,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "652763",
+                            "name": "Ade Under 169.5 Runs",
+                            "returnWin": 1.87,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652763,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "107976609",
+                    "name": "BBL Adelaide InnRuns6Way 22/12",
+                    "shortName": "BBL Adelaide InnRuns6Way",
+                    "betOption": "Innings Runs 6-Way",
+                    "betOptionSpectrumId": "836",
+                    "betOptionPriority": 1655,
+                    "marketUniqueId": 107976609,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": "Team must bat 1st or bets refunded.",
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652773",
+                            "name": "Ade 201 Runs or more",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652773,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652774",
+                            "name": "Ade 181-200 Runs",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652774,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "652776",
+                            "name": "Ade 161-180 Runs",
+                            "returnWin": 3.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652776,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "652777",
+                            "name": "Ade 141-160 Runs",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652777,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "652779",
+                            "name": "Ade 121-140 Runs",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652779,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "652780",
+                            "name": "Ade 120 Runs or less",
+                            "returnWin": 18,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652780,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        }
+                    ]
+                },
+                {
+                    "id": "107976601",
+                    "name": "BBL Adelaide AltRuns 22/12",
+                    "shortName": "BBL Adelaide AltRuns",
+                    "betOption": "Away Team Alternate Total Runs",
+                    "betOptionSpectrumId": "1945",
+                    "betOptionPriority": 1665,
+                    "marketUniqueId": 107976601,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652744",
+                            "name": "Ade 140+ Runs",
+                            "returnWin": 1.12,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652744,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "652745",
+                            "name": "Ade 160+ Runs",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652745,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "652746",
+                            "name": "Ade 180+ Runs",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652746,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "652747",
+                            "name": "Ade 200+ Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652747,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "652748",
+                            "name": "Ade 220+ Runs",
+                            "returnWin": 18,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652748,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        }
+                    ]
+                },
+                {
                     "id": "108102875",
                     "name": "BBL Adelaide PlrRunOU 22/12",
                     "shortName": "BBL Adelaide PlrRunOU",
@@ -3612,7 +3911,7 @@
                         {
                             "id": "652883",
                             "name": "M Short Over 20.5 Runs",
-                            "returnWin": 1.8,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3625,7 +3924,7 @@
                         {
                             "id": "652884",
                             "name": "M Short Under 20.5 Runs",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3760,7 +4059,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108102935,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3817,7 +4116,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108102936,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3874,7 +4173,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108102937,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3931,7 +4230,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108102939,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3954,7 +4253,7 @@
                         {
                             "id": "652248",
                             "name": "N McSweeney Over 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3967,7 +4266,7 @@
                         {
                             "id": "652249",
                             "name": "N McSweeney Under 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4234,7 +4533,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108102914,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4316,7 +4615,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108102916,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4398,7 +4697,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108102918,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4480,7 +4779,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108102919,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4718,7 +5017,7 @@
                     "betOptionSpectrumId": "118",
                     "betOptionPriority": 1760,
                     "marketUniqueId": 107976619,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -4862,7 +5161,7 @@
                     "betOptionSpectrumId": "779",
                     "betOptionPriority": 1835,
                     "marketUniqueId": 108102899,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Both must open batting or bets refunded",
                     "informationMessage": null,
@@ -5489,18 +5788,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "650654",
-                            "name": "Brendan Doggett (Ade)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650654,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
                             "id": "650646",
                             "name": "James Bazley (Ade)",
                             "returnWin": 5,
@@ -5514,18 +5801,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "650655",
-                            "name": "Liam Haskett (Ade)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650655,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
                             "id": "650645",
                             "name": "Liam Scott (Ade)",
                             "returnWin": 6,
@@ -5536,18 +5811,6 @@
                             "number": 650645,
                             "isOpen": true,
                             "sortOrder": 7
-                        },
-                        {
-                            "id": "650653",
-                            "name": "Jordan Buckingham (Ade)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650653,
-                            "isOpen": true,
-                            "sortOrder": 15
                         },
                         {
                             "id": "650634",
@@ -5610,7 +5873,7 @@
                         {
                             "id": "650607",
                             "name": "Xavier Bartlett (Bri)",
-                            "returnWin": 3.5,
+                            "returnWin": 3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5619,18 +5882,6 @@
                             "isOpen": true,
                             "sortOrder": 7,
                             "sameGame": true
-                        },
-                        {
-                            "id": "650614",
-                            "name": "Spencer Johnson (Bri)",
-                            "returnWin": 4.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650614,
-                            "isOpen": true,
-                            "sortOrder": 14
                         },
                         {
                             "id": "650609",
@@ -5643,6 +5894,19 @@
                             "number": 650609,
                             "isOpen": true,
                             "sortOrder": 9,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "650606",
+                            "name": "Paul Walter (Bri)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650606,
+                            "isOpen": true,
+                            "sortOrder": 6,
                             "sameGame": true
                         },
                         {
@@ -5672,19 +5936,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "650606",
-                            "name": "Paul Walter (Bri)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650606,
-                            "isOpen": true,
-                            "sortOrder": 6,
-                            "sameGame": true
-                        },
-                        {
                             "id": "650611",
                             "name": "Tom Whitney (Bri)",
                             "returnWin": 6,
@@ -5695,43 +5946,6 @@
                             "number": 650611,
                             "isOpen": true,
                             "sortOrder": 11
-                        },
-                        {
-                            "id": "650625",
-                            "name": "Jack Wildermuth (Bri)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650625,
-                            "isOpen": true,
-                            "sortOrder": 18,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650624",
-                            "name": "Callum Vidler (Bri)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650624,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
-                            "id": "650616",
-                            "name": "Jack Wood (Bri)",
-                            "returnWin": 8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650616,
-                            "isOpen": true,
-                            "sortOrder": 16
                         }
                     ],
                     "sameGame": true,
@@ -6282,6 +6496,18 @@
                             "sortOrder": 35
                         },
                         {
+                            "id": "650663",
+                            "name": "Nathan McSweeney (Bri)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650663,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
                             "id": "650664",
                             "name": "Colin Munro (Bri)",
                             "returnWin": 9,
@@ -6304,18 +6530,6 @@
                             "number": 650705,
                             "isOpen": true,
                             "sortOrder": 28
-                        },
-                        {
-                            "id": "650663",
-                            "name": "Nathan McSweeney (Bri)",
-                            "returnWin": 11,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650663,
-                            "isOpen": true,
-                            "sortOrder": 8
                         },
                         {
                             "id": "650672",
@@ -6402,18 +6616,6 @@
                             "sortOrder": 32
                         },
                         {
-                            "id": "650659",
-                            "name": "Spencer Johnson (Bri)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650659,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "650666",
                             "name": "Jimmy Peirson (Bri)",
                             "returnWin": 15,
@@ -6436,18 +6638,6 @@
                             "number": 650690,
                             "isOpen": true,
                             "sortOrder": 22
-                        },
-                        {
-                            "id": "650697",
-                            "name": "Brendan Doggett (Ade)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650697,
-                            "isOpen": true,
-                            "sortOrder": 25
                         },
                         {
                             "id": "650709",
@@ -6486,18 +6676,6 @@
                             "sortOrder": 36
                         },
                         {
-                            "id": "650656",
-                            "name": "Tom Alsop (Bri)",
-                            "returnWin": 19,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650656,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
                             "id": "650673",
                             "name": "Mitchell Swepson (Bri)",
                             "returnWin": 19,
@@ -6508,18 +6686,6 @@
                             "number": 650673,
                             "isOpen": true,
                             "sortOrder": 14
-                        },
-                        {
-                            "id": "650677",
-                            "name": "Jack Wood (Bri)",
-                            "returnWin": 19,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650677,
-                            "isOpen": true,
-                            "sortOrder": 17
                         },
                         {
                             "id": "650688",
@@ -6534,16 +6700,16 @@
                             "sortOrder": 21
                         },
                         {
-                            "id": "650706",
-                            "name": "Harry Nielsen (Ade)",
-                            "returnWin": 19,
+                            "id": "650682",
+                            "name": "Tom Whitney (Bri)",
+                            "returnWin": 21,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650706,
+                            "number": 650682,
                             "isOpen": true,
-                            "sortOrder": 29
+                            "sortOrder": 18
                         },
                         {
                             "id": "650661",
@@ -6558,28 +6724,16 @@
                             "sortOrder": 6
                         },
                         {
-                            "id": "650695",
-                            "name": "Jordan Buckingham (Ade)",
+                            "id": "650716",
+                            "name": "Liam Scott (Ade)",
                             "returnWin": 21,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650695,
+                            "number": 650716,
                             "isOpen": true,
-                            "sortOrder": 23
-                        },
-                        {
-                            "id": "650700",
-                            "name": "Thomas Kelly (Ade)",
-                            "returnWin": 21,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650700,
-                            "isOpen": true,
-                            "sortOrder": 27
+                            "sortOrder": 38
                         },
                         {
                             "id": "650667",
@@ -6592,18 +6746,6 @@
                             "number": 650667,
                             "isOpen": true,
                             "sortOrder": 12
-                        },
-                        {
-                            "id": "650674",
-                            "name": "Callum Vidler (Bri)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650674,
-                            "isOpen": true,
-                            "sortOrder": 15
                         }
                     ]
                 },
@@ -6692,7 +6834,7 @@
                         {
                             "id": "652789",
                             "name": "Ade Over 9.5 Runs",
-                            "returnWin": 3.8,
+                            "returnWin": 3.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6704,7 +6846,7 @@
                         {
                             "id": "652793",
                             "name": "Ade Under 9.5 Runs",
-                            "returnWin": 1.22,
+                            "returnWin": 1.32,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6746,7 +6888,7 @@
                         {
                             "id": "652787",
                             "name": "Ade Over 7.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6758,7 +6900,7 @@
                         {
                             "id": "652788",
                             "name": "Ade Under 7.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6800,7 +6942,7 @@
                         {
                             "id": "652784",
                             "name": "Ade Over 3.5 Runs",
-                            "returnWin": 1.28,
+                            "returnWin": 1.18,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6812,7 +6954,7 @@
                         {
                             "id": "652785",
                             "name": "Ade Under 3.5 Runs",
-                            "returnWin": 3.3,
+                            "returnWin": 4.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6831,7 +6973,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6585,
                     "marketUniqueId": 107976615,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -6885,7 +7027,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6585,
                     "marketUniqueId": 107976613,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -6939,7 +7081,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6585,
                     "marketUniqueId": 107976617,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -6993,7 +7135,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6585,
                     "marketUniqueId": 107976616,
-                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "closeTime": "2024-12-22T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -7036,6 +7178,126 @@
                             "number": 652736,
                             "isOpen": true,
                             "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "107976594",
+                    "name": "BBL Adelaide 4OvRun 22/12",
+                    "shortName": "BBL Adelaide 4OvRun",
+                    "betOption": "1st 4 Over Runs Over/Under",
+                    "betOptionSpectrumId": "2765",
+                    "betOptionPriority": 6590,
+                    "marketUniqueId": 107976594,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652754",
+                            "name": "Ade Over 30.5 Runs",
+                            "returnWin": 1.65,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652754,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652755",
+                            "name": "Ade Under 30.5 Runs",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652755,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "108154853",
+                    "name": "BBL Bris-Adel AD 5Over3Wy O1-5 R35-40",
+                    "shortName": "BBL BR-AD AD5Y O1-5 R35-40",
+                    "betOption": "Five Over Runs 3-Way (In Play)",
+                    "betOptionSpectrumId": "2205",
+                    "betOptionPriority": 14100,
+                    "marketUniqueId": 108154853,
+                    "closeTime": "2024-12-22T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "772455",
+                            "name": "o1-5 Ade Over 40 Runs",
+                            "returnWin": 2.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772455,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "772456",
+                            "name": "o1-5 Ade 35-40 Runs",
+                            "returnWin": 3.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772456,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "772457",
+                            "name": "o1-5 Ade Under 35 Runs",
+                            "returnWin": 2.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 772457,
+                            "isOpen": true,
+                            "sortOrder": 3
                         }
                     ]
                 },
@@ -23421,6 +23683,7 @@
     "hasMarkets": true,
     "betOptionPriority": [
         "Head To Head",
+        "Innings Runs 3-Way",
         "High Bat",
         "To Score 5",
         "To Score 10",
@@ -23442,7 +23705,6 @@
         "To Hit 3+ Sixes",
         "To Hit a Four and a Six",
         "Innings Runs Over/Under",
-        "Innings Runs 3-Way",
         "Innings Runs 6-Way",
         "Home Team Alternate Total Runs",
         "Away Team Alternate Total Runs",
@@ -23470,6 +23732,7 @@
         "Team To Score Most Fours",
         "Team Total Fours Over/Under",
         "Team Total Sixes Over/Under",
+        "Five Over Runs 3-Way (In Play)",
         "Total Fours Over/Under"
     ],
     "betOptions": [
@@ -23479,6 +23742,14 @@
             "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Head%20To%20Head"
+            }
+        },
+        {
+            "name": "Innings Runs 3-Way",
+            "hasFutureMarket": false,
+            "openMarketCount": 5,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
             }
         },
         {
@@ -23644,23 +23915,15 @@
         {
             "name": "Innings Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%20Over%2FUnder"
             }
         },
         {
-            "name": "Innings Runs 3-Way",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
-            }
-        },
-        {
             "name": "Innings Runs 6-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%206-Way"
             }
@@ -23676,7 +23939,7 @@
         {
             "name": "Away Team Alternate Total Runs",
             "hasFutureMarket": false,
-            "openMarketCount": 1,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Away%20Team%20Alternate%20Total%20Runs"
             }
@@ -23844,7 +24107,7 @@
         {
             "name": "1st 4 Over Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=1st%204%20Over%20Runs%20Over%2FUnder"
             }
@@ -23871,6 +24134,14 @@
             "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Sixes%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Five Over Runs 3-Way (In Play)",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Five%20Over%20Runs%203-Way%20(In%20Play)"
             }
         },
         {
