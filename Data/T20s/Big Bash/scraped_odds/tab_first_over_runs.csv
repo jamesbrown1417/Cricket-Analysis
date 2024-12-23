@@ -1,12 +1,4 @@
 match,market,team,line,over_price,under_price,agency
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Adelaide Strikers,5.5,1.6,2.2,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Adelaide Strikers,9.5,3.1,1.32,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Adelaide Strikers,7.5,2.1,1.65,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Adelaide Strikers,3.5,1.18,4.2,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Brisbane Heat,3.5,1.28,3.3,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Brisbane Heat,5.5,1.6,2.2,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Brisbane Heat,9.5,3.8,1.22,TAB
-Brisbane Heat v Adelaide Strikers,First Over Runs - Team,Brisbane Heat,7.5,2.4,1.5,TAB
 Melbourne Renegades v Perth Scorchers,First Over Runs - Team,MRng,5.5,1.6,2.2,TAB
 Melbourne Renegades v Perth Scorchers,First Over Runs - Team,MRng,3.5,1.28,3.3,TAB
 Melbourne Renegades v Perth Scorchers,First Over Runs - Team,MRng,7.5,2.4,1.5,TAB
@@ -23,3 +15,11 @@ Sydney Sixers v Melbourne Stars,First Over Runs - Team,SydS,5.5,1.6,2.2,TAB
 Sydney Sixers v Melbourne Stars,First Over Runs - Team,SydS,3.5,1.28,3.3,TAB
 Sydney Sixers v Melbourne Stars,First Over Runs - Team,SydS,7.5,2.4,1.5,TAB
 Sydney Sixers v Melbourne Stars,First Over Runs - Team,SydS,9.5,3.8,1.22,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Adelaide Strikers,5.5,1.6,2.2,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Adelaide Strikers,3.5,1.28,3.3,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Adelaide Strikers,7.5,2.4,1.5,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Adelaide Strikers,9.5,3.8,1.22,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Hobart Hurricanes,5.5,1.6,2.2,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Hobart Hurricanes,3.5,1.28,3.3,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Hobart Hurricanes,9.5,3.8,1.22,TAB
+Adelaide Strikers v Hobart Hurricanes,First Over Runs - Team,Hobart Hurricanes,7.5,2.4,1.5,TAB
