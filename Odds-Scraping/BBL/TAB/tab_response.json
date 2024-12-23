@@ -125,7 +125,7 @@
                         {
                             "id": "650975",
                             "name": "Melbourne Renegades",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "651046",
                             "name": "Perth Scorchers",
-                            "returnWin": 1.9,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -182,19 +182,6 @@
                     "cashOutEligibility": "Enabled",
                     "allowBundle": false,
                     "propositions": [
-                        {
-                            "id": "650141",
-                            "name": "Tim Seifert (MRn)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650141,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
                         {
                             "id": "650140",
                             "name": "Jake Fraser-McGurk (MRn)",
@@ -244,6 +231,19 @@
                             "number": 650150,
                             "isOpen": true,
                             "sortOrder": 12,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "650141",
+                            "name": "Tim Seifert (MRn)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650141,
+                            "isOpen": true,
+                            "sortOrder": 3,
                             "sameGame": true
                         },
                         {
@@ -496,7 +496,7 @@
                         {
                             "id": "650186",
                             "name": "Cooper Connolly (Per)",
-                            "returnWin": 5.5,
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -2538,7 +2538,7 @@
                         {
                             "id": "759377",
                             "name": "Josh Brown (MRn)",
-                            "returnWin": 1.87,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -2706,7 +2706,7 @@
                         {
                             "id": "759385",
                             "name": "Josh Brown (MRn)",
-                            "returnWin": 2.75,
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5972,7 +5972,7 @@
                         {
                             "id": "652678",
                             "name": "Finn Allen (Per)",
-                            "returnWin": 1.9,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5984,7 +5984,7 @@
                         {
                             "id": "652679",
                             "name": "Keaton Jennings (Per)",
-                            "returnWin": 1.8,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6208,7 +6208,7 @@
                         {
                             "id": "652313",
                             "name": "Over 12.5 Sixes",
-                            "returnWin": 1.75,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6220,7 +6220,7 @@
                         {
                             "id": "652314",
                             "name": "Under 12.5 Sixes",
-                            "returnWin": 1.95,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7562,6 +7562,18 @@
                             "sortOrder": 21
                         },
                         {
+                            "id": "759204",
+                            "name": "Aaron Hardie (Per)",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 759204,
+                            "isOpen": true,
+                            "sortOrder": 26
+                        },
+                        {
                             "id": "759207",
                             "name": "Josh Inglis (Per)",
                             "returnWin": 8.5,
@@ -7596,18 +7608,6 @@
                             "number": 759193,
                             "isOpen": true,
                             "sortOrder": 15
-                        },
-                        {
-                            "id": "759204",
-                            "name": "Aaron Hardie (Per)",
-                            "returnWin": 9.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 759204,
-                            "isOpen": true,
-                            "sortOrder": 26
                         },
                         {
                             "id": "759208",
@@ -7668,6 +7668,18 @@
                             "number": 759190,
                             "isOpen": true,
                             "sortOrder": 12
+                        },
+                        {
+                            "id": "759202",
+                            "name": "Cooper Connolly (Per)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 759202,
+                            "isOpen": true,
+                            "sortOrder": 24
                         },
                         {
                             "id": "759215",
@@ -7836,18 +7848,6 @@
                             "number": 759198,
                             "isOpen": true,
                             "sortOrder": 20
-                        },
-                        {
-                            "id": "759202",
-                            "name": "Cooper Connolly (Per)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 759202,
-                            "isOpen": true,
-                            "sortOrder": 24
                         },
                         {
                             "id": "759203",
@@ -8452,7 +8452,7 @@
                         {
                             "id": "652595",
                             "name": "MRng Over 30.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8464,7 +8464,7 @@
                         {
                             "id": "652596",
                             "name": "MRng Under 30.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8614,7 +8614,7 @@
                         {
                             "id": "652601",
                             "name": "MRng Over 11.5 Fours",
-                            "returnWin": 1.7,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8626,7 +8626,7 @@
                         {
                             "id": "652602",
                             "name": "MRng Under 11.5 Fours",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8830,7 +8830,7 @@
                         {
                             "id": "652321",
                             "name": "Over 24.5 Fours",
-                            "returnWin": 1.8,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8842,7 +8842,7 @@
                         {
                             "id": "652322",
                             "name": "Under 24.5 Fours",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
