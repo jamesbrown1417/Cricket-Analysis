@@ -4,18 +4,19 @@ library(rvest)
 library(httr2)
 library(glue)
 
-betright_url = "https://next-api.betright.com.au/Sports/Category?categoryId=11804"
+betright_url = "https://next-api.betright.com.au/Sports/Category?categoryId=18197"
 
 # Function to fix team names for BetRight CPL
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
-    str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
-    str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St Lucia|St\\. Lucia|Saint Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "Renegades") ~ "Melbourne Renegades",
+    str_detect(team_name_vector, "Stars") ~ "Melbourne Stars",
+    str_detect(team_name_vector, "Sixers") ~ "Sydney Sixers",
+    str_detect(team_name_vector, "Thunder") ~ "Sydney Thunder",
+    str_detect(team_name_vector, "Strikers") ~ "Adelaide Strikers",
+    str_detect(team_name_vector, "Heat") ~ "Brisbane Heat",
+    str_detect(team_name_vector, "Scorchers") ~ "Perth Scorchers",
+    str_detect(team_name_vector, "Hurricanes") ~ "Hobart Hurricanes",
     TRUE ~ team_name_vector
   )
 }

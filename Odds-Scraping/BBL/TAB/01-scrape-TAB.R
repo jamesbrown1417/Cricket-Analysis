@@ -413,11 +413,11 @@ fall_of_first_wicket_overs |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
   mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
-                          team == "Per" ~ "Perth Scorchers",
+                          team == "Per" | team == "Pert" ~ "Perth Scorchers",
                           team == "SyS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
-                          team == "MRn" ~ "Melbourne Renegades",
+                          team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
                           team == "Bri" ~ "Brisbane Heat",
                           team == "Ade" ~ "Adelaide Strikers",
                           TRUE ~ team)) |>
@@ -471,11 +471,11 @@ first_over_runs_overs |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
   mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
-                          team == "Per" ~ "Perth Scorchers",
+                          team == "Per" | team == "Pert" ~ "Perth Scorchers",
                           team == "SyS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
-                          team == "MRn" ~ "Melbourne Renegades",
+                          team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
                           team == "Bri" ~ "Brisbane Heat",
                           team == "Ade" ~ "Adelaide Strikers",
                           TRUE ~ team))  |>
@@ -525,11 +525,11 @@ team_boundaries_overs |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
   mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
-                          team == "Per" ~ "Perth Scorchers",
+                          team == "Per" | team == "Pert" ~ "Perth Scorchers",
                           team == "SyS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
-                          team == "MRn" ~ "Melbourne Renegades",
+                          team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
                           team == "Bri" ~ "Brisbane Heat",
                           team == "Ade" ~ "Adelaide Strikers",
                           TRUE ~ team))  |>
@@ -579,11 +579,11 @@ team_boundaries_overs |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
   mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
-                          team == "Per" ~ "Perth Scorchers",
+                          team == "Per" | team == "Pert" ~ "Perth Scorchers",
                           team == "SyS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
-                          team == "MRn" ~ "Melbourne Renegades",
+                          team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
                           team == "Bri" ~ "Brisbane Heat",
                           team == "Ade" ~ "Adelaide Strikers",
                           TRUE ~ team))  |>
@@ -700,11 +700,11 @@ most_team_wickets <-
   mutate(team = str_extract(prop_name, "\\(.*\\)")) |>
   mutate(team = str_remove_all(team, "\\(|\\)")) |>
   mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
-                          team == "Per" ~ "Perth Scorchers",
+                          team == "Per" | team == "Pert" ~ "Perth Scorchers",
                           team == "SyS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
-                          team == "MRn" ~ "Melbourne Renegades",
+                          team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
                           team == "Bri" ~ "Brisbane Heat",
                           team == "Ade" ~ "Adelaide Strikers",
                           TRUE ~ team)) |> 
