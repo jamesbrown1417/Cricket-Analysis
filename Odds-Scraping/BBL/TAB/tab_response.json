@@ -125,7 +125,7 @@
                         {
                             "id": "650975",
                             "name": "Melbourne Renegades",
-                            "returnWin": 1.95,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "651046",
                             "name": "Perth Scorchers",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4506,7 +4506,7 @@
                         {
                             "id": "759419",
                             "name": "J Brown Over 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4519,7 +4519,7 @@
                         {
                             "id": "759420",
                             "name": "J Brown Under 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4563,7 +4563,7 @@
                         {
                             "id": "759421",
                             "name": "J Bethell Over 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4576,7 +4576,7 @@
                         {
                             "id": "759422",
                             "name": "J Bethell Under 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6142,7 +6142,7 @@
                         {
                             "id": "650136",
                             "name": "Melb Renegades",
-                            "returnWin": 2.05,
+                            "returnWin": 1.87,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6166,7 +6166,7 @@
                         {
                             "id": "650138",
                             "name": "Perth Scorchers",
-                            "returnWin": 2.05,
+                            "returnWin": 2.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6629,6 +6629,19 @@
                             "sameGame": true
                         },
                         {
+                            "id": "650197",
+                            "name": "Fergus ONeill (MRn)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650197,
+                            "isOpen": true,
+                            "sortOrder": 8,
+                            "sameGame": true
+                        },
+                        {
                             "id": "650204",
                             "name": "Gurinder Sandhu (MRn)",
                             "returnWin": 4.5,
@@ -6639,19 +6652,6 @@
                             "number": 650204,
                             "isOpen": true,
                             "sortOrder": 15
-                        },
-                        {
-                            "id": "650197",
-                            "name": "Fergus ONeill (MRn)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650197,
-                            "isOpen": true,
-                            "sortOrder": 8,
-                            "sameGame": true
                         },
                         {
                             "id": "650196",
@@ -7309,7 +7309,7 @@
                         {
                             "id": "759337",
                             "name": "Fergus O Neill (MRn)",
-                            "returnWin": 13,
+                            "returnWin": 11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8614,7 +8614,7 @@
                         {
                             "id": "652601",
                             "name": "MRng Over 11.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8626,7 +8626,7 @@
                         {
                             "id": "652602",
                             "name": "MRng Under 11.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8668,7 +8668,7 @@
                         {
                             "id": "652651",
                             "name": "Pert Over 12.5 Fours",
-                            "returnWin": 2,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8680,7 +8680,7 @@
                         {
                             "id": "652652",
                             "name": "Pert Under 12.5 Fours",
-                            "returnWin": 1.72,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8776,7 +8776,7 @@
                         {
                             "id": "652653",
                             "name": "Pert Over 6.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8788,7 +8788,7 @@
                         {
                             "id": "652654",
                             "name": "Pert Under 6.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8830,7 +8830,7 @@
                         {
                             "id": "652321",
                             "name": "Over 24.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8842,7 +8842,7 @@
                         {
                             "id": "652322",
                             "name": "Under 24.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
