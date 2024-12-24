@@ -1,0 +1,419 @@
+---
+title: "BBL Race To 10"
+execute:
+  echo: false
+  message: false
+  warning: false
+author: "James Brown"
+date: "2024-09-09"
+format:
+  html:
+    df-print: default
+    theme: cosmo
+    self-contained: true
+    toc: true
+    toc-depth: 3
+    fig-width: 8
+    fig-height: 6
+editor: visual
+---
+
+```{r}
+#===============================================================================
+# Libraries and functions
+#===============================================================================
+
+library(tidyverse)
+library(cricketdata)
+library(future)
+library(furrr)
+
+# Set up parallel processing
+plan(multisession)
+
+`%notin%` <- Negate(`%in%`)
+
+# Update player metadata table
+player_meta <- read_rds("../../Data/player_meta_updated.rds")
+
+# For big bash, make Josh Brown J Brown
+player_meta$unique_name[player_meta$full_name == "Josh Brown"] <- "J Brown"
+
+# Cricsheet player ID data
+player_metadata <-
+  player_meta |>
+  select(unique_name,
+         full_name,
+         country,
+         dob,
+         batting_style,
+         bowling_style,
+         playing_role)
+
+#===============================================================================
+# Get Data from cricsheet
+#===============================================================================
+
+# Match Data--------------------------------------------------------------------
+bbl_match_data <-
+  fetch_cricsheet(type = "match",
+                  competition = "bbl",
+                  gender = "male")
+
+# Player Data-------------------------------------------------------------------
+bbl_player_data <-
+  fetch_cricsheet(type = "player",
+                  competition = "bbl",
+                  gender = "male")
+
+# Ball by Ball Data-------------------------------------------------------------
+bbl_ball_by_ball_data <-
+  fetch_cricsheet(type = "bbb",
+                  competition = "bbl",
+                  gender = "male")
+
+#===============================================================================
+# Tidy up venue data
+#===============================================================================
+
+# Define the function to clean venue names based on predefined rules
+clean_venue_names <- function(venues) {
+  venues_cleaned <- sapply(venues, function(venue) {
+    case_when(
+      str_detect(venue, "Kensington") ~ "Kensington Oval, Bridgetown, Barbados",
+      str_detect(venue, "Brian Lara") ~ "Brian Lara Cricket Academy, Tarouba, Trinidad",
+      str_detect(venue, "Queen's Park Oval") ~ "Queen's Park Oval, Port of Spain, Trinidad",
+      str_detect(venue, "Providence") ~ "Providence Stadium, Guyana",
+      str_detect(venue, "Warner Park") ~ "Warner Park, Basseterre, St Kitts",
+      str_detect(venue, "Sabina Park") ~ "Sabina Park, Kingston, Jamaica",
+      str_detect(venue, "Daren Sammy") ~ "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+      str_detect(venue, "Central Broward") ~ "Central Broward Regional Park Stadium Turf Ground, Lauderhill, Florida",
+      str_detect(venue, "National Cricket Stadium") ~ "National Cricket Stadium, St George's, Grenada",
+      str_detect(venue, "Sir Vivian Richards") ~ "Sir Vivian Richards Stadium, North Sound, Antigua",
+      TRUE ~ venue  # Default case to return the original if no matches found
+    )
+  })
+  
+  return(venues_cleaned)
+}
+
+# Apply the function to the venue data
+bbl_match_data$venue <- clean_venue_names(bbl_match_data$venue)
+
+#===============================================================================
+# Add player metadata to player data
+#===============================================================================
+
+# Add player metadata to player data
+bbl_player_data <-
+  bbl_player_data |>
+  left_join(player_metadata,
+            by = c("player" = "unique_name"))
+
+#===============================================================================
+# Get First Over Data
+#===============================================================================
+
+# Create function to get match first_over data-------------------------------------
+get_match_race_to_10_data <- function(match_id_number) {
+  # Match dataset
+  match_df <- bbl_ball_by_ball_data |> filter(match_id == match_id_number)
+  
+  # Match Details
+  match_details <- bbl_match_data |> mutate(match_id = as.integer(match_id)) |>  filter(match_id == match_id_number)
+  
+  # Match Date
+  match_date <- match_details$date[[1]] |> as_date()
+  
+  # Match Event
+  match_event <- match_details$event[[1]]
+  
+  # Match Venue
+  match_venue <- match_details$venue[[1]]
+  
+
+  # Get First Innings Race To 10------------------------------------------------
+  
+    # Get Batter Who Faced First Ball
+  first_ball_striker_innings_1 <-
+    match_df |>
+    filter(innings == 1 & ball == 1) |>
+    slice_head(n = 1) %>% 
+    pull(striker)
+  
+  # Get Batter Who Did Not Face First Ball
+  first_ball_non_striker_innings_1 <-
+    match_df |>
+    filter(innings == 1 & ball == 1) |>
+    slice_head(n = 1) %>%
+    pull(non_striker)
+  
+  first_ball_striker_race_to_10_innings_1 <-
+    match_df |>
+    filter(innings == 1) %>% 
+    filter(striker == first_ball_striker_innings_1) %>%
+    mutate(runs_scored_yet = cumsum(runs_off_bat)) %>% 
+    filter(runs_scored_yet >= 10 | wicket) %>%
+    slice_head(n = 1) %>%
+    mutate(innings_ball = 6*over + ball) %>% 
+    transmute(match_id, start_date, venue, batting_team, bowling_team, innings, innings_ball, player_name = striker, runs_scored_yet, first_ball_striker = TRUE)
+  
+  first_ball_non_striker_race_to_10_innings_1 <-
+    match_df |>
+    filter(innings == 1) %>% 
+    filter(striker == first_ball_non_striker_innings_1) %>%
+    mutate(runs_scored_yet = cumsum(runs_off_bat)) %>% 
+    filter(runs_scored_yet >= 10 | wicket) %>%
+    slice_head(n = 1) %>%
+    mutate(innings_ball = 6*over + ball) %>% 
+    transmute(match_id, start_date, venue, batting_team, bowling_team, innings, innings_ball, player_name = striker, runs_scored_yet, first_ball_striker = FALSE)
+  
+  # Combine and get outcome
+  race_to_10_innings_1_outcome <- 
+  first_ball_striker_race_to_10_innings_1 %>% 
+    bind_rows(first_ball_non_striker_race_to_10_innings_1) %>%
+    arrange(innings_ball)
+  
+  # Neither
+  if (max(race_to_10_innings_1_outcome$runs_scored_yet, na.rm = TRUE) < 10) {
+    outcome <- "Neither"
+  }
+  
+  # Striker
+  if ((
+    race_to_10_innings_1_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_1_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) < 10
+  )) {
+    outcome <- "First Ball Striker"
+  }
+  
+  # Non Striker
+  if ((
+    race_to_10_innings_1_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) < 10
+  ) &
+  
+  (
+    race_to_10_innings_1_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )) {
+    outcome <- "First Ball Non-Striker"
+  }
+  
+  # Both made to 10, select who made it faster
+  if ((
+    race_to_10_innings_1_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_1_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )
+    &
+    
+    race_to_10_innings_1_outcome$first_ball_striker[[1]])
+  
+  {
+    outcome <- "First Ball Striker"
+  }
+  
+  if ((
+    race_to_10_innings_1_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_1_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )
+    &
+    
+    !race_to_10_innings_1_outcome$first_ball_striker[[1]])
+  
+  {
+    outcome <- "First Ball Non-Striker"
+  }
+  
+  # Create tibble
+  first_innings_race_to_10_df <-
+    tibble(
+      match_id = match_id_number,
+      start_date = match_date,
+      venue = match_venue,
+      batting_team = match_details$team1[[1]],
+      bowling_team = match_details$team2[[1]],
+      innings = 1,
+      first_ball_striker = first_ball_striker_innings_1,
+      first_ball_non_striker = first_ball_non_striker_innings_1,
+      result = outcome)
+  
+  # Get Second Innings Race To 10-----------------------------------------------
+  
+  # Get Batter Who Faced First Ball
+  first_ball_striker_innings_2 <-
+    match_df |>
+    filter(innings == 2 & ball == 1) |>
+    slice_head(n = 1) %>% 
+    pull(striker)
+  
+  # Get Batter Who Did Not Face First Ball
+  first_ball_non_striker_innings_2 <-
+    match_df |>
+    filter(innings == 2 & ball == 1) |>
+    slice_head(n = 1) %>%
+    pull(non_striker)
+  
+  first_ball_striker_race_to_10_innings_2 <-
+    match_df |>
+    filter(innings == 2) %>% 
+    filter(striker == first_ball_striker_innings_2) %>%
+    mutate(runs_scored_yet = cumsum(runs_off_bat)) %>% 
+    filter(runs_scored_yet >= 10 | wicket) %>%
+    slice_head(n = 1) %>%
+    mutate(innings_ball = 6*over + ball) %>% 
+    transmute(match_id, start_date, venue, batting_team, bowling_team, innings, innings_ball, player_name = striker, runs_scored_yet, first_ball_striker = TRUE)
+  
+  first_ball_non_striker_race_to_10_innings_2 <-
+    match_df |>
+    filter(innings == 2) %>% 
+    filter(striker == first_ball_non_striker_innings_2) %>%
+    mutate(runs_scored_yet = cumsum(runs_off_bat)) %>% 
+    filter(runs_scored_yet >= 10 | wicket) %>%
+    slice_head(n = 1) %>%
+    mutate(innings_ball = 6*over + ball) %>% 
+    transmute(match_id, start_date, venue, batting_team, bowling_team, innings, innings_ball, player_name = striker, runs_scored_yet, first_ball_striker = FALSE)
+  
+  # Combine and get outcome
+  race_to_10_innings_2_outcome <- 
+  first_ball_striker_race_to_10_innings_2 %>% 
+    bind_rows(first_ball_non_striker_race_to_10_innings_2) %>%
+    arrange(innings_ball)
+  
+  # Neither
+  if (max(race_to_10_innings_2_outcome$runs_scored_yet, na.rm = TRUE) < 10) {
+    outcome <- "Neither"
+  }
+  
+  # Striker
+  if ((
+    race_to_10_innings_2_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_2_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) < 10
+  )) {
+    outcome <- "First Ball Striker"
+  }
+  
+  # Non Striker
+  if ((
+    race_to_10_innings_2_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) < 10
+  ) &
+  
+  (
+    race_to_10_innings_2_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )) {
+    outcome <- "First Ball Non-Striker"
+  }
+  
+  # Both made to 10, select who made it faster
+  if ((
+    race_to_10_innings_2_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_2_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )
+    &
+    
+    race_to_10_innings_2_outcome$first_ball_striker[[1]])
+  
+  {
+    outcome <- "First Ball Striker"
+  }
+  
+  if ((
+    race_to_10_innings_2_outcome %>%
+    filter(first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  ) &
+  
+  (
+    race_to_10_innings_2_outcome %>%
+    filter(!first_ball_striker) %>%
+    pull(runs_scored_yet) >= 10
+  )
+    &
+    
+    !race_to_10_innings_2_outcome$first_ball_striker[[1]])
+  
+  {
+    outcome <- "First Ball Non-Striker"
+  }
+  
+  # Create tibble
+  second_innings_race_to_10_df <-
+    tibble(
+      match_id = match_id_number,
+      start_date = match_date,
+      venue = match_venue,
+      batting_team = match_details$team1[[1]],
+      bowling_team = match_details$team2[[1]],
+      innings = 2,
+      first_ball_striker = first_ball_striker_innings_2,
+      first_ball_non_striker = first_ball_non_striker_innings_2,
+      result = outcome)
+  
+  # Combine and return
+  return(bind_rows(first_innings_race_to_10_df, second_innings_race_to_10_df))
+  
+}
+
+# Get Match first_over Data for all matches----------------------------------------
+get_match_race_to_10_data <-
+  safely(get_match_race_to_10_data)
+
+bbl_match_race_to_10_data <-
+  bbl_match_data |> 
+  distinct(match_id) |> 
+  rename(match_id_number = match_id) |>
+  mutate(match_id_number = as.integer(match_id_number)) |>
+  pmap(get_match_race_to_10_data, .progress = TRUE) |>
+  # Remove elements where there was an error
+  keep(~is.null(.x) == FALSE) |>
+  # Keep only result
+  map_dfr(~.x$result)
+
+bbl_match_race_to_10_data %>% 
+  filter(first_ball_striker == "JR Philippe") %>%
+  filter(first_ball_non_striker == "JM Vince") %>%
+  count(result) %>% 
+  mutate(percent = n/sum(n)) %>% 
+  mutate(implied_odds = 1/percent)
+```

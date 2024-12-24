@@ -82,8 +82,8 @@ all_betright_markets <-
 # Home teams
 home_teams <-
   all_betright_markets |>
-  separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |>
-  filter(str_detect(market_name, "Match Result")) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  filter(str_detect(market_name, "Match Winner")) |> 
   mutate(market_name = "Head To Head") |> 
   group_by(match) |> 
   filter(row_number() == 1) |> 
@@ -93,8 +93,8 @@ home_teams <-
 # Away teams
 away_teams <-
   all_betright_markets |>
-  separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |>
-  filter(str_detect(market_name, "Match Result")) |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  filter(str_detect(market_name, "Match Winner")) |> 
   mutate(market_name = "Head To Head") |>
   group_by(match) |> 
   filter(row_number() == 2) |> 
