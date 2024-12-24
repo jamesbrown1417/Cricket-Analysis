@@ -9427,6 +9427,19 @@
                             "sameGame": true
                         },
                         {
+                            "id": "674216",
+                            "name": "Aaron Hardie (Per)",
+                            "returnWin": 4.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 674216,
+                            "isOpen": true,
+                            "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
                             "id": "674213",
                             "name": "Finn Allen (Per)",
                             "returnWin": 5.5,
@@ -9437,19 +9450,6 @@
                             "number": 674213,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "674216",
-                            "name": "Aaron Hardie (Per)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 674216,
-                            "isOpen": true,
-                            "sortOrder": 4,
                             "sameGame": true
                         }
                     ],
@@ -10786,7 +10786,7 @@
                         {
                             "id": "674269",
                             "name": "Keaton Jennings (Per)",
-                            "returnWin": 2.5,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -10954,7 +10954,7 @@
                         {
                             "id": "674277",
                             "name": "Keaton Jennings (Per)",
-                            "returnWin": 4.5,
+                            "returnWin": 4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -11122,7 +11122,7 @@
                         {
                             "id": "674285",
                             "name": "Keaton Jennings (Per)",
-                            "returnWin": 10,
+                            "returnWin": 7.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -11281,7 +11281,7 @@
                         {
                             "id": "674333",
                             "name": "Keaton Jennings (Per)",
-                            "returnWin": 3.25,
+                            "returnWin": 2.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
