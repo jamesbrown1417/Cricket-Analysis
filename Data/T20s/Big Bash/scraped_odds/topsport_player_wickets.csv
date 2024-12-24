@@ -1,8 +1,20 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Andrew Tye,Perth Scorchers,Brisbane Heat,0.5,1.28,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Andrew Tye,Perth Scorchers,Brisbane Heat,1.5,2.45,1.49,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Andrew Tye,Perth Scorchers,Brisbane Heat,2.5,5.3,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Andrew Tye,Perth Scorchers,Brisbane Heat,3.5,11,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Ben Dwarshuis,Sydney Sixers,Melbourne Stars,0.5,1.17,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Ben Dwarshuis,Sydney Sixers,Melbourne Stars,1.5,2.1,1.65,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Ben Dwarshuis,Sydney Sixers,Melbourne Stars,2.5,4.6,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Ben Dwarshuis,Sydney Sixers,Melbourne Stars,3.5,10,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Jason Behrendorff,Perth Scorchers,Brisbane Heat,0.5,1.17,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Jason Behrendorff,Perth Scorchers,Brisbane Heat,1.5,2.08,1.67,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Jason Behrendorff,Perth Scorchers,Brisbane Heat,2.5,4.5,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Jason Behrendorff,Perth Scorchers,Brisbane Heat,3.5,9.75,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Matthew Kuhnemann,Brisbane Heat,Perth Scorchers,0.5,1.4,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Matthew Kuhnemann,Brisbane Heat,Perth Scorchers,1.5,2.85,1.37,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Matthew Kuhnemann,Brisbane Heat,Perth Scorchers,2.5,6.25,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Matthew Kuhnemann,Brisbane Heat,Perth Scorchers,3.5,13,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Sean Abbott,Sydney Sixers,Melbourne Stars,0.5,1.2,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Sean Abbott,Sydney Sixers,Melbourne Stars,1.5,2.15,1.62,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Sean Abbott,Sydney Sixers,Melbourne Stars,2.5,4.7,NA,TopSport
@@ -15,3 +27,7 @@ Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Usa
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Usama Mir,Melbourne Stars,Sydney Sixers,1.5,2.4,1.51,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Usama Mir,Melbourne Stars,Sydney Sixers,2.5,5.2,NA,TopSport
 Sydney Sixers v Melbourne Stars,Player Wickets,Sydney Sixers,Melbourne Stars,Usama Mir,Melbourne Stars,Sydney Sixers,3.5,11,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Perth Scorchers,0.5,1.2,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Perth Scorchers,1.5,2.18,1.61,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Perth Scorchers,2.5,4.7,NA,TopSport
+Perth Scorchers v Brisbane Heat,Player Wickets,Perth Scorchers,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Perth Scorchers,3.5,10,NA,TopSport
