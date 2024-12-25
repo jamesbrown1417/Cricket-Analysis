@@ -424,8 +424,8 @@ batsman_runs <-
 # Write to CSV
 #===============================================================================
 
-highest_opening_partnership |> write_csv("Data/T20s/CPL/scraped_odds/betright_highest_opening_partnership.csv")
-first_over_runs |> write_csv("Data/T20s/CPL/scraped_odds/betright_first_over_runs.csv")
-total_match_sixes |> write_csv("Data/T20s/CPL/scraped_odds/betright_total_match_sixes.csv")
-total_match_fours |> write_csv("Data/T20s/CPL/scraped_odds/betright_total_match_fours.csv")
-batsman_runs |> write_csv("Data/T20s/CPL/scraped_odds/betright_player_runs.csv")
+highest_opening_partnership |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_highest_opening_partnership.csv")
+first_over_runs |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_first_over_runs.csv")
+total_match_sixes |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_total_match_sixes.csv")
+total_match_fours |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_total_match_fours.csv")
+batsman_runs |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_player_runs.csv")

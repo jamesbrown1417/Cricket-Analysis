@@ -16,7 +16,7 @@ run_scraping <- function(script_name) {
 
 # Run all odds scraping scripts-------------------------------------------------
 # run_scraping("Odds-Scraping/BBL/scrape_betr.R")
-# run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
+run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
 run_scraping("Odds-Scraping/BBL/03-scrape-pointsbet.R")
 run_scraping("Odds-Scraping/BBL/02-scrape-Sportsbet.R")
 run_scraping("Odds-Scraping/BBL/TAB/01-scrape-TAB.R")
@@ -120,7 +120,7 @@ list_of_ms_data <- map(list_of_ms_files, read_csv)
 # Combine
 ms_data <-
   list_of_ms_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match) |> 
     select(-any_of(c("home_team", "away_team"))) |>
@@ -142,7 +142,7 @@ list_of_mf_data <- map(list_of_mf_files, read_csv)
 # Combine
 mf_data <-
   list_of_mf_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match) |> 
   select(-any_of(c("home_team", "away_team"))) |>
@@ -186,7 +186,7 @@ list_of_tf_data <- map(list_of_tf_files, read_csv)
 # Combine
 tf_data <-
   list_of_tf_data |> 
-  keep(~ncol(.x) > 0) |>
+  keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, team) |> 
     select(-any_of(c("home_team", "away_team"))) |>

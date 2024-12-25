@@ -412,9 +412,9 @@ fall_of_first_wicket_overs |>
          away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
-  mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
+  mutate(team = case_when(team == "MStr" ~ "Melbourne Stars",
                           team == "Per" | team == "Pert" ~ "Perth Scorchers",
-                          team == "SyS" ~ "Sydney Sixers",
+                          team == "SydS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
                           team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
@@ -470,9 +470,9 @@ first_over_runs_overs |>
          away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
-  mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
+  mutate(team = case_when(team == "MStr" ~ "Melbourne Stars",
                           team == "Per" | team == "Pert" ~ "Perth Scorchers",
-                          team == "SyS" ~ "Sydney Sixers",
+                          team == "SydS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
                           team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
@@ -524,9 +524,9 @@ team_boundaries_overs |>
          away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
-  mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
+  mutate(team = case_when(team == "MStr" ~ "Melbourne Stars",
                           team == "Per" | team == "Pert" ~ "Perth Scorchers",
-                          team == "SyS" ~ "Sydney Sixers",
+                          team == "SydS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
                           team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
@@ -578,9 +578,9 @@ team_boundaries_overs |>
          away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
   select(-home_team, -away_team) |>
-  mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
+  mutate(team = case_when(team == "MStr" ~ "Melbourne Stars",
                           team == "Per" | team == "Pert" ~ "Perth Scorchers",
-                          team == "SyS" ~ "Sydney Sixers",
+                          team == "SydS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
                           team == "MRn" | team == "MRng" ~ "Melbourne Renegades",
@@ -699,9 +699,9 @@ most_team_wickets <-
   filter(market_name == "Most Wickets") |>
   mutate(team = str_extract(prop_name, "\\(.*\\)")) |>
   mutate(team = str_remove_all(team, "\\(|\\)")) |>
-  mutate(team = case_when(team == "MSt" ~ "Melbourne Stars",
+  mutate(team = case_when(team == "MStr" ~ "Melbourne Stars",
                           team == "Per" | team == "Pert" ~ "Perth Scorchers",
-                          team == "SyS" ~ "Sydney Sixers",
+                          team == "SydS" ~ "Sydney Sixers",
                           team == "STh" ~ "Sydney Thunder",
                           team == "Hob" ~ "Hobart Hurricanes",
                           team == "MRn" | team == "MRng" ~ "Melbourne Renegades",

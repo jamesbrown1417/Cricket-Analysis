@@ -28,6 +28,24 @@
                 "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/matches/Sydney%20Sixers%20v%20Melbourne%20Stars?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/matches/Sydney%20Sixers%20v%20Melbourne%20Stars/markets?jurisdiction=SA"
             },
+            "vision": {
+                "performVisualisation": {
+                    "startTime": "2024-12-26T07:05:00Z",
+                    "requiresAuthentication": false,
+                    "eventId": "1a8bgrdg115e99fevn808i35o",
+                    "embeddedPages": [
+                        {
+                            "url": "https://api.beta.tab.com.au/v1/vision-service/tab/providers/performVisualisation/embed/1a8bgrdg115e99fevn808i35o",
+                            "mobile": {
+                                "url": "https://api.beta.tab.com.au/v1/vision-service/tab/providers/performVisualisation/embed/1a8bgrdg115e99fevn808i35o"
+                            }
+                        }
+                    ],
+                    "_links": {
+                        "self": "https://api.beta.tab.com.au/v1/vision-service/tab-act/matches/SydSvMStr/performVisualisation"
+                    }
+                }
+            },
             "contestants": [
                 {
                     "name": "Sydney Sixers",
@@ -8134,6 +8152,24 @@
                 "self": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/matches/Perth%20Scorchers%20v%20Brisbane%20Heat?jurisdiction=SA",
                 "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/matches/Perth%20Scorchers%20v%20Brisbane%20Heat?jurisdiction={jurisdiction}{&returnPromo,returnOffers,returnMultiOnly,channelType,cashSales,homeState}",
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/matches/Perth%20Scorchers%20v%20Brisbane%20Heat/markets?jurisdiction=SA"
+            },
+            "vision": {
+                "performVisualisation": {
+                    "startTime": "2024-12-26T10:15:00Z",
+                    "requiresAuthentication": false,
+                    "eventId": "2jzx1bre0otm0h70q3a0okmt8",
+                    "embeddedPages": [
+                        {
+                            "url": "https://api.beta.tab.com.au/v1/vision-service/tab/providers/performVisualisation/embed/2jzx1bre0otm0h70q3a0okmt8",
+                            "mobile": {
+                                "url": "https://api.beta.tab.com.au/v1/vision-service/tab/providers/performVisualisation/embed/2jzx1bre0otm0h70q3a0okmt8"
+                            }
+                        }
+                    ],
+                    "_links": {
+                        "self": "https://api.beta.tab.com.au/v1/vision-service/tab-act/matches/PertvBris/performVisualisation"
+                    }
+                }
             },
             "contestants": [
                 {
