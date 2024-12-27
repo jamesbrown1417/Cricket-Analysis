@@ -3883,7 +3883,7 @@
                         {
                             "id": "652787",
                             "name": "Ade Over 165.5 Runs",
-                            "returnWin": 1.9,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3895,7 +3895,7 @@
                         {
                             "id": "652788",
                             "name": "Ade Under 165.5 Runs",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3937,7 +3937,7 @@
                         {
                             "id": "652837",
                             "name": "Hob Over 165.5 Runs",
-                            "returnWin": 1.9,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3949,7 +3949,7 @@
                         {
                             "id": "652838",
                             "name": "Hob Under 165.5 Runs",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4363,7 +4363,7 @@
                         {
                             "id": "652766",
                             "name": "Ade 200+ Runs",
-                            "returnWin": 7.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4375,7 +4375,7 @@
                         {
                             "id": "652767",
                             "name": "Ade 220+ Runs",
-                            "returnWin": 26,
+                            "returnWin": 17,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4453,7 +4453,7 @@
                         {
                             "id": "652820",
                             "name": "Hob 200+ Runs",
-                            "returnWin": 7.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4465,7 +4465,7 @@
                         {
                             "id": "652821",
                             "name": "Hob 220+ Runs",
-                            "returnWin": 26,
+                            "returnWin": 17,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6027,7 +6027,7 @@
                         {
                             "id": "650007",
                             "name": "Ade Over 24.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6040,7 +6040,7 @@
                         {
                             "id": "650008",
                             "name": "Ade Under 24.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6209,7 +6209,7 @@
                         {
                             "id": "652191",
                             "name": "Over 11.5 Sixes",
-                            "returnWin": 2,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6221,7 +6221,7 @@
                         {
                             "id": "652192",
                             "name": "Under 11.5 Sixes",
-                            "returnWin": 1.7,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6263,7 +6263,7 @@
                         {
                             "id": "652242",
                             "name": "12 Sixes Or More",
-                            "returnWin": 2,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6276,7 +6276,7 @@
                         {
                             "id": "652243",
                             "name": "Between 10 - 11 Sixes",
-                            "returnWin": 7.5,
+                            "returnWin": 8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6289,7 +6289,7 @@
                         {
                             "id": "652244",
                             "name": "9 Sixes Or Less",
-                            "returnWin": 2.15,
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6334,7 +6334,7 @@
                         {
                             "id": "652245",
                             "name": "17 or more Sixes",
-                            "returnWin": 4.5,
+                            "returnWin": 4.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6347,7 +6347,7 @@
                         {
                             "id": "652246",
                             "name": "15-16 Sixes",
-                            "returnWin": 8.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6360,7 +6360,7 @@
                         {
                             "id": "652247",
                             "name": "13-14 Sixes",
-                            "returnWin": 7.5,
+                            "returnWin": 5.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6373,7 +6373,7 @@
                         {
                             "id": "652248",
                             "name": "11-12 Sixes",
-                            "returnWin": 7,
+                            "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6399,7 +6399,7 @@
                         {
                             "id": "652250",
                             "name": "8 or less Sixes",
-                            "returnWin": 2.3,
+                            "returnWin": 2.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6483,7 +6483,7 @@
                         {
                             "id": "652257",
                             "name": "10+ Match Sixes",
-                            "returnWin": 1.62,
+                            "returnWin": 1.55,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6496,7 +6496,7 @@
                         {
                             "id": "652261",
                             "name": "12+ Match Sixes",
-                            "returnWin": 2,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6509,7 +6509,7 @@
                         {
                             "id": "652262",
                             "name": "14+ Match Sixes",
-                            "returnWin": 2.6,
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6522,7 +6522,7 @@
                         {
                             "id": "652263",
                             "name": "16+ Match Sixes",
-                            "returnWin": 3.75,
+                            "returnWin": 3.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6535,7 +6535,7 @@
                         {
                             "id": "652264",
                             "name": "18+ Match Sixes",
-                            "returnWin": 5.5,
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6548,7 +6548,7 @@
                         {
                             "id": "652265",
                             "name": "20+ Match Sixes",
-                            "returnWin": 9,
+                            "returnWin": 8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8629,7 +8629,7 @@
                         {
                             "id": "652781",
                             "name": "Ade Over 12.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8641,7 +8641,7 @@
                         {
                             "id": "652783",
                             "name": "Ade Under 12.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8683,7 +8683,7 @@
                         {
                             "id": "652833",
                             "name": "Hob Over 12.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8695,7 +8695,7 @@
                         {
                             "id": "652834",
                             "name": "Hob Under 12.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8845,7 +8845,7 @@
                         {
                             "id": "652227",
                             "name": "Over 25.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8857,7 +8857,7 @@
                         {
                             "id": "652228",
                             "name": "Under 25.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8865,6 +8865,30 @@
                             "number": 652228,
                             "isOpen": true,
                             "sortOrder": 2
+                        },
+                        {
+                            "id": "652229",
+                            "name": "Over 26.5 Fours",
+                            "returnWin": 1.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652229,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "652230",
+                            "name": "Under 26.5 Fours",
+                            "returnWin": 1.95,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652230,
+                            "isOpen": true,
+                            "sortOrder": 4
                         }
                     ]
                 }
