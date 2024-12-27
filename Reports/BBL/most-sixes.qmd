@@ -1,0 +1,205 @@
+---
+title: "BBL Race To 10"
+execute:
+  echo: false
+  message: false
+  warning: false
+author: "James Brown"
+date: "2024-09-09"
+format:
+  html:
+    df-print: default
+    theme: cosmo
+    self-contained: true
+    toc: true
+    toc-depth: 3
+    fig-width: 8
+    fig-height: 6
+editor: visual
+---
+
+```{r}
+library(shiny)
+library(bslib)
+library(gridlayout)
+library(DT)
+library(tidyverse)
+
+#===============================================================================
+# Load in data
+#===============================================================================
+
+# Read in Innings Stats
+innings_stats <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_match_innings_data.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_match_innings_data.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_match_innings_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_innings_data.rds")|> mutate(event = "T20I"))
+
+# Get Innings in long format
+innings_stats_1 <-
+  innings_stats |> 
+  mutate(match_winner = if_else(innings_1_total > innings_2_total, innings_1_batting_team, innings_2_batting_team)) |> 
+  mutate(chasing_team_won = as.numeric(match_winner == innings_2_batting_team)) |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue, match_winner, chasing_team_won,
+         innings_1_batting_team:innings_1_method_of_first_dismissal, innings_fielding_team = innings_2_batting_team) |> 
+  mutate(innings = 1) |> 
+  # Remove _1 from column names
+  rename_with(~str_remove(., "_1"), starts_with("innings_1")) |> 
+  relocate(innings, .after = venue)
+
+innings_stats_2 <-
+  innings_stats |> 
+  mutate(match_winner = if_else(innings_1_total > innings_2_total, innings_1_batting_team, innings_2_batting_team)) |> 
+  mutate(chasing_team_won = as.numeric(match_winner == innings_2_batting_team)) |> 
+  select(match_id, match_date, event, toss_winner, toss_decision, player_of_the_match, venue,  match_winner, chasing_team_won,
+         innings_2_batting_team:innings_2_method_of_first_dismissal, innings_fielding_team = innings_1_batting_team) |> 
+  mutate(innings = 2) |> 
+  # Remove _2 from column names
+  rename_with(~str_remove(., "_2"), starts_with("innings_2")) |> 
+  relocate(innings, .after = venue)
+
+innings_stats_long <-
+  bind_rows(innings_stats_1, innings_stats_2) |> 
+  arrange(desc(match_date), match_id, innings) |> 
+  mutate(first_wicket_caught = if_else(innings_method_of_first_dismissal %in% c("caught", "caught and bowled"), 1, 0))
+
+# Read in First Over Stats
+first_over_stats <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_first_over_data.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_first_over_data.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_first_over_data.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_match_first_over_data.rds")|> mutate(event = "T20I"))
+
+# Join With Innings Stats
+innings_stats_long <-
+  innings_stats_long |> 
+  left_join(first_over_stats)
+
+# Read in Player Stats - Batting
+batting_stats_player <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_batting_innings_level.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_batting_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_batting_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_batting_innings_level.rds") |> mutate(event = "T20I"))
+
+# Read in Player Stats - Bowling
+bowling_stats_player <-
+  read_rds("../../Data/T20s/Major League Cricket/t20_mlc_bowling_innings_level.rds") |> 
+  bind_rows(read_rds("../../Data/T20s/CPL/cpl_bowling_innings_level.rds")) |> 
+  bind_rows(read_rds("../../Data/T20s/Big Bash/bbl_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/IPL/ipl_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/The Hundred/the_hundred_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/LPL/lpl_bowling_innings_level.rds")) |>
+  bind_rows(read_rds("../../Data/T20s/Internationals/t20_international_bowling_innings_level.rds") |> mutate(event = "T20I"))
+
+# Tidy Names
+batting_stats_player <-
+  batting_stats_player |> 
+  left_join(innings_stats[,c("match_id", "innings_1_balls", "innings_1_total", "innings_2_balls", "innings_2_total")], by = "match_id") |>
+  mutate(innings_balls = ifelse(innings == 1, innings_1_balls, innings_2_balls)) |>
+  mutate(team_runs = ifelse(innings == 1, innings_1_total, innings_2_total)) |>
+  select(
+    team1,
+    team2,
+    match_date,
+    venue,
+    event,
+    toss_winner,
+    toss_decision,
+    winner,
+    winner_runs,
+    winner_wickets,
+    player_full_name,
+    player_unique_name,
+    player_team,
+    batting_position,
+    batting_style,
+    innings,
+    team_runs,
+    innings_balls,
+    runs_scored,
+    balls_faced,
+    dismissal,
+    fours,
+    sixes,
+    strike_rate) |> 
+  mutate(dismissal = str_to_title(dismissal))
+
+# Tidy Names
+bowling_stats_player <-
+  bowling_stats_player |> 
+  left_join(innings_stats[,c("match_id", "innings_1_balls", "innings_1_total", "innings_2_balls", "innings_2_total")], by = "match_id") |>
+  mutate(innings_balls = ifelse(innings == 1, innings_1_balls, innings_2_balls)) |>
+  mutate(team_runs = ifelse(innings == 1, innings_1_total, innings_2_total)) |>
+  select(
+    team1,
+    team2,
+    match_date,
+    venue,
+    event,
+    toss_winner,
+    toss_decision,
+    winner,
+    winner_runs,
+    winner_wickets,
+    player_full_name,
+    player_unique_name,
+    player_team,
+    bowling_style,
+    innings,
+    team_runs,
+    innings_balls,
+    balls_bowled,
+    runs_conceded,
+    fours_conceded,
+    sixes_conceded,
+    wickets,
+    economy_rate
+  )
+```
+
+# M
+
+```{r}
+# Get Dataframe
+most_sixes_status <-
+innings_stats |>
+  filter(event == "Big Bash League") |> 
+  filter(!is.na(player_of_the_match)) |> 
+  select(
+    event,
+    match_id,
+    match_date,
+    innings_1_batting_team,
+    innings_1_total,
+    innings_1_sixes,
+    innings_2_batting_team,
+    innings_2_total,
+    innings_2_sixes
+  ) |>
+  mutate(
+    most_sixes_outcome = case_when(
+      innings_1_sixes > innings_2_sixes ~ "Innings 1",
+      innings_1_sixes < innings_2_sixes ~ "Innings 2",
+      innings_1_sixes == innings_2_sixes ~ "Tie"
+    )
+  )
+
+# Count outcomes
+most_sixes_status |> 
+  count(most_sixes_outcome) |> 
+  mutate(prob = n / sum(n)) |> 
+  mutate(implied_odds = 1/prob)
+
+```
+

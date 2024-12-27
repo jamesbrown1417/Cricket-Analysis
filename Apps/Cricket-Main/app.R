@@ -366,6 +366,11 @@ ui <- page_navbar(
             selectize = TRUE
           ),
           selectInput(
+            inputId = "first_over_bowler_input",
+            label = "Select First Over Bowler:",
+            multiple = TRUE,
+            choices = bowling_stats_player$player_unique_name |> unique()),
+          selectInput(
             inputId = "innings_input_c",
             label = "Select Innings:",
             choices = c("1", "2"),
@@ -770,6 +775,13 @@ server <- function(input, output, session) {
     filtered_team_stats <-
       filtered_team_stats |>
       filter(Event %in% input$event_input_c)
+    
+    # Filter by first over  
+    if (!is.null(input$first_over_bowler_input)) {
+      filtered_team_stats <-
+        filtered_team_stats |>
+        filter(`First Over Bowler` %in% input$first_over_bowler_input)
+    }
     
     # Filter by venue  
     if (!is.null(input$venue_input_c)) {

@@ -1,5 +1,7 @@
 match,home_team,away_team,market,team,line,over_price,under_price,agency
-Perth Scorchers v Brisbane Heat,Perth Scorchers,Brisbane Heat,Fall of 1st Wicket - Team,Brisbane Heat,18.5,1.85,1.85,TAB
-Perth Scorchers v Brisbane Heat,Perth Scorchers,Brisbane Heat,Fall of 1st Wicket - Team,Perth Scorchers,21.5,1.85,1.85,TAB
 Adelaide Strikers v Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,Fall of 1st Wicket - Team,Adelaide Strikers,24.5,1.85,1.85,TAB
-Adelaide Strikers v Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,Fall of 1st Wicket - Team,Hobart Hurricanes,19.5,1.85,1.85,TAB
+Adelaide Strikers v Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,Fall of 1st Wicket - Team,Hobart Hurricanes,19.5,2,1.7,TAB
+Melbourne Stars v Sydney Thunder,Melbourne Stars,Sydney Thunder,Fall of 1st Wicket - Team,MSt,18.5,1.85,1.85,TAB
+Melbourne Stars v Sydney Thunder,Melbourne Stars,Sydney Thunder,Fall of 1st Wicket - Team,Sydney Thunder,21.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Sixers,Brisbane Heat,Sydney Sixers,Fall of 1st Wicket - Team,Brisbane Heat,18.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Sixers,Brisbane Heat,Sydney Sixers,Fall of 1st Wicket - Team,SyS,24.5,1.85,1.85,TAB

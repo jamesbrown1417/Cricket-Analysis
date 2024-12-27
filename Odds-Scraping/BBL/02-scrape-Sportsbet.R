@@ -809,6 +809,9 @@ player_props_function <- function() {
       agency = "Sportsbet"
     )
   
+  # Team To Score The Most Sixes------------------------------------------------
+  
+  
   # Write out data-------------------------------------------------------------
   write_csv(team_totals_overs,
             "Data/T20s/Big Bash/scraped_odds/sportsbet_team_totals_overs.csv")
