@@ -125,7 +125,7 @@
                         {
                             "id": "651075",
                             "name": "Melbourne Stars",
-                            "returnWin": 2,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "651076",
                             "name": "Sydney Thunder",
-                            "returnWin": 1.8,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -283,19 +283,6 @@
                             "number": 650076,
                             "isOpen": true,
                             "sortOrder": 6
-                        },
-                        {
-                            "id": "650077",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650077,
-                            "isOpen": true,
-                            "sortOrder": 7,
-                            "sameGame": true
                         },
                         {
                             "id": "650078",
@@ -6565,19 +6552,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "650114",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 3.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650114,
-                            "isOpen": true,
-                            "sortOrder": 7,
-                            "sameGame": true
-                        },
-                        {
                             "id": "650124",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 4.2,
@@ -6955,19 +6929,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "652560",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 1.28,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652560,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "652559",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 1.3,
@@ -7123,19 +7084,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "652570",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 2.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652570,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "652569",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 2.6,
@@ -7209,7 +7157,7 @@
                         {
                             "id": "653809",
                             "name": "Lockie Ferguson (STh)",
-                            "returnWin": 2.6,
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7288,19 +7236,6 @@
                             "number": 652575,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "652578",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652578,
-                            "isOpen": true,
-                            "sortOrder": 4,
                             "sameGame": true
                         },
                         {
@@ -7656,18 +7591,6 @@
                             "sortOrder": 22
                         },
                         {
-                            "id": "651835",
-                            "name": "Sam Konstas (STh)",
-                            "returnWin": 11,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651835,
-                            "isOpen": true,
-                            "sortOrder": 29
-                        },
-                        {
                             "id": "651841",
                             "name": "Jason Sangha (STh)",
                             "returnWin": 11,
@@ -7738,18 +7661,6 @@
                             "number": 651838,
                             "isOpen": true,
                             "sortOrder": 32
-                        },
-                        {
-                            "id": "651761",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651761,
-                            "isOpen": true,
-                            "sortOrder": 4
                         },
                         {
                             "id": "651811",
@@ -8792,7 +8703,7 @@
                         {
                             "id": "652879",
                             "name": "MSt Over 6.5 Sixes",
-                            "returnWin": 2,
+                            "returnWin": 2.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8804,7 +8715,7 @@
                         {
                             "id": "652880",
                             "name": "MSt Under 6.5 Sixes",
-                            "returnWin": 1.7,
+                            "returnWin": 1.42,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -9007,9 +8918,9 @@
                 "Brisbane Heat",
                 "Sydney Sixers"
             ],
-            "openMarketCount": 19,
+            "openMarketCount": 21,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 19,
+            "nonFutureMarketCount": 21,
             "markets": [
                 {
                     "id": "107485480",
@@ -9050,7 +8961,8 @@
                             "number": 651061,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "position": "HOME"
+                            "position": "HOME",
+                            "sameGame": true
                         },
                         {
                             "id": "651062",
@@ -9063,9 +8975,12 @@
                             "number": 651062,
                             "isOpen": true,
                             "sortOrder": 2,
-                            "position": "AWAY"
+                            "position": "AWAY",
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250853",
@@ -9105,7 +9020,8 @@
                             "allowPlace": false,
                             "number": 650277,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650317",
@@ -9117,7 +9033,8 @@
                             "allowPlace": false,
                             "number": 650317,
                             "isOpen": true,
-                            "sortOrder": 13
+                            "sortOrder": 13,
+                            "sameGame": true
                         },
                         {
                             "id": "650279",
@@ -9129,7 +9046,8 @@
                             "allowPlace": false,
                             "number": 650279,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "650280",
@@ -9141,7 +9059,8 @@
                             "allowPlace": false,
                             "number": 650280,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "650278",
@@ -9153,7 +9072,8 @@
                             "allowPlace": false,
                             "number": 650278,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "650400",
@@ -9165,7 +9085,8 @@
                             "allowPlace": false,
                             "number": 650400,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650289",
@@ -9201,7 +9122,8 @@
                             "allowPlace": false,
                             "number": 650282,
                             "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 6,
+                            "sameGame": true
                         },
                         {
                             "id": "650335",
@@ -9237,7 +9159,8 @@
                             "allowPlace": false,
                             "number": 650284,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650404",
@@ -9297,7 +9220,8 @@
                             "allowPlace": false,
                             "number": 650287,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         },
                         {
                             "id": "650288",
@@ -9309,7 +9233,8 @@
                             "allowPlace": false,
                             "number": 650288,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650285",
@@ -9321,9 +9246,12 @@
                             "allowPlace": false,
                             "number": 650285,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250852",
@@ -9363,7 +9291,8 @@
                             "allowPlace": false,
                             "number": 650407,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "650406",
@@ -9375,7 +9304,8 @@
                             "allowPlace": false,
                             "number": 650406,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650408",
@@ -9387,7 +9317,8 @@
                             "allowPlace": false,
                             "number": 650408,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "650409",
@@ -9399,7 +9330,8 @@
                             "allowPlace": false,
                             "number": 650409,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "650623",
@@ -9411,7 +9343,8 @@
                             "allowPlace": false,
                             "number": 650623,
                             "isOpen": true,
-                            "sortOrder": 13
+                            "sortOrder": 13,
+                            "sameGame": true
                         },
                         {
                             "id": "650410",
@@ -9447,7 +9380,8 @@
                             "allowPlace": false,
                             "number": 650629,
                             "isOpen": true,
-                            "sortOrder": 17
+                            "sortOrder": 17,
+                            "sameGame": true
                         },
                         {
                             "id": "650617",
@@ -9459,7 +9393,8 @@
                             "allowPlace": false,
                             "number": 650617,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650622",
@@ -9471,7 +9406,8 @@
                             "allowPlace": false,
                             "number": 650622,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "650618",
@@ -9483,7 +9419,8 @@
                             "allowPlace": false,
                             "number": 650618,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650626",
@@ -9495,7 +9432,8 @@
                             "allowPlace": false,
                             "number": 650626,
                             "isOpen": true,
-                            "sortOrder": 14
+                            "sortOrder": 14,
+                            "sameGame": true
                         },
                         {
                             "id": "650627",
@@ -9555,9 +9493,12 @@
                             "allowPlace": false,
                             "number": 650621,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250854",
@@ -9622,6 +9563,60 @@
                             "number": 650265,
                             "isOpen": true,
                             "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108177054",
+                    "name": "BBL Bris-SydSx 4OvrLead 29/12",
+                    "shortName": "BBL Bris-SydSx 4OvrLead",
+                    "betOption": "Leading Team After 4 Overs",
+                    "betOptionSpectrumId": "3134",
+                    "betOptionPriority": 1700,
+                    "marketUniqueId": 108177054,
+                    "closeTime": "2024-12-29T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652361",
+                            "name": "Brisbane Heat",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652361,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652362",
+                            "name": "Sydney Sixers",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652362,
+                            "isOpen": true,
+                            "sortOrder": 2
                         }
                     ]
                 },
@@ -9843,7 +9838,8 @@
                             "allowPlace": false,
                             "number": 650255,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650257",
@@ -9855,9 +9851,12 @@
                             "allowPlace": false,
                             "number": 650257,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250850",
@@ -9897,7 +9896,8 @@
                             "allowPlace": false,
                             "number": 650258,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650259",
@@ -9909,9 +9909,12 @@
                             "allowPlace": false,
                             "number": 650259,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250849",
@@ -10017,7 +10020,8 @@
                             "allowPlace": false,
                             "number": 650640,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650697",
@@ -10029,7 +10033,8 @@
                             "allowPlace": false,
                             "number": 650697,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650706",
@@ -10065,7 +10070,8 @@
                             "allowPlace": false,
                             "number": 650674,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "650638",
@@ -10077,7 +10083,8 @@
                             "allowPlace": false,
                             "number": 650638,
                             "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 6,
+                            "sameGame": true
                         },
                         {
                             "id": "650639",
@@ -10125,7 +10132,8 @@
                             "allowPlace": false,
                             "number": 650676,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         },
                         {
                             "id": "650709",
@@ -10149,7 +10157,8 @@
                             "allowPlace": false,
                             "number": 650707,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650633",
@@ -10161,9 +10170,12 @@
                             "allowPlace": false,
                             "number": 650633,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108250855",
@@ -10203,7 +10215,8 @@
                             "allowPlace": false,
                             "number": 650740,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "650742",
@@ -10215,7 +10228,8 @@
                             "allowPlace": false,
                             "number": 650742,
                             "isOpen": true,
-                            "sortOrder": 14
+                            "sortOrder": 14,
+                            "sameGame": true
                         },
                         {
                             "id": "650736",
@@ -10227,7 +10241,8 @@
                             "allowPlace": false,
                             "number": 650736,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650737",
@@ -10263,7 +10278,8 @@
                             "allowPlace": false,
                             "number": 650728,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650739",
@@ -10275,7 +10291,8 @@
                             "allowPlace": false,
                             "number": 650739,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650744",
@@ -10311,7 +10328,8 @@
                             "allowPlace": false,
                             "number": 650741,
                             "isOpen": true,
-                            "sortOrder": 13
+                            "sortOrder": 13,
+                            "sameGame": true
                         },
                         {
                             "id": "650745",
@@ -10323,7 +10341,8 @@
                             "allowPlace": false,
                             "number": 650745,
                             "isOpen": true,
-                            "sortOrder": 17
+                            "sortOrder": 17,
+                            "sameGame": true
                         },
                         {
                             "id": "650725",
@@ -10335,7 +10354,64 @@
                             "allowPlace": false,
                             "number": 650725,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
+                },
+                {
+                    "id": "108177059",
+                    "name": "BBL Bris-SydSx WinTos 29/12",
+                    "shortName": "BBL Bris-SydSx WinTos",
+                    "betOption": "Winner Of The Toss",
+                    "betOptionSpectrumId": "845",
+                    "betOptionPriority": 3235,
+                    "marketUniqueId": 108177059,
+                    "closeTime": "2024-12-29T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652359",
+                            "name": "Brisbane Heat",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652359,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652360",
+                            "name": "Sydney Sixers",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652360,
+                            "isOpen": true,
+                            "sortOrder": 2
                         }
                     ]
                 },
@@ -10773,7 +10849,8 @@
                 }
             ],
             "inPlay": false,
-            "goingInPlay": true
+            "goingInPlay": true,
+            "sameGame": true
         },
         {
             "id": "AdelvPert",
@@ -10836,9 +10913,9 @@
                 "AdelaideStrikers",
                 "Perth Scorchers"
             ],
-            "openMarketCount": 1,
+            "openMarketCount": 9,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 1,
+            "nonFutureMarketCount": 9,
             "markets": [
                 {
                     "id": "107485478",
@@ -10893,6 +10970,1086 @@
                             "isOpen": true,
                             "sortOrder": 2,
                             "position": "AWAY"
+                        }
+                    ]
+                },
+                {
+                    "id": "108298783",
+                    "name": "BBL Adelaide High Bat",
+                    "shortName": "BBL Adelaide High Bat",
+                    "betOption": "High Bat",
+                    "betOptionSpectrumId": "45",
+                    "betOptionPriority": 1515,
+                    "marketUniqueId": 108298783,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "All In Active Players. Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650019",
+                            "name": "Matt Short (Ade)",
+                            "returnWin": 3.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650019,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650021",
+                            "name": "Chris Lynn (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650021,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "650032",
+                            "name": "Jake Weatherald (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650032,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650020",
+                            "name": "DArcy Short (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650020,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650030",
+                            "name": "Ollie Pope (Ade)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650030,
+                            "isOpen": true,
+                            "sortOrder": 12
+                        },
+                        {
+                            "id": "650022",
+                            "name": "Harry Nielsen (Ade)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650022,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650023",
+                            "name": "Alex Ross (Ade)",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650023,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "650024",
+                            "name": "Thomas Kelly (Ade)",
+                            "returnWin": 8.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650024,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "650052",
+                            "name": "Harry Manenti (Ade)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650052,
+                            "isOpen": true,
+                            "sortOrder": 19
+                        },
+                        {
+                            "id": "650031",
+                            "name": "Jamie Overton (Ade)",
+                            "returnWin": 10,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650031,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
+                            "id": "650025",
+                            "name": "Liam Scott (Ade)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650025,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650026",
+                            "name": "James Bazley (Ade)",
+                            "returnWin": 21,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650026,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650051",
+                            "name": "Liam Haskett (Ade)",
+                            "returnWin": 81,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650051,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650034",
+                            "name": "Brendan Doggett (Ade)",
+                            "returnWin": 81,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650034,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650033",
+                            "name": "Jordan Buckingham (Ade)",
+                            "returnWin": 81,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650033,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650028",
+                            "name": "Henry Thornton (Ade)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650028,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650027",
+                            "name": "Cameron Boyce (Ade)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650027,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650029",
+                            "name": "Lloyd Pope (Ade)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650029,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "108298782",
+                    "name": "BBL Perth High Bat",
+                    "shortName": "BBL Perth High Bat",
+                    "betOption": "High Bat",
+                    "betOptionSpectrumId": "45",
+                    "betOptionPriority": 1515,
+                    "marketUniqueId": 108298782,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "All In Active Players. Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650064",
+                            "name": "Josh Inglis (Per)",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650064,
+                            "isOpen": true,
+                            "sortOrder": 12
+                        },
+                        {
+                            "id": "650053",
+                            "name": "Finn Allen (Per)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650053,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650067",
+                            "name": "Cooper Connolly (Per)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650067,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650054",
+                            "name": "Matt Hurst (Per)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650054,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650065",
+                            "name": "Keaton Jennings (Per)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650065,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
+                            "id": "650056",
+                            "name": "Aaron Hardie (Per)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650056,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650055",
+                            "name": "Sam Fanning (Per)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650055,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "650057",
+                            "name": "Ashton Turner (Per)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650057,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "650058",
+                            "name": "Nick Hobson (Per)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650058,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "650069",
+                            "name": "Matt Spoors (Per)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650069,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "650059",
+                            "name": "Ashton Agar (Per)",
+                            "returnWin": 21,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650059,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650060",
+                            "name": "Matthew Kelly (Per)",
+                            "returnWin": 41,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650060,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650068",
+                            "name": "Jhye Richardson (Per)",
+                            "returnWin": 51,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650068,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650061",
+                            "name": "Andrew Tye (Per)",
+                            "returnWin": 67,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650061,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650070",
+                            "name": "Bryce Jackson (Per)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650070,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650066",
+                            "name": "Mahli Beardman (Per)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650066,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650063",
+                            "name": "Jason Behrendorff (Per)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650063,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650062",
+                            "name": "Lance Morris (Per)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650062,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "108298784",
+                    "name": "BBL Adelaide-Perth HiOpPart",
+                    "shortName": "BBL Adel-Pert HiOpPart",
+                    "betOption": "Highest Opening Partnership",
+                    "betOptionSpectrumId": "158",
+                    "betOptionPriority": 1695,
+                    "marketUniqueId": 108298784,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650011",
+                            "name": "AdelaideStrikers",
+                            "returnWin": 1.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650011,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650012",
+                            "name": "tie",
+                            "returnWin": 34,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650012,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650015",
+                            "name": "Perth Scorchers",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650015,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108298781",
+                    "name": "BBL Adelaide FallWkt1 24.5",
+                    "shortName": "BBL Adelaide FallWkt1 24.5",
+                    "betOption": "Fall Of 1st Wicket",
+                    "betOptionSpectrumId": "2203",
+                    "betOptionPriority": 1930,
+                    "marketUniqueId": 108298781,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650007",
+                            "name": "Ade Over 24.5 Runs",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650007,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650008",
+                            "name": "Ade Under 24.5 Runs",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650008,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "108298780",
+                    "name": "BBL Perth FallWkt1 20.5",
+                    "shortName": "BBL Perth FallWkt1 20.5",
+                    "betOption": "Fall Of 1st Wicket",
+                    "betOptionSpectrumId": "2203",
+                    "betOptionPriority": 1930,
+                    "marketUniqueId": 108298780,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650009",
+                            "name": "Per Over 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650009,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650010",
+                            "name": "Per Under 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650010,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "108298779",
+                    "name": "BBL Adelaide-Perth Mtch6s3W",
+                    "shortName": "BBL Adel-Pert Mtch6s3W",
+                    "betOption": "Match Sixes 3-Way",
+                    "betOptionSpectrumId": "2210",
+                    "betOptionPriority": 1975,
+                    "marketUniqueId": 108298779,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650016",
+                            "name": "AdelaideStrikers",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650016,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650017",
+                            "name": "tie",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650017,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "650018",
+                            "name": "Perth Scorchers",
+                            "returnWin": 2.05,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650018,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108298786",
+                    "name": "BBL Adelaide MostWick",
+                    "shortName": "BBL Adelaide MostWick",
+                    "betOption": "Most Wickets",
+                    "betOptionSpectrumId": "60",
+                    "betOptionPriority": 2085,
+                    "marketUniqueId": 108298786,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "All In Active Players. Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650290",
+                            "name": "Jamie Overton (Ade)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650290,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
+                            "id": "650245",
+                            "name": "Henry Thornton (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650245,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650269",
+                            "name": "Lloyd Pope (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650269,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650243",
+                            "name": "Cameron Boyce (Ade)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650243,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650358",
+                            "name": "Brendan Doggett (Ade)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650358,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650241",
+                            "name": "James Bazley (Ade)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650241,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650360",
+                            "name": "Liam Haskett (Ade)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650360,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650357",
+                            "name": "Jordan Buckingham (Ade)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650357,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650239",
+                            "name": "Liam Scott (Ade)",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650239,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650361",
+                            "name": "Harry Manenti (Ade)",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650361,
+                            "isOpen": true,
+                            "sortOrder": 19
+                        },
+                        {
+                            "id": "650071",
+                            "name": "Matt Short (Ade)",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650071,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "650072",
+                            "name": "DArcy Short (Ade)",
+                            "returnWin": 11,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650072,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "108298785",
+                    "name": "BBL Perth MostWick",
+                    "shortName": "BBL Perth MostWick",
+                    "betOption": "Most Wickets",
+                    "betOptionSpectrumId": "60",
+                    "betOptionPriority": 2085,
+                    "marketUniqueId": 108298785,
+                    "closeTime": "2024-12-31T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "All In Active Players. Quote Others",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "650581",
+                            "name": "Jason Behrendorff (Per)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650581,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "650586",
+                            "name": "Jhye Richardson (Per)",
+                            "returnWin": 4.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650586,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
+                            "id": "650370",
+                            "name": "Andrew Tye (Per)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650370,
+                            "isOpen": true,
+                            "sortOrder": 9
+                        },
+                        {
+                            "id": "650371",
+                            "name": "Lance Morris (Per)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650371,
+                            "isOpen": true,
+                            "sortOrder": 10
+                        },
+                        {
+                            "id": "650369",
+                            "name": "Matthew Kelly (Per)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650369,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "650584",
+                            "name": "Mahli Beardman (Per)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650584,
+                            "isOpen": true,
+                            "sortOrder": 14
+                        },
+                        {
+                            "id": "650368",
+                            "name": "Ashton Agar (Per)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650368,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "650588",
+                            "name": "Bryce Jackson (Per)",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650588,
+                            "isOpen": true,
+                            "sortOrder": 18
+                        },
+                        {
+                            "id": "650365",
+                            "name": "Aaron Hardie (Per)",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650365,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "650587",
+                            "name": "Matt Spoors (Per)",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650587,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "650585",
+                            "name": "Cooper Connolly (Per)",
+                            "returnWin": 9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650585,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
+                            "id": "650366",
+                            "name": "Ashton Turner (Per)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 650366,
+                            "isOpen": true,
+                            "sortOrder": 5
                         }
                     ]
                 }
@@ -10968,7 +12125,7 @@
         {
             "name": "High Bat",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 6,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=High%20Bat"
             }
@@ -11184,7 +12341,7 @@
         {
             "name": "Highest Opening Partnership",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Highest%20Opening%20Partnership"
             }
@@ -11192,7 +12349,7 @@
         {
             "name": "Leading Team After 4 Overs",
             "hasFutureMarket": false,
-            "openMarketCount": 1,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Leading%20Team%20After%204%20Overs"
             }
@@ -11216,7 +12373,7 @@
         {
             "name": "Fall Of 1st Wicket",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 6,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Fall%20Of%201st%20Wicket"
             }
@@ -11224,7 +12381,7 @@
         {
             "name": "Match Sixes 3-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Match%20Sixes%203-Way"
             }
@@ -11264,7 +12421,7 @@
         {
             "name": "Most Wickets",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 6,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Most%20Wickets"
             }
@@ -11312,7 +12469,7 @@
         {
             "name": "Winner Of The Toss",
             "hasFutureMarket": false,
-            "openMarketCount": 1,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
