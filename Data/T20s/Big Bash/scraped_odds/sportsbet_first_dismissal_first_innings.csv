@@ -1,10 +1,4 @@
 match,market,home_team,away_team,method,price,agency
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Caught,1.35,Sportsbet
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Bowled,5.2,Sportsbet
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Leg Before Wicket,7.25,Sportsbet
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Run Out,19,Sportsbet
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Stumped,21,Sportsbet
-Brisbane Heat v Sydney Sixers,Method of 1st Dismissal (1st Innings),Brisbane Heat,Sydney Sixers,Other,101,Sportsbet
 Sydney Thunder v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Sydney Thunder,Melbourne Renegades,Caught,1.44,Sportsbet
 Sydney Thunder v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Sydney Thunder,Melbourne Renegades,Bowled,5,Sportsbet
 Sydney Thunder v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Sydney Thunder,Melbourne Renegades,Leg Before Wicket,7.25,Sportsbet
@@ -17,3 +11,15 @@ Adelaide Strikers v Perth Scorchers,Method of 1st Dismissal (1st Innings),Adelai
 Adelaide Strikers v Perth Scorchers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Perth Scorchers,Run Out,19,Sportsbet
 Adelaide Strikers v Perth Scorchers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Perth Scorchers,Stumped,21,Sportsbet
 Adelaide Strikers v Perth Scorchers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Perth Scorchers,Other,251,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Caught,1.44,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Bowled,5,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Leg Before Wicket,7.25,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Run Out,18,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Stumped,21,Sportsbet
+Hobart Hurricanes v Sydney Sixers,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Sydney Sixers,Other,251,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Caught,1.44,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Bowled,5,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Leg Before Wicket,7.25,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Run Out,18,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Stumped,23,Sportsbet
+Brisbane Heat v Melbourne Stars,Method of 1st Dismissal (1st Innings),Brisbane Heat,Melbourne Stars,Other,251,Sportsbet
