@@ -185,7 +185,7 @@
                         {
                             "id": "650019",
                             "name": "Matt Short (Ade)",
-                            "returnWin": 3.8,
+                            "returnWin": 3.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7659,6 +7659,18 @@
                             "sortOrder": 15
                         },
                         {
+                            "id": "651733",
+                            "name": "Cooper Connolly (Per)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651733,
+                            "isOpen": true,
+                            "sortOrder": 24
+                        },
+                        {
                             "id": "651513",
                             "name": "Jamie Overton (Ade)",
                             "returnWin": 13,
@@ -7717,18 +7729,6 @@
                             "number": 651756,
                             "isOpen": true,
                             "sortOrder": 31
-                        },
-                        {
-                            "id": "651733",
-                            "name": "Cooper Connolly (Per)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651733,
-                            "isOpen": true,
-                            "sortOrder": 24
                         },
                         {
                             "id": "651758",
