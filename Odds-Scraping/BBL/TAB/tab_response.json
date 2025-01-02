@@ -107,7 +107,7 @@
                         {
                             "id": "651497",
                             "name": "Melbourne Renegades",
-                            "returnWin": 1.8,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -121,7 +121,7 @@
                         {
                             "id": "651498",
                             "name": "Adelaide Strikers",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -658,7 +658,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -742,7 +742,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -994,7 +994,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1078,7 +1078,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1162,7 +1162,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1246,7 +1246,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1498,7 +1498,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1582,7 +1582,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1666,7 +1666,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1750,7 +1750,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2002,7 +2002,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2086,7 +2086,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2842,7 +2842,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2926,7 +2926,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3010,7 +3010,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3094,7 +3094,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3838,7 +3838,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3892,7 +3892,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3946,7 +3946,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -4012,7 +4012,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -4078,7 +4078,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -4180,7 +4180,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -4282,7 +4282,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -4384,7 +4384,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8305,7 +8305,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8359,7 +8359,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8467,7 +8467,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8521,7 +8521,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8575,7 +8575,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -8629,7 +8629,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -10713,7 +10713,8 @@
                             "number": 650003,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "position": "HOME"
+                            "position": "HOME",
+                            "sameGame": true
                         },
                         {
                             "id": "650004",
@@ -10726,9 +10727,12 @@
                             "number": 650004,
                             "isOpen": true,
                             "sortOrder": 2,
-                            "position": "AWAY"
+                            "position": "AWAY",
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484949",
@@ -10768,7 +10772,8 @@
                             "allowPlace": false,
                             "number": 650035,
                             "isOpen": true,
-                            "sortOrder": 15
+                            "sortOrder": 15,
+                            "sameGame": true
                         },
                         {
                             "id": "650033",
@@ -10792,7 +10797,8 @@
                             "allowPlace": false,
                             "number": 650024,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "650023",
@@ -10816,7 +10822,8 @@
                             "allowPlace": false,
                             "number": 650021,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650022",
@@ -10828,7 +10835,8 @@
                             "allowPlace": false,
                             "number": 650022,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "650025",
@@ -10864,7 +10872,8 @@
                             "allowPlace": false,
                             "number": 650026,
                             "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 6,
+                            "sameGame": true
                         },
                         {
                             "id": "650027",
@@ -10876,7 +10885,8 @@
                             "allowPlace": false,
                             "number": 650027,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650028",
@@ -10900,7 +10910,8 @@
                             "allowPlace": false,
                             "number": 650051,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650029",
@@ -10912,7 +10923,8 @@
                             "allowPlace": false,
                             "number": 650029,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "650053",
@@ -10948,7 +10960,8 @@
                             "allowPlace": false,
                             "number": 650031,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650030",
@@ -10960,9 +10973,12 @@
                             "allowPlace": false,
                             "number": 650030,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484948",
@@ -11002,7 +11018,8 @@
                             "allowPlace": false,
                             "number": 650055,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "650054",
@@ -11014,7 +11031,8 @@
                             "allowPlace": false,
                             "number": 650054,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650065",
@@ -11026,7 +11044,8 @@
                             "allowPlace": false,
                             "number": 650065,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "650071",
@@ -11050,7 +11069,8 @@
                             "allowPlace": false,
                             "number": 650058,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "650057",
@@ -11062,7 +11082,8 @@
                             "allowPlace": false,
                             "number": 650057,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "650056",
@@ -11098,7 +11119,8 @@
                             "allowPlace": false,
                             "number": 650059,
                             "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 6,
+                            "sameGame": true
                         },
                         {
                             "id": "650060",
@@ -11110,7 +11132,8 @@
                             "allowPlace": false,
                             "number": 650060,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650066",
@@ -11134,7 +11157,8 @@
                             "allowPlace": false,
                             "number": 650061,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650062",
@@ -11170,7 +11194,8 @@
                             "allowPlace": false,
                             "number": 650069,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650070",
@@ -11206,9 +11231,12 @@
                             "allowPlace": false,
                             "number": 650064,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484951",
@@ -11548,7 +11576,8 @@
                             "allowPlace": false,
                             "number": 650009,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650010",
@@ -11560,9 +11589,12 @@
                             "allowPlace": false,
                             "number": 650010,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484946",
@@ -11602,7 +11634,8 @@
                             "allowPlace": false,
                             "number": 650011,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650012",
@@ -11614,9 +11647,12 @@
                             "allowPlace": false,
                             "number": 650012,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484945",
@@ -11722,7 +11758,8 @@
                             "allowPlace": false,
                             "number": 650359,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650271",
@@ -11734,7 +11771,8 @@
                             "allowPlace": false,
                             "number": 650271,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650245",
@@ -11746,7 +11784,8 @@
                             "allowPlace": false,
                             "number": 650245,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "650269",
@@ -11758,7 +11797,8 @@
                             "allowPlace": false,
                             "number": 650269,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         },
                         {
                             "id": "650357",
@@ -11806,7 +11846,8 @@
                             "allowPlace": false,
                             "number": 650241,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650171",
@@ -11818,7 +11859,8 @@
                             "allowPlace": false,
                             "number": 650171,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "650360",
@@ -11842,7 +11884,8 @@
                             "allowPlace": false,
                             "number": 650358,
                             "isOpen": true,
-                            "sortOrder": 15
+                            "sortOrder": 15,
+                            "sameGame": true
                         },
                         {
                             "id": "650172",
@@ -11856,7 +11899,9 @@
                             "isOpen": true,
                             "sortOrder": 5
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108484952",
@@ -11896,7 +11941,8 @@
                             "allowPlace": false,
                             "number": 650368,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "650583",
@@ -11920,7 +11966,8 @@
                             "allowPlace": false,
                             "number": 650586,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "650581",
@@ -11932,7 +11979,8 @@
                             "allowPlace": false,
                             "number": 650581,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "650585",
@@ -11968,7 +12016,8 @@
                             "allowPlace": false,
                             "number": 650369,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "650371",
@@ -12028,9 +12077,12 @@
                             "allowPlace": false,
                             "number": 650582,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108485052",
@@ -12520,7 +12572,8 @@
                 }
             ],
             "inPlay": false,
-            "goingInPlay": true
+            "goingInPlay": true,
+            "sameGame": true
         }
     ],
     "tournaments": [],
