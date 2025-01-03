@@ -6,7 +6,7 @@ library(glue)
 
 betright_url = "https://next-api.betright.com.au/Sports/Category?categoryId=18197"
 
-# Function to fix team names for BetRight CPL
+# Function to fix team names for BetRight BBL
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
     str_detect(team_name_vector, "Renegades") ~ "Melbourne Renegades",
@@ -228,7 +228,7 @@ highest_opening_partnership <-
 # Most Fours
 most_fours <-
   betright_popular_markets |>
-  filter(str_detect(outcome_title, "Most Fours")) |>
+  filter(str_detect(outcome_title, "Most Match Fours")) |>
   select(match, 
          market_name = event_name,
          team = outcome_name,
@@ -238,7 +238,7 @@ most_fours <-
 # Most Sixes
 most_sixes <-
   betright_popular_markets |>
-  filter(str_detect(outcome_title, "Most Sixes")) |>
+  filter(str_detect(outcome_title, "Most Match Sixes")) |>
   select(match, 
          market_name = event_name,
          team = outcome_name,
@@ -343,7 +343,7 @@ total_match_sixes <-
 # Total Match Fours-------------------------------------------------------------
 total_match_fours_overs <-
   betright_totals_markets |>
-  filter(str_detect(outcome_title, "Total Match Fours")) |>
+  filter(str_detect(outcome_title, "Total Match Fours|^Total 4s")) |>
   filter(str_detect(outcome_name, "Over")) |>
   mutate(line = as.numeric(str_extract(outcome_name, "[0-9\\.]{1,4}"))) |>
   mutate(group_by_header = str_remove_all(group_by_header, " Total Match Fours .*$")) |>
@@ -352,7 +352,7 @@ total_match_fours_overs <-
 
 total_match_fours_unders <-
   betright_totals_markets |>
-  filter(str_detect(outcome_title, "Total Match Fours")) |>
+  filter(str_detect(outcome_title, "Total Match Fours|^Total 4s")) |>
   filter(str_detect(outcome_name, "Under")) |>
   mutate(line = as.numeric(str_extract(outcome_name, "[0-9\\.]{1,4}"))) |>
   mutate(group_by_header = str_remove_all(group_by_header, " Total Match Fours .*$")) |>
@@ -418,7 +418,9 @@ batsman_runs <-
   mutate(home_team = fix_team_names(home_team)) |>
   mutate(away_team = fix_team_names(away_team)) |>
   mutate(match = paste(home_team, "v", away_team)) |>
-  select(match, player_name, market, line, over_price, under_price, agency)
+  select(match, player_name, market, line, over_price, under_price, agency) |> 
+  mutate(player_name = ifelse(str_detect(player_name, "Bancroft"), "Cameron Bancroft", player_name)) |> 
+  mutate(player_name = ifelse(str_detect(player_name, "Short, D"), "D'Arcy Short", player_name))
 
 #===============================================================================
 # Write to CSV
@@ -427,5 +429,7 @@ batsman_runs <-
 highest_opening_partnership |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_highest_opening_partnership.csv")
 first_over_runs |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_first_over_runs.csv")
 total_match_sixes |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_total_match_sixes.csv")
+most_sixes |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_most_sixes.csv")
+most_fours |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_most_fours.csv")
 total_match_fours |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_total_match_fours.csv")
 batsman_runs |> write_csv("Data/T20s/Big Bash/scraped_odds/betright_player_runs.csv")

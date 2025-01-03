@@ -192,6 +192,7 @@ match_sixes <- bind_rows(bbl_odds$match_sixes)
 team_sixes <- bind_rows(bbl_odds$team_sixes)
 match_fours <- bind_rows(bbl_odds$match_fours)
 team_fours <- bind_rows(bbl_odds$team_fours)
+highest_opening_partnership <- bind_rows(bbl_odds$highest_opening_partnership)
 
 #===============================================================================
 # UI
@@ -428,7 +429,17 @@ ui <- page_navbar(
           selectInput(
             inputId = "market_input",
             label = "Select Market:",
-            choices = c("Player Runs", "Fall of First Wicket - Team", "First Over Runs - Team", "Match Sixes", "Team Sixes", "Match Fours", "Team Fours", "Player Wickets", "Player Fours", "Player Sixes"),
+            choices = c("Player Runs",
+                        "Fall of First Wicket - Team",
+                        "First Over Runs - Team",
+                        "Match Sixes",
+                        "Team Sixes",
+                        "Match Fours",
+                        "Team Fours",
+                        "Player Wickets",
+                        "Player Fours",
+                        "Highest Opening Partnership",
+                        "Player Sixes"),
             multiple = FALSE
           ),
           selectInput(
@@ -1210,6 +1221,12 @@ server <- function(input, output, session) {
     if (input$market_input == "Team Sixes") {
       odds <-
         team_sixes
+    }
+    
+    # Highest Opening Partnership
+    if (input$market_input == "Highest Opening Partnership") {
+      odds <-
+        highest_opening_partnership
     }
     
     # Match Fours

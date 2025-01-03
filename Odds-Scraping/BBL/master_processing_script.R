@@ -318,3 +318,6 @@ hop_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |>
   mutate(competition = "BBL")
+
+# Write out
+write_rds(hop_data, "Data/T20s/Big Bash/processed_odds/highest_opening_partnership.rds")

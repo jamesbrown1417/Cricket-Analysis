@@ -747,34 +747,14 @@ highest_opening_partnership <-
   mutate(home_team = fix_team_names(home_team),
          away_team = fix_team_names(away_team)) |>
   mutate(prop_name = fix_team_names(prop_name)) |>
-  mutate(match = paste(home_team, "v", away_team))
-
-# Get home team price
-highest_opening_partnership_home <-
-  highest_opening_partnership |>
-  filter(home_team == prop_name) |> 
-  transmute(match, home_team, away_team, market_name, home_price = price)
-
-# Get tie price
-highest_opening_partnership_tie <-
-  highest_opening_partnership |>
-  filter(prop_name == "tie") |> 
-  transmute(match, home_team, away_team, market_name, tie_price = price)
-
-# Get away team price
-highest_opening_partnership_away <-
-  highest_opening_partnership |>
-  filter(away_team == prop_name) |> 
-  transmute(match, home_team, away_team, market_name, away_price = price)
-
-# Combine
-highest_opening_partnership <-
-  highest_opening_partnership_home |>
-  left_join(highest_opening_partnership_tie) |>
-  left_join(highest_opening_partnership_away) |>
+  mutate(match = paste(home_team, "v", away_team)) |> 
+  select(match, 
+         market_name,
+         team = prop_name,
+         price) |> 
+  mutate(team = str_replace(team, "tie", "Draw")) |> 
   mutate(agency = "TAB")
 
 # Write out
 highest_opening_partnership |> 
   write_csv("Data/T20s/Big Bash/scraped_odds/tab_highest_opening_partnership.csv")
-

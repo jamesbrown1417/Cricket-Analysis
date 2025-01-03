@@ -750,31 +750,11 @@ highest_opening_partnership |>
   mutate(away_team = fix_team_names(away_team)) |>
   mutate(Selection = fix_team_names(Selection)) |> 
   mutate(match = paste(home_team, "v", away_team)) |>
-  mutate(market_name = "Highest Opening Partnership")
-
-# Get home team price
-highest_opening_partnership_home <-
-  highest_opening_partnership |>
-  filter(home_team == Selection) |> 
-  transmute(match, home_team, away_team, market_name, home_price = Win)
-
-# Get tie price
-highest_opening_partnership_tie <-
-  highest_opening_partnership |>
-  filter(Selection == "Draw") |> 
-  transmute(match, home_team, away_team, market_name, tie_price = Win)
-
-# Get away team price
-highest_opening_partnership_away <-
-  highest_opening_partnership |>
-  filter(away_team == Selection) |>
-  transmute(match, home_team, away_team, market_name, away_price = Win)
-
-# Combine
-highest_opening_partnership <-
-  highest_opening_partnership_home |>
-  left_join(highest_opening_partnership_tie) |>
-  left_join(highest_opening_partnership_away) |>
+  mutate(market_name = "Highest Opening Partnership") |>
+  select(match, 
+         market_name,
+         team = Selection,
+         price = Win) |>
   mutate(agency = "TopSport")
 
 # Write out
