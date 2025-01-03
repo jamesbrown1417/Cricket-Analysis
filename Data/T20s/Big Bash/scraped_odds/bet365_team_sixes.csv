@@ -1,9 +1,5 @@
 team,line,over_price,under_price,agency,match,market
-Melbourne Renegades,6.5,1.66,2.1,Bet365,Melbourne Renegades v Adelaide Strikers,Total Team Sixes
-Adelaide Strikers,5.5,1.83,1.83,Bet365,Melbourne Renegades v Adelaide Strikers,Total Team Sixes
-Sydney Sixers,7.5,2.2,1.61,Bet365,Sydney Sixers v Brisbane Heat,Total Team Sixes
-Brisbane Heat,6.5,1.72,2,Bet365,Sydney Sixers v Brisbane Heat,Total Team Sixes
-Perth Scorchers,6.5,1.72,2,Bet365,Perth Scorchers v Sydney Thunder,Total Team Sixes
-Sydney Thunder,5.5,2,1.72,Bet365,Perth Scorchers v Sydney Thunder,Total Team Sixes
+Sydney Sixers,6.5,1.72,2,Bet365,Sydney Sixers v Brisbane Heat,Total Team Sixes
+Brisbane Heat,6.5,1.83,1.83,Bet365,Sydney Sixers v Brisbane Heat,Total Team Sixes
 Perth Scorchers,6.5,1.72,2,Bet365,Perth Scorchers v Sydney Thunder,Total Team Sixes
 Sydney Thunder,5.5,2,1.72,Bet365,Perth Scorchers v Sydney Thunder,Total Team Sixes
