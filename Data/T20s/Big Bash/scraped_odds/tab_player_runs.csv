@@ -106,11 +106,11 @@ Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Rene
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,4.5,1.09,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,9.5,1.28,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,14.5,1.45,NA,TAB
-Perth Scorchers v Sydney Thunder,Alternate Player Runs O/U,Perth Scorchers,Sydney Thunder,Aaron Hardie,15.5,1.5,2.4,TAB
+Perth Scorchers v Sydney Thunder,Alternate Player Runs O/U,Perth Scorchers,Sydney Thunder,Aaron Hardie,15.5,1.6,2.2,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,19.5,1.7,NA,TAB
-Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,22.5,1.85,1.85,TAB
+Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,22.5,2,1.72,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,24.5,2.05,NA,TAB
-Perth Scorchers v Sydney Thunder,Alternate Player Runs O/U,Perth Scorchers,Sydney Thunder,Aaron Hardie,29.5,2.4,1.5,TAB
+Perth Scorchers v Sydney Thunder,Alternate Player Runs O/U,Perth Scorchers,Sydney Thunder,Aaron Hardie,29.5,2.7,1.4,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,29.5,2.4,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,39.5,3.3,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Aaron Hardie,49.5,4.5,NA,TAB
@@ -207,107 +207,3 @@ Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Sam 
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Sam Billings,49.5,5.5,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Sam Billings,74.5,15,NA,TAB
 Perth Scorchers v Sydney Thunder,Player Runs,Perth Scorchers,Sydney Thunder,Sam Billings,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,4.5,1.1,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,9.5,1.3,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Colin Munro,14.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,14.5,1.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,19.5,1.75,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,21.5,2.1,1.65,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,24.5,2.1,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Colin Munro,28.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,29.5,2.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,39.5,3.4,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,49.5,5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,74.5,13,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Colin Munro,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,4.5,1.09,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,9.5,1.28,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,14.5,1.45,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,James Vince,15.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,19.5,1.7,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,22.5,2,1.72,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,24.5,2.05,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,James Vince,29.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,29.5,2.4,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,39.5,3.3,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,49.5,4.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,74.5,12,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,James Vince,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,4.5,1.11,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,9.5,1.33,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Josh Philippe,13.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,14.5,1.55,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,19.5,1.8,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,20.5,2,1.72,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,24.5,2.2,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Josh Philippe,27.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,29.5,2.6,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,39.5,3.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,49.5,5.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,74.5,15,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Josh Philippe,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,4.5,1.09,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,9.5,1.28,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,14.5,1.45,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Kurtis Patterson,15.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,19.5,1.7,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,22.5,2.1,1.65,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,24.5,2.05,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Kurtis Patterson,29.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,29.5,2.4,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,39.5,3.3,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,49.5,4.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,74.5,12,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Kurtis Patterson,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,4.5,1.09,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,9.5,1.28,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,14.5,1.45,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Matthew Renshaw,15.5,1.6,2.2,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,19.5,1.7,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,22.5,2,1.72,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,24.5,2.05,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Matthew Renshaw,29.5,2.7,1.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,29.5,2.4,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,39.5,3.3,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,49.5,4.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,74.5,12,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Matthew Renshaw,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,4.5,1.12,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,9.5,1.38,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Moises Henriques,11.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,14.5,1.65,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,18.5,1.85,1.85,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,19.5,1.95,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,24.5,2.45,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Moises Henriques,25.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,29.5,2.8,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,39.5,3.8,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,49.5,6,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,74.5,17,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Moises Henriques,99.5,41,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,4.5,1.1,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,9.5,1.3,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Nathan McSweeney,14.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,14.5,1.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,19.5,1.75,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,21.5,1.85,1.85,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,24.5,2.1,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Nathan McSweeney,28.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,29.5,2.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,39.5,3.4,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,49.5,5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,74.5,13,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,99.5,26,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,4.5,1.11,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,9.5,1.33,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Tom Banton,13.5,1.5,2.4,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,14.5,1.55,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,19.5,1.8,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,20.5,2,1.72,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,24.5,2.2,NA,TAB
-Sydney Sixers v Brisbane Heat,Alternate Player Runs O/U,Sydney Sixers,Brisbane Heat,Tom Banton,27.5,2.4,1.5,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,29.5,2.6,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,39.5,3.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,49.5,5.5,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,74.5,15,NA,TAB
-Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Tom Banton,99.5,26,NA,TAB
