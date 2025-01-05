@@ -90,9 +90,9 @@
                 "HobartHurricanes",
                 "AdelaideStrikers"
             ],
-            "openMarketCount": 105,
+            "openMarketCount": 92,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 105,
+            "nonFutureMarketCount": 92,
             "markets": [
                 {
                     "id": "108484969",
@@ -125,7 +125,7 @@
                         {
                             "id": "651992",
                             "name": "Hobart Hurricanes",
-                            "returnWin": 1.75,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "651993",
                             "name": "Adelaide Strikers",
-                            "returnWin": 2.05,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -153,6 +153,204 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
+                },
+                {
+                    "id": "108656584",
+                    "name": "BBL Adelde In3WLv150-160",
+                    "shortName": "BBL Adelde In3WLv150-160",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108656584,
+                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "740230",
+                            "name": "Over 160 Runs",
+                            "returnWin": 1.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740230,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "740231",
+                            "name": "Between 150-160 Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740231,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "740232",
+                            "name": "Under 150 Runs",
+                            "returnWin": 2.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740232,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108656583",
+                    "name": "BBL Adelde In3WLv160-170",
+                    "shortName": "BBL Adelde In3WLv160-170",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108656583,
+                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "740227",
+                            "name": "Over 170 Runs",
+                            "returnWin": 2.25,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740227,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "740228",
+                            "name": "Between 160-170 Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740228,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "740229",
+                            "name": "Under 160 Runs",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740229,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108656582",
+                    "name": "BBL Adelde In3WLv170-180",
+                    "shortName": "BBL Adelde In3WLv170-180",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108656582,
+                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "740224",
+                            "name": "Over 180 Runs",
+                            "returnWin": 3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740224,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "740225",
+                            "name": "Between 170-180 Runs",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740225,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "740226",
+                            "name": "Under 170 Runs",
+                            "returnWin": 1.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 740226,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
                 },
                 {
                     "id": "108556142",
@@ -183,22 +381,9 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "657296",
-                            "name": "Matt Short (Ade)",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657296,
-                            "isOpen": true,
-                            "sortOrder": 12,
-                            "sameGame": true
-                        },
-                        {
                             "id": "657269",
                             "name": "Chris Lynn (Ade)",
-                            "returnWin": 4.2,
+                            "returnWin": 4.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -206,19 +391,6 @@
                             "number": 657269,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657274",
-                            "name": "Jake Weatherald (Ade)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657274,
-                            "isOpen": true,
-                            "sortOrder": 3,
                             "sameGame": true
                         },
                         {
@@ -235,9 +407,22 @@
                             "sameGame": true
                         },
                         {
+                            "id": "657274",
+                            "name": "Jake Weatherald (Ade)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 657274,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
                             "id": "657303",
                             "name": "Ollie Pope (Ade)",
-                            "returnWin": 5,
+                            "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -246,18 +431,6 @@
                             "isOpen": true,
                             "sortOrder": 16,
                             "sameGame": true
-                        },
-                        {
-                            "id": "657277",
-                            "name": "Harry Nielsen (Ade)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657277,
-                            "isOpen": true,
-                            "sortOrder": 4
                         },
                         {
                             "id": "657279",
@@ -272,21 +445,9 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "657281",
-                            "name": "Thomas Kelly (Ade)",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657281,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
                             "id": "657300",
                             "name": "James Bazley (Ade)",
-                            "returnWin": 8,
+                            "returnWin": 11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -296,21 +457,9 @@
                             "sortOrder": 14
                         },
                         {
-                            "id": "657307",
-                            "name": "Harry Manenti (Ade)",
-                            "returnWin": 9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657307,
-                            "isOpen": true,
-                            "sortOrder": 19
-                        },
-                        {
                             "id": "657298",
                             "name": "Jamie Overton (Ade)",
-                            "returnWin": 10,
+                            "returnWin": 13,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -321,16 +470,16 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657283",
-                            "name": "Liam Scott (Ade)",
-                            "returnWin": 17,
+                            "id": "657291",
+                            "name": "Henry Thornton (Ade)",
+                            "returnWin": 26,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657283,
+                            "number": 657291,
                             "isOpen": true,
-                            "sortOrder": 7,
+                            "sortOrder": 10,
                             "sameGame": true
                         },
                         {
@@ -349,7 +498,7 @@
                         {
                             "id": "657290",
                             "name": "Cameron Boyce (Ade)",
-                            "returnWin": 51,
+                            "returnWin": 81,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -360,46 +509,9 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657291",
-                            "name": "Henry Thornton (Ade)",
-                            "returnWin": 67,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657291,
-                            "isOpen": true,
-                            "sortOrder": 10,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657305",
-                            "name": "Liam Haskett (Ade)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657305,
-                            "isOpen": true,
-                            "sortOrder": 18
-                        },
-                        {
-                            "id": "657302",
-                            "name": "Jordan Buckingham (Ade)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657302,
-                            "isOpen": true,
-                            "sortOrder": 15
-                        },
-                        {
                             "id": "657294",
                             "name": "Lloyd Pope (Ade)",
-                            "returnWin": 101,
+                            "returnWin": 126,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -455,32 +567,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657236",
-                            "name": "Shai Hope (Hob)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657236,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657233",
-                            "name": "Mitch Owen (Hob)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657233,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "657261",
                             "name": "Ben McDermott (Hob)",
                             "returnWin": 5,
@@ -494,45 +580,35 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657235",
-                            "name": "Caleb Jewell (Hob)",
+                            "id": "657236",
+                            "name": "Shai Hope (Hob)",
                             "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657235,
+                            "number": 657236,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
-                            "id": "657264",
-                            "name": "Jake Doran (Hob)",
-                            "returnWin": 5.5,
+                            "id": "657233",
+                            "name": "Mitch Owen (Hob)",
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657264,
+                            "number": 657233,
                             "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
-                            "id": "657237",
-                            "name": "Charlie Wakim (Hob)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657237,
-                            "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "657239",
                             "name": "Nikhil Chaudhary (Hob)",
-                            "returnWin": 6.5,
+                            "returnWin": 7.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -544,7 +620,7 @@
                         {
                             "id": "657241",
                             "name": "Tim David (Hob)",
-                            "returnWin": 7.5,
+                            "returnWin": 8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -581,54 +657,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657247",
-                            "name": "Peter Hatzoglou (Hob)",
-                            "returnWin": 51,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657247,
-                            "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657259",
-                            "name": "Iain Carlisle (Hob)",
-                            "returnWin": 67,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657259,
-                            "isOpen": true,
-                            "sortOrder": 14
-                        },
-                        {
-                            "id": "657257",
-                            "name": "Waqar Salamkheil (Hob)",
-                            "returnWin": 67,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657257,
-                            "isOpen": true,
-                            "sortOrder": 13,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657262",
-                            "name": "Marcus Bean (Hob)",
+                            "id": "657250",
+                            "name": "Riley Meredith (Hob)",
                             "returnWin": 81,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657262,
+                            "number": 657250,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "657266",
@@ -644,29 +683,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657250",
-                            "name": "Riley Meredith (Hob)",
+                            "id": "657257",
+                            "name": "Waqar Salamkheil (Hob)",
                             "returnWin": 151,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657250,
+                            "number": 657257,
                             "isOpen": true,
-                            "sortOrder": 11,
+                            "sortOrder": 13,
                             "sameGame": true
-                        },
-                        {
-                            "id": "657249",
-                            "name": "Paddy Dooley (Hob)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657249,
-                            "isOpen": true,
-                            "sortOrder": 10
                         }
                     ],
                     "sameGame": true,
@@ -764,7 +791,7 @@
                     "betOptionSpectrumId": "4283",
                     "betOptionPriority": 1520,
                     "marketUniqueId": 108594239,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -824,16 +851,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667388",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.12,
+                            "id": "667389",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 1.11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667388,
+                            "number": 667389,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -931,7 +959,7 @@
                     "betOptionSpectrumId": "685",
                     "betOptionPriority": 1525,
                     "marketUniqueId": 108594240,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -991,16 +1019,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667398",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.38,
+                            "id": "667399",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 1.33,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667398,
+                            "number": 667399,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1098,7 +1127,7 @@
                     "betOptionSpectrumId": "4284",
                     "betOptionPriority": 1530,
                     "marketUniqueId": 108594211,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1158,16 +1187,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667428",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.65,
+                            "id": "667429",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 1.55,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667428,
+                            "number": 667429,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1265,7 +1295,7 @@
                     "betOptionSpectrumId": "862",
                     "betOptionPriority": 1535,
                     "marketUniqueId": 108594238,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1325,16 +1355,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667418",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.95,
+                            "id": "667419",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667418,
+                            "number": 667419,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1432,7 +1463,7 @@
                     "betOptionSpectrumId": "489",
                     "betOptionPriority": 1540,
                     "marketUniqueId": 108594236,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1492,16 +1523,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667438",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.45,
+                            "id": "667439",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667438,
+                            "number": 667439,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1599,7 +1631,7 @@
                     "betOptionSpectrumId": "4286",
                     "betOptionPriority": 1545,
                     "marketUniqueId": 108594215,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1659,16 +1691,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667448",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.8,
+                            "id": "667449",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 2.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667448,
+                            "number": 667449,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1766,7 +1799,7 @@
                     "betOptionSpectrumId": "4287",
                     "betOptionPriority": 1550,
                     "marketUniqueId": 108594218,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1826,16 +1859,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667458",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 3.8,
+                            "id": "667459",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 3.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667458,
+                            "number": 667459,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -1933,7 +1967,7 @@
                     "betOptionSpectrumId": "443",
                     "betOptionPriority": 1555,
                     "marketUniqueId": 108594220,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -1993,16 +2027,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667468",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 6,
+                            "id": "667469",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 5.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667468,
+                            "number": 667469,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -2100,7 +2135,7 @@
                     "betOptionSpectrumId": "1024",
                     "betOptionPriority": 1560,
                     "marketUniqueId": 108594221,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2158,18 +2193,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667478",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667478,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -2267,7 +2290,7 @@
                     "betOptionSpectrumId": "399",
                     "betOptionPriority": 1565,
                     "marketUniqueId": 108594237,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2327,16 +2350,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "667488",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 41,
+                            "id": "667489",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 26,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667488,
+                            "number": 667489,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -2434,7 +2458,7 @@
                     "betOptionSpectrumId": "1940",
                     "betOptionPriority": 1580,
                     "marketUniqueId": 108594227,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2492,18 +2516,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667626",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667626,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -2601,7 +2613,7 @@
                     "betOptionSpectrumId": "1941",
                     "betOptionPriority": 1585,
                     "marketUniqueId": 108594228,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2659,18 +2671,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667634",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667634,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -2768,7 +2768,7 @@
                     "betOptionSpectrumId": "1959",
                     "betOptionPriority": 1590,
                     "marketUniqueId": 108594216,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -2826,18 +2826,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667642",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667642,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -2935,7 +2923,7 @@
                     "betOptionSpectrumId": "1990",
                     "betOptionPriority": 1595,
                     "marketUniqueId": 108594230,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -2993,18 +2981,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667658",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667658,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -3102,7 +3078,7 @@
                     "betOptionSpectrumId": "1804",
                     "betOptionPriority": 1600,
                     "marketUniqueId": 108594229,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -3160,18 +3136,6 @@
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667650",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667650,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -3269,7 +3233,7 @@
                     "betOptionSpectrumId": "1802",
                     "betOptionPriority": 1605,
                     "marketUniqueId": 108594231,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -3327,18 +3291,6 @@
                             "isOpen": true,
                             "sortOrder": 2,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667522",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667522,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -3436,7 +3388,7 @@
                     "betOptionSpectrumId": "1929",
                     "betOptionPriority": 1610,
                     "marketUniqueId": 108594213,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3494,18 +3446,6 @@
                             "isOpen": true,
                             "sortOrder": 2,
                             "sameGame": true
-                        },
-                        {
-                            "id": "667530",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 4.25,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 667530,
-                            "isOpen": true,
-                            "sortOrder": 4
                         }
                     ],
                     "sameGame": true,
@@ -3603,7 +3543,7 @@
                     "betOptionSpectrumId": "1803",
                     "betOptionPriority": 1615,
                     "marketUniqueId": 108594226,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": "Player must face a ball or bets refunded",
@@ -3764,7 +3704,7 @@
                     "betOptionSpectrumId": "3132",
                     "betOptionPriority": 1620,
                     "marketUniqueId": 108594219,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -3842,7 +3782,7 @@
                     "betOptionSpectrumId": "1932",
                     "betOptionPriority": 1630,
                     "marketUniqueId": 108485079,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
+                    "closeTime": "2025-01-05T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": null,
@@ -3863,214 +3803,28 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "654834",
-                            "name": "Adel Over 164.5 Runs",
+                            "id": "654836",
+                            "name": "Adel Over 162.5 Runs",
                             "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 654834,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654835",
-                            "name": "Adel Under 164.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654835,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485125",
-                    "name": "BBL Hobart InnRunOU 05/01",
-                    "shortName": "BBL Hobart InnRunOU",
-                    "betOption": "Innings Runs Over/Under",
-                    "betOptionSpectrumId": "1932",
-                    "betOptionPriority": 1630,
-                    "marketUniqueId": 108485125,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654790",
-                            "name": "Hoba Over 166.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654790,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654791",
-                            "name": "Hoba Under 166.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654791,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485081",
-                    "name": "BBL Adelaide InnsRun3Way 05/01",
-                    "shortName": "BBL Adelaide InnsRun3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 108485081,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654840",
-                            "name": "Adel 170 Runs or more",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654840,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654841",
-                            "name": "Adel 160 - 169 Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654841,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "654842",
-                            "name": "Adel 159 Runs or less",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654842,
+                            "number": 654836,
                             "isOpen": true,
                             "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "108485126",
-                    "name": "BBL Hobart InnsRun3Way 05/01",
-                    "shortName": "BBL Hobart InnsRun3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 108485126,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654796",
-                            "name": "Hoba 172 Runs or more",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654796,
-                            "isOpen": true,
-                            "sortOrder": 1
                         },
                         {
-                            "id": "654797",
-                            "name": "Hoba 162 - 171 Runs",
-                            "returnWin": 6.5,
+                            "id": "654837",
+                            "name": "Adel Under 162.5 Runs",
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 654797,
+                            "number": 654837,
                             "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "654798",
-                            "name": "Hoba 161 Runs or less",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654798,
-                            "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 4
                         }
                     ]
                 },
@@ -4082,7 +3836,7 @@
                     "betOptionSpectrumId": "836",
                     "betOptionPriority": 1655,
                     "marketUniqueId": 108485082,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
+                    "closeTime": "2025-01-05T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": "Team must bat 1st or bets refunded.",
@@ -4105,7 +3859,7 @@
                         {
                             "id": "654843",
                             "name": "Adel 201 Runs or more",
-                            "returnWin": 7,
+                            "returnWin": 8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4117,7 +3871,7 @@
                         {
                             "id": "654844",
                             "name": "Adel 181-200 Runs",
-                            "returnWin": 4.5,
+                            "returnWin": 4.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4129,7 +3883,7 @@
                         {
                             "id": "654845",
                             "name": "Adel 161-180 Runs",
-                            "returnWin": 3.2,
+                            "returnWin": 3.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4141,7 +3895,7 @@
                         {
                             "id": "654846",
                             "name": "Adel 141-160 Runs",
-                            "returnWin": 3.6,
+                            "returnWin": 3.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4153,7 +3907,7 @@
                         {
                             "id": "654847",
                             "name": "Adel 121-140 Runs",
-                            "returnWin": 6,
+                            "returnWin": 5.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4165,204 +3919,12 @@
                         {
                             "id": "654848",
                             "name": "Adel 120 Runs or less",
-                            "returnWin": 12,
+                            "returnWin": 11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 654848,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "108485127",
-                    "name": "BBL Hobart InnsRun6Way 05/01",
-                    "shortName": "BBL Hobart InnsRun6Way",
-                    "betOption": "Innings Runs 6-Way",
-                    "betOptionSpectrumId": "836",
-                    "betOptionPriority": 1655,
-                    "marketUniqueId": 108485127,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654799",
-                            "name": "Hoba 201 Runs or more",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654799,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654800",
-                            "name": "Hoba 181-200 Runs",
-                            "returnWin": 4.25,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654800,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "654801",
-                            "name": "Hoba 161-180 Runs",
-                            "returnWin": 3.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654801,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "654802",
-                            "name": "Hoba 141-160 Runs",
-                            "returnWin": 3.75,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654802,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "654803",
-                            "name": "Hoba 121-140 Runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654803,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "654804",
-                            "name": "Hoba 120 Runs or less",
-                            "returnWin": 14,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654804,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "108485131",
-                    "name": "BBL Hobart AltRuns 05/01",
-                    "shortName": "BBL Hobart AltRuns",
-                    "betOption": "Home Team Alternate Total Runs",
-                    "betOptionSpectrumId": "1942",
-                    "betOptionPriority": 1660,
-                    "marketUniqueId": 108485131,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654770",
-                            "name": "Hoba 140+ Runs",
-                            "returnWin": 1.15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654770,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "654771",
-                            "name": "Hoba 160+ Runs",
-                            "returnWin": 1.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654771,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "654772",
-                            "name": "Hoba 180+ Runs",
-                            "returnWin": 2.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654772,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "654773",
-                            "name": "Hoba 200+ Runs",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654773,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "654774",
-                            "name": "Hoba 220+ Runs",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654774,
                             "isOpen": true,
                             "sortOrder": 6
                         }
@@ -4376,7 +3938,7 @@
                     "betOptionSpectrumId": "1945",
                     "betOptionPriority": 1665,
                     "marketUniqueId": 108485074,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
+                    "closeTime": "2025-01-05T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": null,
@@ -4397,9 +3959,21 @@
                     "allowBundle": false,
                     "propositions": [
                         {
+                            "id": "654813",
+                            "name": "Adel 120+ Runs",
+                            "returnWin": 1.01,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654813,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
                             "id": "654814",
                             "name": "Adel 140+ Runs",
-                            "returnWin": 1.18,
+                            "returnWin": 1.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4411,7 +3985,7 @@
                         {
                             "id": "654815",
                             "name": "Adel 160+ Runs",
-                            "returnWin": 1.68,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4423,7 +3997,7 @@
                         {
                             "id": "654816",
                             "name": "Adel 180+ Runs",
-                            "returnWin": 3.1,
+                            "returnWin": 3.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4435,7 +4009,7 @@
                         {
                             "id": "654817",
                             "name": "Adel 200+ Runs",
-                            "returnWin": 7.5,
+                            "returnWin": 8.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4447,7 +4021,7 @@
                         {
                             "id": "654818",
                             "name": "Adel 220+ Runs",
-                            "returnWin": 26,
+                            "returnWin": 34,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4546,7 +4120,7 @@
                         {
                             "id": "667897",
                             "name": "D Short Over 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4559,7 +4133,7 @@
                         {
                             "id": "667898",
                             "name": "D Short Under 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4603,7 +4177,7 @@
                         {
                             "id": "667899",
                             "name": "C Lynn Over 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4616,7 +4190,7 @@
                         {
                             "id": "667900",
                             "name": "C Lynn Under 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4694,7 +4268,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108594232,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4751,7 +4325,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108594233,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4808,7 +4382,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108594234,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -4865,7 +4439,7 @@
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
                     "marketUniqueId": 108594235,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -5247,7 +4821,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108594225,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -5325,7 +4899,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108594222,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -5407,7 +4981,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108594223,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -5489,7 +5063,7 @@
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
                     "marketUniqueId": 108594224,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
                     "informationMessage": null,
@@ -5562,126 +5136,6 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "108556144",
-                    "name": "BBL Hobart-Adelaide HiOpPart",
-                    "shortName": "BBL Hoba-Adel HiOpPart",
-                    "betOption": "Highest Opening Partnership",
-                    "betOptionSpectrumId": "158",
-                    "betOptionPriority": 1695,
-                    "marketUniqueId": 108556144,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "657213",
-                            "name": "HobartHurricanes",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657213,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "657215",
-                            "name": "tie",
-                            "returnWin": 34,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657215,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "657218",
-                            "name": "AdelaideStrikers",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657218,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "108485011",
-                    "name": "BBL Hobrt-Adel 4OvrLead 05/01",
-                    "shortName": "BBL Hobrt-Adel 4OvrLead",
-                    "betOption": "Leading Team After 4 Overs",
-                    "betOptionSpectrumId": "3134",
-                    "betOptionPriority": 1700,
-                    "marketUniqueId": 108485011,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652263",
-                            "name": "Hobart Hurricanes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652263,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652264",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652264,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
                 },
                 {
                     "id": "108485076",
@@ -5781,7 +5235,7 @@
                     "betOptionSpectrumId": "118",
                     "betOptionPriority": 1760,
                     "marketUniqueId": 108485123,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -5925,7 +5379,7 @@
                     "betOptionSpectrumId": "779",
                     "betOptionPriority": 1835,
                     "marketUniqueId": 108594212,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Both must open batting or bets refunded",
                     "informationMessage": null,
@@ -5970,64 +5424,6 @@
                             "sortOrder": 2
                         }
                     ]
-                },
-                {
-                    "id": "108556140",
-                    "name": "BBL Adelaide FallWkt1 21.5",
-                    "shortName": "BBL Adelaide FallWkt1 21.5",
-                    "betOption": "Fall Of 1st Wicket",
-                    "betOptionSpectrumId": "2203",
-                    "betOptionPriority": 1930,
-                    "marketUniqueId": 108556140,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "657201",
-                            "name": "Ade Over 21.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657201,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657203",
-                            "name": "Ade Under 21.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657203,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108556141",
@@ -6088,72 +5484,6 @@
                     "sameGameMultipleSelections": false
                 },
                 {
-                    "id": "108556139",
-                    "name": "BBL Hobart-Adelaide Mtch6s3W",
-                    "shortName": "BBL Hoba-Adel Mtch6s3W",
-                    "betOption": "Match Sixes 3-Way",
-                    "betOptionSpectrumId": "2210",
-                    "betOptionPriority": 1975,
-                    "marketUniqueId": 108556139,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "657222",
-                            "name": "HobartHurricanes",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657222,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "657224",
-                            "name": "tie",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657224,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "657226",
-                            "name": "AdelaideStrikers",
-                            "returnWin": 2.15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657226,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
-                },
-                {
                     "id": "108485014",
                     "name": "BBL Hobrt-Adel 6sOvrUnder 05/01",
                     "shortName": "BBL Hobrt-Adel 6sOvrUnder",
@@ -6184,7 +5514,7 @@
                         {
                             "id": "652267",
                             "name": "Over 11.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6196,7 +5526,7 @@
                         {
                             "id": "652268",
                             "name": "Under 11.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6568,7 +5898,7 @@
                         {
                             "id": "657352",
                             "name": "Lloyd Pope (Ade)",
-                            "returnWin": 4.2,
+                            "returnWin": 4.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6579,22 +5909,9 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657354",
-                            "name": "Jamie Overton (Ade)",
-                            "returnWin": 4.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657354,
-                            "isOpen": true,
-                            "sortOrder": 13,
-                            "sameGame": true
-                        },
-                        {
                             "id": "657351",
                             "name": "Henry Thornton (Ade)",
-                            "returnWin": 4.2,
+                            "returnWin": 4.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6605,22 +5922,22 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657349",
-                            "name": "Brendan Doggett (Ade)",
-                            "returnWin": 4.25,
+                            "id": "657354",
+                            "name": "Jamie Overton (Ade)",
+                            "returnWin": 4.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657349,
+                            "number": 657354,
                             "isOpen": true,
-                            "sortOrder": 8,
+                            "sortOrder": 13,
                             "sameGame": true
                         },
                         {
                             "id": "657350",
                             "name": "Cameron Boyce (Ade)",
-                            "returnWin": 4.5,
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6631,46 +5948,22 @@
                             "sameGame": true
                         },
                         {
-                            "id": "657359",
-                            "name": "Liam Haskett (Ade)",
-                            "returnWin": 6,
+                            "id": "657349",
+                            "name": "Brendan Doggett (Ade)",
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 657359,
+                            "number": 657349,
                             "isOpen": true,
-                            "sortOrder": 18
-                        },
-                        {
-                            "id": "657348",
-                            "name": "Liam Scott (Ade)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657348,
-                            "isOpen": true,
-                            "sortOrder": 7,
+                            "sortOrder": 8,
                             "sameGame": true
-                        },
-                        {
-                            "id": "657356",
-                            "name": "Jordan Buckingham (Ade)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657356,
-                            "isOpen": true,
-                            "sortOrder": 15
                         },
                         {
                             "id": "657355",
                             "name": "James Bazley (Ade)",
-                            "returnWin": 6.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6680,21 +5973,9 @@
                             "sortOrder": 14
                         },
                         {
-                            "id": "657360",
-                            "name": "Harry Manenti (Ade)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657360,
-                            "isOpen": true,
-                            "sortOrder": 19
-                        },
-                        {
                             "id": "657343",
                             "name": "DArcy Short (Ade)",
-                            "returnWin": 9,
+                            "returnWin": 11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6702,19 +5983,6 @@
                             "number": 657343,
                             "isOpen": true,
                             "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "657353",
-                            "name": "Matt Short (Ade)",
-                            "returnWin": 10,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 657353,
-                            "isOpen": true,
-                            "sortOrder": 12,
                             "sameGame": true
                         }
                     ],
@@ -7384,120 +6652,6 @@
                     "sameGameMultipleSelections": true
                 },
                 {
-                    "id": "108485013",
-                    "name": "BBL Hobrt-Adel WinMargin 05/01",
-                    "shortName": "BBL Hobrt-Adel WinMargin",
-                    "betOption": "Margin",
-                    "betOptionSpectrumId": "32",
-                    "betOptionPriority": 2620,
-                    "marketUniqueId": 108485013,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652248",
-                            "name": "Hobart 41+ runs/8-10 wickets",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652248,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652249",
-                            "name": "Hobrt 21-40 runs/5-7 wickets",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652249,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "652250",
-                            "name": "Hobart 1-20 runs/1-4 wickets",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652250,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "652251",
-                            "name": "Tie (Superover)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652251,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "652255",
-                            "name": "Adelde 1-20 runs/1-4 wickets",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652255,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "652256",
-                            "name": "Adel 21-40 runs/5-7 wickets",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652256,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
-                            "id": "652257",
-                            "name": "Adelde 41+ runs/8-10 wickets",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652257,
-                            "isOpen": true,
-                            "sortOrder": 7
-                        }
-                    ]
-                },
-                {
                     "id": "108594210",
                     "name": "BBL Hobrt-Adel PlrOfMch",
                     "shortName": "BBL Hobrt-Adel PlrOfMch",
@@ -7550,21 +6704,21 @@
                             "sortOrder": 8
                         },
                         {
-                            "id": "667010",
-                            "name": "Ben McDermott (Hob)",
-                            "returnWin": 10,
+                            "id": "667354",
+                            "name": "Matthew Wade (Hob)",
+                            "returnWin": 9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667010,
+                            "number": 667354,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 16
                         },
                         {
                             "id": "667370",
                             "name": "Chris Lynn (Ade)",
-                            "returnWin": 10,
+                            "returnWin": 9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7574,16 +6728,16 @@
                             "sortOrder": 28
                         },
                         {
-                            "id": "667354",
-                            "name": "Matthew Wade (Hob)",
-                            "returnWin": 11,
+                            "id": "667010",
+                            "name": "Ben McDermott (Hob)",
+                            "returnWin": 9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 667354,
+                            "number": 667010,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 12
                         },
                         {
                             "id": "667379",
@@ -7912,60 +7066,6 @@
                     ]
                 },
                 {
-                    "id": "108485016",
-                    "name": "BBL Hobrt-Adel WinTos 05/01",
-                    "shortName": "BBL Hobrt-Adel WinTos",
-                    "betOption": "Winner Of The Toss",
-                    "betOptionSpectrumId": "845",
-                    "betOptionPriority": 3235,
-                    "marketUniqueId": 108485016,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652261",
-                            "name": "Hobart Hurricanes",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652261,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652262",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652262,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "108485071",
                     "name": "BBL Adelaide 1stOvrRuns 05/01",
                     "shortName": "BBL Adelaide 1stOvrRuns",
@@ -8104,7 +7204,7 @@
                         {
                             "id": "654851",
                             "name": "Adel Over 3.5 Runs",
-                            "returnWin": 1.28,
+                            "returnWin": 1.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8116,7 +7216,7 @@
                         {
                             "id": "654852",
                             "name": "Adel Under 3.5 Runs",
-                            "returnWin": 3.3,
+                            "returnWin": 4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8189,7 +7289,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
                     "marketUniqueId": 108485110,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8243,7 +7343,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
                     "marketUniqueId": 108485112,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8297,7 +7397,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
                     "marketUniqueId": 108485113,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8351,7 +7451,7 @@
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
                     "marketUniqueId": 108485114,
-                    "closeTime": "2025-01-05T08:15:00.000Z",
+                    "closeTime": "2025-01-05T10:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8405,7 +7505,7 @@
                     "betOptionSpectrumId": "2765",
                     "betOptionPriority": 6595,
                     "marketUniqueId": 108485066,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
+                    "closeTime": "2025-01-05T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8452,14 +7552,14 @@
                     ]
                 },
                 {
-                    "id": "108485111",
-                    "name": "BBL Hobart 4OvrRuns 05/01",
-                    "shortName": "BBL Hobart 4OvrRuns",
-                    "betOption": "1st 4 Over Runs Over/Under",
-                    "betOptionSpectrumId": "2765",
-                    "betOptionPriority": 6595,
-                    "marketUniqueId": 108485111,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
+                    "id": "108656669",
+                    "name": "BBL Hoba-Adel AD 5Over3Wy O1-5 R35-40",
+                    "shortName": "BBL Ho-AD AD5Y O1-5 R35-40",
+                    "betOption": "Five Over Runs 3-Way (In Play)",
+                    "betOptionSpectrumId": "2205",
+                    "betOptionPriority": 14105,
+                    "marketUniqueId": 108656669,
+                    "closeTime": "2025-01-05T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8476,302 +7576,44 @@
                     "allowMultiPlace": false,
                     "allowMultiEachWay": false,
                     "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
+                    "cashOutEligibility": "Enabled",
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "654780",
-                            "name": "Hoba Over 31.5 Runs",
-                            "returnWin": 1.8,
+                            "id": "740485",
+                            "name": "o1-5 Ade Over 40 Runs",
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 654780,
+                            "number": 740485,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "654781",
-                            "name": "Hoba Under 31.5 Runs",
-                            "returnWin": 1.9,
+                            "id": "740486",
+                            "name": "o1-5 Ade 35-40 Runs",
+                            "returnWin": 3.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 654781,
+                            "number": 740486,
                             "isOpen": true,
                             "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485015",
-                    "name": "BBL Hobrt-Adel Most Fours 05/01",
-                    "shortName": "BBL Hobrt-Adel Most Fours",
-                    "betOption": "Team To Score Most Fours",
-                    "betOptionSpectrumId": "693",
-                    "betOptionPriority": 8140,
-                    "marketUniqueId": 108485015,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Dead Heat rules apply",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652265",
-                            "name": "Hobart Hurricanes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652265,
-                            "isOpen": true,
-                            "sortOrder": 1
                         },
                         {
-                            "id": "652266",
-                            "name": "Adelaide Strikers",
-                            "returnWin": 1.9,
+                            "id": "740487",
+                            "name": "o1-5 Ade Under 35 Runs",
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652266,
+                            "number": 740487,
                             "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485084",
-                    "name": "BBL Adelaide TeamFoursOU 05/01",
-                    "shortName": "BBL Adelaide TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 108485084,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654830",
-                            "name": "Adel Over 13.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654830,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654831",
-                            "name": "Adel Under 13.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654831,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485132",
-                    "name": "BBL Hobart TeamFoursOU 05/01",
-                    "shortName": "BBL Hobart TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 108485132,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654786",
-                            "name": "Hoba Over 13.5 Fours",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654786,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654787",
-                            "name": "Hoba Under 13.5 Fours",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654787,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485072",
-                    "name": "BBL Adelaide TeamSixesOU 05/01",
-                    "shortName": "BBL Adelaide TeamSixesOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8150,
-                    "marketUniqueId": 108485072,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654832",
-                            "name": "Adel Over 5.5 Sixes",
-                            "returnWin": 1.65,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654832,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654833",
-                            "name": "Adel Under 5.5 Sixes",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654833,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108485120",
-                    "name": "BBL Hobart TeamSixesOU 05/01",
-                    "shortName": "BBL Hobart TeamSixesOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8150,
-                    "marketUniqueId": 108485120,
-                    "closeTime": "2025-01-05T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "654788",
-                            "name": "Hoba Over 5.5 Sixes",
-                            "returnWin": 1.65,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654788,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "654789",
-                            "name": "Hoba Under 5.5 Sixes",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 654789,
-                            "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 3
                         }
                     ]
                 },
@@ -8806,7 +7648,7 @@
                         {
                             "id": "652277",
                             "name": "Over 27.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8818,7 +7660,7 @@
                         {
                             "id": "652278",
                             "name": "Under 27.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -9041,7 +7883,8 @@
                             "allowPlace": false,
                             "number": 650020,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "650019",
@@ -9066,8 +7909,7 @@
                             "allowPlace": false,
                             "number": 650031,
                             "isOpen": true,
-                            "sortOrder": 13,
-                            "sameGame": true
+                            "sortOrder": 13
                         },
                         {
                             "id": "650034",
@@ -16357,6 +15199,7 @@
     "hasMarkets": true,
     "betOptionPriority": [
         "Head To Head",
+        "Innings Runs 3-Way",
         "High Bat",
         "To Score 5",
         "To Score 10",
@@ -16378,9 +15221,7 @@
         "To Hit 3+ Sixes",
         "To Hit a Four and a Six",
         "Innings Runs Over/Under",
-        "Innings Runs 3-Way",
         "Innings Runs 6-Way",
-        "Home Team Alternate Total Runs",
         "Away Team Alternate Total Runs",
         "Player Runs",
         "Alternate Player Runs O/U",
@@ -16403,9 +15244,7 @@
         "Winner Of The Toss",
         "1st Over Runs",
         "1st 4 Over Runs Over/Under",
-        "Team To Score Most Fours",
-        "Team Total Fours Over/Under",
-        "Team Total Sixes Over/Under",
+        "Five Over Runs 3-Way (In Play)",
         "Total Fours Over/Under"
     ],
     "betOptions": [
@@ -16415,6 +15254,14 @@
             "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Head%20To%20Head"
+            }
+        },
+        {
+            "name": "Innings Runs 3-Way",
+            "hasFutureMarket": false,
+            "openMarketCount": 3,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
             }
         },
         {
@@ -16580,33 +15427,17 @@
         {
             "name": "Innings Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%20Over%2FUnder"
             }
         },
         {
-            "name": "Innings Runs 3-Way",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
-            }
-        },
-        {
             "name": "Innings Runs 6-Way",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%206-Way"
-            }
-        },
-        {
-            "name": "Home Team Alternate Total Runs",
             "hasFutureMarket": false,
             "openMarketCount": 1,
             "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Home%20Team%20Alternate%20Total%20Runs"
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%206-Way"
             }
         },
         {
@@ -16636,7 +15467,7 @@
         {
             "name": "Highest Opening Partnership",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Highest%20Opening%20Partnership"
             }
@@ -16644,7 +15475,7 @@
         {
             "name": "Leading Team After 4 Overs",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Leading%20Team%20After%204%20Overs"
             }
@@ -16668,7 +15499,7 @@
         {
             "name": "Fall Of 1st Wicket",
             "hasFutureMarket": false,
-            "openMarketCount": 4,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Fall%20Of%201st%20Wicket"
             }
@@ -16676,7 +15507,7 @@
         {
             "name": "Match Sixes 3-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Match%20Sixes%203-Way"
             }
@@ -16748,7 +15579,7 @@
         {
             "name": "Margin",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Margin"
             }
@@ -16764,7 +15595,7 @@
         {
             "name": "Winner Of The Toss",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
@@ -16780,33 +15611,17 @@
         {
             "name": "1st 4 Over Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=1st%204%20Over%20Runs%20Over%2FUnder"
             }
         },
         {
-            "name": "Team To Score Most Fours",
+            "name": "Five Over Runs 3-Way (In Play)",
             "hasFutureMarket": false,
             "openMarketCount": 1,
             "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20To%20Score%20Most%20Fours"
-            }
-        },
-        {
-            "name": "Team Total Fours Over/Under",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Fours%20Over%2FUnder"
-            }
-        },
-        {
-            "name": "Team Total Sixes Over/Under",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Sixes%20Over%2FUnder"
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Five%20Over%20Runs%203-Way%20(In%20Play)"
             }
         },
         {
