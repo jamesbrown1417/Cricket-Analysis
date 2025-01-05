@@ -1,13 +1,4 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,9.5,1.18,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,19.5,1.65,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,Melbourne Stars,Melbourne Renegades,20.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,29.5,2.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,39.5,2.9,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,49.5,4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,79.5,12,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,99.5,26,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ben McDermott,NA,NA,9.5,1.28,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ben McDermott,NA,NA,19.5,1.8,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ben McDermott,Hobart Hurricanes,Adelaide Strikers,22.5,1.9,1.8,TopSport
@@ -35,56 +26,6 @@ Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Str
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,DArcy Short,NA,NA,59.5,4.6,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,DArcy Short,NA,NA,79.5,12,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,DArcy Short,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,9.5,1.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,19.5,1.95,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,Melbourne Stars,Melbourne Renegades,19.5,2.05,1.7,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,29.5,2.9,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,39.5,4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,49.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,59.5,7.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Dan Lawerence,NA,NA,79.5,17,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,9.5,1.25,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,29.5,2.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,39.5,3.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,49.5,4.8,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,79.5,14,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,Melbourne Renegades,Melbourne Stars,18.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,9.5,1.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,Melbourne Renegades,Melbourne Stars,17.5,2,1.72,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,19.5,2.05,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,29.5,2.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,39.5,3.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,49.5,4.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,59.5,6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,79.5,14,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,99.5,34,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,9.5,1.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,Melbourne Renegades,Melbourne Stars,19.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,29.5,2.35,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,39.5,3.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,49.5,3.9,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,79.5,13,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,9.5,1.33,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,19.5,1.85,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,29.5,2.7,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,39.5,3.6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,49.5,4.8,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,59.5,7,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Laurie Evans,NA,NA,79.5,17,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,9.5,1.22,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,29.5,2.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,39.5,3.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,49.5,4.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,79.5,14,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,99.5,31,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matt Short,NA,NA,9.5,1.28,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matt Short,NA,NA,19.5,1.75,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matt Short,Adelaide Strikers,Hobart Hurricanes,21.5,1.95,1.76,TopSport
@@ -103,7 +44,7 @@ Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Str
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matthew Wade,NA,NA,59.5,4.6,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matthew Wade,NA,NA,79.5,9.5,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Matthew Wade,NA,NA,99.5,26,NA,TopSport
-Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Mitch Owen,Hobart Hurricanes,Adelaide Strikers,21.5,1.9,1.8,TopSport
+Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Mitch Owen,Hobart Hurricanes,Adelaide Strikers,21.5,2.1,1.65,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,NA,NA,9.5,1.25,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,Adelaide Strikers,Hobart Hurricanes,18.5,1.95,1.76,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,NA,NA,19.5,2.05,NA,TopSport
@@ -113,7 +54,6 @@ Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Str
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,NA,NA,59.5,6.5,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,NA,NA,79.5,15,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Ollie Pope,NA,NA,99.5,34,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,Melbourne Stars,Melbourne Renegades,17.5,2.05,1.7,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,NA,NA,9.5,1.3,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,NA,NA,19.5,1.75,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,Hobart Hurricanes,Adelaide Strikers,21.5,1.95,1.76,TopSport
@@ -123,7 +63,6 @@ Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Str
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,NA,NA,59.5,5.5,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,NA,NA,79.5,12,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Shai Hope,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Thomas F Rogers,Melbourne Stars,Melbourne Renegades,15.5,2.05,1.69,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,9.5,1.35,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,19.5,1.95,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,29.5,2.7,NA,TopSport
@@ -131,13 +70,3 @@ Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Str
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,49.5,5.5,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,59.5,7,NA,TopSport
 Hobart Hurricanes v Adelaide Strikers,Player Runs,Hobart Hurricanes,Adelaide Strikers,Tim David,NA,NA,79.5,13,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,9.5,1.22,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,Melbourne Renegades,Melbourne Stars,20.5,2,1.72,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,29.5,2.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,39.5,3.1,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,49.5,4.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,59.5,6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,79.5,13,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,99.5,31,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Upcoming Matches Total Runs,Must Bat First,NA,165.5,1.85,1.85,TopSport

@@ -1,28 +1,4 @@
 match,home_team,away_team,market,player_name,line,over_price,agency
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Thomas F. Rogers,0.5,2.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Thomas F. Rogers,1.5,5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Thomas F. Rogers,2.5,8.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Thomas F. Rogers,3.5,11,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Ben Duckett,0.5,2.15,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Ben Duckett,1.5,4.3,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Ben Duckett,2.5,7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Ben Duckett,3.5,10,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Sam Harper,0.5,2.2,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Sam Harper,1.5,4.6,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Sam Harper,2.5,7.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Sam Harper,3.5,10,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Jake Fraser-McGurk,0.5,1.75,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Jake Fraser-McGurk,1.5,3,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Jake Fraser-McGurk,2.5,4.8,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Jake Fraser-McGurk,3.5,7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Josh Brown,0.5,1.75,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Josh Brown,1.5,3,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Josh Brown,2.5,4.8,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Josh Brown,3.5,7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Tim Seifert,0.5,1.87,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Tim Seifert,1.5,3.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Tim Seifert,2.5,5.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 6s,Tim Seifert,3.5,8,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Mitch Owen,0.5,1.98,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Mitch Owen,1.5,3.8,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Mitch Owen,2.5,6.5,Pointsbet
@@ -63,42 +39,6 @@ Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Alex Ross,1.5,4.6,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Alex Ross,2.5,7.5,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 6s,Alex Ross,3.5,10,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,0.5,1.27,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,1.5,1.66,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,2.5,2.15,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,3.5,2.7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,4.5,3.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Thomas F. Rogers,5.5,4.3,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,0.5,1.28,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,1.5,1.67,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,2.5,2.15,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,3.5,2.75,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,4.5,3.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Ben Duckett,5.5,4.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,0.5,1.36,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,1.5,1.87,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,2.5,2.55,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,3.5,3.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,4.5,4.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Sam Harper,5.5,5.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,0.5,1.41,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,1.5,2,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,2.5,2.8,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,3.5,3.9,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,4.5,5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Jake Fraser-McGurk,5.5,6.5,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,0.5,1.27,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,1.5,1.66,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,2.5,2.15,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,3.5,2.7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,4.5,3.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Josh Brown,5.5,4.3,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,0.5,1.27,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,1.5,1.66,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,2.5,2.15,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,3.5,2.7,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,4.5,3.4,Pointsbet
-Melbourne Stars v Melbourne Renegades,Melbourne Renegades,Melbourne Stars,Number of 4s,Tim Seifert,5.5,4.3,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 4s,Mitch Owen,0.5,1.26,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 4s,Mitch Owen,1.5,1.64,Pointsbet
 Hobart Hurricanes v Adelaide Strikers,Adelaide Strikers,Hobart Hurricanes,Number of 4s,Mitch Owen,2.5,2.1,Pointsbet
