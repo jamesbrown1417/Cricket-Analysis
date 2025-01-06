@@ -1,12 +1,12 @@
 match,market,home_team,away_team,player_name,line,over_price,under_price,agency
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,4.5,1.11,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,9.5,1.33,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Colin Munro,13.5,1.5,2.4,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Colin Munro,13.5,1.6,2.2,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,14.5,1.55,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,19.5,1.8,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,20.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,20.5,2,1.72,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,24.5,2.2,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Colin Munro,27.5,2.4,1.5,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Colin Munro,27.5,2.7,1.4,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,29.5,2.6,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,39.5,3.5,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Colin Munro,49.5,5.5,NA,TAB
@@ -22,17 +22,17 @@ Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Wa
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,29.5,2.3,NA,TAB
 Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,David Warner,30.5,2.4,1.5,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,39.5,3.2,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,49.5,4.5,NA,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,49.5,4,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,74.5,12,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,David Warner,99.5,23,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,4.5,1.12,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,9.5,1.38,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Gilkes,11.5,1.5,2.4,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Gilkes,11.5,1.6,2.2,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,14.5,1.65,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,18.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,18.5,2,1.72,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,19.5,1.95,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,24.5,2.45,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Gilkes,25.5,2.4,1.5,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Gilkes,25.5,2.7,1.4,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,29.5,2.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,39.5,3.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,49.5,6,NA,TAB
@@ -40,12 +40,12 @@ Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew 
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Gilkes,99.5,41,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,4.5,1.11,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,9.5,1.33,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Renshaw,13.5,1.5,2.4,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Renshaw,13.5,1.6,2.2,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,14.5,1.55,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,19.5,1.8,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,20.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,20.5,2.1,1.65,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,24.5,2.2,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Renshaw,27.5,2.4,1.5,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Matthew Renshaw,27.5,2.7,1.4,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,29.5,2.6,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,39.5,3.5,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Matthew Renshaw,49.5,5.5,NA,TAB
@@ -66,12 +66,12 @@ Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Nathan M
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Nathan McSweeney,99.5,26,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,4.5,1.12,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,9.5,1.38,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Ollie Davies,11.5,1.5,2.4,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Ollie Davies,11.5,1.6,2.2,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,14.5,1.65,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,18.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,18.5,2.1,1.65,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,19.5,1.95,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,24.5,2.45,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Ollie Davies,25.5,2.4,1.5,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Ollie Davies,25.5,2.7,1.4,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,29.5,2.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,39.5,3.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,49.5,6,NA,TAB
@@ -79,30 +79,17 @@ Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Da
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Ollie Davies,99.5,41,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,4.5,1.12,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,9.5,1.38,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Sam Billings,11.5,1.5,2.4,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Sam Billings,11.5,1.6,2.2,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,14.5,1.65,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,18.5,1.85,1.85,TAB
+Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,18.5,2.1,1.65,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,19.5,1.95,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,24.5,2.45,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Sam Billings,25.5,2.4,1.5,TAB
+Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Sam Billings,25.5,2.7,1.4,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,29.5,2.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,39.5,3.8,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,49.5,6,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,74.5,17,NA,TAB
 Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Sam Billings,99.5,41,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,4.5,1.12,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,9.5,1.38,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Tom Banton,11.5,1.5,2.4,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,14.5,1.65,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,18.5,1.85,1.85,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,19.5,1.95,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,24.5,2.45,NA,TAB
-Brisbane Heat v Sydney Thunder,Alternate Player Runs O/U,Brisbane Heat,Sydney Thunder,Tom Banton,25.5,2.4,1.5,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,29.5,2.8,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,39.5,3.8,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,49.5,6,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,74.5,17,NA,TAB
-Brisbane Heat v Sydney Thunder,Player Runs,Brisbane Heat,Sydney Thunder,Tom Banton,99.5,41,NA,TAB
 Perth Scorchers v Melbourne Renegades,Player Runs,Perth Scorchers,Melbourne Renegades,Cooper Connolly,4.5,1.08,NA,TAB
 Perth Scorchers v Melbourne Renegades,Player Runs,Perth Scorchers,Melbourne Renegades,Cooper Connolly,9.5,1.2,NA,TAB
 Perth Scorchers v Melbourne Renegades,Player Runs,Perth Scorchers,Melbourne Renegades,Cooper Connolly,14.5,1.37,NA,TAB
