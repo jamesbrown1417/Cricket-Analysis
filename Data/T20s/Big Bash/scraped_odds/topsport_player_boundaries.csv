@@ -1,55 +1,37 @@
 match,market,home_team,away_team,player_name,line,over_price,agency
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Colin Munro,0.5,1.22,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Colin Munro,0.5,1.56,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Colin Munro,1.5,1.71,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Colin Munro,1.5,2.48,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Colin Munro,2.5,2.26,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Colin Munro,2.5,3.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Colin Munro,3.5,3.05,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Colin Munro,3.5,5.25,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Colin Munro,4.5,3.6,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,David Warner,0.5,1.06,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,David Warner,0.5,1.49,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,David Warner,1.5,1.3,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,David Warner,1.5,2.65,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,David Warner,2.5,1.66,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,David Warner,2.5,3.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,David Warner,3.5,2.1,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,David Warner,3.5,5.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,David Warner,4.5,2.36,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,0.5,1.2,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,0.5,2.85,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,1.5,1.86,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,1.5,4.3,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,2.5,2.28,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,2.5,6.25,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,3.5,3,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,3.5,9.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Gilkes,4.5,5,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,0.5,1.39,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,0.5,1.9,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,1.5,1.9,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,1.5,4,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,2.5,2.5,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,2.5,4.8,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,3.5,3.8,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,3.5,8,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Matthew Renshaw,4.5,5,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Max Bryant,0.5,1.11,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Max Bryant,0.5,1.84,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Max Bryant,1.5,1.6,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Max Bryant,1.5,3.5,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Max Bryant,2.5,2.15,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Max Bryant,2.5,5.25,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Max Bryant,3.5,2.8,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Max Bryant,3.5,6.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Max Bryant,4.5,4.25,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Oliver Davies,0.5,1.43,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Oliver Davies,0.5,1.88,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Oliver Davies,1.5,1.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Oliver Davies,1.5,2.55,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Oliver Davies,2.5,2,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Oliver Davies,2.5,4.25,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Oliver Davies,3.5,4.2,TopSport
-Brisbane Heat v Sydney Thunder,Number of 6s,Brisbane Heat,Sydney Thunder,Oliver Davies,3.5,6.75,TopSport
-Brisbane Heat v Sydney Thunder,Number of 4s,Brisbane Heat,Sydney Thunder,Oliver Davies,4.5,5.8,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Finn Allen,0.5,1.23,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Finn Allen,0.5,1.43,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Finn Allen,1.5,1.51,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Finn Allen,1.5,2.1,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Finn Allen,2.5,1.91,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Finn Allen,2.5,2.6,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Finn Allen,3.5,2.55,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Finn Allen,3.5,4,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Finn Allen,4.5,3.45,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,0.5,1.3,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,0.5,1.86,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,1.5,1.8,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,1.5,3.65,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,2.5,3.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,2.5,5.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,3.5,4.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,3.5,6.5,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Jake Fraser McGurk,4.5,6.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Josh Brown,0.5,1.04,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Josh Brown,0.5,1.27,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Josh Brown,1.5,1.45,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Josh Brown,1.5,2.06,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Josh Brown,2.5,1.99,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Josh Brown,2.5,2.75,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Josh Brown,3.5,3.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Josh Brown,3.5,4,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Josh Brown,4.5,5.25,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Tim Seifert,0.5,1.12,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Tim Seifert,0.5,1.59,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Tim Seifert,1.5,1.52,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Tim Seifert,1.5,2.85,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Tim Seifert,2.5,1.94,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Tim Seifert,2.5,4.6,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Tim Seifert,3.5,2.5,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 6s,Perth Scorchers,Melbourne Renegades,Tim Seifert,3.5,6.75,TopSport
+Perth Scorchers v Melbourne Renegades,Number of 4s,Perth Scorchers,Melbourne Renegades,Tim Seifert,4.5,3.15,TopSport
