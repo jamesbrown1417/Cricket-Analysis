@@ -6795,7 +6795,7 @@
                         {
                             "id": "655115",
                             "name": "Hoba Over 3.5 Runs",
-                            "returnWin": 1.28,
+                            "returnWin": 1.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6807,7 +6807,7 @@
                         {
                             "id": "655116",
                             "name": "Hoba Under 3.5 Runs",
-                            "returnWin": 3.3,
+                            "returnWin": 3.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6849,7 +6849,7 @@
                         {
                             "id": "655113",
                             "name": "Hoba Over 5.5 Runs",
-                            "returnWin": 1.6,
+                            "returnWin": 1.52,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6861,7 +6861,7 @@
                         {
                             "id": "655114",
                             "name": "Hoba Under 5.5 Runs",
-                            "returnWin": 2.2,
+                            "returnWin": 2.35,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6903,7 +6903,7 @@
                         {
                             "id": "655117",
                             "name": "Hoba Over 7.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6915,7 +6915,7 @@
                         {
                             "id": "655118",
                             "name": "Hoba Under 7.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.58,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6957,7 +6957,7 @@
                         {
                             "id": "655119",
                             "name": "Hoba Over 9.5 Runs",
-                            "returnWin": 3.8,
+                            "returnWin": 3.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6969,7 +6969,7 @@
                         {
                             "id": "655120",
                             "name": "Hoba Under 9.5 Runs",
-                            "returnWin": 1.22,
+                            "returnWin": 1.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7011,7 +7011,7 @@
                         {
                             "id": "655069",
                             "name": "SyTh Over 5.5 Runs",
-                            "returnWin": 1.6,
+                            "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7023,7 +7023,7 @@
                         {
                             "id": "655070",
                             "name": "SyTh Under 5.5 Runs",
-                            "returnWin": 2.2,
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7065,7 +7065,7 @@
                         {
                             "id": "655071",
                             "name": "SyTh Over 3.5 Runs",
-                            "returnWin": 1.28,
+                            "returnWin": 1.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7077,7 +7077,7 @@
                         {
                             "id": "655072",
                             "name": "SyTh Under 3.5 Runs",
-                            "returnWin": 3.3,
+                            "returnWin": 3.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7119,7 +7119,7 @@
                         {
                             "id": "655073",
                             "name": "SyTh Over 7.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7131,7 +7131,7 @@
                         {
                             "id": "655074",
                             "name": "SyTh Under 7.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.58,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7173,7 +7173,7 @@
                         {
                             "id": "655075",
                             "name": "SyTh Over 9.5 Runs",
-                            "returnWin": 3.8,
+                            "returnWin": 3.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7185,7 +7185,7 @@
                         {
                             "id": "655076",
                             "name": "SyTh Under 9.5 Runs",
-                            "returnWin": 1.22,
+                            "returnWin": 1.25,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -18494,7 +18494,7 @@
                         {
                             "id": "651533",
                             "name": "J Wood Over 16.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -18506,7 +18506,7 @@
                         {
                             "id": "651534",
                             "name": "J Wood Under 16.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
