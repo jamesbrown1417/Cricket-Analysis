@@ -90,9 +90,9 @@
                 "Melbourne Stars",
                 "Sydney Sixers"
             ],
-            "openMarketCount": 105,
+            "openMarketCount": 93,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 105,
+            "nonFutureMarketCount": 93,
             "markets": [
                 {
                     "id": "108599200",
@@ -125,7 +125,7 @@
                         {
                             "id": "682021",
                             "name": "Melbourne Stars",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "682024",
                             "name": "Sydney Sixers",
-                            "returnWin": 1.8,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -153,6 +153,204 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
+                },
+                {
+                    "id": "108868892",
+                    "name": "BBL MlbStr In3WLv150-160",
+                    "shortName": "BBL MlbStr In3WLv150-160",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108868892,
+                    "closeTime": "2025-01-09T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "660952",
+                            "name": "Over 160 Runs",
+                            "returnWin": 1.65,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660952,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "660953",
+                            "name": "Between 150-160 Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660953,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "660954",
+                            "name": "Under 150 Runs",
+                            "returnWin": 2.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660954,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108868988",
+                    "name": "BBL MlbStr In3WLv160-170",
+                    "shortName": "BBL MlbStr In3WLv160-170",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108868988,
+                    "closeTime": "2025-01-09T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "660949",
+                            "name": "Over 170 Runs",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660949,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "660950",
+                            "name": "Between 160-170 Runs",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660950,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "660951",
+                            "name": "Under 160 Runs",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660951,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "108868987",
+                    "name": "BBL MlbStr In3WLv170-180",
+                    "shortName": "BBL MlbStr In3WLv170-180",
+                    "betOption": "Innings Runs 3-Way",
+                    "betOptionSpectrumId": "3139",
+                    "betOptionPriority": 1480,
+                    "marketUniqueId": 108868987,
+                    "closeTime": "2025-01-09T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "Enabled",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "660934",
+                            "name": "Over 180 Runs",
+                            "returnWin": 2.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660934,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "660935",
+                            "name": "Between 170-180 Runs",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660935,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "660948",
+                            "name": "Under 170 Runs",
+                            "returnWin": 1.65,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 660948,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        }
+                    ]
                 },
                 {
                     "id": "108654943",
@@ -231,7 +429,8 @@
                             "allowPlace": false,
                             "number": 697558,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "697549",
@@ -244,19 +443,6 @@
                             "number": 697549,
                             "isOpen": true,
                             "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "697547",
-                            "name": "Tom Rogers (MSt)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697547,
-                            "isOpen": true,
-                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -284,18 +470,6 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "697552",
-                            "name": "Campbell Kellaway (MSt)",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697552,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
                             "id": "697554",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 41,
@@ -307,30 +481,6 @@
                             "isOpen": true,
                             "sortOrder": 8,
                             "sameGame": true
-                        },
-                        {
-                            "id": "697560",
-                            "name": "Hamish McKenzie (MSt)",
-                            "returnWin": 51,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697560,
-                            "isOpen": true,
-                            "sortOrder": 14
-                        },
-                        {
-                            "id": "697562",
-                            "name": "Doug Warren (MSt)",
-                            "returnWin": 81,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697562,
-                            "isOpen": true,
-                            "sortOrder": 16
                         },
                         {
                             "id": "697563",
@@ -357,31 +507,6 @@
                             "isOpen": true,
                             "sortOrder": 11,
                             "sameGame": true
-                        },
-                        {
-                            "id": "697556",
-                            "name": "Brody Couch (MSt)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697556,
-                            "isOpen": true,
-                            "sortOrder": 10,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "697553",
-                            "name": "Scott Boland (MSt)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697553,
-                            "isOpen": true,
-                            "sortOrder": 7
                         },
                         {
                             "id": "697555",
@@ -506,30 +631,6 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "697569",
-                            "name": "Lachlan Shaw (SyS)",
-                            "returnWin": 12,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697569,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
-                            "id": "697580",
-                            "name": "Joel Davies (SyS)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697580,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
                             "id": "697570",
                             "name": "Hayden Kerr (SyS)",
                             "returnWin": 26,
@@ -578,56 +679,6 @@
                             "number": 697577,
                             "isOpen": true,
                             "sortOrder": 14,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "697578",
-                            "name": "Mitch Perry (SyS)",
-                            "returnWin": 51,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697578,
-                            "isOpen": true,
-                            "sortOrder": 15
-                        },
-                        {
-                            "id": "697572",
-                            "name": "Ben Manenti (SyS)",
-                            "returnWin": 67,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697572,
-                            "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "697579",
-                            "name": "Jafer Chohan (SyS)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697579,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
-                            "id": "697573",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697573,
-                            "isOpen": true,
-                            "sortOrder": 10,
                             "sameGame": true
                         },
                         {
@@ -711,7 +762,8 @@
                             "allowPlace": false,
                             "number": 679014,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679015",
@@ -878,7 +930,8 @@
                             "allowPlace": false,
                             "number": 679024,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679025",
@@ -1045,7 +1098,8 @@
                             "allowPlace": false,
                             "number": 679048,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679049",
@@ -1212,7 +1266,8 @@
                             "allowPlace": false,
                             "number": 679038,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679039",
@@ -1379,7 +1434,8 @@
                             "allowPlace": false,
                             "number": 679058,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679059",
@@ -1546,7 +1602,8 @@
                             "allowPlace": false,
                             "number": 679072,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679073",
@@ -1713,7 +1770,8 @@
                             "allowPlace": false,
                             "number": 679082,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679083",
@@ -1880,7 +1938,8 @@
                             "allowPlace": false,
                             "number": 679092,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679093",
@@ -1954,6 +2013,19 @@
                             "sameGame": true
                         },
                         {
+                            "id": "681093",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 681093,
+                            "isOpen": true,
+                            "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
                             "id": "681092",
                             "name": "Kurtis Patterson (SyS)",
                             "returnWin": 6,
@@ -1964,19 +2036,6 @@
                             "number": 681092,
                             "isOpen": true,
                             "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "681093",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 681093,
-                            "isOpen": true,
-                            "sortOrder": 4,
                             "sameGame": true
                         }
                     ],
@@ -2047,7 +2106,8 @@
                             "allowPlace": false,
                             "number": 679102,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679103",
@@ -2214,7 +2274,8 @@
                             "allowPlace": false,
                             "number": 679112,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679113",
@@ -2381,7 +2442,8 @@
                             "allowPlace": false,
                             "number": 679181,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679182",
@@ -2548,7 +2610,8 @@
                             "allowPlace": false,
                             "number": 679189,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679190",
@@ -2715,7 +2778,8 @@
                             "allowPlace": false,
                             "number": 679197,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679198",
@@ -2882,7 +2946,8 @@
                             "allowPlace": false,
                             "number": 679213,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679214",
@@ -3049,7 +3114,8 @@
                             "allowPlace": false,
                             "number": 679205,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679206",
@@ -3203,7 +3269,8 @@
                             "allowPlace": false,
                             "number": 679155,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679156",
@@ -3370,7 +3437,8 @@
                             "allowPlace": false,
                             "number": 679163,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679164",
@@ -3537,7 +3605,8 @@
                             "allowPlace": false,
                             "number": 679173,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679174",
@@ -3817,7 +3886,7 @@
                     "betOptionSpectrumId": "1932",
                     "betOptionPriority": 1630,
                     "marketUniqueId": 108716871,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
+                    "closeTime": "2025-01-09T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": null,
@@ -3838,214 +3907,28 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "650366",
-                            "name": "MStr Over 161.5 Runs",
+                            "id": "650368",
+                            "name": "MStr Over 164.5 Runs",
                             "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650366,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650367",
-                            "name": "MStr Under 161.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650367,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716895",
-                    "name": "BBL Syd Sixers InnRunOU 09/01",
-                    "shortName": "BBL Syd Sixers InnRunOU",
-                    "betOption": "Innings Runs Over/Under",
-                    "betOptionSpectrumId": "1932",
-                    "betOptionPriority": 1630,
-                    "marketUniqueId": 108716895,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650453",
-                            "name": "SydS Over 164.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650453,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650454",
-                            "name": "SydS Under 164.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650454,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716869",
-                    "name": "BBL Melb Stars InnsRun3Way 09/01",
-                    "shortName": "BBL Melb Stars InnsRun3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 108716869,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650372",
-                            "name": "167 runs or more",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650372,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650373",
-                            "name": "157 - 166 runs",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650373,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650374",
-                            "name": "156 runs or less",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650374,
+                            "number": 650368,
                             "isOpen": true,
                             "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "108716892",
-                    "name": "BBL Syd Sixers InnsRun3Way 09/01",
-                    "shortName": "BBL Syd Sixers InnsRun3Way",
-                    "betOption": "Innings Runs 3-Way",
-                    "betOptionSpectrumId": "2123",
-                    "betOptionPriority": 1650,
-                    "marketUniqueId": 108716892,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650459",
-                            "name": "170 runs or more",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650459,
-                            "isOpen": true,
-                            "sortOrder": 1
                         },
                         {
-                            "id": "650460",
-                            "name": "160 - 169 runs",
-                            "returnWin": 6.5,
+                            "id": "650369",
+                            "name": "MStr Under 164.5 Runs",
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650460,
+                            "number": 650369,
                             "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650461",
-                            "name": "159 runs or less",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650461,
-                            "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 4
                         }
                     ]
                 },
@@ -4057,7 +3940,7 @@
                     "betOptionSpectrumId": "836",
                     "betOptionPriority": 1655,
                     "marketUniqueId": 108716870,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
+                    "closeTime": "2025-01-09T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": "Team must bat 1st or bets refunded.",
@@ -4080,7 +3963,7 @@
                         {
                             "id": "650375",
                             "name": "MStr 201 Runs or more",
-                            "returnWin": 8.5,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4092,7 +3975,7 @@
                         {
                             "id": "650376",
                             "name": "MStr 181-200 Runs",
-                            "returnWin": 5,
+                            "returnWin": 4.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4104,7 +3987,7 @@
                         {
                             "id": "650377",
                             "name": "MStr 161-180 Runs",
-                            "returnWin": 3.3,
+                            "returnWin": 3.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4116,7 +3999,7 @@
                         {
                             "id": "650378",
                             "name": "MStr 141-160 Runs",
-                            "returnWin": 3.4,
+                            "returnWin": 3.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4128,7 +4011,7 @@
                         {
                             "id": "650379",
                             "name": "MStr 121-140 Runs",
-                            "returnWin": 5.5,
+                            "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4140,114 +4023,12 @@
                         {
                             "id": "650380",
                             "name": "MStr 120 Runs or less",
-                            "returnWin": 10,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650380,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "108716894",
-                    "name": "BBL Syd Sixers InnsRun6Way 09/01",
-                    "shortName": "BBL Syd Sixers InnsRun6Way",
-                    "betOption": "Innings Runs 6-Way",
-                    "betOptionSpectrumId": "836",
-                    "betOptionPriority": 1655,
-                    "marketUniqueId": 108716894,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": "Team must bat 1st or bets refunded.",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650462",
-                            "name": "SydS 201 Runs or more",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650462,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650463",
-                            "name": "SydS 181-200 Runs",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650463,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650464",
-                            "name": "SydS 161-180 Runs",
-                            "returnWin": 3.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650464,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "650465",
-                            "name": "SydS 141-160 Runs",
-                            "returnWin": 3.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650465,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "650466",
-                            "name": "SydS 121-140 Runs",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650466,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "650467",
-                            "name": "SydS 120 Runs or less",
                             "returnWin": 12,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650467,
+                            "number": 650380,
                             "isOpen": true,
                             "sortOrder": 6
                         }
@@ -4261,7 +4042,7 @@
                     "betOptionSpectrumId": "1942",
                     "betOptionPriority": 1660,
                     "marketUniqueId": 108716873,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
+                    "closeTime": "2025-01-09T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Team must bat 1st or bets refunded.",
                     "informationMessage": null,
@@ -4282,21 +4063,9 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "650235",
-                            "name": "MStr 120+ Runs",
-                            "returnWin": 1.02,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650235,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
                             "id": "650237",
                             "name": "MStr 140+ Runs",
-                            "returnWin": 1.22,
+                            "returnWin": 1.18,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4308,7 +4077,7 @@
                         {
                             "id": "650239",
                             "name": "MStr 160+ Runs",
-                            "returnWin": 1.8,
+                            "returnWin": 1.68,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4320,7 +4089,7 @@
                         {
                             "id": "650241",
                             "name": "MStr 180+ Runs",
-                            "returnWin": 3.5,
+                            "returnWin": 3.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4332,7 +4101,7 @@
                         {
                             "id": "650243",
                             "name": "MStr 200+ Runs",
-                            "returnWin": 9,
+                            "returnWin": 7.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4344,102 +4113,12 @@
                         {
                             "id": "650245",
                             "name": "MStr 220+ Runs",
-                            "returnWin": 34,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650245,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        }
-                    ]
-                },
-                {
-                    "id": "108716887",
-                    "name": "BBL Syd Sixers AltRuns 09/01",
-                    "shortName": "BBL Syd Sixers AltRuns",
-                    "betOption": "Away Team Alternate Total Runs",
-                    "betOptionSpectrumId": "1945",
-                    "betOptionPriority": 1665,
-                    "marketUniqueId": 108716887,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Team must bat 1st or bets refunded.",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650391",
-                            "name": "SydS 140+ Runs",
-                            "returnWin": 1.18,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650391,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650392",
-                            "name": "SydS 160+ Runs",
-                            "returnWin": 1.68,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650392,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "650393",
-                            "name": "SydS 180+ Runs",
-                            "returnWin": 3.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650393,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "650394",
-                            "name": "SydS 200+ Runs",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650394,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "650395",
-                            "name": "SydS 220+ Runs",
                             "returnWin": 26,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650395,
+                            "number": 650245,
                             "isOpen": true,
                             "sortOrder": 6
                         }
@@ -4590,7 +4269,7 @@
                         {
                             "id": "679229",
                             "name": "B Duckett Over 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4603,7 +4282,7 @@
                         {
                             "id": "679230",
                             "name": "B Duckett Under 20.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4654,7 +4333,8 @@
                             "allowPlace": false,
                             "number": 679231,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "679232",
@@ -4668,7 +4348,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108767177",
@@ -4872,7 +4554,7 @@
                         {
                             "id": "682645",
                             "name": "J Vince Over 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4885,7 +4567,7 @@
                         {
                             "id": "682646",
                             "name": "J Vince Under 21.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5011,7 +4693,7 @@
                         {
                             "id": "679239",
                             "name": "B Duckett Over 13.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.55,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5024,7 +4706,7 @@
                         {
                             "id": "679240",
                             "name": "B Duckett Under 13.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5100,7 +4782,8 @@
                             "allowPlace": false,
                             "number": 679839,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "679840",
@@ -5124,7 +4807,8 @@
                             "allowPlace": false,
                             "number": 679841,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "679842",
@@ -5138,7 +4822,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108767154",
@@ -5335,7 +5021,7 @@
                         {
                             "id": "684095",
                             "name": "J Vince Over 14.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.55,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5348,7 +5034,7 @@
                         {
                             "id": "684096",
                             "name": "J Vince Under 14.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5613,60 +5299,6 @@
                             "number": 697543,
                             "isOpen": true,
                             "sortOrder": 3
-                        }
-                    ]
-                },
-                {
-                    "id": "108716911",
-                    "name": "BBL MlbSt-SydSx 4OvrLead 09/01",
-                    "shortName": "BBL MlbSt-SydSx 4OvrLead",
-                    "betOption": "Leading Team After 4 Overs",
-                    "betOptionSpectrumId": "3134",
-                    "betOptionPriority": 1700,
-                    "marketUniqueId": 108716911,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650616",
-                            "name": "Melbourne Stars",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650616,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650617",
-                            "name": "Sydney Sixers",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650617,
-                            "isOpen": true,
-                            "sortOrder": 2
                         }
                     ]
                 },
@@ -5989,7 +5621,7 @@
                         {
                             "id": "697537",
                             "name": "MSt Over 17.5 Runs",
-                            "returnWin": 1.95,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6002,7 +5634,7 @@
                         {
                             "id": "697538",
                             "name": "MSt Under 17.5 Runs",
-                            "returnWin": 1.75,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6047,7 +5679,7 @@
                         {
                             "id": "697539",
                             "name": "SyS Over 23.5 Runs",
-                            "returnWin": 1.95,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6060,7 +5692,7 @@
                         {
                             "id": "697540",
                             "name": "SyS Under 23.5 Runs",
-                            "returnWin": 1.75,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6073,72 +5705,6 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "108654939",
-                    "name": "BBL MlbStars-SydSixer Mtch6s3W",
-                    "shortName": "BBL MStr-SydS Mtch6s3W",
-                    "betOption": "Match Sixes 3-Way",
-                    "betOptionSpectrumId": "2210",
-                    "betOptionPriority": 1975,
-                    "marketUniqueId": 108654939,
-                    "closeTime": "2025-01-09T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "Enabled",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "697544",
-                            "name": "Melbourne Stars",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697544,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "697545",
-                            "name": "tie",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697545,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "697546",
-                            "name": "Sydney Sixers",
-                            "returnWin": 1.87,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697546,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        }
-                    ]
                 },
                 {
                     "id": "108716914",
@@ -6171,7 +5737,7 @@
                         {
                             "id": "650620",
                             "name": "Over 8.5 Sixes",
-                            "returnWin": 1.7,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6183,7 +5749,7 @@
                         {
                             "id": "650621",
                             "name": "Under 8.5 Sixes",
-                            "returnWin": 2.05,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6575,8 +6141,7 @@
                             "allowPlace": false,
                             "number": 697591,
                             "isOpen": true,
-                            "sortOrder": 10,
-                            "sameGame": true
+                            "sortOrder": 10
                         },
                         {
                             "id": "697590",
@@ -6627,7 +6192,8 @@
                             "allowPlace": false,
                             "number": 697593,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "697585",
@@ -6775,32 +6341,6 @@
                             "sortOrder": 7
                         },
                         {
-                            "id": "697607",
-                            "name": "Ben Manenti (SyS)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697607,
-                            "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "697608",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697608,
-                            "isOpen": true,
-                            "sortOrder": 10,
-                            "sameGame": true
-                        },
-                        {
                             "id": "697609",
                             "name": "Todd Murphy (SyS)",
                             "returnWin": 5.5,
@@ -6814,33 +6354,9 @@
                             "sameGame": true
                         },
                         {
-                            "id": "697614",
-                            "name": "Jafer Chohan (SyS)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697614,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
-                            "id": "697613",
-                            "name": "Mitch Perry (SyS)",
-                            "returnWin": 6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697613,
-                            "isOpen": true,
-                            "sortOrder": 15
-                        },
-                        {
                             "id": "697611",
                             "name": "Jack Edwards (SyS)",
-                            "returnWin": 8,
+                            "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6849,18 +6365,6 @@
                             "isOpen": true,
                             "sortOrder": 13,
                             "sameGame": true
-                        },
-                        {
-                            "id": "697615",
-                            "name": "Joel Davies (SyS)",
-                            "returnWin": 8.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 697615,
-                            "isOpen": true,
-                            "sortOrder": 17
                         },
                         {
                             "id": "697602",
@@ -7015,19 +6519,6 @@
                             "number": 681137,
                             "isOpen": true,
                             "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "681134",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 1.28,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 681134,
-                            "isOpen": true,
-                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -7186,19 +6677,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "681229",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 2.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 681229,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "681230",
                             "name": "Akeal Hosein (SyS)",
                             "returnWin": 2.6,
@@ -7354,19 +6832,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "681237",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 681237,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "681238",
                             "name": "Akeal Hosein (SyS)",
                             "returnWin": 7.5,
@@ -7382,120 +6847,6 @@
                     ],
                     "sameGame": true,
                     "sameGameMultipleSelections": true
-                },
-                {
-                    "id": "108716913",
-                    "name": "BBL MlbSt-SydSx WinMargin 09/01",
-                    "shortName": "BBL MlbSt-SydSx WinMargin",
-                    "betOption": "Margin",
-                    "betOptionSpectrumId": "32",
-                    "betOptionPriority": 2620,
-                    "marketUniqueId": 108716913,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650607",
-                            "name": "MlbStr 41+ runs/8-10 wickets",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650607,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650608",
-                            "name": "MlbSt 21-40 runs/5-7 wickets",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650608,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "650609",
-                            "name": "MlbStr 1-20 runs/1-4 wickets",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650609,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "650610",
-                            "name": "Tie (Superover)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650610,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
-                            "id": "650611",
-                            "name": "SydSix 1-20 runs/1-4 wickets",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650611,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
-                            "id": "650612",
-                            "name": "SydSx 21-40 runs/5-7 wickets",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650612,
-                            "isOpen": true,
-                            "sortOrder": 6
-                        },
-                        {
-                            "id": "650613",
-                            "name": "SydSix 41+ runs/8-10 wickets",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650613,
-                            "isOpen": true,
-                            "sortOrder": 7
-                        }
-                    ]
                 },
                 {
                     "id": "108767169",
@@ -7622,6 +6973,18 @@
                             "sortOrder": 25
                         },
                         {
+                            "id": "678974",
+                            "name": "Ben Duckett (MSt)",
+                            "returnWin": 12,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 678974,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
                             "id": "679000",
                             "name": "Todd Murphy (SyS)",
                             "returnWin": 12,
@@ -7644,18 +7007,6 @@
                             "number": 678971,
                             "isOpen": true,
                             "sortOrder": 2
-                        },
-                        {
-                            "id": "678974",
-                            "name": "Ben Duckett (MSt)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 678974,
-                            "isOpen": true,
-                            "sortOrder": 5
                         },
                         {
                             "id": "678979",
@@ -7956,60 +7307,6 @@
                             "number": 678992,
                             "isOpen": true,
                             "sortOrder": 23
-                        }
-                    ]
-                },
-                {
-                    "id": "108716916",
-                    "name": "BBL MlbSt-SydSx WinTos 09/01",
-                    "shortName": "BBL MlbSt-SydSx WinTos",
-                    "betOption": "Winner Of The Toss",
-                    "betOptionSpectrumId": "845",
-                    "betOptionPriority": 3235,
-                    "marketUniqueId": 108716916,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650614",
-                            "name": "Melbourne Stars",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650614,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650615",
-                            "name": "Sydney Sixers",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650615,
-                            "isOpen": true,
-                            "sortOrder": 2
                         }
                     ]
                 },
@@ -8446,14 +7743,14 @@
                     ]
                 },
                 {
-                    "id": "108716866",
-                    "name": "BBL Melb Stars 4OvrRuns 09/01",
-                    "shortName": "BBL Melb Stars 4OvrRuns",
-                    "betOption": "1st 4 Over Runs Over/Under",
-                    "betOptionSpectrumId": "2765",
-                    "betOptionPriority": 6595,
-                    "marketUniqueId": 108716866,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
+                    "id": "108868977",
+                    "name": "BBL MStr-SydS MS 5Over3Wy O1-5 R35-40",
+                    "shortName": "BBL MS-S6 MS5Y O1-5 R35-40",
+                    "betOption": "Five Over Runs 3-Way (In Play)",
+                    "betOptionSpectrumId": "2205",
+                    "betOptionPriority": 14105,
+                    "marketUniqueId": 108868977,
+                    "closeTime": "2025-01-09T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
                     "informationMessage": null,
@@ -8470,356 +7767,44 @@
                     "allowMultiPlace": false,
                     "allowMultiEachWay": false,
                     "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
+                    "cashOutEligibility": "Enabled",
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "650315",
-                            "name": "MStr Over 30.5 Runs",
-                            "returnWin": 1.8,
+                            "id": "661207",
+                            "name": "MSt o1-5 Over 40 Runs",
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650315,
+                            "number": 661207,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "650357",
-                            "name": "MStr Under 30.5 Runs",
-                            "returnWin": 1.9,
+                            "id": "661208",
+                            "name": "MSt o1-5 35-40 Runs",
+                            "returnWin": 3.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650357,
+                            "number": 661208,
                             "isOpen": true,
                             "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716882",
-                    "name": "BBL Syd Sixers 4OvrRuns 09/01",
-                    "shortName": "BBL Syd Sixers 4OvrRuns",
-                    "betOption": "1st 4 Over Runs Over/Under",
-                    "betOptionSpectrumId": "2765",
-                    "betOptionPriority": 6595,
-                    "marketUniqueId": 108716882,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650408",
-                            "name": "SydS Over 31.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650408,
-                            "isOpen": true,
-                            "sortOrder": 1
                         },
                         {
-                            "id": "650409",
-                            "name": "SydS Under 31.5 Runs",
-                            "returnWin": 1.85,
+                            "id": "661209",
+                            "name": "MSt o1-5 Under 35 Runs",
+                            "returnWin": 2.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 650409,
+                            "number": 661209,
                             "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716915",
-                    "name": "BBL MlbSt-SydSx Most Fours 09/01",
-                    "shortName": "BBL MlbSt-SydSx Most Fours",
-                    "betOption": "Team To Score Most Fours",
-                    "betOptionSpectrumId": "693",
-                    "betOptionPriority": 8140,
-                    "marketUniqueId": 108716915,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Dead Heat rules apply",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650618",
-                            "name": "Melbourne Stars",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650618,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650619",
-                            "name": "Sydney Sixers",
-                            "returnWin": 1.72,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650619,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716872",
-                    "name": "BBL Melb Stars TeamFoursOU 09/01",
-                    "shortName": "BBL Melb Stars TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 108716872,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650362",
-                            "name": "MStr Over 12.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650362,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650363",
-                            "name": "MStr Under 12.5 Fours",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650363,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716897",
-                    "name": "BBL Syd Sixers TeamFoursOU 09/01",
-                    "shortName": "BBL Syd Sixers TeamFoursOU",
-                    "betOption": "Team Total Fours Over/Under",
-                    "betOptionSpectrumId": "3133",
-                    "betOptionPriority": 8145,
-                    "marketUniqueId": 108716897,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650448",
-                            "name": "SydS Over 13.5 Fours",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650448,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650450",
-                            "name": "SydS Under 13.5 Fours",
-                            "returnWin": 1.65,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650450,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716867",
-                    "name": "BBL Melb Stars TeamSixesOU 09/01",
-                    "shortName": "BBL Melb Stars TeamSixesOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8150,
-                    "marketUniqueId": 108716867,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650364",
-                            "name": "MStr Over 4.5 Sixes",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650364,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650365",
-                            "name": "MStr Under 4.5 Sixes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650365,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "108716885",
-                    "name": "BBL Syd Sixers TeamSixesOU 09/01",
-                    "shortName": "BBL Syd Sixers TeamSixesOU",
-                    "betOption": "Team Total Sixes Over/Under",
-                    "betOptionSpectrumId": "2412",
-                    "betOptionPriority": 8150,
-                    "marketUniqueId": 108716885,
-                    "closeTime": "2025-01-09T07:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650451",
-                            "name": "SydS Over 4.5 Sixes",
-                            "returnWin": 1.9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650451,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "650452",
-                            "name": "SydS Under 4.5 Sixes",
-                            "returnWin": 1.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650452,
-                            "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 3
                         }
                     ]
                 },
@@ -8854,7 +7839,7 @@
                         {
                             "id": "650626",
                             "name": "Over 25.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8866,7 +7851,7 @@
                         {
                             "id": "650627",
                             "name": "Under 25.5 Fours",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -9063,7 +8048,8 @@
                             "allowPlace": false,
                             "number": 650021,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "650022",
@@ -9088,8 +8074,7 @@
                             "allowPlace": false,
                             "number": 650032,
                             "isOpen": true,
-                            "sortOrder": 12,
-                            "sameGame": true
+                            "sortOrder": 12
                         },
                         {
                             "id": "650023",
@@ -9114,8 +8099,7 @@
                             "allowPlace": false,
                             "number": 650033,
                             "isOpen": true,
-                            "sortOrder": 13,
-                            "sameGame": true
+                            "sortOrder": 13
                         },
                         {
                             "id": "650025",
@@ -9127,7 +8111,8 @@
                             "allowPlace": false,
                             "number": 650025,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "650024",
@@ -9190,8 +8175,7 @@
                             "allowPlace": false,
                             "number": 650029,
                             "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
+                            "sortOrder": 9
                         },
                         {
                             "id": "650038",
@@ -9374,8 +8358,7 @@
                             "allowPlace": false,
                             "number": 650043,
                             "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
+                            "sortOrder": 5
                         },
                         {
                             "id": "650046",
@@ -9569,7 +8552,8 @@
                             "allowPlace": false,
                             "number": 651592,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651594",
@@ -9607,7 +8591,8 @@
                             "allowPlace": false,
                             "number": 651593,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -9761,7 +8746,8 @@
                             "allowPlace": false,
                             "number": 651602,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651604",
@@ -9799,7 +8785,8 @@
                             "allowPlace": false,
                             "number": 651603,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -9953,7 +8940,8 @@
                             "allowPlace": false,
                             "number": 651622,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651624",
@@ -9991,7 +8979,8 @@
                             "allowPlace": false,
                             "number": 651623,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -10145,7 +9134,8 @@
                             "allowPlace": false,
                             "number": 651612,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651614",
@@ -10183,7 +9173,8 @@
                             "allowPlace": false,
                             "number": 651613,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -10337,7 +9328,8 @@
                             "allowPlace": false,
                             "number": 651632,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651634",
@@ -10375,7 +9367,8 @@
                             "allowPlace": false,
                             "number": 651633,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -10529,7 +9522,8 @@
                             "allowPlace": false,
                             "number": 651642,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651644",
@@ -10567,7 +9561,8 @@
                             "allowPlace": false,
                             "number": 651643,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -10721,7 +9716,8 @@
                             "allowPlace": false,
                             "number": 651652,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651654",
@@ -10759,7 +9755,8 @@
                             "allowPlace": false,
                             "number": 651653,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -10913,7 +9910,8 @@
                             "allowPlace": false,
                             "number": 651662,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651664",
@@ -10938,7 +9936,8 @@
                             "allowPlace": false,
                             "number": 651663,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651665",
@@ -11105,7 +10104,8 @@
                             "allowPlace": false,
                             "number": 651674,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651684",
@@ -11130,7 +10130,8 @@
                             "allowPlace": false,
                             "number": 651675,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651685",
@@ -11297,7 +10298,8 @@
                             "allowPlace": false,
                             "number": 651692,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651694",
@@ -11322,7 +10324,8 @@
                             "allowPlace": false,
                             "number": 651693,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651695",
@@ -11489,7 +10492,8 @@
                             "allowPlace": false,
                             "number": 651796,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651797",
@@ -11501,7 +10505,8 @@
                             "allowPlace": false,
                             "number": 651797,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651798",
@@ -11655,7 +10660,8 @@
                             "allowPlace": false,
                             "number": 651804,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651805",
@@ -11667,7 +10673,8 @@
                             "allowPlace": false,
                             "number": 651805,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651806",
@@ -11821,7 +10828,8 @@
                             "allowPlace": false,
                             "number": 651812,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651813",
@@ -11833,7 +10841,8 @@
                             "allowPlace": false,
                             "number": 651813,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651814",
@@ -11987,7 +10996,8 @@
                             "allowPlace": false,
                             "number": 651834,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651835",
@@ -11999,7 +11009,8 @@
                             "allowPlace": false,
                             "number": 651835,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651836",
@@ -12153,7 +11164,8 @@
                             "allowPlace": false,
                             "number": 651820,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651821",
@@ -12165,7 +11177,8 @@
                             "allowPlace": false,
                             "number": 651821,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651823",
@@ -12319,7 +11332,8 @@
                             "allowPlace": false,
                             "number": 651762,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651764",
@@ -12344,7 +11358,8 @@
                             "allowPlace": false,
                             "number": 651763,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -12485,7 +11500,8 @@
                             "allowPlace": false,
                             "number": 651770,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651772",
@@ -12510,7 +11526,8 @@
                             "allowPlace": false,
                             "number": 651771,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -12651,7 +11668,8 @@
                             "allowPlace": false,
                             "number": 651784,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651788",
@@ -12676,7 +11694,8 @@
                             "allowPlace": false,
                             "number": 651785,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -13017,7 +12036,8 @@
                             "allowPlace": false,
                             "number": 651853,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651854",
@@ -13031,7 +12051,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108858405",
@@ -13071,7 +12093,8 @@
                             "allowPlace": false,
                             "number": 651857,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651858",
@@ -13085,7 +12108,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108858406",
@@ -13492,7 +12517,8 @@
                             "allowPlace": false,
                             "number": 651873,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651874",
@@ -13516,7 +12542,8 @@
                             "allowPlace": false,
                             "number": 651875,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651876",
@@ -13530,7 +12557,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108858410",
@@ -13570,7 +12599,8 @@
                             "allowPlace": false,
                             "number": 651861,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651862",
@@ -13594,7 +12624,8 @@
                             "allowPlace": false,
                             "number": 651863,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651864",
@@ -13608,7 +12639,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "108858411",
@@ -14467,7 +13500,7 @@
                         {
                             "id": "650018",
                             "name": "HobartHurricanes",
-                            "returnWin": 1.87,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -14479,7 +13512,7 @@
                         {
                             "id": "650019",
                             "name": "tie",
-                            "returnWin": 8,
+                            "returnWin": 8.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -14491,7 +13524,7 @@
                         {
                             "id": "650020",
                             "name": "Sydney Thunder",
-                            "returnWin": 2.25,
+                            "returnWin": 2.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -14591,8 +13624,7 @@
                             "allowPlace": false,
                             "number": 650068,
                             "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
+                            "sortOrder": 9
                         },
                         {
                             "id": "650075",
@@ -14641,7 +13673,8 @@
                             "allowPlace": false,
                             "number": 650064,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
                     ],
                     "sameGame": true,
@@ -23729,6 +22762,7 @@
     "hasMarkets": true,
     "betOptionPriority": [
         "Head To Head",
+        "Innings Runs 3-Way",
         "High Bat",
         "To Score 5",
         "To Score 10",
@@ -23750,10 +22784,8 @@
         "To Hit 3+ Sixes",
         "To Hit a Four and a Six",
         "Innings Runs Over/Under",
-        "Innings Runs 3-Way",
         "Innings Runs 6-Way",
         "Home Team Alternate Total Runs",
-        "Away Team Alternate Total Runs",
         "Player Runs",
         "Alternate Player Runs O/U",
         "Highest Opening Partnership",
@@ -23774,10 +22806,8 @@
         "Player of the Match",
         "Winner Of The Toss",
         "1st Over Runs",
-        "1st 4 Over Runs Over/Under",
         "Team To Score Most Fours",
-        "Team Total Fours Over/Under",
-        "Team Total Sixes Over/Under",
+        "Five Over Runs 3-Way (In Play)",
         "Total Fours Over/Under"
     ],
     "betOptions": [
@@ -23787,6 +22817,14 @@
             "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Head%20To%20Head"
+            }
+        },
+        {
+            "name": "Innings Runs 3-Way",
+            "hasFutureMarket": false,
+            "openMarketCount": 3,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
             }
         },
         {
@@ -23952,23 +22990,15 @@
         {
             "name": "Innings Runs Over/Under",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%20Over%2FUnder"
             }
         },
         {
-            "name": "Innings Runs 3-Way",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%203-Way"
-            }
-        },
-        {
             "name": "Innings Runs 6-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%206-Way"
             }
@@ -23979,14 +23009,6 @@
             "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Home%20Team%20Alternate%20Total%20Runs"
-            }
-        },
-        {
-            "name": "Away Team Alternate Total Runs",
-            "hasFutureMarket": false,
-            "openMarketCount": 1,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Away%20Team%20Alternate%20Total%20Runs"
             }
         },
         {
@@ -24016,7 +23038,7 @@
         {
             "name": "Leading Team After 4 Overs",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Leading%20Team%20After%204%20Overs"
             }
@@ -24048,7 +23070,7 @@
         {
             "name": "Match Sixes 3-Way",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Match%20Sixes%203-Way"
             }
@@ -24120,7 +23142,7 @@
         {
             "name": "Margin",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Margin"
             }
@@ -24136,7 +23158,7 @@
         {
             "name": "Winner Of The Toss",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
@@ -24150,35 +23172,19 @@
             }
         },
         {
-            "name": "1st 4 Over Runs Over/Under",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=1st%204%20Over%20Runs%20Over%2FUnder"
-            }
-        },
-        {
             "name": "Team To Score Most Fours",
             "hasFutureMarket": false,
-            "openMarketCount": 3,
+            "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20To%20Score%20Most%20Fours"
             }
         },
         {
-            "name": "Team Total Fours Over/Under",
+            "name": "Five Over Runs 3-Way (In Play)",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 1,
             "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Fours%20Over%2FUnder"
-            }
-        },
-        {
-            "name": "Team Total Sixes Over/Under",
-            "hasFutureMarket": false,
-            "openMarketCount": 2,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Sixes%20Over%2FUnder"
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Five%20Over%20Runs%203-Way%20(In%20Play)"
             }
         },
         {
