@@ -1,12 +1,4 @@
 match,market,team,line,over_price,under_price,agency
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,Melbourne Stars,5.5,1.6,2.2,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,Melbourne Stars,3.5,1.28,3.3,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,Melbourne Stars,7.5,2.4,1.5,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,Melbourne Stars,9.5,3.8,1.22,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,SydS,5.5,1.6,2.2,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,SydS,3.5,1.28,3.3,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,SydS,7.5,2.4,1.5,TAB
-Melbourne Stars v Sydney Sixers,First Over Runs - Team,SydS,9.5,3.8,1.22,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,Hobart Hurricanes,5.5,1.6,2.2,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,Hobart Hurricanes,3.5,1.28,3.3,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,Hobart Hurricanes,7.5,2.4,1.5,TAB
@@ -15,6 +7,14 @@ Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,SyTh,5.5,1.6,2.2,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,SyTh,3.5,1.28,3.3,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,SyTh,7.5,2.4,1.5,TAB
 Hobart Hurricanes v Sydney Thunder,First Over Runs - Team,SyTh,9.5,3.8,1.22,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,Perth Scorchers,5.5,1.6,2.2,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,Perth Scorchers,7.5,2.4,1.5,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,Perth Scorchers,9.5,3.8,1.22,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,Perth Scorchers,3.5,1.28,3.3,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,SydS,5.5,1.6,2.2,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,SydS,3.5,1.28,3.3,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,SydS,7.5,2.4,1.5,TAB
+Sydney Sixers v Perth Scorchers,First Over Runs - Team,SydS,9.5,3.8,1.22,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Adel,5.5,1.6,2.2,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Adel,3.5,1.28,3.3,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Adel,7.5,2.4,1.5,TAB
@@ -23,3 +23,11 @@ Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Bris,3.5,1.28,3.3,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Bris,7.5,2.4,1.5,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Bris,9.5,3.8,1.22,TAB
 Adelaide Strikers v Brisbane Heat,First Over Runs - Team,Bris,5.5,1.6,2.2,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Renegades,5.5,1.6,2.2,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Renegades,3.5,1.28,3.3,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Renegades,7.5,2.4,1.5,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Renegades,9.5,3.8,1.22,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Stars,5.5,1.6,2.2,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Stars,3.5,1.28,3.3,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Stars,7.5,2.4,1.5,TAB
+Melbourne Renegades v Melbourne Stars,First Over Runs - Team,Melbourne Stars,9.5,3.8,1.22,TAB
