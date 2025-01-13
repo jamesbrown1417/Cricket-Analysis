@@ -1,8 +1,8 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,9.5,1.18,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,19.5,1.85,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,Perth Scorchers,Sydney Thunder,20.5,1.95,1.76,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,29.5,25,NA,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,Perth Scorchers,Sydney Thunder,20.5,2.1,1.7,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,29.5,2.6,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,39.5,3.5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,49.5,5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Aaron Hardie,NA,NA,59.5,5.5,NA,TopSport
@@ -15,16 +15,6 @@ Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Asht
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Ashton Turner,NA,NA,49.5,6,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Ashton Turner,NA,NA,59.5,7,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Ashton Turner,NA,NA,79.5,15,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Beau Webster,Melbourne Stars,Melbourne Renegades,20.5,1.9,1.8,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,9.5,1.18,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,19.5,1.65,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,Melbourne Stars,Melbourne Renegades,21.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,29.5,2.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,39.5,3.1,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,49.5,3.9,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,59.5,5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,79.5,11,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Ben Duckett,NA,NA,99.5,26,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Cooper Connolly,NA,NA,9.5,1.16,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Cooper Connolly,NA,NA,19.5,1.75,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Cooper Connolly,Perth Scorchers,Sydney Thunder,21.5,1.9,1.8,TopSport
@@ -45,66 +35,22 @@ Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Davi
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,David Warner,NA,NA,99.5,21,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,9.5,1.27,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,19.5,1.85,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,Perth Scorchers,Sydney Thunder,21.5,1.95,1.76,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,Perth Scorchers,Sydney Thunder,21.5,1.97,1.74,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,29.5,2.5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,39.5,3.3,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,49.5,4.4,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,59.5,5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,79.5,12,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Finn Allen,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,9.5,1.21,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,29.5,2.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,39.5,3.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,49.5,4.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,79.5,12,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Glenn Maxwell,NA,NA,99.5,31,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,9.5,1.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,19.5,1.9,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,29.5,2.7,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,39.5,3.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,49.5,4.8,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,79.5,14,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jacob Bethell,NA,NA,99.5,34,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,9.5,1.35,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,Melbourne Renegades,Melbourne Stars,16.5,2,1.72,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,19.5,1.95,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,29.5,3.1,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,39.5,4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,49.5,6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,59.5,7,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,79.5,14,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Jake Fraser McGurk,NA,NA,99.5,34,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,9.5,1.25,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,19.5,1.8,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,Melbourne Renegades,Melbourne Stars,19.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,29.5,2.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,39.5,3.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,49.5,4.6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,59.5,5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,79.5,15,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Josh Brown,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Harris,Melbourne Renegades,Melbourne Stars,18.5,2.1,1.67,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,9.5,1.2,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,Melbourne Stars,Melbourne Renegades,20.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,29.5,2.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,39.5,3.2,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,49.5,4.2,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,59.5,5.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,79.5,13,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Marcus Stoinis,NA,NA,99.5,31,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,9.5,1.35,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,Sydney Thunder,Perth Scorchers,18.5,2,1.72,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,Sydney Thunder,Perth Scorchers,18.5,2.05,1.67,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,19.5,2.05,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,29.5,3.1,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,39.5,4,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,49.5,5.5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,59.5,6.5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Matthew Gilkes,NA,NA,79.5,19,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Oliver Davies,Sydney Thunder,Perth Scorchers,17.5,1.95,1.76,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Oliver Davies,Sydney Thunder,Perth Scorchers,17.5,2,1.71,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,9.5,1.22,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,19.5,1.9,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,29.5,2.7,NA,TopSport
@@ -113,31 +59,13 @@ Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam 
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,59.5,5.5,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,79.5,15,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Billings,NA,NA,99.5,34,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Fanning,Perth Scorchers,Sydney Thunder,19.5,1.95,1.76,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,9.5,1.6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,Melbourne Stars,Melbourne Renegades,16.5,2.1,1.65,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,19.5,2.2,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,29.5,3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,39.5,4.4,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,49.5,6,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,59.5,7.5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,79.5,19,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Sam Harper,NA,NA,99.5,51,NA,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Fanning,Perth Scorchers,Sydney Thunder,19.5,2.05,1.66,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,9.5,1.19,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,19.5,1.75,NA,TopSport
-Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,Sydney Thunder,Perth Scorchers,21.5,1.95,1.76,TopSport
+Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,Sydney Thunder,Perth Scorchers,21.5,2.05,1.66,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,29.5,2.3,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,39.5,2.9,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,49.5,4,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,59.5,4.6,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,79.5,10,NA,TopSport
 Sydney Thunder v Perth Scorchers,Player Runs,Sydney Thunder,Perth Scorchers,Sam Konstas,NA,NA,99.5,26,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,9.5,1.22,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,19.5,1.75,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,Melbourne Renegades,Melbourne Stars,19.5,1.9,1.8,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,29.5,2.3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,39.5,3,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,49.5,4.2,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,59.5,5,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,79.5,12,NA,TopSport
-Melbourne Renegades v Melbourne Stars,Player Runs,Melbourne Renegades,Melbourne Stars,Tim Seifert,NA,NA,99.5,26,NA,TopSport
