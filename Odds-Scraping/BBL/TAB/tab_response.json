@@ -90,9 +90,9 @@
                 "HobartHurricanes",
                 "Melb Renegades"
             ],
-            "openMarketCount": 105,
+            "openMarketCount": 103,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 105,
+            "nonFutureMarketCount": 103,
             "markets": [
                 {
                     "id": "109008161",
@@ -1645,6 +1645,19 @@
                     "allowBundle": false,
                     "propositions": [
                         {
+                            "id": "653550",
+                            "name": "Tim David (Hob)",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653550,
+                            "isOpen": true,
+                            "sortOrder": 5,
+                            "sameGame": true
+                        },
+                        {
                             "id": "653547",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 2.6,
@@ -1668,19 +1681,6 @@
                             "number": 653549,
                             "isOpen": true,
                             "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "653550",
-                            "name": "Tim David (Hob)",
-                            "returnWin": 2.7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653550,
-                            "isOpen": true,
-                            "sortOrder": 5,
                             "sameGame": true
                         },
                         {
@@ -4117,7 +4117,7 @@
                         {
                             "id": "651067",
                             "name": "Hoba Over 168.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4129,7 +4129,7 @@
                         {
                             "id": "651068",
                             "name": "Hoba Under 168.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4171,7 +4171,7 @@
                         {
                             "id": "651264",
                             "name": "MRng Over 165.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4183,7 +4183,7 @@
                         {
                             "id": "651265",
                             "name": "MRng Under 165.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4225,7 +4225,7 @@
                         {
                             "id": "651077",
                             "name": "Hoba 174 Runs or more",
-                            "returnWin": 2.1,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4249,7 +4249,7 @@
                         {
                             "id": "651079",
                             "name": "Hoba 163 Runs or less",
-                            "returnWin": 2.1,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4291,7 +4291,7 @@
                         {
                             "id": "651272",
                             "name": "MRng 171 Runs or more",
-                            "returnWin": 2.1,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4315,7 +4315,7 @@
                         {
                             "id": "651276",
                             "name": "MRng 160 Runs or less",
-                            "returnWin": 2.1,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6465,187 +6465,6 @@
                             "sortOrder": 2
                         }
                     ]
-                },
-                {
-                    "id": "109008210",
-                    "name": "BBL Hobrt-MRngd TtlMch6s 14/01",
-                    "shortName": "BBL Hobrt-MRngd TtlMch6s",
-                    "betOption": "Total Match Sixes",
-                    "betOptionSpectrumId": "681",
-                    "betOptionPriority": 1990,
-                    "marketUniqueId": 109008210,
-                    "closeTime": "2025-01-14T08:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": "Does Not Include Super Over",
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650357",
-                            "name": "12 Sixes Or More",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650357,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650358",
-                            "name": "Between 10 - 11 Sixes",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650358,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650359",
-                            "name": "9 Sixes Or Less",
-                            "returnWin": 2.15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650359,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "109008207",
-                    "name": "BBL Hobrt-MRngd 6s6Way 14/01",
-                    "shortName": "BBL Hobrt-MRngd 6s6Way",
-                    "betOption": "Total Match Sixes 6-Way",
-                    "betOptionSpectrumId": "1531",
-                    "betOptionPriority": 1995,
-                    "marketUniqueId": 109008207,
-                    "closeTime": "2025-01-14T08:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Does Not Include Super Over",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": false,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "650360",
-                            "name": "17 or more Sixes",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650360,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650361",
-                            "name": "15-16 Sixes",
-                            "returnWin": 8.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650361,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650362",
-                            "name": "13-14 Sixes",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650362,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650363",
-                            "name": "11-12 Sixes",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650363,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650364",
-                            "name": "9-10 Sixes",
-                            "returnWin": 7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650364,
-                            "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "650365",
-                            "name": "8 or less Sixes",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 650365,
-                            "isOpen": true,
-                            "sortOrder": 6,
-                            "sameGame": true
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109008208",
@@ -16455,8 +16274,6 @@
         "Fall Of 1st Wicket",
         "Match Sixes 3-Way",
         "Total Match Sixes Over/Under",
-        "Total Match Sixes",
-        "Total Match Sixes 6-Way",
         "Alternate Total Match Sixes",
         "Most Wickets",
         "To Take A Wicket",
@@ -16751,22 +16568,6 @@
             "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes%20Over%2FUnder"
-            }
-        },
-        {
-            "name": "Total Match Sixes",
-            "hasFutureMarket": false,
-            "openMarketCount": 1,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes"
-            }
-        },
-        {
-            "name": "Total Match Sixes 6-Way",
-            "hasFutureMarket": false,
-            "openMarketCount": 1,
-            "_links": {
-                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes%206-Way"
             }
         },
         {
