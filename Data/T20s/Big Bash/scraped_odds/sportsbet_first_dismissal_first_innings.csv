@@ -1,10 +1,4 @@
 match,market,home_team,away_team,method,price,agency
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Caught,1.34,Sportsbet
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Bowled,5,Sportsbet
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Leg Before Wicket,7,Sportsbet
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Run Out,23,Sportsbet
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Stumped,26,Sportsbet
-Sydney Thunder v Perth Scorchers,Method of 1st Dismissal (1st Innings),Sydney Thunder,Perth Scorchers,Other,101,Sportsbet
 Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Melbourne Renegades,Caught,1.34,Sportsbet
 Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Melbourne Renegades,Bowled,5,Sportsbet
 Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Melbourne Renegades,Leg Before Wicket,7,Sportsbet
@@ -12,8 +6,8 @@ Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Ho
 Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Melbourne Renegades,Stumped,26,Sportsbet
 Hobart Hurricanes v Melbourne Renegades,Method of 1st Dismissal (1st Innings),Hobart Hurricanes,Melbourne Renegades,Other,251,Sportsbet
 Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Caught,1.34,Sportsbet
-Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Bowled,5,Sportsbet
-Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Leg Before Wicket,7,Sportsbet
+Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Bowled,5.2,Sportsbet
+Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Leg Before Wicket,8,Sportsbet
 Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Run Out,26,Sportsbet
 Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Stumped,23,Sportsbet
 Adelaide Strikers v Sydney Sixers,Method of 1st Dismissal (1st Innings),Adelaide Strikers,Sydney Sixers,Other,251,Sportsbet
