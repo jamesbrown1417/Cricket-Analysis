@@ -1,20 +1,16 @@
 match,market,home_team,away_team,player_name,line,over_price,under_price,agency
-Sydney Sixers v Sydney Thunder,Number of 4s,Sydney Sixers,Sydney Thunder,Steve Smith,2.5,1.8,1.98,Sportsbet
-Sydney Sixers v Sydney Thunder,Number of 4s,Sydney Sixers,Sydney Thunder,Josh Philippe,2.5,2.25,1.56,Sportsbet
 Sydney Sixers v Sydney Thunder,Number of 4s,Sydney Sixers,Sydney Thunder,David Warner,2.5,2.1,1.68,Sportsbet
 Sydney Sixers v Sydney Thunder,Number of 4s,Sydney Sixers,Sydney Thunder,Sam Konstas,2.5,2.05,1.71,Sportsbet
-Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,Steve Smith,1.5,2.25,1.59,Sportsbet
-Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,Josh Philippe,0.5,1.92,1.81,Sportsbet
-Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,David Warner,0.5,1.71,2.05,Sportsbet
-Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,Sam Konstas,0.5,1.79,1.95,Sportsbet
+Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,David Warner,0.5,1.71,2.06,Sportsbet
+Sydney Sixers v Sydney Thunder,Number of 6s,Sydney Sixers,Sydney Thunder,Sam Konstas,0.5,1.8,1.93,Sportsbet
 Melbourne Renegades v Brisbane Heat,Number of 4s,Melbourne Renegades,Brisbane Heat,Josh Brown,1.5,1.88,1.88,Sportsbet
-Melbourne Renegades v Brisbane Heat,Number of 4s,Melbourne Renegades,Brisbane Heat,Marcus Harris,1.5,2,1.72,Sportsbet
+Melbourne Renegades v Brisbane Heat,Number of 4s,Melbourne Renegades,Brisbane Heat,Jake Fraser-McGurk,1.5,1.68,2.15,Sportsbet
 Melbourne Renegades v Brisbane Heat,Number of 4s,Melbourne Renegades,Brisbane Heat,Jack Wood,1.5,1.96,1.78,Sportsbet
 Melbourne Renegades v Brisbane Heat,Number of 4s,Melbourne Renegades,Brisbane Heat,Colin Munro,2.5,2.24,1.6,Sportsbet
-Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Josh Brown,0.5,2.04,1.72,Sportsbet
-Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Marcus Harris,0.5,2.29,1.58,Sportsbet
-Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Jack Wood,0.5,2.23,1.61,Sportsbet
-Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Colin Munro,0.5,1.79,1.94,Sportsbet
+Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Josh Brown,0.5,1.87,1.86,Sportsbet
+Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Jake Fraser-McGurk,0.5,1.89,1.83,Sportsbet
+Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Jack Wood,0.5,2.24,1.6,Sportsbet
+Melbourne Renegades v Brisbane Heat,Number of 6s,Melbourne Renegades,Brisbane Heat,Colin Munro,0.5,1.82,1.91,Sportsbet
 Perth Scorchers v Adelaide Strikers,Number of 4s,Perth Scorchers,Adelaide Strikers,Sam Fanning,1.5,1.88,1.88,Sportsbet
 Perth Scorchers v Adelaide Strikers,Number of 4s,Perth Scorchers,Adelaide Strikers,Finn Allen,2.5,2.25,1.56,Sportsbet
 Perth Scorchers v Adelaide Strikers,Number of 4s,Perth Scorchers,Adelaide Strikers,Matt Short,2.5,1.96,1.78,Sportsbet
