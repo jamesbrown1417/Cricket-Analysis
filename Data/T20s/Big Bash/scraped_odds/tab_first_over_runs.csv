@@ -1,12 +1,4 @@
 match,market,team,line,over_price,under_price,agency
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SydS,5.5,1.5,2.4,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SydS,3.5,1.15,4.75,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SydS,7.5,2.2,1.6,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SydS,9.5,2.7,1.4,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SyTh,7.5,2.2,1.6,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SyTh,9.5,2.7,1.4,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SyTh,5.5,1.5,2.4,TAB
-Sydney Sixers v Sydney Thunder,First Over Runs - Team,SyTh,3.5,1.2,4.2,TAB
 Melbourne Renegades v Brisbane Heat,First Over Runs - Team,Bris,5.5,1.6,2.2,TAB
 Melbourne Renegades v Brisbane Heat,First Over Runs - Team,Bris,3.5,1.28,3.3,TAB
 Melbourne Renegades v Brisbane Heat,First Over Runs - Team,Bris,7.5,2.4,1.5,TAB
@@ -31,3 +23,11 @@ Melbourne Stars v Hobart Hurricanes,First Over Runs - Team,Melbourne Stars,3.5,1
 Melbourne Stars v Hobart Hurricanes,First Over Runs - Team,Melbourne Stars,9.5,3.8,1.22,TAB
 Melbourne Stars v Hobart Hurricanes,First Over Runs - Team,Melbourne Stars,5.5,1.6,2.2,TAB
 Melbourne Stars v Hobart Hurricanes,First Over Runs - Team,Melbourne Stars,7.5,2.4,1.5,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Hobart Hurricanes,5.5,1.6,2.2,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Hobart Hurricanes,3.5,1.28,3.3,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Hobart Hurricanes,7.5,2.4,1.5,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Hobart Hurricanes,9.5,3.8,1.22,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Sydney Sixers,5.5,1.6,2.2,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Sydney Sixers,3.5,1.28,3.3,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Sydney Sixers,7.5,2.4,1.5,TAB
+Hobart Hurricanes v Sydney Sixers,First Over Runs - Team,Sydney Sixers,9.5,3.8,1.22,TAB
