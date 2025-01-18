@@ -1,8 +1,4 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Adam Zampa,Melbourne Renegades,Brisbane Heat,0.5,1.26,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Adam Zampa,Melbourne Renegades,Brisbane Heat,1.5,2.35,1.53,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Adam Zampa,Melbourne Renegades,Brisbane Heat,2.5,5.1,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Adam Zampa,Melbourne Renegades,Brisbane Heat,3.5,11,NA,TopSport
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Andrew Tye,Perth Scorchers,Adelaide Strikers,0.5,1.27,NA,TopSport
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Andrew Tye,Perth Scorchers,Adelaide Strikers,1.5,2.4,1.51,TopSport
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Andrew Tye,Perth Scorchers,Adelaide Strikers,2.5,5.2,NA,TopSport
@@ -19,15 +15,19 @@ Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Stri
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Jason Behrendorff,Perth Scorchers,Adelaide Strikers,1.5,2.15,1.62,TopSport
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Jason Behrendorff,Perth Scorchers,Adelaide Strikers,2.5,4.7,NA,TopSport
 Perth Scorchers v Adelaide Strikers,Player Wickets,Perth Scorchers,Adelaide Strikers,Jason Behrendorff,Perth Scorchers,Adelaide Strikers,3.5,10,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Spencer Johnson,Brisbane Heat,Melbourne Renegades,0.5,1.26,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Spencer Johnson,Brisbane Heat,Melbourne Renegades,1.5,2.35,1.53,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Spencer Johnson,Brisbane Heat,Melbourne Renegades,2.5,5.1,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Spencer Johnson,Brisbane Heat,Melbourne Renegades,3.5,11,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Tom S Rogers,Melbourne Renegades,Brisbane Heat,0.5,1.25,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Tom S Rogers,Melbourne Renegades,Brisbane Heat,1.5,2.3,1.55,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Tom S Rogers,Melbourne Renegades,Brisbane Heat,2.5,5,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Tom S Rogers,Melbourne Renegades,Brisbane Heat,3.5,11,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Melbourne Renegades,0.5,1.24,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Melbourne Renegades,1.5,2.25,1.57,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Melbourne Renegades,2.5,4.9,NA,TopSport
-Melbourne Renegades v Brisbane Heat,Player Wickets,Melbourne Renegades,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Melbourne Renegades,3.5,10,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Mark Steketee,Melbourne Stars,Hobart Hurricanes,0.5,1.33,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Mark Steketee,Melbourne Stars,Hobart Hurricanes,1.5,2.7,1.41,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Mark Steketee,Melbourne Stars,Hobart Hurricanes,2.5,5.75,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Mark Steketee,Melbourne Stars,Hobart Hurricanes,3.5,12,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Melbourne Stars,0.5,1.24,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Melbourne Stars,1.5,2.25,1.57,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Melbourne Stars,2.5,4.9,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Melbourne Stars,3.5,10,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Melbourne Stars,0.5,1.24,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Melbourne Stars,1.5,2.25,1.57,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Melbourne Stars,2.5,4.9,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Melbourne Stars,3.5,10,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Usama Mir,Melbourne Stars,Hobart Hurricanes,0.5,1.28,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Usama Mir,Melbourne Stars,Hobart Hurricanes,1.5,2.45,1.49,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Usama Mir,Melbourne Stars,Hobart Hurricanes,2.5,5.3,NA,TopSport
+Melbourne Stars v Hobart Hurricanes,Player Wickets,Melbourne Stars,Hobart Hurricanes,Usama Mir,Melbourne Stars,Hobart Hurricanes,3.5,11,NA,TopSport
