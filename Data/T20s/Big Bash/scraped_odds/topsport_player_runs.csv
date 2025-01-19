@@ -1,28 +1,4 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,line,over_price,under_price,agency
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,9.5,1.18,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,19.5,1.8,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,Perth Scorchers,Adelaide Strikers,20.5,1.95,1.76,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,29.5,2.4,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,39.5,3.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,49.5,4.6,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,59.5,5.5,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,79.5,14,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Aaron Hardie,NA,NA,99.5,31,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,9.5,1.24,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,19.5,1.75,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,Adelaide Strikers,Perth Scorchers,21.5,1.9,1.8,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,29.5,2.35,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,39.5,3.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,49.5,3.8,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,59.5,4.2,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,79.5,12,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Alex Carey,NA,NA,99.5,26,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,9.5,1.37,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,19.5,2.05,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,29.5,2.7,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,39.5,4,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,49.5,5.5,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ashton Turner,NA,NA,59.5,6.5,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Beau Webster,NA,NA,9.5,1.25,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Beau Webster,NA,NA,19.5,1.8,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Beau Webster,Melbourne Stars,Hobart Hurricanes,20.5,1.95,1.76,TopSport
@@ -50,33 +26,6 @@ Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricane
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Caleb Jewell,NA,NA,59.5,7,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Caleb Jewell,NA,NA,79.5,14,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Caleb Jewell,NA,NA,99.5,41,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,9.5,1.14,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,19.5,1.75,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,Perth Scorchers,Adelaide Strikers,21.5,2.05,1.7,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,29.5,2.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,39.5,2.9,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,49.5,3.5,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,59.5,4.2,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,79.5,12,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Cooper Connolly,NA,NA,99.5,26,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,9.5,1.17,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,19.5,1.75,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,Adelaide Strikers,Perth Scorchers,19.5,2.05,1.7,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,29.5,2.45,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,39.5,3.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,49.5,4,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,59.5,4.6,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,79.5,12,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,DArcy Short,NA,NA,99.5,31,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,9.5,1.27,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,19.5,1.85,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,Perth Scorchers,Adelaide Strikers,19.5,1.95,1.76,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,29.5,2.6,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,39.5,3.2,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,49.5,3.9,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,59.5,4.6,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,79.5,11,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Finn Allen,NA,NA,99.5,26,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Glenn Maxwell,NA,NA,9.5,1.18,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Glenn Maxwell,NA,NA,19.5,1.8,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Glenn Maxwell,NA,NA,29.5,2.25,NA,TopSport
@@ -94,15 +43,6 @@ Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricane
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Marcus Stoinis,NA,NA,59.5,4.6,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Marcus Stoinis,NA,NA,79.5,11,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Marcus Stoinis,NA,NA,99.5,26,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,9.5,1.31,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,19.5,1.75,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,Adelaide Strikers,Perth Scorchers,22.5,1.87,1.83,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,29.5,2.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,39.5,3.3,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,49.5,3.7,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,59.5,4.2,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,79.5,11,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Matt Short,NA,NA,99.5,21,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Matthew Wade,NA,NA,9.5,1.28,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Matthew Wade,Hobart Hurricanes,Melbourne Stars,18.5,1.95,1.76,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Matthew Wade,NA,NA,19.5,1.85,NA,TopSport
@@ -121,15 +61,6 @@ Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricane
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Mitch Owen,NA,NA,59.5,4.6,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Mitch Owen,NA,NA,79.5,9.5,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Mitch Owen,NA,NA,99.5,26,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,9.5,1.26,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,Adelaide Strikers,Perth Scorchers,17.5,2,1.72,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,19.5,2.05,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,29.5,2.6,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,39.5,4,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,49.5,5.5,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,59.5,7,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Ollie Pope,NA,NA,79.5,19,NA,TopSport
-Perth Scorchers v Adelaide Strikers,Player Runs,Perth Scorchers,Adelaide Strikers,Sam Fanning,Perth Scorchers,Adelaide Strikers,16.5,1.95,1.76,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Sam Harper,NA,NA,9.5,1.5,NA,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Sam Harper,Melbourne Stars,Hobart Hurricanes,16.5,2,1.72,TopSport
 Melbourne Stars v Hobart Hurricanes,Player Runs,Melbourne Stars,Hobart Hurricanes,Sam Harper,NA,NA,19.5,2.1,NA,TopSport
