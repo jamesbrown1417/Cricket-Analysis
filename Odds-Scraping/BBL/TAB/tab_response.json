@@ -125,7 +125,7 @@
                         {
                             "id": "650197",
                             "name": "Melbourne Stars",
-                            "returnWin": 1.8,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -139,7 +139,7 @@
                         {
                             "id": "650243",
                             "name": "Hobart Hurricanes",
-                            "returnWin": 2,
+                            "returnWin": 2.15,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -247,18 +247,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "651533",
-                            "name": "Tim Ward (Hob)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651533,
-                            "isOpen": true,
-                            "sortOrder": 16
-                        },
-                        {
                             "id": "651280",
                             "name": "Tim David (Hob)",
                             "returnWin": 6.5,
@@ -282,19 +270,6 @@
                             "number": 651269,
                             "isOpen": true,
                             "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "651281",
-                            "name": "Jake Doran (Hob)",
-                            "returnWin": 9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651281,
-                            "isOpen": true,
-                            "sortOrder": 7,
                             "sameGame": true
                         },
                         {
@@ -334,6 +309,18 @@
                             "isOpen": true,
                             "sortOrder": 9,
                             "sameGame": true
+                        },
+                        {
+                            "id": "651533",
+                            "name": "Cameron Gannon (Hob)",
+                            "returnWin": 51,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651533,
+                            "isOpen": true,
+                            "sortOrder": 16
                         },
                         {
                             "id": "651532",
@@ -445,19 +432,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "651110",
-                            "name": "Tom Rogers (MSt)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651110,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "651111",
                             "name": "Sam Harper (MSt)",
                             "returnWin": 5,
@@ -468,6 +442,19 @@
                             "number": 651111,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651110",
+                            "name": "Tom Rogers (MSt)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651110,
+                            "isOpen": true,
+                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -545,6 +532,31 @@
                             "sortOrder": 14
                         },
                         {
+                            "id": "651262",
+                            "name": "Peter Siddle (MSt)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651262,
+                            "isOpen": true,
+                            "sortOrder": 16,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651255",
+                            "name": "Austin Anlezark (MSt)",
+                            "returnWin": 101,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651255,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
                             "id": "651252",
                             "name": "Brody Couch (MSt)",
                             "returnWin": 101,
@@ -580,31 +592,6 @@
                             "isOpen": true,
                             "sortOrder": 9,
                             "sameGame": true
-                        },
-                        {
-                            "id": "651262",
-                            "name": "Peter Siddle (MSt)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651262,
-                            "isOpen": true,
-                            "sortOrder": 16,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "651255",
-                            "name": "Austin Anlezark (MSt)",
-                            "returnWin": 101,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651255,
-                            "isOpen": true,
-                            "sortOrder": 13
                         },
                         {
                             "id": "651253",
@@ -652,19 +639,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656296",
-                            "name": "Mitch Owen (Hob)",
-                            "returnWin": 1.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656296,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656298",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 1.1,
@@ -675,6 +649,19 @@
                             "number": 656298,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656296",
+                            "name": "Mitch Owen (Hob)",
+                            "returnWin": 1.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656296,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         },
                         {
@@ -788,19 +775,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656071",
-                            "name": "Sam Harper (MSt)",
-                            "returnWin": 1.18,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656071,
-                            "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656068",
                             "name": "Tom Rogers (MSt)",
                             "returnWin": 1.18,
@@ -811,6 +785,19 @@
                             "number": 656068,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656071",
+                            "name": "Sam Harper (MSt)",
+                            "returnWin": 1.18,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656071,
+                            "isOpen": true,
+                            "sortOrder": 5,
                             "sameGame": true
                         }
                     ],
@@ -846,19 +833,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656306",
-                            "name": "Mitch Owen (Hob)",
-                            "returnWin": 1.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656306,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656308",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 1.3,
@@ -869,6 +843,19 @@
                             "number": 656308,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656306",
+                            "name": "Mitch Owen (Hob)",
+                            "returnWin": 1.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656306,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         },
                         {
@@ -1040,19 +1027,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656328",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656328,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656326",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 1.5,
@@ -1063,6 +1037,19 @@
                             "number": 656326,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656328",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656328,
+                            "isOpen": true,
+                            "sortOrder": 4,
                             "sameGame": true
                         },
                         {
@@ -1137,19 +1124,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656097",
-                            "name": "Marcus Stoinis (MSt)",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656097,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656100",
                             "name": "Beau Webster (MSt)",
                             "returnWin": 1.5,
@@ -1160,6 +1134,19 @@
                             "number": 656100,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656097",
+                            "name": "Marcus Stoinis (MSt)",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656097,
+                            "isOpen": true,
+                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -1176,19 +1163,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656098",
-                            "name": "Tom Rogers (MSt)",
-                            "returnWin": 1.82,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656098,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656101",
                             "name": "Sam Harper (MSt)",
                             "returnWin": 1.82,
@@ -1199,6 +1173,19 @@
                             "number": 656101,
                             "isOpen": true,
                             "sortOrder": 5,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656098",
+                            "name": "Tom Rogers (MSt)",
+                            "returnWin": 1.82,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656098,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         }
                     ],
@@ -1331,19 +1318,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656087",
-                            "name": "Marcus Stoinis (MSt)",
-                            "returnWin": 1.75,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656087,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656090",
                             "name": "Beau Webster (MSt)",
                             "returnWin": 1.75,
@@ -1354,6 +1328,19 @@
                             "number": 656090,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656087",
+                            "name": "Marcus Stoinis (MSt)",
+                            "returnWin": 1.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656087,
+                            "isOpen": true,
+                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -1428,19 +1415,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656336",
-                            "name": "Mitch Owen (Hob)",
-                            "returnWin": 2.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656336,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656338",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 2.1,
@@ -1451,6 +1425,19 @@
                             "number": 656338,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656336",
+                            "name": "Mitch Owen (Hob)",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656336,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         },
                         {
@@ -1622,19 +1609,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656348",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656348,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656346",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 2.5,
@@ -1645,6 +1619,19 @@
                             "number": 656346,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656348",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656348,
+                            "isOpen": true,
+                            "sortOrder": 4,
                             "sameGame": true
                         },
                         {
@@ -1816,19 +1803,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656358",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 3.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656358,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656356",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 3.4,
@@ -1839,6 +1813,19 @@
                             "number": 656356,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656358",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 3.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656358,
+                            "isOpen": true,
+                            "sortOrder": 4,
                             "sameGame": true
                         },
                         {
@@ -1952,19 +1939,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656131",
-                            "name": "Sam Harper (MSt)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656131,
-                            "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656128",
                             "name": "Tom Rogers (MSt)",
                             "returnWin": 4.5,
@@ -1975,6 +1949,19 @@
                             "number": 656128,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656131",
+                            "name": "Sam Harper (MSt)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656131,
+                            "isOpen": true,
+                            "sortOrder": 5,
                             "sameGame": true
                         }
                     ],
@@ -2036,19 +2023,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656367",
-                            "name": "Nikhil Chaudhary (Hob)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656367,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656369",
                             "name": "Tim David (Hob)",
                             "returnWin": 5.5,
@@ -2059,6 +2033,19 @@
                             "number": 656369,
                             "isOpen": true,
                             "sortOrder": 5,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656367",
+                            "name": "Nikhil Chaudhary (Hob)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656367,
+                            "isOpen": true,
+                            "sortOrder": 3,
                             "sameGame": true
                         },
                         {
@@ -2107,19 +2094,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656137",
-                            "name": "Marcus Stoinis (MSt)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656137,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656140",
                             "name": "Beau Webster (MSt)",
                             "returnWin": 5,
@@ -2130,6 +2104,19 @@
                             "number": 656140,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656137",
+                            "name": "Marcus Stoinis (MSt)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656137,
+                            "isOpen": true,
+                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -2146,19 +2133,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656141",
-                            "name": "Sam Harper (MSt)",
-                            "returnWin": 6.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656141,
-                            "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656138",
                             "name": "Tom Rogers (MSt)",
                             "returnWin": 6.5,
@@ -2169,6 +2143,19 @@
                             "number": 656138,
                             "isOpen": true,
                             "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656141",
+                            "name": "Sam Harper (MSt)",
+                            "returnWin": 6.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656141,
+                            "isOpen": true,
+                            "sortOrder": 5,
                             "sameGame": true
                         }
                     ],
@@ -2204,19 +2191,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656378",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656378,
-                            "isOpen": true,
-                            "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656376",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 13,
@@ -2230,16 +2204,16 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656379",
-                            "name": "Tim David (Hob)",
-                            "returnWin": 15,
+                            "id": "656378",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 13,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656379,
+                            "number": 656378,
                             "isOpen": true,
-                            "sortOrder": 5,
+                            "sortOrder": 4,
                             "sameGame": true
                         },
                         {
@@ -2253,6 +2227,19 @@
                             "number": 656377,
                             "isOpen": true,
                             "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656379",
+                            "name": "Tim David (Hob)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656379,
+                            "isOpen": true,
+                            "sortOrder": 5,
                             "sameGame": true
                         },
                         {
@@ -2301,19 +2288,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656147",
-                            "name": "Marcus Stoinis (MSt)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656147,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656150",
                             "name": "Beau Webster (MSt)",
                             "returnWin": 13,
@@ -2324,6 +2298,19 @@
                             "number": 656150,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656147",
+                            "name": "Marcus Stoinis (MSt)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656147,
+                            "isOpen": true,
+                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -2411,19 +2398,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656389",
-                            "name": "Tim David (Hob)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656389,
-                            "isOpen": true,
-                            "sortOrder": 5,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656388",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 26,
@@ -2434,6 +2408,19 @@
                             "number": 656388,
                             "isOpen": true,
                             "sortOrder": 4,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656389",
+                            "name": "Tim David (Hob)",
+                            "returnWin": 26,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656389,
+                            "isOpen": true,
+                            "sortOrder": 5,
                             "sameGame": true
                         },
                         {
@@ -2534,19 +2521,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "656158",
-                            "name": "Tom Rogers (MSt)",
-                            "returnWin": 41,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656158,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656161",
                             "name": "Sam Harper (MSt)",
                             "returnWin": 41,
@@ -2557,6 +2531,19 @@
                             "number": 656161,
                             "isOpen": true,
                             "sortOrder": 5,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656158",
+                            "name": "Tom Rogers (MSt)",
+                            "returnWin": 41,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656158,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         }
                     ],
@@ -4712,13 +4699,13 @@
                     ]
                 },
                 {
-                    "id": "109304825",
+                    "id": "109304826",
                     "name": "BBL Hobart PlrRunOU 19/01",
                     "shortName": "BBL Hobart PlrRunOU",
                     "betOption": "Player Runs",
                     "betOptionSpectrumId": "2100",
                     "betOptionPriority": 1675,
-                    "marketUniqueId": 109304825,
+                    "marketUniqueId": 109304826,
                     "closeTime": "2025-01-19T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
@@ -4740,27 +4727,27 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656497",
-                            "name": "N Chaudhary Over 20.5 Runs",
-                            "returnWin": 1.85,
+                            "id": "656491",
+                            "name": "C Jewell Over 21.5 Runs",
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656497,
+                            "number": 656491,
                             "isOpen": true,
                             "sortOrder": 1,
                             "sameGame": true
                         },
                         {
-                            "id": "656498",
-                            "name": "N Chaudhary Under 20.5 Runs",
-                            "returnWin": 1.85,
+                            "id": "656492",
+                            "name": "C Jewell Under 21.5 Runs",
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656498,
+                            "number": 656492,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -4826,6 +4813,63 @@
                     "sameGameMultipleSelections": false
                 },
                 {
+                    "id": "109304825",
+                    "name": "BBL Hobart PlrRunOU 19/01",
+                    "shortName": "BBL Hobart PlrRunOU",
+                    "betOption": "Player Runs",
+                    "betOptionSpectrumId": "2100",
+                    "betOptionPriority": 1675,
+                    "marketUniqueId": 109304825,
+                    "closeTime": "2025-01-19T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "656497",
+                            "name": "N Chaudhary Over 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656497,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656498",
+                            "name": "N Chaudhary Under 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656498,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
+                },
+                {
                     "id": "109304823",
                     "name": "BBL Hobart PlrRunOU 19/01",
                     "shortName": "BBL Hobart PlrRunOU",
@@ -4856,7 +4900,7 @@
                         {
                             "id": "656493",
                             "name": "C Wakim Over 15.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4869,69 +4913,12 @@
                         {
                             "id": "656494",
                             "name": "C Wakim Under 15.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656494,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "109304826",
-                    "name": "BBL Hobart PlrRunOU 19/01",
-                    "shortName": "BBL Hobart PlrRunOU",
-                    "betOption": "Player Runs",
-                    "betOptionSpectrumId": "2100",
-                    "betOptionPriority": 1675,
-                    "marketUniqueId": 109304826,
-                    "closeTime": "2025-01-19T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "656491",
-                            "name": "C Jewell Over 21.5 Runs",
-                            "returnWin": 2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656491,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "656492",
-                            "name": "C Jewell Under 21.5 Runs",
-                            "returnWin": 1.7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656492,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -5168,88 +5155,6 @@
                     "sameGameMultipleSelections": false
                 },
                 {
-                    "id": "109304813",
-                    "name": "BBL Hobart AlPlrRun 19/01",
-                    "shortName": "BBL Hobart AlPlrRun",
-                    "betOption": "Alternate Player Runs O/U",
-                    "betOptionSpectrumId": "4854",
-                    "betOptionPriority": 1680,
-                    "marketUniqueId": 109304813,
-                    "closeTime": "2025-01-19T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "656503",
-                            "name": "C Wakim Over 8.5 Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656503,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "656504",
-                            "name": "C Wakim Under 8.5 Runs",
-                            "returnWin": 2.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656504,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "656505",
-                            "name": "C Wakim Over 22.5 Runs",
-                            "returnWin": 2.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656505,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "656506",
-                            "name": "C Wakim Under 22.5 Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656506,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
-                },
-                {
                     "id": "109304814",
                     "name": "BBL Hobart AlPlrRun 19/01",
                     "shortName": "BBL Hobart AlPlrRun",
@@ -5332,13 +5237,13 @@
                     "sameGameMultipleSelections": false
                 },
                 {
-                    "id": "109304815",
+                    "id": "109304813",
                     "name": "BBL Hobart AlPlrRun 19/01",
                     "shortName": "BBL Hobart AlPlrRun",
                     "betOption": "Alternate Player Runs O/U",
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
-                    "marketUniqueId": 109304815,
+                    "marketUniqueId": 109304813,
                     "closeTime": "2025-01-19T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
@@ -5360,52 +5265,52 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656511",
-                            "name": "N Chaudhary Over 13.5 Runs",
-                            "returnWin": 1.5,
+                            "id": "656503",
+                            "name": "C Wakim Over 8.5 Runs",
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656511,
+                            "number": 656503,
                             "isOpen": true,
                             "sortOrder": 1,
                             "sameGame": true
                         },
                         {
-                            "id": "656512",
-                            "name": "N Chaudhary Under 13.5 Runs",
-                            "returnWin": 2.4,
+                            "id": "656504",
+                            "name": "C Wakim Under 8.5 Runs",
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656512,
+                            "number": 656504,
                             "isOpen": true,
                             "sortOrder": 2
                         },
                         {
-                            "id": "656513",
-                            "name": "N Chaudhary Over 27.5 Runs",
-                            "returnWin": 2.4,
+                            "id": "656505",
+                            "name": "C Wakim Over 22.5 Runs",
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656513,
+                            "number": 656505,
                             "isOpen": true,
                             "sortOrder": 3,
                             "sameGame": true
                         },
                         {
-                            "id": "656514",
-                            "name": "N Chaudhary Under 27.5 Runs",
-                            "returnWin": 1.5,
+                            "id": "656506",
+                            "name": "C Wakim Under 22.5 Runs",
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656514,
+                            "number": 656506,
                             "isOpen": true,
                             "sortOrder": 4
                         }
@@ -5496,6 +5401,88 @@
                     "sameGameMultipleSelections": false
                 },
                 {
+                    "id": "109304815",
+                    "name": "BBL Hobart AlPlrRun 19/01",
+                    "shortName": "BBL Hobart AlPlrRun",
+                    "betOption": "Alternate Player Runs O/U",
+                    "betOptionSpectrumId": "4854",
+                    "betOptionPriority": 1680,
+                    "marketUniqueId": 109304815,
+                    "closeTime": "2025-01-19T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "656511",
+                            "name": "N Chaudhary Over 13.5 Runs",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656511,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656512",
+                            "name": "N Chaudhary Under 13.5 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656512,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "656513",
+                            "name": "N Chaudhary Over 27.5 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656513,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656514",
+                            "name": "N Chaudhary Under 27.5 Runs",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656514,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
+                },
+                {
                     "id": "109304867",
                     "name": "BBL Melb Stars AlPlrRun 19/01",
                     "shortName": "BBL Melb Stars AlPlrRun",
@@ -5578,88 +5565,6 @@
                     "sameGameMultipleSelections": false
                 },
                 {
-                    "id": "109304868",
-                    "name": "BBL Melb Stars AlPlrRun 19/01",
-                    "shortName": "BBL Melb Stars AlPlrRun",
-                    "betOption": "Alternate Player Runs O/U",
-                    "betOptionSpectrumId": "4854",
-                    "betOptionPriority": 1680,
-                    "marketUniqueId": 109304868,
-                    "closeTime": "2025-01-19T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "656283",
-                            "name": "B Webster Over 14.5 Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656283,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "656284",
-                            "name": "B Webster Under 14.5 Runs",
-                            "returnWin": 2.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656284,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "656285",
-                            "name": "B Webster Over 28.5 Runs",
-                            "returnWin": 2.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656285,
-                            "isOpen": true,
-                            "sortOrder": 3,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "656286",
-                            "name": "B Webster Under 28.5 Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656286,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
-                },
-                {
                     "id": "109304866",
                     "name": "BBL Melb Stars AlPlrRun 19/01",
                     "shortName": "BBL Melb Stars AlPlrRun",
@@ -5734,6 +5639,88 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656278,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
+                },
+                {
+                    "id": "109304868",
+                    "name": "BBL Melb Stars AlPlrRun 19/01",
+                    "shortName": "BBL Melb Stars AlPlrRun",
+                    "betOption": "Alternate Player Runs O/U",
+                    "betOptionSpectrumId": "4854",
+                    "betOptionPriority": 1680,
+                    "marketUniqueId": 109304868,
+                    "closeTime": "2025-01-19T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "656283",
+                            "name": "B Webster Over 14.5 Runs",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656283,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656284",
+                            "name": "B Webster Under 14.5 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656284,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "656285",
+                            "name": "B Webster Over 28.5 Runs",
+                            "returnWin": 2.4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656285,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656286",
+                            "name": "B Webster Under 28.5 Runs",
+                            "returnWin": 1.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656286,
                             "isOpen": true,
                             "sortOrder": 4
                         }
@@ -5854,7 +5841,7 @@
                         {
                             "id": "651100",
                             "name": "Melbourne Stars",
-                            "returnWin": 1.95,
+                            "returnWin": 2.05,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5878,7 +5865,7 @@
                         {
                             "id": "651102",
                             "name": "HobartHurricanes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6320,7 +6307,7 @@
                         {
                             "id": "651092",
                             "name": "MSt Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6333,7 +6320,7 @@
                         {
                             "id": "651097",
                             "name": "MSt Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6444,7 +6431,7 @@
                         {
                             "id": "650992",
                             "name": "Over 9.5 Sixes",
-                            "returnWin": 1.72,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6456,7 +6443,7 @@
                         {
                             "id": "650995",
                             "name": "Under 9.5 Sixes",
-                            "returnWin": 2,
+                            "returnWin": 1.85,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6498,7 +6485,7 @@
                         {
                             "id": "651008",
                             "name": "11 Sixes Or More",
-                            "returnWin": 1.95,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6524,7 +6511,7 @@
                         {
                             "id": "651010",
                             "name": "8 Sixes Or Less",
-                            "returnWin": 2.2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6716,19 +6703,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "651868",
-                            "name": "Riley Meredith (Hob)",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651868,
-                            "isOpen": true,
-                            "sortOrder": 11,
-                            "sameGame": true
-                        },
-                        {
                             "id": "651768",
                             "name": "Nathan Ellis (Hob)",
                             "returnWin": 4,
@@ -6739,6 +6713,19 @@
                             "number": 651768,
                             "isOpen": true,
                             "sortOrder": 8,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651868",
+                            "name": "Riley Meredith (Hob)",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651868,
+                            "isOpen": true,
+                            "sortOrder": 11,
                             "sameGame": true
                         },
                         {
@@ -6754,6 +6741,18 @@
                             "sortOrder": 13
                         },
                         {
+                            "id": "651876",
+                            "name": "Cameron Gannon (Hob)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651876,
+                            "isOpen": true,
+                            "sortOrder": 16
+                        },
+                        {
                             "id": "651866",
                             "name": "Peter Hatzoglou (Hob)",
                             "returnWin": 5.5,
@@ -6767,16 +6766,16 @@
                             "sameGame": true
                         },
                         {
-                            "id": "651875",
-                            "name": "Marcus Bean (Hob)",
+                            "id": "651765",
+                            "name": "Nikhil Chaudhary (Hob)",
                             "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 651875,
+                            "number": 651765,
                             "isOpen": true,
-                            "sortOrder": 15,
+                            "sortOrder": 5,
                             "sameGame": true
                         },
                         {
@@ -6792,16 +6791,16 @@
                             "sortOrder": 10
                         },
                         {
-                            "id": "651765",
-                            "name": "Nikhil Chaudhary (Hob)",
+                            "id": "651875",
+                            "name": "Marcus Bean (Hob)",
                             "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 651765,
+                            "number": 651875,
                             "isOpen": true,
-                            "sortOrder": 5,
+                            "sortOrder": 15,
                             "sameGame": true
                         },
                         {
@@ -6863,6 +6862,18 @@
                     "allowBundle": false,
                     "propositions": [
                         {
+                            "id": "651550",
+                            "name": "Tom Curran (MSt)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651550,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
                             "id": "651549",
                             "name": "Peter Siddle (MSt)",
                             "returnWin": 4.5,
@@ -6876,16 +6887,17 @@
                             "sameGame": true
                         },
                         {
-                            "id": "651550",
-                            "name": "Tom Curran (MSt)",
-                            "returnWin": 4.5,
+                            "id": "651542",
+                            "name": "Mark Steketee (MSt)",
+                            "returnWin": 5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 651550,
+                            "number": 651542,
                             "isOpen": true,
-                            "sortOrder": 17
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "651544",
@@ -6898,19 +6910,6 @@
                             "number": 651544,
                             "isOpen": true,
                             "sortOrder": 11,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "651542",
-                            "name": "Mark Steketee (MSt)",
-                            "returnWin": 5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651542,
-                            "isOpen": true,
-                            "sortOrder": 9,
                             "sameGame": true
                         },
                         {
@@ -6977,18 +6976,6 @@
                             "sortOrder": 15
                         },
                         {
-                            "id": "651547",
-                            "name": "Hamish McKenzie (MSt)",
-                            "returnWin": 7.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651547,
-                            "isOpen": true,
-                            "sortOrder": 14
-                        },
-                        {
                             "id": "651545",
                             "name": "Glenn Maxwell (MSt)",
                             "returnWin": 7.5,
@@ -7000,6 +6987,18 @@
                             "isOpen": true,
                             "sortOrder": 12,
                             "sameGame": true
+                        },
+                        {
+                            "id": "651547",
+                            "name": "Hamish McKenzie (MSt)",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651547,
+                            "isOpen": true,
+                            "sortOrder": 14
                         },
                         {
                             "id": "651546",
@@ -7142,19 +7141,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656168",
-                            "name": "Peter Siddle (MSt)",
-                            "returnWin": 1.28,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656168,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656169",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 1.28,
@@ -7165,6 +7151,19 @@
                             "number": 656169,
                             "isOpen": true,
                             "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656168",
+                            "name": "Peter Siddle (MSt)",
+                            "returnWin": 1.28,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656168,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         },
                         {
@@ -7310,19 +7309,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "656176",
-                            "name": "Peter Siddle (MSt)",
-                            "returnWin": 2.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656176,
-                            "isOpen": true,
-                            "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
                             "id": "656177",
                             "name": "Usama Mir (MSt)",
                             "returnWin": 2.5,
@@ -7333,6 +7319,19 @@
                             "number": 656177,
                             "isOpen": true,
                             "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "656176",
+                            "name": "Peter Siddle (MSt)",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656176,
+                            "isOpen": true,
+                            "sortOrder": 2,
                             "sameGame": true
                         },
                         {
@@ -7784,18 +7783,6 @@
                             "sortOrder": 22
                         },
                         {
-                            "id": "656047",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656047,
-                            "isOpen": true,
-                            "sortOrder": 29
-                        },
-                        {
                             "id": "656043",
                             "name": "Nathan Ellis (Hob)",
                             "returnWin": 13,
@@ -7808,16 +7795,28 @@
                             "sortOrder": 25
                         },
                         {
-                            "id": "656048",
-                            "name": "Chris Jordan (Hob)",
+                            "id": "656047",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656047,
+                            "isOpen": true,
+                            "sortOrder": 29
+                        },
+                        {
+                            "id": "656050",
+                            "name": "Riley Meredith (Hob)",
                             "returnWin": 15,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656048,
+                            "number": 656050,
                             "isOpen": true,
-                            "sortOrder": 30
+                            "sortOrder": 32
                         },
                         {
                             "id": "656029",
@@ -7844,28 +7843,16 @@
                             "sortOrder": 36
                         },
                         {
-                            "id": "656050",
-                            "name": "Riley Meredith (Hob)",
+                            "id": "656048",
+                            "name": "Chris Jordan (Hob)",
                             "returnWin": 15,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656050,
+                            "number": 656048,
                             "isOpen": true,
-                            "sortOrder": 32
-                        },
-                        {
-                            "id": "656039",
-                            "name": "Nikhil Chaudhary (Hob)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656039,
-                            "isOpen": true,
-                            "sortOrder": 21
+                            "sortOrder": 30
                         },
                         {
                             "id": "656033",
@@ -7880,6 +7867,18 @@
                             "sortOrder": 15
                         },
                         {
+                            "id": "656037",
+                            "name": "Usama Mir (MSt)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656037,
+                            "isOpen": true,
+                            "sortOrder": 19
+                        },
+                        {
                             "id": "656032",
                             "name": "Peter Siddle (MSt)",
                             "returnWin": 17,
@@ -7890,18 +7889,6 @@
                             "number": 656032,
                             "isOpen": true,
                             "sortOrder": 14
-                        },
-                        {
-                            "id": "656021",
-                            "name": "Brody Couch (MSt)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656021,
-                            "isOpen": true,
-                            "sortOrder": 3
                         },
                         {
                             "id": "656025",
@@ -7928,16 +7915,28 @@
                             "sortOrder": 6
                         },
                         {
-                            "id": "656037",
-                            "name": "Usama Mir (MSt)",
+                            "id": "656021",
+                            "name": "Brody Couch (MSt)",
                             "returnWin": 17,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 656037,
+                            "number": 656021,
                             "isOpen": true,
-                            "sortOrder": 19
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "656039",
+                            "name": "Nikhil Chaudhary (Hob)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656039,
+                            "isOpen": true,
+                            "sortOrder": 21
                         },
                         {
                             "id": "656027",
@@ -7952,6 +7951,18 @@
                             "sortOrder": 9
                         },
                         {
+                            "id": "656055",
+                            "name": "Cameron Gannon (Hob)",
+                            "returnWin": 21,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656055,
+                            "isOpen": true,
+                            "sortOrder": 37
+                        },
+                        {
                             "id": "656030",
                             "name": "Joel Paris (MSt)",
                             "returnWin": 21,
@@ -7962,30 +7973,6 @@
                             "number": 656030,
                             "isOpen": true,
                             "sortOrder": 12
-                        },
-                        {
-                            "id": "656052",
-                            "name": "Billy Stanlake (Hob)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656052,
-                            "isOpen": true,
-                            "sortOrder": 34
-                        },
-                        {
-                            "id": "656042",
-                            "name": "Jake Doran (Hob)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656042,
-                            "isOpen": true,
-                            "sortOrder": 24
                         },
                         {
                             "id": "656041",
@@ -8000,18 +7987,6 @@
                             "sortOrder": 23
                         },
                         {
-                            "id": "656035",
-                            "name": "Doug Warren (MSt)",
-                            "returnWin": 26,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656035,
-                            "isOpen": true,
-                            "sortOrder": 17
-                        },
-                        {
                             "id": "656019",
                             "name": "Austin Anlezark (MSt)",
                             "returnWin": 26,
@@ -8022,6 +7997,18 @@
                             "number": 656019,
                             "isOpen": true,
                             "sortOrder": 1
+                        },
+                        {
+                            "id": "656035",
+                            "name": "Doug Warren (MSt)",
+                            "returnWin": 26,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656035,
+                            "isOpen": true,
+                            "sortOrder": 17
                         },
                         {
                             "id": "656044",
@@ -8104,6 +8091,60 @@
                     ]
                 },
                 {
+                    "id": "109008422",
+                    "name": "BBL Hobart 1stOvrRuns 19/01",
+                    "shortName": "BBL Hobart 1stOvrRuns",
+                    "betOption": "1st Over Runs",
+                    "betOptionSpectrumId": "138",
+                    "betOptionPriority": 6590,
+                    "marketUniqueId": 109008422,
+                    "closeTime": "2025-01-19T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652783",
+                            "name": "Hoba Over 5.5 Runs",
+                            "returnWin": 1.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652783,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652784",
+                            "name": "Hoba Under 5.5 Runs",
+                            "returnWin": 2.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652784,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
                     "id": "109008425",
                     "name": "BBL Hobart 1stOvrRuns 19/01",
                     "shortName": "BBL Hobart 1stOvrRuns",
@@ -8152,60 +8193,6 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 652792,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "109008424",
-                    "name": "BBL Hobart 1stOvrRuns 19/01",
-                    "shortName": "BBL Hobart 1stOvrRuns",
-                    "betOption": "1st Over Runs",
-                    "betOptionSpectrumId": "138",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 109008424,
-                    "closeTime": "2025-01-19T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652788",
-                            "name": "Hoba Over 7.5 Runs",
-                            "returnWin": 2.4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652788,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652789",
-                            "name": "Hoba Under 7.5 Runs",
-                            "returnWin": 1.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652789,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -8266,13 +8253,13 @@
                     ]
                 },
                 {
-                    "id": "109008422",
+                    "id": "109008424",
                     "name": "BBL Hobart 1stOvrRuns 19/01",
                     "shortName": "BBL Hobart 1stOvrRuns",
                     "betOption": "1st Over Runs",
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
-                    "marketUniqueId": 109008422,
+                    "marketUniqueId": 109008424,
                     "closeTime": "2025-01-19T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
@@ -8294,39 +8281,39 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "652783",
-                            "name": "Hoba Over 5.5 Runs",
-                            "returnWin": 1.6,
+                            "id": "652788",
+                            "name": "Hoba Over 7.5 Runs",
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652783,
+                            "number": 652788,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "652784",
-                            "name": "Hoba Under 5.5 Runs",
-                            "returnWin": 2.2,
+                            "id": "652789",
+                            "name": "Hoba Under 7.5 Runs",
+                            "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652784,
+                            "number": 652789,
                             "isOpen": true,
                             "sortOrder": 2
                         }
                     ]
                 },
                 {
-                    "id": "109008470",
+                    "id": "109008471",
                     "name": "BBL Melb Stars 1stOvrRuns 19/01",
                     "shortName": "BBL Melb Stars 1stOvrRuns",
                     "betOption": "1st Over Runs",
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
-                    "marketUniqueId": 109008470,
+                    "marketUniqueId": 109008471,
                     "closeTime": "2025-01-19T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
@@ -8348,80 +8335,26 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "652736",
-                            "name": "MStr Over 3.5 Runs",
-                            "returnWin": 1.28,
+                            "id": "652738",
+                            "name": "MStr Over 7.5 Runs",
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652736,
+                            "number": 652738,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "652737",
-                            "name": "MStr Under 3.5 Runs",
-                            "returnWin": 3.3,
+                            "id": "652739",
+                            "name": "MStr Under 7.5 Runs",
+                            "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652737,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "109008472",
-                    "name": "BBL Melb Stars 1stOvrRuns 19/01",
-                    "shortName": "BBL Melb Stars 1stOvrRuns",
-                    "betOption": "1st Over Runs",
-                    "betOptionSpectrumId": "138",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 109008472,
-                    "closeTime": "2025-01-19T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "652740",
-                            "name": "MStr Over 9.5 Runs",
-                            "returnWin": 3.8,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652740,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "652741",
-                            "name": "MStr Under 9.5 Runs",
-                            "returnWin": 1.22,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652741,
+                            "number": 652739,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -8482,13 +8415,13 @@
                     ]
                 },
                 {
-                    "id": "109008471",
+                    "id": "109008472",
                     "name": "BBL Melb Stars 1stOvrRuns 19/01",
                     "shortName": "BBL Melb Stars 1stOvrRuns",
                     "betOption": "1st Over Runs",
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
-                    "marketUniqueId": 109008471,
+                    "marketUniqueId": 109008472,
                     "closeTime": "2025-01-19T08:15:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
@@ -8510,26 +8443,80 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "652738",
-                            "name": "MStr Over 7.5 Runs",
-                            "returnWin": 2.4,
+                            "id": "652740",
+                            "name": "MStr Over 9.5 Runs",
+                            "returnWin": 3.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652738,
+                            "number": 652740,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "652739",
-                            "name": "MStr Under 7.5 Runs",
-                            "returnWin": 1.5,
+                            "id": "652741",
+                            "name": "MStr Under 9.5 Runs",
+                            "returnWin": 1.22,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 652739,
+                            "number": 652741,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "109008470",
+                    "name": "BBL Melb Stars 1stOvrRuns 19/01",
+                    "shortName": "BBL Melb Stars 1stOvrRuns",
+                    "betOption": "1st Over Runs",
+                    "betOptionSpectrumId": "138",
+                    "betOptionPriority": 6590,
+                    "marketUniqueId": 109008470,
+                    "closeTime": "2025-01-19T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652736",
+                            "name": "MStr Over 3.5 Runs",
+                            "returnWin": 1.28,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652736,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652737",
+                            "name": "MStr Under 3.5 Runs",
+                            "returnWin": 3.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652737,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -9122,18 +9109,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "693630",
-                            "name": "Ben McDermott (Hob)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693630,
-                            "isOpen": true,
-                            "sortOrder": 12
-                        },
-                        {
                             "id": "693619",
                             "name": "Mitch Owen (Hob)",
                             "returnWin": 4.5,
@@ -9144,6 +9119,18 @@
                             "number": 693619,
                             "isOpen": true,
                             "sortOrder": 1
+                        },
+                        {
+                            "id": "693630",
+                            "name": "Ben McDermott (Hob)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693630,
+                            "isOpen": true,
+                            "sortOrder": 12
                         },
                         {
                             "id": "693634",
@@ -9290,18 +9277,6 @@
                             "sortOrder": 17
                         },
                         {
-                            "id": "693629",
-                            "name": "Riley Meredith (Hob)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693629,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
                             "id": "693628",
                             "name": "Paddy Dooley (Hob)",
                             "returnWin": 151,
@@ -9312,6 +9287,18 @@
                             "number": 693628,
                             "isOpen": true,
                             "sortOrder": 10
+                        },
+                        {
+                            "id": "693629",
+                            "name": "Riley Meredith (Hob)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693629,
+                            "isOpen": true,
+                            "sortOrder": 11
                         }
                     ]
                 },
@@ -9356,18 +9343,6 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "693639",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693639,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "693637",
                             "name": "Kurtis Patterson (SyS)",
                             "returnWin": 4.5,
@@ -9378,6 +9353,18 @@
                             "number": 693637,
                             "isOpen": true,
                             "sortOrder": 2
+                        },
+                        {
+                            "id": "693639",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693639,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "693638",
@@ -9476,18 +9463,6 @@
                             "sortOrder": 9
                         },
                         {
-                            "id": "693646",
-                            "name": "Jafer Chohan (SyS)",
-                            "returnWin": 151,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693646,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
                             "id": "693645",
                             "name": "Jackson Bird (SyS)",
                             "returnWin": 151,
@@ -9498,6 +9473,18 @@
                             "number": 693645,
                             "isOpen": true,
                             "sortOrder": 10
+                        },
+                        {
+                            "id": "693646",
+                            "name": "Jafer Chohan (SyS)",
+                            "returnWin": 151,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693646,
+                            "isOpen": true,
+                            "sortOrder": 11
                         }
                     ]
                 },
@@ -9542,18 +9529,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653168",
-                            "name": "Tim David (Hob)",
-                            "returnWin": 1.12,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653168,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
                             "id": "653167",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 1.12,
@@ -9564,6 +9539,18 @@
                             "number": 653167,
                             "isOpen": true,
                             "sortOrder": 4
+                        },
+                        {
+                            "id": "653168",
+                            "name": "Tim David (Hob)",
+                            "returnWin": 1.12,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653168,
+                            "isOpen": true,
+                            "sortOrder": 5
                         },
                         {
                             "id": "653166",
@@ -9620,30 +9607,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653581",
-                            "name": "Jack Edwards (SyS)",
-                            "returnWin": 1.12,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653581,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
-                            "id": "653579",
-                            "name": "Josh Philippe (SyS)",
-                            "returnWin": 1.12,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653579,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
                             "id": "653580",
                             "name": "Kurtis Patterson (SyS)",
                             "returnWin": 1.12,
@@ -9656,6 +9619,18 @@
                             "sortOrder": 2
                         },
                         {
+                            "id": "653581",
+                            "name": "Jack Edwards (SyS)",
+                            "returnWin": 1.12,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653581,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
                             "id": "653582",
                             "name": "Moises Henriques (SyS)",
                             "returnWin": 1.12,
@@ -9666,6 +9641,18 @@
                             "number": 653582,
                             "isOpen": true,
                             "sortOrder": 4
+                        },
+                        {
+                            "id": "653579",
+                            "name": "Josh Philippe (SyS)",
+                            "returnWin": 1.12,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653579,
+                            "isOpen": true,
+                            "sortOrder": 1
                         },
                         {
                             "id": "653583",
@@ -9722,18 +9709,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653178",
-                            "name": "Tim David (Hob)",
-                            "returnWin": 1.36,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653178,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
                             "id": "653177",
                             "name": "Caleb Jewell (Hob)",
                             "returnWin": 1.36,
@@ -9744,6 +9719,18 @@
                             "number": 653177,
                             "isOpen": true,
                             "sortOrder": 4
+                        },
+                        {
+                            "id": "653178",
+                            "name": "Tim David (Hob)",
+                            "returnWin": 1.36,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653178,
+                            "isOpen": true,
+                            "sortOrder": 5
                         },
                         {
                             "id": "653176",
@@ -9800,18 +9787,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653592",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 1.36,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653592,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653589",
                             "name": "Josh Philippe (SyS)",
                             "returnWin": 1.36,
@@ -9824,16 +9799,16 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "653590",
-                            "name": "Kurtis Patterson (SyS)",
-                            "returnWin": 1.38,
+                            "id": "653592",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 1.36,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653590,
+                            "number": 653592,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 4
                         },
                         {
                             "id": "653591",
@@ -9846,6 +9821,18 @@
                             "number": 653591,
                             "isOpen": true,
                             "sortOrder": 3
+                        },
+                        {
+                            "id": "653590",
+                            "name": "Kurtis Patterson (SyS)",
+                            "returnWin": 1.38,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653590,
+                            "isOpen": true,
+                            "sortOrder": 2
                         },
                         {
                             "id": "653593",
@@ -9902,18 +9889,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653197",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653197,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653198",
                             "name": "Tim David (Hob)",
                             "returnWin": 1.6,
@@ -9924,6 +9899,18 @@
                             "number": 653198,
                             "isOpen": true,
                             "sortOrder": 5
+                        },
+                        {
+                            "id": "653197",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 1.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653197,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653196",
@@ -9980,18 +9967,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653614",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 1.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653614,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653611",
                             "name": "Josh Philippe (SyS)",
                             "returnWin": 1.6,
@@ -10004,16 +9979,16 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "653613",
-                            "name": "Jack Edwards (SyS)",
-                            "returnWin": 1.65,
+                            "id": "653614",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653613,
+                            "number": 653614,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 4
                         },
                         {
                             "id": "653612",
@@ -10026,6 +10001,18 @@
                             "number": 653612,
                             "isOpen": true,
                             "sortOrder": 2
+                        },
+                        {
+                            "id": "653613",
+                            "name": "Jack Edwards (SyS)",
+                            "returnWin": 1.65,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653613,
+                            "isOpen": true,
+                            "sortOrder": 3
                         },
                         {
                             "id": "653615",
@@ -10082,18 +10069,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653187",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653187,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653188",
                             "name": "Tim David (Hob)",
                             "returnWin": 1.85,
@@ -10104,6 +10079,18 @@
                             "number": 653188,
                             "isOpen": true,
                             "sortOrder": 5
+                        },
+                        {
+                            "id": "653187",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653187,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653186",
@@ -10262,18 +10249,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653207",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653207,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653208",
                             "name": "Tim David (Hob)",
                             "returnWin": 2.3,
@@ -10284,6 +10259,18 @@
                             "number": 653208,
                             "isOpen": true,
                             "sortOrder": 5
+                        },
+                        {
+                            "id": "653207",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 2.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653207,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653206",
@@ -10340,18 +10327,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653624",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 2.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653624,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653621",
                             "name": "Josh Philippe (SyS)",
                             "returnWin": 2.3,
@@ -10364,16 +10339,16 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "653623",
-                            "name": "Jack Edwards (SyS)",
-                            "returnWin": 2.45,
+                            "id": "653624",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653623,
+                            "number": 653624,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 4
                         },
                         {
                             "id": "653622",
@@ -10386,6 +10361,18 @@
                             "number": 653622,
                             "isOpen": true,
                             "sortOrder": 2
+                        },
+                        {
+                            "id": "653623",
+                            "name": "Jack Edwards (SyS)",
+                            "returnWin": 2.45,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653623,
+                            "isOpen": true,
+                            "sortOrder": 3
                         },
                         {
                             "id": "653625",
@@ -10442,18 +10429,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653217",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 2.7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653217,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653218",
                             "name": "Tim David (Hob)",
                             "returnWin": 2.7,
@@ -10464,6 +10439,18 @@
                             "number": 653218,
                             "isOpen": true,
                             "sortOrder": 5
+                        },
+                        {
+                            "id": "653217",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 2.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653217,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653216",
@@ -10520,18 +10507,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653637",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 2.7,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653637,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653631",
                             "name": "Josh Philippe (SyS)",
                             "returnWin": 2.7,
@@ -10544,16 +10519,16 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "653636",
-                            "name": "Jack Edwards (SyS)",
-                            "returnWin": 2.8,
+                            "id": "653637",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653636,
+                            "number": 653637,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 4
                         },
                         {
                             "id": "653632",
@@ -10566,6 +10541,18 @@
                             "number": 653632,
                             "isOpen": true,
                             "sortOrder": 2
+                        },
+                        {
+                            "id": "653636",
+                            "name": "Jack Edwards (SyS)",
+                            "returnWin": 2.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653636,
+                            "isOpen": true,
+                            "sortOrder": 3
                         },
                         {
                             "id": "653644",
@@ -10880,6 +10867,18 @@
                     "allowBundle": false,
                     "propositions": [
                         {
+                            "id": "653672",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653672,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
                             "id": "653669",
                             "name": "Josh Philippe (SyS)",
                             "returnWin": 5.5,
@@ -10890,18 +10889,6 @@
                             "number": 653669,
                             "isOpen": true,
                             "sortOrder": 1
-                        },
-                        {
-                            "id": "653672",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653672,
-                            "isOpen": true,
-                            "sortOrder": 4
                         },
                         {
                             "id": "653670",
@@ -10982,18 +10969,6 @@
                             "sortOrder": 2
                         },
                         {
-                            "id": "653284",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653284,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653285",
                             "name": "Tim David (Hob)",
                             "returnWin": 15,
@@ -11004,6 +10979,18 @@
                             "number": 653285,
                             "isOpen": true,
                             "sortOrder": 5
+                        },
+                        {
+                            "id": "653284",
+                            "name": "Caleb Jewell (Hob)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653284,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653283",
@@ -11150,16 +11137,16 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653313",
-                            "name": "Tim David (Hob)",
+                            "id": "653304",
+                            "name": "Mitch Owen (Hob)",
                             "returnWin": 26,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653313,
+                            "number": 653304,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 2
                         },
                         {
                             "id": "653312",
@@ -11174,16 +11161,16 @@
                             "sortOrder": 4
                         },
                         {
-                            "id": "653304",
-                            "name": "Mitch Owen (Hob)",
+                            "id": "653313",
+                            "name": "Tim David (Hob)",
                             "returnWin": 26,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653304,
+                            "number": 653313,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 5
                         },
                         {
                             "id": "653303",
@@ -11264,16 +11251,16 @@
                             "sortOrder": 1
                         },
                         {
-                            "id": "653734",
-                            "name": "Jordan Silk (SyS)",
+                            "id": "653724",
+                            "name": "Kurtis Patterson (SyS)",
                             "returnWin": 41,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653734,
+                            "number": 653724,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 2
                         },
                         {
                             "id": "653726",
@@ -11288,16 +11275,16 @@
                             "sortOrder": 3
                         },
                         {
-                            "id": "653724",
-                            "name": "Kurtis Patterson (SyS)",
+                            "id": "653734",
+                            "name": "Jordan Silk (SyS)",
                             "returnWin": 41,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653724,
+                            "number": 653734,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 5
                         }
                     ]
                 },
@@ -12706,60 +12693,6 @@
                     ]
                 },
                 {
-                    "id": "109348073",
-                    "name": "BBL Hobart PlrRunOU 21/01",
-                    "shortName": "BBL Hobart PlrRunOU",
-                    "betOption": "Player Runs",
-                    "betOptionSpectrumId": "2100",
-                    "betOptionPriority": 1675,
-                    "marketUniqueId": 109348073,
-                    "closeTime": "2025-01-21T08:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "653536",
-                            "name": "M Owen Over 21.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653536,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "653537",
-                            "name": "M Owen Under 21.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653537,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "109348072",
                     "name": "BBL Hobart PlrRunOU 21/01",
                     "shortName": "BBL Hobart PlrRunOU",
@@ -12868,6 +12801,60 @@
                     ]
                 },
                 {
+                    "id": "109348073",
+                    "name": "BBL Hobart PlrRunOU 21/01",
+                    "shortName": "BBL Hobart PlrRunOU",
+                    "betOption": "Player Runs",
+                    "betOptionSpectrumId": "2100",
+                    "betOptionPriority": 1675,
+                    "marketUniqueId": 109348073,
+                    "closeTime": "2025-01-21T08:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653536",
+                            "name": "M Owen Over 21.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653536,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653537",
+                            "name": "M Owen Under 21.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653537,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
                     "id": "109348075",
                     "name": "BBL Hobart PlrRunOU 21/01",
                     "shortName": "BBL Hobart PlrRunOU",
@@ -12922,60 +12909,6 @@
                     ]
                 },
                 {
-                    "id": "109348104",
-                    "name": "BBL Syd Sixers PlrRunOU 21/01",
-                    "shortName": "BBL Syd Sixers PlrRunOU",
-                    "betOption": "Player Runs",
-                    "betOptionSpectrumId": "2100",
-                    "betOptionPriority": 1675,
-                    "marketUniqueId": 109348104,
-                    "closeTime": "2025-01-21T08:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "653895",
-                            "name": "K Patterson Over 18.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653895,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "653896",
-                            "name": "K Patterson Under 18.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653896,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "109348105",
                     "name": "BBL Syd Sixers PlrRunOU 21/01",
                     "shortName": "BBL Syd Sixers PlrRunOU",
@@ -13024,6 +12957,60 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 653898,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "109348104",
+                    "name": "BBL Syd Sixers PlrRunOU 21/01",
+                    "shortName": "BBL Syd Sixers PlrRunOU",
+                    "betOption": "Player Runs",
+                    "betOptionSpectrumId": "2100",
+                    "betOptionPriority": 1675,
+                    "marketUniqueId": 109348104,
+                    "closeTime": "2025-01-21T08:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653895",
+                            "name": "K Patterson Over 18.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653895,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653896",
+                            "name": "K Patterson Under 18.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653896,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -13138,13 +13125,13 @@
                     ]
                 },
                 {
-                    "id": "109348065",
+                    "id": "109348063",
                     "name": "BBL Hobart AlPlrRun 21/01",
                     "shortName": "BBL Hobart AlPlrRun",
                     "betOption": "Alternate Player Runs O/U",
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
-                    "marketUniqueId": 109348065,
+                    "marketUniqueId": 109348063,
                     "closeTime": "2025-01-21T08:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
@@ -13166,50 +13153,50 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653554",
-                            "name": "N Chaudhary Over 11.5 Runs",
+                            "id": "653542",
+                            "name": "C Wakim Over 10.5 Runs",
                             "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653554,
+                            "number": 653542,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "653555",
-                            "name": "N Chaudhary Under 11.5 Runs",
+                            "id": "653543",
+                            "name": "C Wakim Under 10.5 Runs",
                             "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653555,
+                            "number": 653543,
                             "isOpen": true,
                             "sortOrder": 2
                         },
                         {
-                            "id": "653556",
-                            "name": "N Chaudhary Over 25.5 Runs",
+                            "id": "653544",
+                            "name": "C Wakim Over 24.5 Runs",
                             "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653556,
+                            "number": 653544,
                             "isOpen": true,
                             "sortOrder": 3
                         },
                         {
-                            "id": "653557",
-                            "name": "N Chaudhary Under 25.5 Runs",
+                            "id": "653545",
+                            "name": "C Wakim Under 24.5 Runs",
                             "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653557,
+                            "number": 653545,
                             "isOpen": true,
                             "sortOrder": 4
                         }
@@ -13294,13 +13281,13 @@
                     ]
                 },
                 {
-                    "id": "109348063",
+                    "id": "109348065",
                     "name": "BBL Hobart AlPlrRun 21/01",
                     "shortName": "BBL Hobart AlPlrRun",
                     "betOption": "Alternate Player Runs O/U",
                     "betOptionSpectrumId": "4854",
                     "betOptionPriority": 1680,
-                    "marketUniqueId": 109348063,
+                    "marketUniqueId": 109348065,
                     "closeTime": "2025-01-21T08:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": "Player must face a ball or bets refunded",
@@ -13322,50 +13309,50 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653542",
-                            "name": "C Wakim Over 10.5 Runs",
+                            "id": "653554",
+                            "name": "N Chaudhary Over 11.5 Runs",
                             "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653542,
+                            "number": 653554,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "653543",
-                            "name": "C Wakim Under 10.5 Runs",
+                            "id": "653555",
+                            "name": "N Chaudhary Under 11.5 Runs",
                             "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653543,
+                            "number": 653555,
                             "isOpen": true,
                             "sortOrder": 2
                         },
                         {
-                            "id": "653544",
-                            "name": "C Wakim Over 24.5 Runs",
+                            "id": "653556",
+                            "name": "N Chaudhary Over 25.5 Runs",
                             "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653544,
+                            "number": 653556,
                             "isOpen": true,
                             "sortOrder": 3
                         },
                         {
-                            "id": "653545",
-                            "name": "C Wakim Under 24.5 Runs",
+                            "id": "653557",
+                            "name": "N Chaudhary Under 25.5 Runs",
                             "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653545,
+                            "number": 653557,
                             "isOpen": true,
                             "sortOrder": 4
                         }
@@ -14372,18 +14359,6 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "693659",
-                            "name": "Riley Meredith (Hob)",
-                            "returnWin": 4,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693659,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
                             "id": "693656",
                             "name": "Nathan Ellis (Hob)",
                             "returnWin": 4,
@@ -14394,6 +14369,18 @@
                             "number": 693656,
                             "isOpen": true,
                             "sortOrder": 8
+                        },
+                        {
+                            "id": "693659",
+                            "name": "Riley Meredith (Hob)",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693659,
+                            "isOpen": true,
+                            "sortOrder": 11
                         },
                         {
                             "id": "693665",
@@ -14432,16 +14419,16 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "693663",
-                            "name": "Marcus Bean (Hob)",
+                            "id": "693657",
+                            "name": "Peter Hatzoglou (Hob)",
                             "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 693663,
+                            "number": 693657,
                             "isOpen": true,
-                            "sortOrder": 15
+                            "sortOrder": 9
                         },
                         {
                             "id": "693658",
@@ -14456,16 +14443,16 @@
                             "sortOrder": 10
                         },
                         {
-                            "id": "693657",
-                            "name": "Peter Hatzoglou (Hob)",
+                            "id": "693663",
+                            "name": "Marcus Bean (Hob)",
                             "returnWin": 6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 693657,
+                            "number": 693663,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 15
                         },
                         {
                             "id": "693649",
@@ -14558,18 +14545,6 @@
                             "sortOrder": 7
                         },
                         {
-                            "id": "693676",
-                            "name": "Jafer Chohan (SyS)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 693676,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
                             "id": "693674",
                             "name": "Ben Manenti (SyS)",
                             "returnWin": 5.5,
@@ -14580,6 +14555,18 @@
                             "number": 693674,
                             "isOpen": true,
                             "sortOrder": 9
+                        },
+                        {
+                            "id": "693676",
+                            "name": "Jafer Chohan (SyS)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 693676,
+                            "isOpen": true,
+                            "sortOrder": 11
                         },
                         {
                             "id": "693678",
@@ -15314,40 +15301,16 @@
                             "sortOrder": 14
                         },
                         {
-                            "id": "653153",
-                            "name": "Kurtis Patterson (SyS)",
+                            "id": "653145",
+                            "name": "Ben Dwarshuis (SyS)",
                             "returnWin": 13,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653153,
+                            "number": 653145,
                             "isOpen": true,
-                            "sortOrder": 32
-                        },
-                        {
-                            "id": "653131",
-                            "name": "Caleb Jewell (Hob)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653131,
-                            "isOpen": true,
-                            "sortOrder": 10
-                        },
-                        {
-                            "id": "653127",
-                            "name": "Nathan Ellis (Hob)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653127,
-                            "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 24
                         },
                         {
                             "id": "653124",
@@ -15362,6 +15325,18 @@
                             "sortOrder": 3
                         },
                         {
+                            "id": "653127",
+                            "name": "Nathan Ellis (Hob)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653127,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
                             "id": "653147",
                             "name": "Moises Henriques (SyS)",
                             "returnWin": 13,
@@ -15374,52 +15349,28 @@
                             "sortOrder": 26
                         },
                         {
-                            "id": "653145",
-                            "name": "Ben Dwarshuis (SyS)",
+                            "id": "653131",
+                            "name": "Caleb Jewell (Hob)",
                             "returnWin": 13,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653145,
+                            "number": 653131,
                             "isOpen": true,
-                            "sortOrder": 24
+                            "sortOrder": 10
                         },
                         {
-                            "id": "653134",
-                            "name": "Riley Meredith (Hob)",
-                            "returnWin": 15,
+                            "id": "653153",
+                            "name": "Kurtis Patterson (SyS)",
+                            "returnWin": 13,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653134,
+                            "number": 653153,
                             "isOpen": true,
-                            "sortOrder": 13
-                        },
-                        {
-                            "id": "653132",
-                            "name": "Chris Jordan (Hob)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653132,
-                            "isOpen": true,
-                            "sortOrder": 11
-                        },
-                        {
-                            "id": "653138",
-                            "name": "Charlie Wakim (Hob)",
-                            "returnWin": 15,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653138,
-                            "isOpen": true,
-                            "sortOrder": 17
+                            "sortOrder": 32
                         },
                         {
                             "id": "653156",
@@ -15446,6 +15397,42 @@
                             "sortOrder": 29
                         },
                         {
+                            "id": "653132",
+                            "name": "Chris Jordan (Hob)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653132,
+                            "isOpen": true,
+                            "sortOrder": 11
+                        },
+                        {
+                            "id": "653138",
+                            "name": "Charlie Wakim (Hob)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653138,
+                            "isOpen": true,
+                            "sortOrder": 17
+                        },
+                        {
+                            "id": "653134",
+                            "name": "Riley Meredith (Hob)",
+                            "returnWin": 15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653134,
+                            "isOpen": true,
+                            "sortOrder": 13
+                        },
+                        {
                             "id": "653143",
                             "name": "Jafer Chohan (SyS)",
                             "returnWin": 17,
@@ -15458,16 +15445,16 @@
                             "sortOrder": 22
                         },
                         {
-                            "id": "653142",
-                            "name": "Jackson Bird (SyS)",
+                            "id": "653144",
+                            "name": "Joel Davies (SyS)",
                             "returnWin": 19,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653142,
+                            "number": 653144,
                             "isOpen": true,
-                            "sortOrder": 21
+                            "sortOrder": 23
                         },
                         {
                             "id": "653154",
@@ -15482,16 +15469,16 @@
                             "sortOrder": 33
                         },
                         {
-                            "id": "653144",
-                            "name": "Joel Davies (SyS)",
+                            "id": "653142",
+                            "name": "Jackson Bird (SyS)",
                             "returnWin": 19,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653144,
+                            "number": 653142,
                             "isOpen": true,
-                            "sortOrder": 23
+                            "sortOrder": 21
                         },
                         {
                             "id": "653123",
@@ -15518,6 +15505,30 @@
                             "sortOrder": 1
                         },
                         {
+                            "id": "653151",
+                            "name": "Ben Manenti (SyS)",
+                            "returnWin": 23,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653151,
+                            "isOpen": true,
+                            "sortOrder": 30
+                        },
+                        {
+                            "id": "653125",
+                            "name": "Paddy Dooley (Hob)",
+                            "returnWin": 23,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653125,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
                             "id": "653136",
                             "name": "Billy Stanlake (Hob)",
                             "returnWin": 23,
@@ -15542,18 +15553,6 @@
                             "sortOrder": 5
                         },
                         {
-                            "id": "653125",
-                            "name": "Paddy Dooley (Hob)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653125,
-                            "isOpen": true,
-                            "sortOrder": 4
-                        },
-                        {
                             "id": "653159",
                             "name": "Lachlan Shaw (SyS)",
                             "returnWin": 23,
@@ -15564,18 +15563,6 @@
                             "number": 653159,
                             "isOpen": true,
                             "sortOrder": 38
-                        },
-                        {
-                            "id": "653151",
-                            "name": "Ben Manenti (SyS)",
-                            "returnWin": 23,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653151,
-                            "isOpen": true,
-                            "sortOrder": 30
                         },
                         {
                             "id": "653128",
@@ -15640,6 +15627,60 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 652974,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "109347167",
+                    "name": "BBL Hobart 1stOvrRuns 21/01",
+                    "shortName": "BBL Hobart 1stOvrRuns",
+                    "betOption": "1st Over Runs",
+                    "betOptionSpectrumId": "138",
+                    "betOptionPriority": 6590,
+                    "marketUniqueId": 109347167,
+                    "closeTime": "2025-01-21T08:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653066",
+                            "name": "Hob Over 3.5 Runs",
+                            "returnWin": 1.28,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653066,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653067",
+                            "name": "Hob Under 3.5 Runs",
+                            "returnWin": 3.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653067,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -15754,60 +15795,6 @@
                     ]
                 },
                 {
-                    "id": "109347167",
-                    "name": "BBL Hobart 1stOvrRuns 21/01",
-                    "shortName": "BBL Hobart 1stOvrRuns",
-                    "betOption": "1st Over Runs",
-                    "betOptionSpectrumId": "138",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 109347167,
-                    "closeTime": "2025-01-21T08:30:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "653066",
-                            "name": "Hob Over 3.5 Runs",
-                            "returnWin": 1.28,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653066,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "653067",
-                            "name": "Hob Under 3.5 Runs",
-                            "returnWin": 3.3,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653067,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
                     "id": "109347169",
                     "name": "BBL Hobart 1stOvrRuns 21/01",
                     "shortName": "BBL Hobart 1stOvrRuns",
@@ -15916,13 +15903,13 @@
                     ]
                 },
                 {
-                    "id": "109347180",
+                    "id": "109347178",
                     "name": "BBL Syd Sixers 1stOvrRuns 21/01",
                     "shortName": "BBL Syd Sixers 1stOvrRuns",
                     "betOption": "1st Over Runs",
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
-                    "marketUniqueId": 109347180,
+                    "marketUniqueId": 109347178,
                     "closeTime": "2025-01-21T08:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
@@ -15944,26 +15931,26 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653118",
-                            "name": "SyS Over 7.5 Runs",
-                            "returnWin": 2.4,
+                            "id": "653114",
+                            "name": "SyS Over 5.5 Runs",
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653118,
+                            "number": 653114,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "653119",
-                            "name": "SyS Under 7.5 Runs",
-                            "returnWin": 1.5,
+                            "id": "653115",
+                            "name": "SyS Under 5.5 Runs",
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653119,
+                            "number": 653115,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -16024,13 +16011,13 @@
                     ]
                 },
                 {
-                    "id": "109347178",
+                    "id": "109347180",
                     "name": "BBL Syd Sixers 1stOvrRuns 21/01",
                     "shortName": "BBL Syd Sixers 1stOvrRuns",
                     "betOption": "1st Over Runs",
                     "betOptionSpectrumId": "138",
                     "betOptionPriority": 6590,
-                    "marketUniqueId": 109347178,
+                    "marketUniqueId": 109347180,
                     "closeTime": "2025-01-21T08:30:00.000Z",
                     "bettingStatus": "Open",
                     "message": null,
@@ -16052,26 +16039,26 @@
                     "allowBundle": false,
                     "propositions": [
                         {
-                            "id": "653114",
-                            "name": "SyS Over 5.5 Runs",
-                            "returnWin": 1.6,
+                            "id": "653118",
+                            "name": "SyS Over 7.5 Runs",
+                            "returnWin": 2.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653114,
+                            "number": 653118,
                             "isOpen": true,
                             "sortOrder": 1
                         },
                         {
-                            "id": "653115",
-                            "name": "SyS Under 5.5 Runs",
-                            "returnWin": 2.2,
+                            "id": "653119",
+                            "name": "SyS Under 7.5 Runs",
+                            "returnWin": 1.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
-                            "number": 653115,
+                            "number": 653119,
                             "isOpen": true,
                             "sortOrder": 2
                         }
