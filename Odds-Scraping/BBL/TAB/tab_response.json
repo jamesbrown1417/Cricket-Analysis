@@ -90,9 +90,9 @@
                 "Sydney Thunder",
                 "Melbourne Stars"
             ],
-            "openMarketCount": 103,
+            "openMarketCount": 104,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 103,
+            "nonFutureMarketCount": 104,
             "markets": [
                 {
                     "id": "109420832",
@@ -4799,7 +4799,7 @@
                         {
                             "id": "652449",
                             "name": "T Rogers Over 14.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.95,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4812,7 +4812,7 @@
                         {
                             "id": "652450",
                             "name": "T Rogers Under 14.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.75,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6444,7 +6444,7 @@
                         {
                             "id": "651823",
                             "name": "Over 10.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.8,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6456,7 +6456,7 @@
                         {
                             "id": "651825",
                             "name": "Under 10.5 Sixes",
-                            "returnWin": 1.85,
+                            "returnWin": 1.9,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6466,6 +6466,77 @@
                             "sortOrder": 2
                         }
                     ]
+                },
+                {
+                    "id": "109431209",
+                    "name": "BBL SydTh-MlbSt TtlMch6s 22/01",
+                    "shortName": "BBL SydTh-MlbSt TtlMch6s",
+                    "betOption": "Total Match Sixes",
+                    "betOptionSpectrumId": "681",
+                    "betOptionPriority": 1990,
+                    "marketUniqueId": 109431209,
+                    "closeTime": "2025-01-22T08:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": "Does Not Include Super Over",
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "651840",
+                            "name": "12 sixes or more",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651840,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651841",
+                            "name": "10 - 11 sixes",
+                            "returnWin": 7.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651841,
+                            "isOpen": true,
+                            "sortOrder": 2,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651842",
+                            "name": "9 sixes or less",
+                            "returnWin": 2.15,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651842,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109431204",
@@ -6511,7 +6582,7 @@
                         {
                             "id": "651852",
                             "name": "6+ Match Sixes",
-                            "returnWin": 1.13,
+                            "returnWin": 1.11,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7142,6 +7213,19 @@
                     "allowBundle": false,
                     "propositions": [
                         {
+                            "id": "652339",
+                            "name": "Mark Steketee (MSt)",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652339,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
                             "id": "652340",
                             "name": "Peter Siddle (MSt)",
                             "returnWin": 2.2,
@@ -7152,19 +7236,6 @@
                             "number": 652340,
                             "isOpen": true,
                             "sortOrder": 2,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "652339",
-                            "name": "Mark Steketee (MSt)",
-                            "returnWin": 2.25,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652339,
-                            "isOpen": true,
-                            "sortOrder": 1,
                             "sameGame": true
                         },
                         {
@@ -7254,7 +7325,7 @@
                         {
                             "id": "652040",
                             "name": "Nathan McAndrew (STh)",
-                            "returnWin": 3.2,
+                            "returnWin": 3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7594,7 +7665,7 @@
                         {
                             "id": "651897",
                             "name": "Glenn Maxwell (MSt)",
-                            "returnWin": 8,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8939,6 +9010,7 @@
         "Fall Of 1st Wicket",
         "Match Sixes 3-Way",
         "Total Match Sixes Over/Under",
+        "Total Match Sixes",
         "Alternate Total Match Sixes",
         "Most Wickets",
         "To Take A Wicket",
@@ -9233,6 +9305,14 @@
             "openMarketCount": 1,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Total Match Sixes",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes"
             }
         },
         {
