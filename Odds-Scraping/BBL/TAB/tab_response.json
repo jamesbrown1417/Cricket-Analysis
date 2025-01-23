@@ -133,7 +133,8 @@
                             "number": 651731,
                             "isOpen": true,
                             "sortOrder": 1,
-                            "position": "HOME"
+                            "position": "HOME",
+                            "sameGame": true
                         },
                         {
                             "id": "651733",
@@ -146,9 +147,12 @@
                             "number": 651733,
                             "isOpen": true,
                             "sortOrder": 2,
-                            "position": "AWAY"
+                            "position": "AWAY",
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552735",
@@ -188,7 +192,8 @@
                             "allowPlace": false,
                             "number": 651768,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651796",
@@ -212,7 +217,8 @@
                             "allowPlace": false,
                             "number": 651774,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "651772",
@@ -224,7 +230,8 @@
                             "allowPlace": false,
                             "number": 651772,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "651771",
@@ -236,7 +243,8 @@
                             "allowPlace": false,
                             "number": 651771,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651770",
@@ -248,7 +256,8 @@
                             "allowPlace": false,
                             "number": 651770,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651777",
@@ -296,7 +305,8 @@
                             "allowPlace": false,
                             "number": 651782,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "651797",
@@ -320,7 +330,8 @@
                             "allowPlace": false,
                             "number": 651785,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "651784",
@@ -332,7 +343,8 @@
                             "allowPlace": false,
                             "number": 651784,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "651800",
@@ -368,7 +380,8 @@
                             "allowPlace": false,
                             "number": 651788,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         },
                         {
                             "id": "651790",
@@ -380,9 +393,12 @@
                             "allowPlace": false,
                             "number": 651790,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552736",
@@ -422,7 +438,8 @@
                             "allowPlace": false,
                             "number": 651756,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "651754",
@@ -434,7 +451,8 @@
                             "allowPlace": false,
                             "number": 651754,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "651755",
@@ -446,7 +464,8 @@
                             "allowPlace": false,
                             "number": 651755,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651753",
@@ -458,7 +477,8 @@
                             "allowPlace": false,
                             "number": 651753,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651757",
@@ -470,7 +490,8 @@
                             "allowPlace": false,
                             "number": 651757,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "651766",
@@ -494,7 +515,8 @@
                             "allowPlace": false,
                             "number": 651758,
                             "isOpen": true,
-                            "sortOrder": 6
+                            "sortOrder": 6,
+                            "sameGame": true
                         },
                         {
                             "id": "651764",
@@ -506,7 +528,8 @@
                             "allowPlace": false,
                             "number": 651764,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "651760",
@@ -518,7 +541,8 @@
                             "allowPlace": false,
                             "number": 651760,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "651759",
@@ -530,7 +554,8 @@
                             "allowPlace": false,
                             "number": 651759,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "651761",
@@ -566,7 +591,8 @@
                             "allowPlace": false,
                             "number": 651763,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "651762",
@@ -580,7 +606,9 @@
                             "isOpen": true,
                             "sortOrder": 10
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574652",
@@ -598,7 +626,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -620,7 +648,8 @@
                             "allowPlace": false,
                             "number": 654828,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654826",
@@ -632,7 +661,8 @@
                             "allowPlace": false,
                             "number": 654826,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654825",
@@ -644,7 +674,8 @@
                             "allowPlace": false,
                             "number": 654825,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654829",
@@ -656,7 +687,8 @@
                             "allowPlace": false,
                             "number": 654829,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654827",
@@ -668,9 +700,12 @@
                             "allowPlace": false,
                             "number": 654827,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574656",
@@ -688,7 +723,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -710,7 +745,8 @@
                             "allowPlace": false,
                             "number": 655561,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655558",
@@ -722,7 +758,8 @@
                             "allowPlace": false,
                             "number": 655558,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655560",
@@ -734,7 +771,8 @@
                             "allowPlace": false,
                             "number": 655560,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655559",
@@ -746,7 +784,8 @@
                             "allowPlace": false,
                             "number": 655559,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655562",
@@ -758,9 +797,12 @@
                             "allowPlace": false,
                             "number": 655562,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574653",
@@ -800,7 +842,8 @@
                             "allowPlace": false,
                             "number": 654838,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654836",
@@ -812,7 +855,8 @@
                             "allowPlace": false,
                             "number": 654836,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654835",
@@ -824,7 +868,8 @@
                             "allowPlace": false,
                             "number": 654835,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654839",
@@ -836,7 +881,8 @@
                             "allowPlace": false,
                             "number": 654839,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654837",
@@ -848,9 +894,12 @@
                             "allowPlace": false,
                             "number": 654837,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574657",
@@ -890,7 +939,8 @@
                             "allowPlace": false,
                             "number": 655571,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655568",
@@ -902,7 +952,8 @@
                             "allowPlace": false,
                             "number": 655568,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655570",
@@ -914,7 +965,8 @@
                             "allowPlace": false,
                             "number": 655570,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655569",
@@ -926,7 +978,8 @@
                             "allowPlace": false,
                             "number": 655569,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655572",
@@ -938,9 +991,12 @@
                             "allowPlace": false,
                             "number": 655572,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574599",
@@ -958,7 +1014,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -980,7 +1036,8 @@
                             "allowPlace": false,
                             "number": 654858,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654856",
@@ -992,7 +1049,8 @@
                             "allowPlace": false,
                             "number": 654856,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654855",
@@ -1004,7 +1062,8 @@
                             "allowPlace": false,
                             "number": 654855,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654859",
@@ -1016,7 +1075,8 @@
                             "allowPlace": false,
                             "number": 654859,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654857",
@@ -1028,9 +1088,12 @@
                             "allowPlace": false,
                             "number": 654857,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574609",
@@ -1048,7 +1111,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1070,7 +1133,8 @@
                             "allowPlace": false,
                             "number": 655591,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655588",
@@ -1082,7 +1146,8 @@
                             "allowPlace": false,
                             "number": 655588,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655590",
@@ -1094,7 +1159,8 @@
                             "allowPlace": false,
                             "number": 655590,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655589",
@@ -1106,7 +1172,8 @@
                             "allowPlace": false,
                             "number": 655589,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655592",
@@ -1118,9 +1185,12 @@
                             "allowPlace": false,
                             "number": 655592,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574654",
@@ -1138,7 +1208,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1160,7 +1230,8 @@
                             "allowPlace": false,
                             "number": 654848,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654846",
@@ -1172,7 +1243,8 @@
                             "allowPlace": false,
                             "number": 654846,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654845",
@@ -1184,7 +1256,8 @@
                             "allowPlace": false,
                             "number": 654845,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654849",
@@ -1196,7 +1269,8 @@
                             "allowPlace": false,
                             "number": 654849,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654847",
@@ -1208,9 +1282,12 @@
                             "allowPlace": false,
                             "number": 654847,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574608",
@@ -1228,7 +1305,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1250,7 +1327,8 @@
                             "allowPlace": false,
                             "number": 655581,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655578",
@@ -1262,7 +1340,8 @@
                             "allowPlace": false,
                             "number": 655578,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655580",
@@ -1274,7 +1353,8 @@
                             "allowPlace": false,
                             "number": 655580,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655579",
@@ -1286,7 +1366,8 @@
                             "allowPlace": false,
                             "number": 655579,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655582",
@@ -1298,9 +1379,12 @@
                             "allowPlace": false,
                             "number": 655582,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574646",
@@ -1340,7 +1424,8 @@
                             "allowPlace": false,
                             "number": 654868,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654866",
@@ -1352,7 +1437,8 @@
                             "allowPlace": false,
                             "number": 654866,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654865",
@@ -1364,7 +1450,8 @@
                             "allowPlace": false,
                             "number": 654865,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654869",
@@ -1376,7 +1463,8 @@
                             "allowPlace": false,
                             "number": 654869,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654867",
@@ -1388,9 +1476,12 @@
                             "allowPlace": false,
                             "number": 654867,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574651",
@@ -1430,7 +1521,8 @@
                             "allowPlace": false,
                             "number": 655601,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655598",
@@ -1442,7 +1534,8 @@
                             "allowPlace": false,
                             "number": 655598,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655600",
@@ -1454,7 +1547,8 @@
                             "allowPlace": false,
                             "number": 655600,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655599",
@@ -1466,7 +1560,8 @@
                             "allowPlace": false,
                             "number": 655599,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655602",
@@ -1478,9 +1573,12 @@
                             "allowPlace": false,
                             "number": 655602,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574602",
@@ -1498,7 +1596,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1520,7 +1618,8 @@
                             "allowPlace": false,
                             "number": 654878,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654876",
@@ -1532,7 +1631,8 @@
                             "allowPlace": false,
                             "number": 654876,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654875",
@@ -1544,7 +1644,8 @@
                             "allowPlace": false,
                             "number": 654875,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654879",
@@ -1556,7 +1657,8 @@
                             "allowPlace": false,
                             "number": 654879,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654877",
@@ -1568,9 +1670,12 @@
                             "allowPlace": false,
                             "number": 654877,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574612",
@@ -1588,7 +1693,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1610,7 +1715,8 @@
                             "allowPlace": false,
                             "number": 655611,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655608",
@@ -1622,7 +1728,8 @@
                             "allowPlace": false,
                             "number": 655608,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655610",
@@ -1634,7 +1741,8 @@
                             "allowPlace": false,
                             "number": 655610,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655609",
@@ -1646,7 +1754,8 @@
                             "allowPlace": false,
                             "number": 655609,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655612",
@@ -1658,9 +1767,12 @@
                             "allowPlace": false,
                             "number": 655612,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574610",
@@ -1678,7 +1790,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1700,7 +1812,8 @@
                             "allowPlace": false,
                             "number": 654888,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654886",
@@ -1712,7 +1825,8 @@
                             "allowPlace": false,
                             "number": 654886,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654885",
@@ -1724,7 +1838,8 @@
                             "allowPlace": false,
                             "number": 654885,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654889",
@@ -1736,7 +1851,8 @@
                             "allowPlace": false,
                             "number": 654889,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         },
                         {
                             "id": "654887",
@@ -1748,9 +1864,12 @@
                             "allowPlace": false,
                             "number": 654887,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574613",
@@ -1768,7 +1887,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -1790,7 +1909,8 @@
                             "allowPlace": false,
                             "number": 655621,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655618",
@@ -1802,7 +1922,8 @@
                             "allowPlace": false,
                             "number": 655618,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655620",
@@ -1814,7 +1935,8 @@
                             "allowPlace": false,
                             "number": 655620,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655619",
@@ -1826,7 +1948,8 @@
                             "allowPlace": false,
                             "number": 655619,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655622",
@@ -1838,9 +1961,12 @@
                             "allowPlace": false,
                             "number": 655622,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574618",
@@ -1880,7 +2006,8 @@
                             "allowPlace": false,
                             "number": 654898,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654895",
@@ -1892,7 +2019,8 @@
                             "allowPlace": false,
                             "number": 654895,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654896",
@@ -1904,7 +2032,8 @@
                             "allowPlace": false,
                             "number": 654896,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654897",
@@ -1916,7 +2045,8 @@
                             "allowPlace": false,
                             "number": 654897,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654899",
@@ -1928,9 +2058,12 @@
                             "allowPlace": false,
                             "number": 654899,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574619",
@@ -1970,7 +2103,8 @@
                             "allowPlace": false,
                             "number": 655631,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655628",
@@ -1982,7 +2116,8 @@
                             "allowPlace": false,
                             "number": 655628,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655629",
@@ -1994,7 +2129,8 @@
                             "allowPlace": false,
                             "number": 655629,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655630",
@@ -2006,7 +2142,8 @@
                             "allowPlace": false,
                             "number": 655630,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655632",
@@ -2018,9 +2155,12 @@
                             "allowPlace": false,
                             "number": 655632,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574634",
@@ -2038,7 +2178,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2060,7 +2200,8 @@
                             "allowPlace": false,
                             "number": 654908,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654905",
@@ -2072,7 +2213,8 @@
                             "allowPlace": false,
                             "number": 654905,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654906",
@@ -2084,7 +2226,8 @@
                             "allowPlace": false,
                             "number": 654906,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654907",
@@ -2096,7 +2239,8 @@
                             "allowPlace": false,
                             "number": 654907,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654909",
@@ -2108,9 +2252,12 @@
                             "allowPlace": false,
                             "number": 654909,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574635",
@@ -2128,7 +2275,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2150,7 +2297,8 @@
                             "allowPlace": false,
                             "number": 655641,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655638",
@@ -2162,7 +2310,8 @@
                             "allowPlace": false,
                             "number": 655638,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655639",
@@ -2174,7 +2323,8 @@
                             "allowPlace": false,
                             "number": 655639,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655640",
@@ -2186,7 +2336,8 @@
                             "allowPlace": false,
                             "number": 655640,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655642",
@@ -2198,9 +2349,12 @@
                             "allowPlace": false,
                             "number": 655642,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574655",
@@ -2240,7 +2394,8 @@
                             "allowPlace": false,
                             "number": 654918,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654915",
@@ -2252,7 +2407,8 @@
                             "allowPlace": false,
                             "number": 654915,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654916",
@@ -2264,7 +2420,8 @@
                             "allowPlace": false,
                             "number": 654916,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654917",
@@ -2276,7 +2433,8 @@
                             "allowPlace": false,
                             "number": 654917,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654919",
@@ -2288,9 +2446,12 @@
                             "allowPlace": false,
                             "number": 654919,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574614",
@@ -2330,7 +2491,8 @@
                             "allowPlace": false,
                             "number": 655651,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655648",
@@ -2342,7 +2504,8 @@
                             "allowPlace": false,
                             "number": 655648,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655649",
@@ -2354,7 +2517,8 @@
                             "allowPlace": false,
                             "number": 655649,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655650",
@@ -2366,7 +2530,8 @@
                             "allowPlace": false,
                             "number": 655650,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655652",
@@ -2378,9 +2543,12 @@
                             "allowPlace": false,
                             "number": 655652,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574644",
@@ -2420,7 +2588,8 @@
                             "allowPlace": false,
                             "number": 654973,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654974",
@@ -2432,7 +2601,8 @@
                             "allowPlace": false,
                             "number": 654974,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654975",
@@ -2444,7 +2614,8 @@
                             "allowPlace": false,
                             "number": 654975,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654976",
@@ -2456,9 +2627,12 @@
                             "allowPlace": false,
                             "number": 654976,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574622",
@@ -2498,7 +2672,8 @@
                             "allowPlace": false,
                             "number": 655706,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655707",
@@ -2510,7 +2685,8 @@
                             "allowPlace": false,
                             "number": 655707,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655708",
@@ -2522,7 +2698,8 @@
                             "allowPlace": false,
                             "number": 655708,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655709",
@@ -2534,9 +2711,12 @@
                             "allowPlace": false,
                             "number": 655709,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574645",
@@ -2576,7 +2756,8 @@
                             "allowPlace": false,
                             "number": 654981,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654982",
@@ -2588,7 +2769,8 @@
                             "allowPlace": false,
                             "number": 654982,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654983",
@@ -2600,7 +2782,8 @@
                             "allowPlace": false,
                             "number": 654983,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654984",
@@ -2612,9 +2795,12 @@
                             "allowPlace": false,
                             "number": 654984,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574623",
@@ -2654,7 +2840,8 @@
                             "allowPlace": false,
                             "number": 655714,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655715",
@@ -2666,7 +2853,8 @@
                             "allowPlace": false,
                             "number": 655715,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655716",
@@ -2678,7 +2866,8 @@
                             "allowPlace": false,
                             "number": 655716,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655717",
@@ -2690,9 +2879,12 @@
                             "allowPlace": false,
                             "number": 655717,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574604",
@@ -2732,7 +2924,8 @@
                             "allowPlace": false,
                             "number": 654989,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654990",
@@ -2744,7 +2937,8 @@
                             "allowPlace": false,
                             "number": 654990,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654991",
@@ -2756,7 +2950,8 @@
                             "allowPlace": false,
                             "number": 654991,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654992",
@@ -2768,9 +2963,12 @@
                             "allowPlace": false,
                             "number": 654992,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574624",
@@ -2810,7 +3008,8 @@
                             "allowPlace": false,
                             "number": 655990,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655991",
@@ -2822,7 +3021,8 @@
                             "allowPlace": false,
                             "number": 655991,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655992",
@@ -2834,7 +3034,8 @@
                             "allowPlace": false,
                             "number": 655992,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655993",
@@ -2846,9 +3047,12 @@
                             "allowPlace": false,
                             "number": 655993,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574606",
@@ -2866,7 +3070,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2888,7 +3092,8 @@
                             "allowPlace": false,
                             "number": 655005,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655006",
@@ -2900,7 +3105,8 @@
                             "allowPlace": false,
                             "number": 655006,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655007",
@@ -2912,7 +3118,8 @@
                             "allowPlace": false,
                             "number": 655007,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655008",
@@ -2924,9 +3131,12 @@
                             "allowPlace": false,
                             "number": 655008,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574626",
@@ -2944,7 +3154,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -2966,7 +3176,8 @@
                             "allowPlace": false,
                             "number": 656365,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656366",
@@ -2978,7 +3189,8 @@
                             "allowPlace": false,
                             "number": 656366,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "656367",
@@ -2990,7 +3202,8 @@
                             "allowPlace": false,
                             "number": 656367,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656368",
@@ -3002,9 +3215,12 @@
                             "allowPlace": false,
                             "number": 656368,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574605",
@@ -3022,7 +3238,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3044,7 +3260,8 @@
                             "allowPlace": false,
                             "number": 654997,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654998",
@@ -3056,7 +3273,8 @@
                             "allowPlace": false,
                             "number": 654998,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654999",
@@ -3068,7 +3286,8 @@
                             "allowPlace": false,
                             "number": 654999,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655000",
@@ -3080,9 +3299,12 @@
                             "allowPlace": false,
                             "number": 655000,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574625",
@@ -3100,7 +3322,7 @@
                     "onlineBetting": true,
                     "phoneBettingOnly": false,
                     "inPlay": false,
-                    "goingInPlay": false,
+                    "goingInPlay": true,
                     "allowWin": true,
                     "allowPlace": false,
                     "allowEachWay": false,
@@ -3122,7 +3344,8 @@
                             "allowPlace": false,
                             "number": 656357,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656358",
@@ -3134,7 +3357,8 @@
                             "allowPlace": false,
                             "number": 656358,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "656359",
@@ -3146,7 +3370,8 @@
                             "allowPlace": false,
                             "number": 656359,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656360",
@@ -3158,9 +3383,12 @@
                             "allowPlace": false,
                             "number": 656360,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574642",
@@ -3200,7 +3428,8 @@
                             "allowPlace": false,
                             "number": 654949,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654952",
@@ -3212,7 +3441,8 @@
                             "allowPlace": false,
                             "number": 654952,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654950",
@@ -3224,7 +3454,8 @@
                             "allowPlace": false,
                             "number": 654950,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654951",
@@ -3236,9 +3467,12 @@
                             "allowPlace": false,
                             "number": 654951,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574617",
@@ -3278,7 +3512,8 @@
                             "allowPlace": false,
                             "number": 655685,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655684",
@@ -3290,7 +3525,8 @@
                             "allowPlace": false,
                             "number": 655684,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655682",
@@ -3302,7 +3538,8 @@
                             "allowPlace": false,
                             "number": 655682,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655683",
@@ -3314,9 +3551,12 @@
                             "allowPlace": false,
                             "number": 655683,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574601",
@@ -3356,7 +3596,8 @@
                             "allowPlace": false,
                             "number": 654957,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654960",
@@ -3368,7 +3609,8 @@
                             "allowPlace": false,
                             "number": 654960,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654958",
@@ -3380,7 +3622,8 @@
                             "allowPlace": false,
                             "number": 654958,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654959",
@@ -3392,9 +3635,12 @@
                             "allowPlace": false,
                             "number": 654959,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574620",
@@ -3434,7 +3680,8 @@
                             "allowPlace": false,
                             "number": 655693,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655692",
@@ -3446,7 +3693,8 @@
                             "allowPlace": false,
                             "number": 655692,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655690",
@@ -3458,7 +3706,8 @@
                             "allowPlace": false,
                             "number": 655690,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655691",
@@ -3470,9 +3719,12 @@
                             "allowPlace": false,
                             "number": 655691,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574643",
@@ -3512,7 +3764,8 @@
                             "allowPlace": false,
                             "number": 654965,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654968",
@@ -3524,7 +3777,8 @@
                             "allowPlace": false,
                             "number": 654968,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654966",
@@ -3536,7 +3790,8 @@
                             "allowPlace": false,
                             "number": 654966,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "654967",
@@ -3548,9 +3803,12 @@
                             "allowPlace": false,
                             "number": 654967,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574621",
@@ -3590,7 +3848,8 @@
                             "allowPlace": false,
                             "number": 655701,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655700",
@@ -3602,7 +3861,8 @@
                             "allowPlace": false,
                             "number": 655700,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655698",
@@ -3614,7 +3874,8 @@
                             "allowPlace": false,
                             "number": 655698,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655699",
@@ -3626,9 +3887,12 @@
                             "allowPlace": false,
                             "number": 655699,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574611",
@@ -3749,6 +4013,18 @@
                             "sortOrder": 4
                         },
                         {
+                            "id": "656373",
+                            "name": "Sam Billings (STh)",
+                            "returnWin": 2.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 656373,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
                             "id": "656375",
                             "name": "Ollie Davies (STh)",
                             "returnWin": 3,
@@ -3759,18 +4035,6 @@
                             "number": 656375,
                             "isOpen": true,
                             "sortOrder": 3
-                        },
-                        {
-                            "id": "656373",
-                            "name": "Sam Billings (STh)",
-                            "returnWin": 3.1,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 656373,
-                            "isOpen": true,
-                            "sortOrder": 1
                         },
                         {
                             "id": "656374",
@@ -3824,7 +4088,8 @@
                             "allowPlace": false,
                             "number": 655514,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655515",
@@ -3838,7 +4103,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574648",
@@ -3878,7 +4145,8 @@
                             "allowPlace": false,
                             "number": 655516,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655517",
@@ -3892,7 +4160,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574649",
@@ -3932,7 +4202,8 @@
                             "allowPlace": false,
                             "number": 655518,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655519",
@@ -3946,7 +4217,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574650",
@@ -3986,7 +4259,8 @@
                             "allowPlace": false,
                             "number": 655520,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655521",
@@ -4000,7 +4274,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574628",
@@ -4033,19 +4309,20 @@
                         {
                             "id": "656381",
                             "name": "S Billings Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656381,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656382",
                             "name": "S Billings Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4054,7 +4331,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574629",
@@ -4094,7 +4373,8 @@
                             "allowPlace": false,
                             "number": 656383,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656384",
@@ -4108,7 +4388,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574630",
@@ -4141,19 +4423,20 @@
                         {
                             "id": "656385",
                             "name": "O Davies Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656385,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656386",
                             "name": "O Davies Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4162,7 +4445,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574631",
@@ -4202,7 +4487,8 @@
                             "allowPlace": false,
                             "number": 656387,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656388",
@@ -4216,7 +4502,9 @@
                             "isOpen": true,
                             "sortOrder": 2
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574636",
@@ -4256,7 +4544,8 @@
                             "allowPlace": false,
                             "number": 655522,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655523",
@@ -4280,7 +4569,8 @@
                             "allowPlace": false,
                             "number": 655524,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655525",
@@ -4294,7 +4584,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574637",
@@ -4334,7 +4626,8 @@
                             "allowPlace": false,
                             "number": 655526,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655527",
@@ -4358,7 +4651,8 @@
                             "allowPlace": false,
                             "number": 655528,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655529",
@@ -4372,7 +4666,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574638",
@@ -4412,7 +4708,8 @@
                             "allowPlace": false,
                             "number": 655530,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655531",
@@ -4436,7 +4733,8 @@
                             "allowPlace": false,
                             "number": 655550,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655551",
@@ -4450,7 +4748,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574639",
@@ -4490,7 +4790,8 @@
                             "allowPlace": false,
                             "number": 655552,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655553",
@@ -4514,7 +4815,8 @@
                             "allowPlace": false,
                             "number": 655554,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "655555",
@@ -4528,7 +4830,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574632",
@@ -4561,19 +4865,20 @@
                         {
                             "id": "656397",
                             "name": "S Billings Over 11.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656397,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656398",
                             "name": "S Billings Under 11.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4585,19 +4890,20 @@
                         {
                             "id": "656399",
                             "name": "S Billings Over 25.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656399,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656400",
                             "name": "S Billings Under 25.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4606,7 +4912,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574633",
@@ -4646,7 +4954,8 @@
                             "allowPlace": false,
                             "number": 656401,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656402",
@@ -4670,7 +4979,8 @@
                             "allowPlace": false,
                             "number": 656403,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656404",
@@ -4684,7 +4994,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574640",
@@ -4717,19 +5029,20 @@
                         {
                             "id": "656389",
                             "name": "O Davies Over 11.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656389,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656390",
                             "name": "O Davies Under 11.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4741,19 +5054,20 @@
                         {
                             "id": "656391",
                             "name": "O Davies Over 25.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 656391,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656392",
                             "name": "O Davies Under 25.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4762,7 +5076,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574641",
@@ -4802,7 +5118,8 @@
                             "allowPlace": false,
                             "number": 656393,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "656394",
@@ -4826,7 +5143,8 @@
                             "allowPlace": false,
                             "number": 656395,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "656396",
@@ -4840,7 +5158,9 @@
                             "isOpen": true,
                             "sortOrder": 4
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552738",
@@ -5180,7 +5500,8 @@
                             "allowPlace": false,
                             "number": 651745,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651746",
@@ -5192,9 +5513,12 @@
                             "allowPlace": false,
                             "number": 651746,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552734",
@@ -5234,7 +5558,8 @@
                             "allowPlace": false,
                             "number": 651743,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "651744",
@@ -5246,9 +5571,12 @@
                             "allowPlace": false,
                             "number": 651744,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552732",
@@ -5354,7 +5682,8 @@
                             "allowPlace": false,
                             "number": 651836,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "651840",
@@ -5366,7 +5695,8 @@
                             "allowPlace": false,
                             "number": 651840,
                             "isOpen": true,
-                            "sortOrder": 9
+                            "sortOrder": 9,
+                            "sameGame": true
                         },
                         {
                             "id": "651850",
@@ -5402,7 +5732,8 @@
                             "allowPlace": false,
                             "number": 651842,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "651841",
@@ -5414,7 +5745,8 @@
                             "allowPlace": false,
                             "number": 651841,
                             "isOpen": true,
-                            "sortOrder": 10
+                            "sortOrder": 10,
+                            "sameGame": true
                         },
                         {
                             "id": "651837",
@@ -5426,7 +5758,8 @@
                             "allowPlace": false,
                             "number": 651837,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "651852",
@@ -5486,9 +5819,12 @@
                             "allowPlace": false,
                             "number": 651832,
                             "isOpen": true,
-                            "sortOrder": 5
+                            "sortOrder": 5,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109552740",
@@ -5528,7 +5864,8 @@
                             "allowPlace": false,
                             "number": 651811,
                             "isOpen": true,
-                            "sortOrder": 8
+                            "sortOrder": 8,
+                            "sameGame": true
                         },
                         {
                             "id": "651814",
@@ -5552,7 +5889,8 @@
                             "allowPlace": false,
                             "number": 651810,
                             "isOpen": true,
-                            "sortOrder": 7
+                            "sortOrder": 7,
+                            "sameGame": true
                         },
                         {
                             "id": "651815",
@@ -5564,7 +5902,8 @@
                             "allowPlace": false,
                             "number": 651815,
                             "isOpen": true,
-                            "sortOrder": 11
+                            "sortOrder": 11,
+                            "sameGame": true
                         },
                         {
                             "id": "651812",
@@ -5600,7 +5939,8 @@
                             "allowPlace": false,
                             "number": 651804,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "651817",
@@ -5612,7 +5952,8 @@
                             "allowPlace": false,
                             "number": 651817,
                             "isOpen": true,
-                            "sortOrder": 12
+                            "sortOrder": 12,
+                            "sameGame": true
                         },
                         {
                             "id": "651806",
@@ -5624,9 +5965,12 @@
                             "allowPlace": false,
                             "number": 651806,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
                 },
                 {
                     "id": "109574658",
@@ -5666,7 +6010,8 @@
                             "allowPlace": false,
                             "number": 654927,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654925",
@@ -5678,7 +6023,8 @@
                             "allowPlace": false,
                             "number": 654925,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654928",
@@ -5690,7 +6036,8 @@
                             "allowPlace": false,
                             "number": 654928,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654926",
@@ -5702,9 +6049,12 @@
                             "allowPlace": false,
                             "number": 654926,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574659",
@@ -5744,7 +6094,8 @@
                             "allowPlace": false,
                             "number": 655661,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655659",
@@ -5756,7 +6107,8 @@
                             "allowPlace": false,
                             "number": 655659,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655658",
@@ -5768,7 +6120,8 @@
                             "allowPlace": false,
                             "number": 655658,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655660",
@@ -5780,9 +6133,12 @@
                             "allowPlace": false,
                             "number": 655660,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574600",
@@ -5822,7 +6178,8 @@
                             "allowPlace": false,
                             "number": 654935,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654933",
@@ -5834,7 +6191,8 @@
                             "allowPlace": false,
                             "number": 654933,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654936",
@@ -5846,7 +6204,8 @@
                             "allowPlace": false,
                             "number": 654936,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654934",
@@ -5858,9 +6217,12 @@
                             "allowPlace": false,
                             "number": 654934,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574615",
@@ -5900,7 +6262,8 @@
                             "allowPlace": false,
                             "number": 655669,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655667",
@@ -5912,7 +6275,8 @@
                             "allowPlace": false,
                             "number": 655667,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655666",
@@ -5924,7 +6288,8 @@
                             "allowPlace": false,
                             "number": 655666,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655668",
@@ -5936,9 +6301,12 @@
                             "allowPlace": false,
                             "number": 655668,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574603",
@@ -5978,7 +6346,8 @@
                             "allowPlace": false,
                             "number": 654943,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         },
                         {
                             "id": "654941",
@@ -5990,7 +6359,8 @@
                             "allowPlace": false,
                             "number": 654941,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "654944",
@@ -6002,7 +6372,8 @@
                             "allowPlace": false,
                             "number": 654944,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "654942",
@@ -6014,9 +6385,12 @@
                             "allowPlace": false,
                             "number": 654942,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574616",
@@ -6056,7 +6430,8 @@
                             "allowPlace": false,
                             "number": 655677,
                             "isOpen": true,
-                            "sortOrder": 4
+                            "sortOrder": 4,
+                            "sameGame": true
                         },
                         {
                             "id": "655675",
@@ -6068,7 +6443,8 @@
                             "allowPlace": false,
                             "number": 655675,
                             "isOpen": true,
-                            "sortOrder": 2
+                            "sortOrder": 2,
+                            "sameGame": true
                         },
                         {
                             "id": "655674",
@@ -6080,7 +6456,8 @@
                             "allowPlace": false,
                             "number": 655674,
                             "isOpen": true,
-                            "sortOrder": 1
+                            "sortOrder": 1,
+                            "sameGame": true
                         },
                         {
                             "id": "655676",
@@ -6092,9 +6469,12 @@
                             "allowPlace": false,
                             "number": 655676,
                             "isOpen": true,
-                            "sortOrder": 3
+                            "sortOrder": 3,
+                            "sameGame": true
                         }
-                    ]
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": true
                 },
                 {
                     "id": "109574681",
@@ -7028,7 +7408,8 @@
                 }
             ],
             "inPlay": false,
-            "goingInPlay": true
+            "goingInPlay": true,
+            "sameGame": true
         }
     ],
     "tournaments": [],
@@ -7665,5 +8046,6 @@
             ]
         }
     ],
-    "hasFuturePredictions": false
+    "hasFuturePredictions": false,
+    "sameGame": true
 }
