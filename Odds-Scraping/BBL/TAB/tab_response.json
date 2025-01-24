@@ -90,9 +90,9 @@
                 "Sydney Sixers",
                 "Sydney Thunder"
             ],
-            "openMarketCount": 103,
+            "openMarketCount": 104,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 103,
+            "nonFutureMarketCount": 104,
             "markets": [
                 {
                     "id": "109552737",
@@ -208,6 +208,19 @@
                             "sortOrder": 14
                         },
                         {
+                            "id": "651771",
+                            "name": "Matt Gilkes (STh)",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651771,
+                            "isOpen": true,
+                            "sortOrder": 3,
+                            "sameGame": true
+                        },
+                        {
                             "id": "651774",
                             "name": "Ollie Davies (STh)",
                             "returnWin": 5.5,
@@ -231,19 +244,6 @@
                             "number": 651772,
                             "isOpen": true,
                             "sortOrder": 4,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "651771",
-                            "name": "Matt Gilkes (STh)",
-                            "returnWin": 5.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651771,
-                            "isOpen": true,
-                            "sortOrder": 3,
                             "sameGame": true
                         },
                         {
@@ -4081,7 +4081,7 @@
                         {
                             "id": "652431",
                             "name": "SydS Over 165.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4093,7 +4093,7 @@
                         {
                             "id": "652432",
                             "name": "SydS Under 165.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4687,6 +4687,63 @@
                     ]
                 },
                 {
+                    "id": "109574650",
+                    "name": "BBL Syd Sixers PlrRunOU 24/01",
+                    "shortName": "BBL Syd Sixers PlrRunOU",
+                    "betOption": "Player Runs",
+                    "betOptionSpectrumId": "2100",
+                    "betOptionPriority": 1675,
+                    "marketUniqueId": 109574650,
+                    "closeTime": "2025-01-24T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Player must face a ball or bets refunded",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "655520",
+                            "name": "M Henriques Over 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 655520,
+                            "isOpen": true,
+                            "sortOrder": 1,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "655521",
+                            "name": "M Henriques Under 20.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 655521,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ],
+                    "sameGame": true,
+                    "sameGameMultipleSelections": false
+                },
+                {
                     "id": "109574647",
                     "name": "BBL Syd Sixers PlrRunOU 24/01",
                     "shortName": "BBL Syd Sixers PlrRunOU",
@@ -4850,63 +4907,6 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 655519,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ],
-                    "sameGame": true,
-                    "sameGameMultipleSelections": false
-                },
-                {
-                    "id": "109574650",
-                    "name": "BBL Syd Sixers PlrRunOU 24/01",
-                    "shortName": "BBL Syd Sixers PlrRunOU",
-                    "betOption": "Player Runs",
-                    "betOptionSpectrumId": "2100",
-                    "betOptionPriority": 1675,
-                    "marketUniqueId": 109574650,
-                    "closeTime": "2025-01-24T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": "Player must face a ball or bets refunded",
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "655520",
-                            "name": "M Henriques Over 20.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 655520,
-                            "isOpen": true,
-                            "sortOrder": 1,
-                            "sameGame": true
-                        },
-                        {
-                            "id": "655521",
-                            "name": "M Henriques Under 20.5 Runs",
-                            "returnWin": 1.85,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 655521,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -6704,19 +6704,6 @@
                             "sameGame": true
                         },
                         {
-                            "id": "651840",
-                            "name": "Tom Andrews (STh)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651840,
-                            "isOpen": true,
-                            "sortOrder": 9,
-                            "sameGame": true
-                        },
-                        {
                             "id": "651850",
                             "name": "George Garton (STh)",
                             "returnWin": 4.5,
@@ -6727,18 +6714,6 @@
                             "number": 651850,
                             "isOpen": true,
                             "sortOrder": 12
-                        },
-                        {
-                            "id": "651859",
-                            "name": "Mohammad Hasnain (STh)",
-                            "returnWin": 4.5,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 651859,
-                            "isOpen": true,
-                            "sortOrder": 17
                         },
                         {
                             "id": "651842",
@@ -6765,6 +6740,31 @@
                             "isOpen": true,
                             "sortOrder": 10,
                             "sameGame": true
+                        },
+                        {
+                            "id": "651840",
+                            "name": "Tom Andrews (STh)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651840,
+                            "isOpen": true,
+                            "sortOrder": 9,
+                            "sameGame": true
+                        },
+                        {
+                            "id": "651859",
+                            "name": "Mohammad Hasnain (STh)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 651859,
+                            "isOpen": true,
+                            "sortOrder": 17
                         },
                         {
                             "id": "651837",
@@ -7495,6 +7495,120 @@
                     "sameGameMultipleSelections": true
                 },
                 {
+                    "id": "109569639",
+                    "name": "BBL SydSx-SydTh WinMargin 24/01",
+                    "shortName": "BBL SydSx-SydTh WinMargin",
+                    "betOption": "Margin",
+                    "betOptionSpectrumId": "32",
+                    "betOptionPriority": 2620,
+                    "marketUniqueId": 109569639,
+                    "closeTime": "2025-01-24T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "652322",
+                            "name": "SydSix 41+ runs/8-10 wickets",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652322,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "652323",
+                            "name": "SydSx 21-40 runs/5-7 wickets",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652323,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "652324",
+                            "name": "SydSix 1-20 runs/1-4 wickets",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652324,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "652325",
+                            "name": "Tie (Superover)",
+                            "returnWin": 23,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652325,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "652326",
+                            "name": "SydThn 1-20 runs/1-4 wickets",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652326,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "652331",
+                            "name": "SydTh 21-40 runs/5-7 wickets",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652331,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "652332",
+                            "name": "SydThn 41+ runs/8-10 wickets",
+                            "returnWin": 6.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652332,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        }
+                    ]
+                },
+                {
                     "id": "109574681",
                     "name": "BBL SydneySixers-Syd Thunder 24/01",
                     "shortName": "BBL SydSx-SydTh PlMtch 24/01",
@@ -7571,30 +7685,6 @@
                             "sortOrder": 22
                         },
                         {
-                            "id": "653323",
-                            "name": "Moises Henriques (SyS)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653323,
-                            "isOpen": true,
-                            "sortOrder": 7
-                        },
-                        {
-                            "id": "653321",
-                            "name": "Ben Dwarshuis (SyS)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653321,
-                            "isOpen": true,
-                            "sortOrder": 5
-                        },
-                        {
                             "id": "653343",
                             "name": "Kurtis Patterson (SyS)",
                             "returnWin": 13,
@@ -7619,18 +7709,6 @@
                             "sortOrder": 23
                         },
                         {
-                            "id": "653579",
-                            "name": "Muhammad Hasnain (STH)",
-                            "returnWin": 13,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653579,
-                            "isOpen": true,
-                            "sortOrder": 24
-                        },
-                        {
                             "id": "654818",
                             "name": "Blake Nikitaras (STh)",
                             "returnWin": 13,
@@ -7641,6 +7719,42 @@
                             "number": 654818,
                             "isOpen": true,
                             "sortOrder": 36
+                        },
+                        {
+                            "id": "653321",
+                            "name": "Ben Dwarshuis (SyS)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653321,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "653323",
+                            "name": "Moises Henriques (SyS)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653323,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "653579",
+                            "name": "Muhammad Hasnain (STH)",
+                            "returnWin": 13,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653579,
+                            "isOpen": true,
+                            "sortOrder": 24
                         },
                         {
                             "id": "653335",
@@ -7703,18 +7817,6 @@
                             "sortOrder": 35
                         },
                         {
-                            "id": "653319",
-                            "name": "Jafer Chohan (SyS)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653319,
-                            "isOpen": true,
-                            "sortOrder": 3
-                        },
-                        {
                             "id": "653326",
                             "name": "Lachlan Hearne (SyS)",
                             "returnWin": 17,
@@ -7737,18 +7839,6 @@
                             "number": 653563,
                             "isOpen": true,
                             "sortOrder": 20
-                        },
-                        {
-                            "id": "653581",
-                            "name": "Chris Green (STh)",
-                            "returnWin": 17,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653581,
-                            "isOpen": true,
-                            "sortOrder": 26
                         },
                         {
                             "id": "654811",
@@ -7787,6 +7877,30 @@
                             "sortOrder": 34
                         },
                         {
+                            "id": "653319",
+                            "name": "Jafer Chohan (SyS)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653319,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "653581",
+                            "name": "Chris Green (STh)",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653581,
+                            "isOpen": true,
+                            "sortOrder": 26
+                        },
+                        {
                             "id": "654820",
                             "name": "Dan Christian (STh)",
                             "returnWin": 17,
@@ -7797,30 +7911,6 @@
                             "number": 654820,
                             "isOpen": true,
                             "sortOrder": 38
-                        },
-                        {
-                            "id": "653124",
-                            "name": "Jackson Bird (SyS)",
-                            "returnWin": 19,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653124,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        },
-                        {
-                            "id": "653320",
-                            "name": "Joel Davies (SyS)",
-                            "returnWin": 19,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653320,
-                            "isOpen": true,
-                            "sortOrder": 4
                         },
                         {
                             "id": "653344",
@@ -7857,6 +7947,30 @@
                             "number": 654813,
                             "isOpen": true,
                             "sortOrder": 31
+                        },
+                        {
+                            "id": "653124",
+                            "name": "Jackson Bird (SyS)",
+                            "returnWin": 19,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653124,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "653320",
+                            "name": "Joel Davies (SyS)",
+                            "returnWin": 19,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653320,
+                            "isOpen": true,
+                            "sortOrder": 4
                         },
                         {
                             "id": "653336",
@@ -8155,6 +8269,60 @@
                     ]
                 },
                 {
+                    "id": "109569711",
+                    "name": "BBL Syd Thunder 1stOvrRuns 24/01",
+                    "shortName": "BBL Syd Thunder 1stOvrRuns",
+                    "betOption": "1st Over Runs",
+                    "betOptionSpectrumId": "138",
+                    "betOptionPriority": 6590,
+                    "marketUniqueId": 109569711,
+                    "closeTime": "2025-01-24T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": true,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653115",
+                            "name": "SyTh Over 5.5 Runs",
+                            "returnWin": 1.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653115,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653116",
+                            "name": "SyTh Under 5.5 Runs",
+                            "returnWin": 2.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653116,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
                     "id": "109569712",
                     "name": "BBL Syd Thunder 1stOvrRuns 24/01",
                     "shortName": "BBL Syd Thunder 1stOvrRuns",
@@ -8257,60 +8425,6 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 653120,
-                            "isOpen": true,
-                            "sortOrder": 2
-                        }
-                    ]
-                },
-                {
-                    "id": "109569711",
-                    "name": "BBL Syd Thunder 1stOvrRuns 24/01",
-                    "shortName": "BBL Syd Thunder 1stOvrRuns",
-                    "betOption": "1st Over Runs",
-                    "betOptionSpectrumId": "138",
-                    "betOptionPriority": 6590,
-                    "marketUniqueId": 109569711,
-                    "closeTime": "2025-01-24T08:15:00.000Z",
-                    "bettingStatus": "Open",
-                    "message": null,
-                    "informationMessage": null,
-                    "isFuture": false,
-                    "onlineBetting": true,
-                    "phoneBettingOnly": false,
-                    "inPlay": false,
-                    "goingInPlay": true,
-                    "allowWin": true,
-                    "allowPlace": false,
-                    "allowEachWay": false,
-                    "allowMulti": true,
-                    "allowMultiWin": true,
-                    "allowMultiPlace": false,
-                    "allowMultiEachWay": false,
-                    "numberOfPlaces": 0,
-                    "cashOutEligibility": "PreMatch",
-                    "allowBundle": false,
-                    "propositions": [
-                        {
-                            "id": "653115",
-                            "name": "SyTh Over 5.5 Runs",
-                            "returnWin": 1.6,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653115,
-                            "isOpen": true,
-                            "sortOrder": 1
-                        },
-                        {
-                            "id": "653116",
-                            "name": "SyTh Under 5.5 Runs",
-                            "returnWin": 2.2,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 653116,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -8779,7 +8893,7 @@
                         {
                             "id": "652351",
                             "name": "Over 25.5 Fours",
-                            "returnWin": 1.72,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8791,7 +8905,7 @@
                         {
                             "id": "652353",
                             "name": "Under 25.5 Fours",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8852,6 +8966,7 @@
         "To Take A Wicket",
         "To Take 2+ Wickets",
         "To Take 3+ Wickets",
+        "Margin",
         "Player of the Match",
         "Winner Of The Toss",
         "1st Over Runs",
@@ -9188,6 +9303,14 @@
             "openMarketCount": 2,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=To%20Take%203%2B%20Wickets"
+            }
+        },
+        {
+            "name": "Margin",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Margin"
             }
         },
         {
