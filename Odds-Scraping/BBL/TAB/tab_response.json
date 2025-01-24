@@ -2484,7 +2484,7 @@
                         {
                             "id": "655651",
                             "name": "David Warner (STh)",
-                            "returnWin": 26,
+                            "returnWin": 21,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6419,7 +6419,7 @@
                         {
                             "id": "652341",
                             "name": "Over 10.5 Sixes",
-                            "returnWin": 2,
+                            "returnWin": 2.05,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6431,7 +6431,7 @@
                         {
                             "id": "652342",
                             "name": "Under 10.5 Sixes",
-                            "returnWin": 1.72,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6473,7 +6473,7 @@
                         {
                             "id": "652363",
                             "name": "11 Sixes Or More",
-                            "returnWin": 2,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6499,7 +6499,7 @@
                         {
                             "id": "652367",
                             "name": "8 Sixes Or Less",
-                            "returnWin": 2.4,
+                            "returnWin": 2.3,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8779,7 +8779,7 @@
                         {
                             "id": "652351",
                             "name": "Over 25.5 Fours",
-                            "returnWin": 1.8,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8791,7 +8791,7 @@
                         {
                             "id": "652353",
                             "name": "Under 25.5 Fours",
-                            "returnWin": 1.9,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
