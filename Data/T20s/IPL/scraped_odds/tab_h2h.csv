@@ -1,0 +1,5 @@
+match,market_name,home_team,away_team,home_win,away_win,agency,margin
+Kolkata v Gujarat,Head To Head,Kolkata,Gujarat,1.75,2.05,TAB,1.059
+Lucknow v Delhi,Head To Head,Lucknow,Delhi,1.8,2,TAB,1.056
+Hyderabad v Mumbai,Head To Head,Hyderabad,Mumbai,2.2,1.65,TAB,1.061
+Bangalore v Rajasthan,Head To Head,Bangalore,Rajasthan,1.65,2.2,TAB,1.061

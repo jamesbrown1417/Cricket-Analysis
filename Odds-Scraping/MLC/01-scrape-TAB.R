@@ -708,3 +708,27 @@ match_boundaries_overs |>
     agency = "TAB"
   ) |> 
   write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_match_total_sixes.csv")
+
+#===============================================================================
+# Highest Opening Partnership
+#===============================================================================
+
+# Filter to highest opening partnership markets
+highest_opening_partnership <-
+  all_tab_markets |>
+  filter(market_name == "Highest Opening Partnership") |> 
+  separate(match, into = c("home_team", "away_team"), sep = " v ", remove = FALSE) |>
+  mutate(home_team = fix_team_names(home_team),
+         away_team = fix_team_names(away_team)) |>
+  mutate(prop_name = fix_team_names(prop_name)) |>
+  mutate(match = paste(home_team, "v", away_team)) |> 
+  select(match, 
+         market_name,
+         team = prop_name,
+         price) |> 
+  mutate(team = str_replace(team, "tie", "Draw")) |> 
+  mutate(agency = "TAB")
+
+# Write out
+highest_opening_partnership |> 
+  write_csv("Data/T20s/Major League Cricket/scraped_odds/tab_highest_opening_partnership.csv")
