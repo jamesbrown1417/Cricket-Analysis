@@ -1,10 +1,7 @@
-match,market_name,team,price,agency
-Texas Super Kings v San Francisco Unicorns,Highest Opening Partnership,Texas,1.85,TAB
-Texas Super Kings v San Francisco Unicorns,Highest Opening Partnership,Draw,21,TAB
-Texas Super Kings v San Francisco Unicorns,Highest Opening Partnership,San Francisco,2,TAB
-MI New York v Washington Freedom,Highest Opening Partnership,MI New York,1.95,TAB
-MI New York v Washington Freedom,Highest Opening Partnership,Draw,26,TAB
-MI New York v Washington Freedom,Highest Opening Partnership,Washington,1.87,TAB
-Seattle v Los Angeles Knight Riders,Highest Opening Partnership,Seattle,1.8,TAB
-Seattle v Los Angeles Knight Riders,Highest Opening Partnership,Draw,26,TAB
-Seattle v Los Angeles Knight Riders,Highest Opening Partnership,Los Angeles,2.05,TAB
+match,home_team,away_team,market,team,price,agency
+Texas Super Kings v MI New York,Texas Super Kings,MI New York,Highest Opening Partnership,Texas Super Kings,1.92,TAB
+Texas Super Kings v MI New York,Texas Super Kings,MI New York,Highest Opening Partnership,Draw,21,TAB
+Texas Super Kings v MI New York,Texas Super Kings,MI New York,Highest Opening Partnership,MI New York,1.92,TAB
+San Francisco Unicorns v Seattle Orcas,San Francisco Unicorns,Seattle Orcas,Highest Opening Partnership,San Francisco Unicorns,1.68,TAB
+San Francisco Unicorns v Seattle Orcas,San Francisco Unicorns,Seattle Orcas,Highest Opening Partnership,Draw,26,TAB
+San Francisco Unicorns v Seattle Orcas,San Francisco Unicorns,Seattle Orcas,Highest Opening Partnership,Seattle Orcas,2.2,TAB

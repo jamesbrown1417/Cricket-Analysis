@@ -18,9 +18,9 @@ run_scraping <- function(script_name) {
 # run_scraping("Odds-Scraping/Internationals/scrape_betr.R")
 # run_scraping("Odds-Scraping/Internationals/scrape_BetRight.R")
 # run_scraping("Odds-Scraping/Internationals/scrape_pointsbet.R")
-run_scraping("Odds-Scraping/Internationals/02-scrape-Sportsbet.R")
-run_scraping("Odds-Scraping/Internationals/01-scrape-TAB.R")
-run_scraping("Odds-Scraping/Internationals/04-scrape-topsport.R")
+run_scraping("Odds-Scraping/Internationals/02-scrape-Sportsbet-internationals.R")
+run_scraping("Odds-Scraping/Internationals/TAB/01-scrape-TAB-internationals.R")
+# run_scraping("Odds-Scraping/Internationals/04-scrape-topsport-internationals.R")
 # run_scraping("Odds-Scraping/Internationals/Neds/scrape_neds.R")
 # run_scraping("Odds-Scraping/Internationals/scrape_dabble.R")
 

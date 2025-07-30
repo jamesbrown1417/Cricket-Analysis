@@ -1,31 +1,65 @@
 match,market,home_team,away_team,player_name,price
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Steven Peter Devereux Smith,5.75
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Travis Michael Head,5.4
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Finn Allen,7.5
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Jake Fraser-McGurk,7.5
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Andries Gous,9
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Josh Inglis,9.75
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Glenn Maxwell,10
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Rachin Ravindra,11
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Akhilesh Reddy Bodugum,12.5
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Lahiru Milantha,14
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Sanjay Prasad Krishnamurthi,14
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Sherfane Rutherford,16
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Corey Anderson,41
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Obus Pienaar,46
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Hassan Khan,71
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Mukhtar Ahmed,71
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Tajinder Singh,71
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Abrar Ahmed,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Akeal Hosein,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Carmi le Roux,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Haris Rauf,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Ian Holland,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Juanoy Drysdale,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Justin Dill,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Liam Plunkett,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Lockie Ferguson,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Marco Jansen,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Matt Henry,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Pat Cummins,101
-Washington Freedom v San Francisco Unicorns,Top Match Run Scorer,Washington Freedom,San Francisco Unicorns,Saurabh Netravalkar,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Devon Conway,5.9
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Nicholas Pooran,5.9
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Faf Du Plessis,6
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Quinton De Kock,6.75
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Daryl Mitchell,8.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Marcus Stoinis,8.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Monank Patel,9.75
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Saiteja Mukkamalla,10
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Smit Patel,10.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Donavon Ferreira,11.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Michael Bracewell,11.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Agni Chopra,12.5
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Joshua Tromp,14
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Kieron Pollard,16
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Shubham Ranjane,23
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Tajinder Singh,23
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,George Linde,41
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Calvin Savage,61
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Delano Potgieter,61
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Mohammad Mohsin,61
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Sharad Lumba,61
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Adam Milne,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Akeal Hosein,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Ehsan Adil,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Nandre Burger,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Naveen-ul-Haq,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Noor Ahmad,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Nosthush Kenjige,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Rushil Ugarkar,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Sunny Patel,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Trent Boult,101
+Texas Super Kings v MI New York,Top Match Run Scorer,Texas Super Kings,MI New York,Zia Ul Haq,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Matt Short,5
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Heinrich Klaasen,6
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Cooper Connolly,7.5
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,David Warner,7.5
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Finn Allen,7.5
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Tim Seifert,7.25
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Shimron Hetmyer,8.75
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Jake Fraser-McGurk,9
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Aaron Jones,10
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Shayan Jahangir,10.5
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Josh Brown,11
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Sanjay Prasad Krishnamurthi,15
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Steven Taylor,17
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Sikandar Raza,19
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Romario Shepherd,23
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Hassan Khan,31
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Kyle Mayers,34
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Corey Anderson,46
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Sujit Nayak,67
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Xavier Bartlett,67
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Ayan Desai,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Brody L Couch,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Callum Stow,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Cameron Gannon,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Carmi le Roux,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Gerald Coetzee,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Haris Rauf,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Harmeet Singh Baddhan,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Jahmar Hamilton,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Jessy Singh,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Liam Plunkett,101
+San Francisco Unicorns v Seattle Orcas,Top Match Run Scorer,San Francisco Unicorns,Seattle Orcas,Waqar Salamkheil,101

@@ -16,11 +16,11 @@ run_scraping <- function(script_name) {
 
 # Run all odds scraping scripts-------------------------------------------------
 # run_scraping("Odds-Scraping/BBL/scrape_betr.R")
-run_scraping("Odds-Scraping/BBL/05-scrape_BetRight.R")
-run_scraping("Odds-Scraping/BBL/03-scrape-pointsbet.R")
-run_scraping("Odds-Scraping/BBL/02-scrape-Sportsbet.R")
-run_scraping("Odds-Scraping/BBL/TAB/01-scrape-TAB.R")
-run_scraping("Odds-Scraping/BBL/04-scrape-topsport.R")
+run_scraping("Odds-Scraping/BBL/05-scrape-betright-bbl.R")
+run_scraping("Odds-Scraping/BBL/03-scrape-pointsbet-bbl.R")
+run_scraping("Odds-Scraping/BBL/02-scrape-Sportsbet-bbl.R")
+run_scraping("Odds-Scraping/BBL/TAB/01-scrape-TAB-bbl.R")
+# run_scraping("Odds-Scraping/BBL/04-scrape-topsport-bbl.R")
 # run_scraping("Odds-Scraping/BBL/Neds/scrape_neds.R")
 # run_scraping("Odds-Scraping/BBL/scrape_dabble.R")
 

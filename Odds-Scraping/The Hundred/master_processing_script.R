@@ -15,17 +15,17 @@ run_scraping <- function(script_name) {
 }
 
 # Run all odds scraping scripts
-# run_scraping("Odds-Scraping/MLC/scrape_betr.R")
-# run_scraping("Odds-Scraping/MLC/scrape_BetRight.R")
-# run_scraping("Odds-Scraping/MLC/scrape_pointsbet.R")
-run_scraping("Odds-Scraping/MLC/02-scrape-Sportsbet.R")
-run_scraping("Odds-Scraping/MLC/01-scrape-TAB.R")
-run_scraping("Odds-Scraping/MLC/04-scrape-topsport.R")
-# run_scraping("Odds-Scraping/MLC/scrape_bet365.R")
-# run_scraping("Odds-Scraping/MLC/scrape_bluebet.R")
-# run_scraping("Odds-Scraping/MLC/Neds/scrape_neds.R")
-# run_scraping("Odds-Scraping/MLC/scrape_unibet.R")
-# run_scraping("Odds-Scraping/MLC/scrape_dabble.R")
+# run_scraping("Odds-Scraping/The Hundred/scrape_betr.R")
+run_scraping("Odds-Scraping/The Hundred/02-scrape-Sportsbet-hundred.R")
+run_scraping("Odds-Scraping/The Hundred/01-scrape-TAB-hundred.R")
+run_scraping("Odds-Scraping/The Hundred/03-scrape-pointsbet-hundred.R")
+# run_scraping("Odds-Scraping/The Hundred/04-scrape-topsport-hundred.R")
+run_scraping("Odds-Scraping/The Hundred/05-scrape-betright-hundred.R")
+run_scraping("Odds-Scraping/The Hundred/06-scrape-bet365-hundred.R")
+# run_scraping("Odds-Scraping/The Hundred/scrape_bluebet.R")
+# run_scraping("Odds-Scraping/The Hundred/Neds/scrape_neds.R")
+# run_scraping("Odds-Scraping/The Hundred/scrape_unibet.R")
+# run_scraping("Odds-Scraping/The Hundred/scrape_dabble.R")
 
 
 #===============================================================================

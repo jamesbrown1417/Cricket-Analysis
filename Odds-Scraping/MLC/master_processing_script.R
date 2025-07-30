@@ -15,18 +15,9 @@ run_scraping <- function(script_name) {
 }
 
 # Run all odds scraping scripts
-# run_scraping("Odds-Scraping/MLC/scrape_betr.R")
-# run_scraping("Odds-Scraping/MLC/scrape_BetRight.R")
-# run_scraping("Odds-Scraping/MLC/scrape_pointsbet.R")
-run_scraping("Odds-Scraping/MLC/02-scrape-Sportsbet.R")
-run_scraping("Odds-Scraping/MLC/01-scrape-TAB.R")
-run_scraping("Odds-Scraping/MLC/04-scrape-topsport.R")
-# run_scraping("Odds-Scraping/MLC/scrape_bet365.R")
-# run_scraping("Odds-Scraping/MLC/scrape_bluebet.R")
-# run_scraping("Odds-Scraping/MLC/Neds/scrape_neds.R")
-# run_scraping("Odds-Scraping/MLC/scrape_unibet.R")
-# run_scraping("Odds-Scraping/MLC/scrape_dabble.R")
-
+run_scraping("Odds-Scraping/MLC/02-scrape-Sportsbet-mlc.R")
+run_scraping("Odds-Scraping/MLC/01-scrape-TAB-mlc.R")
+# run_scraping("Odds-Scraping/MLC/03-scrape-pointsbet-mlc.R")
 
 #===============================================================================
 # Read in all H2H
@@ -110,7 +101,10 @@ for_data <-
 #===============================================================================
 
 # Read in all match sixes data
-list_of_ms_files <- list.files("Data/T20s/Major League Cricket/scraped_odds/", full.names = TRUE, pattern = "match_sixes")
+list_of_ms_files <-
+  list.files("Data/T20s/Major League Cricket/scraped_odds/", full.names = TRUE, pattern = "match_sixes") |> 
+  keep(~!str_detect(.x, "most"))
+  
 
 # Read in all match sixes data
 list_of_ms_data <- map(list_of_ms_files, read_csv)
@@ -190,4 +184,41 @@ br_data <-
   keep(~nrow(.x) > 0) |>
   bind_rows() |> 
   arrange(match, player_name)
+
+#===============================================================================
+# Highest Opening Partnership
+#===============================================================================
+
+# Read in all highest opening partnership data
+list_of_hop_files <- list.files("Data/T20s/Major League Cricket/scraped_odds/", full.names = TRUE, pattern = "highest_opening_partnership")
+
+# Read in all highest opening partnership data
+list_of_hop_data <- map(list_of_hop_files, read_csv)
+
+# Combine
+hop_data <-
+  list_of_hop_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  mutate(team = ifelse(team == "Draw", "Tie", team)) |> 
+  arrange(match) |> 
+  arrange(match, team, desc(price))
+
+#===============================================================================
+# Most Match Sixes
+#===============================================================================
+
+# Read in all most match sixes data
+list_of_mms_files <- list.files("Data/T20s/Major League Cricket/scraped_odds/", full.names = TRUE, pattern = "most.*sixes")
+
+# Read in all most match sixes data
+list_of_mms_data <- map(list_of_mms_files, read_csv)
+
+# Combine
+mms_data <-
+  list_of_mms_data |> 
+  keep(~nrow(.x) > 0) |>
+  bind_rows() |> 
+  mutate(team = ifelse(team == "Draw", "Tie", team)) |> 
+  arrange(match, team, desc(price))
 
