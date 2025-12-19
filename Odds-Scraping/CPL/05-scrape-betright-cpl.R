@@ -10,15 +10,15 @@ betright_url = "https://next-api.betright.com.au/Sports/Category?categoryId=1180
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
     str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St Kitts|St\\. Kitts") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
     str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
     str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St Lucia|St\\. Lucia|Saint Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
+    str_detect(team_name_vector, "St Lucia") ~ "St Lucia Kings",
     TRUE ~ team_name_vector
   )
 }
+
 
 # Make request and get response
 betright_response <-
@@ -82,7 +82,7 @@ all_betright_markets <-
 home_teams <-
   all_betright_markets |>
   separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |>
-  filter(str_detect(market_name, "Match Result")) |> 
+  filter(str_detect(market_name, "Match Result|Match Winner")) |> 
   mutate(market_name = "Head To Head") |> 
   group_by(match) |> 
   filter(row_number() == 1) |> 
@@ -93,7 +93,7 @@ home_teams <-
 away_teams <-
   all_betright_markets |>
   separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |>
-  filter(str_detect(market_name, "Match Result")) |> 
+  filter(str_detect(market_name, "Match Result|Match Winner")) |> 
   mutate(market_name = "Head To Head") |>
   group_by(match) |> 
   filter(row_number() == 2) |> 
@@ -176,6 +176,17 @@ get_prop_data <- function(link) {
       fixed_market_id <- c(fixed_market_id, outcome$fixedMarketId)
       price <- c(price, outcome$price)
     }
+  }
+  
+  if (is.null(event_name)) {
+   event_name <- character() 
+   event_id <- character()
+   outcome_title <- character()
+   outcome_name <- character()
+   outcome_id <- character()
+   group_by_header <- character()
+   fixed_market_id <- character()
+   price <- character()
   }
   
   # Output Tibble

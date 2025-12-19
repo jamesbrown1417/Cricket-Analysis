@@ -1,23 +1,45 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Gudakesh Motie,Guyana Amazon Warriors,St Lucia Kings,4.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Imran Tahir,Guyana Amazon Warriors,St Lucia Kings,4.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Shamar Joseph,Guyana Amazon Warriors,St Lucia Kings,5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Romario Shepherd,Guyana Amazon Warriors,St Lucia Kings,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Moeen Ali,Guyana Amazon Warriors,St Lucia Kings,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Nathan Sowter,Guyana Amazon Warriors,St Lucia Kings,6,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Dwaine Pretorius,Guyana Amazon Warriors,St Lucia Kings,6.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Ronaldo Alimohamed,Guyana Amazon Warriors,St Lucia Kings,7,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Keemo Paul,Guyana Amazon Warriors,St Lucia Kings,7,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Junior Sinclair,Guyana Amazon Warriors,St Lucia Kings,7,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Raymon Reifer,Guyana Amazon Warriors,St Lucia Kings,7,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Kevin Sinclair,Guyana Amazon Warriors,St Lucia Kings,8.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Noor Ahmad,St Lucia Kings,Guyana Amazon Warriors,4.2,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Alzarri Joseph,St Lucia Kings,Guyana Amazon Warriors,4.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Khary Pierre,St Lucia Kings,Guyana Amazon Warriors,5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,David Wiese,St Lucia Kings,Guyana Amazon Warriors,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Matthew Forde,St Lucia Kings,Guyana Amazon Warriors,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,McKenny Clarke,St Lucia Kings,Guyana Amazon Warriors,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Roston Chase,St Lucia Kings,Guyana Amazon Warriors,5.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Mikkel Govia,St Lucia Kings,Guyana Amazon Warriors,6.5,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Shadrack Descarte,St Lucia Kings,Guyana Amazon Warriors,7,TAB
-St Lucia Kings v Guyana Amazon Warriors,Top Team Wicket Taker,St Lucia Kings,Guyana Amazon Warriors,Khari Campbell,St Lucia Kings,Guyana Amazon Warriors,8,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Allah Ghazanfar,Antigua and Barbuda Falcons,Trinbago Knight Riders,4.2,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Jayden Seales,Antigua and Barbuda Falcons,Trinbago Knight Riders,4.5,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Obed McCoy,Antigua and Barbuda Falcons,Trinbago Knight Riders,4.5,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Naveen-ul-Haq,Antigua and Barbuda Falcons,Trinbago Knight Riders,4.5,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shamar Springer,Antigua and Barbuda Falcons,Trinbago Knight Riders,7,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Imad Wasim,Antigua and Barbuda Falcons,Trinbago Knight Riders,7,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Joshua James,Antigua and Barbuda Falcons,Trinbago Knight Riders,7,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Shakib Al Hasan,Antigua and Barbuda Falcons,Trinbago Knight Riders,8,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Justin Greaves,Antigua and Barbuda Falcons,Trinbago Knight Riders,8,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Rahkeem Cornwall,Antigua and Barbuda Falcons,Trinbago Knight Riders,8,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Odean Smith,Antigua and Barbuda Falcons,Trinbago Knight Riders,13,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Fabian Allen,Antigua and Barbuda Falcons,Trinbago Knight Riders,17,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Usman Tariq,Trinbago Knight Riders,Antigua and Barbuda Falcons,3.8,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Akeal Hosein,Trinbago Knight Riders,Antigua and Barbuda Falcons,4.2,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Mohammad Amir,Trinbago Knight Riders,Antigua and Barbuda Falcons,4.2,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Sunil Narine,Trinbago Knight Riders,Antigua and Barbuda Falcons,4.2,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Ali Khan,Trinbago Knight Riders,Antigua and Barbuda Falcons,4.2,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Yannic Cariah,Trinbago Knight Riders,Antigua and Barbuda Falcons,5,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,McKenny Clarke,Trinbago Knight Riders,Antigua and Barbuda Falcons,6,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Nathan Edward,Trinbago Knight Riders,Antigua and Barbuda Falcons,6,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Andre Russell,Trinbago Knight Riders,Antigua and Barbuda Falcons,6,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Terrance Hinds,Trinbago Knight Riders,Antigua and Barbuda Falcons,6.5,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Kieron Pollard,Trinbago Knight Riders,Antigua and Barbuda Falcons,15,TAB
+Antigua and Barbuda Falcons v Trinbago Knight Riders,Top Team Wicket Taker,Antigua and Barbuda Falcons,Trinbago Knight Riders,Colin Munro,Trinbago Knight Riders,Antigua and Barbuda Falcons,26,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Mujeeb Ur Rahman,Barbados Royals,St Kitts and Nevis Patriots,3.6,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Daniel Sams,Barbados Royals,St Kitts and Nevis Patriots,4,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Eathan Bosch,Barbados Royals,St Kitts and Nevis Patriots,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Ramon Simmonds,Barbados Royals,St Kitts and Nevis Patriots,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Jomel Warrican,Barbados Royals,St Kitts and Nevis Patriots,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Azmatullah Omarzai,Barbados Royals,St Kitts and Nevis Patriots,5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Johann Layne,Barbados Royals,St Kitts and Nevis Patriots,5.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Nyeem Young,Barbados Royals,St Kitts and Nevis Patriots,6.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Zishan Motara,Barbados Royals,St Kitts and Nevis Patriots,7,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Kofi James,Barbados Royals,St Kitts and Nevis Patriots,10,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Naseem Shah,St Kitts and Nevis Patriots,Barbados Royals,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Fazalhaq Farooqi,St Kitts and Nevis Patriots,Barbados Royals,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Waqar Salamkheil,St Kitts and Nevis Patriots,Barbados Royals,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Abbas Afridi,St Kitts and Nevis Patriots,Barbados Royals,4.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Jason Holder,St Kitts and Nevis Patriots,Barbados Royals,5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Jeremiah Louis,St Kitts and Nevis Patriots,Barbados Royals,5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Ashmead Nedd,St Kitts and Nevis Patriots,Barbados Royals,5.5,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Dominic Drakes,St Kitts and Nevis Patriots,Barbados Royals,6,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Kyle Mayers,St Kitts and Nevis Patriots,Barbados Royals,7,TAB
+St Kitts and Nevis Patriots v Barbados Royals,Top Team Wicket Taker,St Kitts and Nevis Patriots,Barbados Royals,Navin Bidaisee,St Kitts and Nevis Patriots,Barbados Royals,13,TAB

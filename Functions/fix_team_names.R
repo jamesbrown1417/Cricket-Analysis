@@ -25,3 +25,17 @@ fix_team_names_mlc <- function(team_name_vector) {
     TRUE ~ team_name_vector
   )
 }
+
+# Function to fix team names for Caribbean Premier League (CPL)
+fix_team_names_cpl <- function(team_name_vector) {
+  team_name_vector <- case_when(
+    str_detect(team_name_vector, "Antigua And Barb|Antigua") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St. Kitts|St Kitts|StK") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "Guyana|Guy") ~ "Guyana Amazon Warriors",
+    str_detect(team_name_vector, "Jamaica") ~ "Jamaica Tallawahs",
+    str_detect(team_name_vector, "Barbados|Brb|Bar") ~ "Barbados Royals",
+    str_detect(team_name_vector, "Trinbago|Tbg") ~ "Trinbago Knight Riders",
+    str_detect(team_name_vector, "St. Lucia|St Lucia|Saint Lucia|StL") ~ "St Lucia Kings",
+    TRUE ~ team_name_vector
+  )
+}

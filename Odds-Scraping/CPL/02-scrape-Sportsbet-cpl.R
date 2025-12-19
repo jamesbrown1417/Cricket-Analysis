@@ -8,61 +8,19 @@ library(glue)
 # URL of website
 sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/caribbean-premier-league"
 
-# Get player metadata
-player_meta_updated <- read_rds("Data/player_meta_updated.rds")
-
-# Get player names and countries
-player_names <-
-  player_meta_updated |> 
-  filter(dob >= "1980-01-01") |> 
-  select(unique_name, full_name, country) |> 
-  mutate(country = if_else(country == "U.S.A.", "USA", country)) |>
-  # Split full name into first, middle and last names
-  separate(unique_name, c("first_name", "last_name"), sep = " ", remove = FALSE, extra = "merge") |> 
-  mutate(initials_join_name = paste(substr(first_name, 1, 1), last_name, sep = " ")) |> 
-  mutate(initials_join_name = case_when(unique_name == "PHKD Mendis" ~ "K Mendis",
-                                        TRUE ~ initials_join_name))
-
-# Separate out middle names
-separated_names <-
-  player_names %>%
-  mutate(
-    first_name = sapply(strsplit(full_name, " "), `[`, 1),  # First element is the first name
-    last_name = sapply(strsplit(full_name, " "), tail, 1), # Last element is the last name
-    middle_names = sapply(strsplit(full_name, " "), function(x) {
-      if (length(x) > 2) {
-        paste(x[-c(1, length(x))], collapse=" ") # Collapse all but the first and last elements
-      } else {
-        NA  # No middle name
-      }
-    })
-  ) |> 
-  mutate(full_join_name = paste(first_name, last_name, sep = " ")) |> 
-  distinct(full_join_name, .keep_all = TRUE) |>
-  mutate(full_join_name = case_when(full_join_name == "Quinton Kock" ~ "Quinton de Kock",
-                                    full_join_name == "Pasqual Mendis" ~ "Kamindu Mendis",
-                                    full_join_name == "Pathum Silva" ~ "Pathum Nissanka",
-                                    full_join_name == "Dhananjaya Silva" ~ "Dhananjaya De Silva",
-                                    full_join_name == "Michael Lingen" ~ "Michael Van Lingen",
-                                    full_join_name == "Shakib Hasan" ~ "Shakib Al Hasan",
-                                    full_join_name == "Tanzid Tamim" ~ "Tanzid Hasan",
-                                    full_join_name == "Najmul Shanto" ~ "Najmul Hossain Shanto",
-                                    full_join_name == "Noor Lakanwal" ~ "Noor Ahmad",
-                                    full_join_name == "Naveen-ul-Haq Murid" ~ "Naveen-ul-Haq",
-                                    TRUE ~ full_join_name))
-
 # Function to fix team names for Sportsbet CPL
 fix_team_names <- function(team_name_vector) {
   team_name_vector <- case_when(
-    str_detect(team_name_vector, "Antigua And Barb") ~ "Antigua and Barbuda Falcons",
-    str_detect(team_name_vector, "St. Kitts") ~ "St Kitts and Nevis Patriots",
+    str_detect(team_name_vector, "Antigua") ~ "Antigua and Barbuda Falcons",
+    str_detect(team_name_vector, "St Kitts") ~ "St Kitts and Nevis Patriots",
     str_detect(team_name_vector, "Guyana") ~ "Guyana Amazon Warriors",
-    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
     str_detect(team_name_vector, "Trinbago") ~ "Trinbago Knight Riders",
-    str_detect(team_name_vector, "St. Lucia") ~ "St Lucia Kings",
+    str_detect(team_name_vector, "Barbados") ~ "Barbados Royals",
+    str_detect(team_name_vector, "St Lucia") ~ "St Lucia Kings",
     TRUE ~ team_name_vector
   )
 }
+
 
 #===============================================================================
 # Use rvest to get main market information-------------------------------------#
@@ -159,28 +117,14 @@ main_markets_function <- function() {
 ##%######################################################%##
 
 player_props_function <- function() {
-  # Function to get team names
-  get_team_names <- function(match) {
-    team_names <-
-      match |>
-      html_nodes(".participantText_fivg86r") |>
-      html_text()
-    
-    # Home team and Away Team
-    home_team <- team_names[1]
-    away_team <- team_names[2]
-    
-    # Output
-    tibble(home_team, away_team)
-  }
-  
-  
+
   # Get match links
   match_links <-
     sportsbet_url |>
     read_html() |>
-    html_nodes(".linkMultiMarket_fcmecz0") |>
-    html_attr("href")
+    html_nodes("*") |>
+    html_attr("href") |> 
+    str_subset("/betting/cricket/caribbean-premier-league/")
   
   # Get match IDs from links
   match_ids <-
@@ -194,9 +138,24 @@ player_props_function <- function() {
     read_html() |>
     html_nodes(".White_fqa53j6")
   
+  # Get team names from each match link
+  get_team_names <- function(match_link) {
+    team_names <-
+      match_link |>
+      str_extract("[a-z]{2,10}\\-v\\-[a-z]{2,10}") |> 
+      str_split("-v-")
+    
+    home_team <- team_names[[1]][1] |> str_to_title()
+    away_team <- team_names[[1]][2] |> str_to_title()
+    
+    tibble(home_team, away_team) |>
+      mutate(home_team = fix_team_names(home_team)) |>
+      mutate(away_team = fix_team_names(away_team))
+  }
+  
   # Get team names that correspond to each match link
   team_names <-
-    map_dfr(matches, get_team_names) |>
+    map_dfr(match_links, get_team_names) |>
     bind_cols("match_id" = match_ids)
   
   # Get all links
@@ -388,27 +347,6 @@ player_props_function <- function() {
         "line"
       )
     ) |>
-    mutate(
-      player_name = case_when(
-        player_name == "Gerhard Erasmus" ~ "Merwe Erasmus",
-        player_name == "D De Silva" ~ "D de Silva",
-        player_name == "S Ssesazi" ~ "S Sesazi",
-        player_name == "Will Jacks" ~ "William Jacks",
-        player_name == "Phil Salt" ~ "Philip Salt",
-        player_name == "Jos Buttler" ~ "Joseph Buttler",
-        player_name == "George Munsey" ~ "Henry Munsey",
-        player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-        player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-        player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-        player_name == "Ollie Hairs" ~ "Oliver Hairs",
-        player_name == "Richie Berrington" ~ "Richard Berrington",
-        player_name == "JJ Smit" ~ "Johannes Smit",
-        player_name == "Jan Nicolaas Frylinck" ~ "Jan Frylinck",
-        player_name == "Matty Cross" ~ "Matthew Cross",
-        player_name == "Niko Davin" ~ "Nikolaas Davin",
-        .default = player_name
-      )
-    ) |>
     mutate(agency = "Sportsbet")
   
   # Player runs alternative lines
@@ -426,36 +364,12 @@ player_props_function <- function() {
       over_price = prop_market_price
     ) |>
     mutate(line = as.numeric(line) - 0.5) |>
-    mutate(agency = "Sportsbet") |>
-    mutate(
-      player_name = case_when(
-        player_name == "G Erasmus" ~ "M Erasmus",
-        player_name == "D De Silva" ~ "D de Silva",
-        player_name == "S Ssesazi" ~ "S Sesazi",
-        player_name == "Will Jacks" ~ "William Jacks",
-        player_name == "Phil Salt" ~ "Philip Salt",
-        player_name == "Jos Buttler" ~ "Joseph Buttler",
-        player_name == "George Munsey" ~ "Henry Munsey",
-        player_name == "Max ODowd" ~ "Maxwell O'Dowd",
-        player_name == "S Smrwickrma" ~ "Wedagedara Samarawickrama",
-        player_name == "Jonny Bairstow" ~ "Jonathan Bairstow",
-        player_name == "Ollie Hairs" ~ "Oliver Hairs",
-        player_name == "Richie Berrington" ~ "Richard Berrington",
-        player_name == "JJ Smit" ~ "Johannes Smit",
-        player_name == "Jan Nicolaas Frylinck" ~ "Jan Frylinck",
-        player_name == "Matty Cross" ~ "Matthew Cross",
-        player_name == "Niko Davin" ~ "Nikolaas Davin",
-        .default = player_name
-      )
-    )
+    mutate(agency = "Sportsbet")
   
   # Combine all
   player_runs_all <-
     bind_rows(player_runs_combined, player_runs_alternative_lines) |>
-    arrange(player_name, line) # |> 
-    # left_join(separated_names[, c("full_join_name", "unique_name", "country")], by = c("player_name" = "full_join_name")) |>
-    # select(-player_name) |>
-    # relocate(player_team, opposition_team, .after = player_name)
+    arrange(player_name, line)
   
   # Write to csv----------------------------------------------------------------
   write_csv(match_top_run_scorer,
@@ -548,24 +462,7 @@ player_props_function <- function() {
     ) |>
     mutate(line = as.numeric(line) - 0.5) |>
     mutate(agency = "Sportsbet") |>
-    mutate(
-      player_name = case_when(
-        player_name == "Tom Rogers (Stars)" ~ "Tom F Rogers",
-        player_name == "Matthew Kuhnemann" ~ "Matt Kuhnemann",
-        player_name == "Mujeeb Ur-Rahman" ~ "Mujeeb Ur Rahman",
-        player_name == "Stephen O'Keefe" ~ "Steve O'Keefe",
-        player_name == "Tom Rogers." ~ "Tom Rogers",
-        .default = player_name
-      )
-    ) # |>
-    # left_join(player_teams[, c("player_name", "player_team")], by = "player_name") |>
-    # mutate(
-    #   opposition_team = case_when(
-    #     player_team == home_team ~ away_team,
-    #     player_team == away_team ~ home_team
-    #   )
-    # ) |>
-    # relocate(player_team, opposition_team, .after = player_name)
+    mutate(agency = "Sportsbet")
 
   # Write to csv----------------------------------------------------------------
   write_csv(

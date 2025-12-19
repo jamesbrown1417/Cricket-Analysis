@@ -1,10 +1,13 @@
 match,market_name,team,price,agency
-Sydney Sixers v Brisbane Heat,Highest Opening Partnership,Sydney Sixers,1.7,BetRight
-Sydney Sixers v Brisbane Heat,Highest Opening Partnership,Draw,23,BetRight
-Sydney Sixers v Brisbane Heat,Highest Opening Partnership,Brisbane Heat,2.15,BetRight
-Perth Scorchers v Sydney Thunder,Highest Opening Partnership,Perth Scorchers,2.18,BetRight
-Perth Scorchers v Sydney Thunder,Highest Opening Partnership,Draw,23,BetRight
-Perth Scorchers v Sydney Thunder,Highest Opening Partnership,Sydney Thunder,1.68,BetRight
-Hobart Hurricanes v Adelaide Strikers,Highest Opening Partnership,Hobart Hurricanes,2.11,BetRight
-Hobart Hurricanes v Adelaide Strikers,Highest Opening Partnership,Draw,23,BetRight
-Hobart Hurricanes v Adelaide Strikers,Highest Opening Partnership,Adelaide Strikers,1.73,BetRight
+Brisbane Heat v Perth Scorchers,Highest Opening Partnership,Brisbane Heat,2.26,BetRight
+Brisbane Heat v Perth Scorchers,Highest Opening Partnership,Draw,29,BetRight
+Brisbane Heat v Perth Scorchers,Highest Opening Partnership,Perth Scorchers,1.64,BetRight
+Sydney Thunder v Sydney Sixers,Highest Opening Partnership,Sydney Thunder,1.86,BetRight
+Sydney Thunder v Sydney Sixers,Highest Opening Partnership,Draw,23,BetRight
+Sydney Thunder v Sydney Sixers,Highest Opening Partnership,Sydney Sixers,1.94,BetRight
+Melbourne Renegades v Hobart Hurricanes,Highest Opening Partnership,Melbourne Renegades,1.9,BetRight
+Melbourne Renegades v Hobart Hurricanes,Highest Opening Partnership,Draw,26,BetRight
+Melbourne Renegades v Hobart Hurricanes,Highest Opening Partnership,Hobart Hurricanes,1.9,BetRight
+Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Adelaide Strikers,1.68,BetRight
+Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Draw,23,BetRight
+Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Melbourne Stars,2.18,BetRight

@@ -349,6 +349,42 @@ pointsbet_h2h_main <- function() {
   
   
   #===============================================================================
+  # First Player Dismissed
+  #===============================================================================
+  
+  pointsbet_first_player_dismissed <-
+    pointsbet_data_player_props |>
+    filter(str_detect(market, "First Player Dismissed")) |>
+    mutate(match_override = str_extract(market, "(?<=\\().+(?=\\))")) |>
+    mutate(match = if_else(is.na(match_override), match, match_override)) |>
+    mutate(match = str_replace(match, "@", "v")) |>
+    mutate(team = str_remove(str_remove(market, " \\(.*$"), " First Player Dismissed$")) |>
+    mutate(player = str_trim(str_remove(outcome, " \\(.*$"))) |>
+    mutate(vs_component = str_extract(outcome, regex("\\(vs\\.? .+\\)", ignore_case = TRUE))) |>
+    mutate(opponent = vs_component |>
+             str_remove(regex("^\\(vs\\.?\\s*", ignore_case = TRUE)) |>
+             str_remove("\\)$")) |>
+    mutate(player = case_when(player == "Tom Rogers" ~ "Tom F Rogers",
+                              player == "Steven Smith" ~ "Steve Smith",
+                              .default = player)) |>
+    mutate(opponent = case_when(opponent == "Tom Rogers" ~ "Tom F Rogers",
+                                opponent == "Steven Smith" ~ "Steve Smith",
+                                .default = opponent)) |>
+    transmute(
+      match,
+      team,
+      market = "First Player Dismissed",
+      player,
+      opponent,
+      price,
+      agency = "Pointsbet"
+    )
+  
+  pointsbet_first_player_dismissed |> 
+    write_csv("Data/T20s/Big Bash/scraped_odds/pointsbet_first_player_dismissed.csv")
+  
+
+  #===============================================================================
   # First Over Runs
   #===============================================================================
   

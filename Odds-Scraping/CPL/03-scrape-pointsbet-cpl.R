@@ -92,7 +92,7 @@ pointsbet_h2h_main <- function() {
     mutate(agency = "Pointsbet")
   
   # Write to csv
-  write_csv(pointsbet_h2h, "Data/T20s/The Hundred/scraped_odds/pointsbet_h2h.csv")
+  write_csv(pointsbet_h2h, "Data/T20s/CPL/scraped_odds/pointsbet_h2h.csv")
   
   #===============================================================================
   # Player Props
@@ -181,19 +181,12 @@ pointsbet_h2h_main <- function() {
     mutate(match = str_replace(match, "@", "v")) |> 
     mutate(outcome = str_remove(outcome, " To Score.*$")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
-                               outcome == "Steven Smith" ~ "Steve Smith",
-                               .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -214,19 +207,12 @@ pointsbet_h2h_main <- function() {
     mutate(line = as.numeric(line)) |> 
     mutate(match = str_replace(match, "@", "v")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(player_name = case_when(player_name == "Tom Rogers" ~ "Tom F Rogers",
-                                   player_name == "Steven Smith" ~ "Steve Smith",
-                                   .default = player_name)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |> 
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -240,19 +226,12 @@ pointsbet_h2h_main <- function() {
     mutate(line = as.numeric(line)) |> 
     mutate(match = str_replace(match, "@", "v")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(player_name = case_when(player_name == "Tom Rogers" ~ "Tom F Rogers",
-                                   player_name == "Steven Smith" ~ "Steve Smith",
-                                   .default = player_name)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |> 
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Runs",
       player_name,
-      player_team,
-      opposition_team,
       line,
       under_price = price,
       agency = "Pointsbet")
@@ -261,12 +240,12 @@ pointsbet_h2h_main <- function() {
   pointsbet_player_runs_over_under <- 
     pointsbet_player_runs_over |>
     left_join(pointsbet_player_runs_under) |>
-    select(match, home_team, away_team, market, player_name, player_team, opposition_team, line, over_price, under_price, agency)
+    select(match, home_team, away_team, market, player_name, line, over_price, under_price, agency)
   
   # Write to csv----------------------------------------------------------------
   pointsbet_player_runs_lines |> 
     bind_rows(pointsbet_player_runs_over_under) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_runs.csv")
+    write_csv("Data/T20s/CPL/scraped_odds/pointsbet_player_runs.csv")
   
   #===============================================================================
   # Player Wickets
@@ -283,28 +262,19 @@ pointsbet_h2h_main <- function() {
     mutate(match = str_replace(match, "@", "v")) |> 
     mutate(outcome = str_remove(outcome, " To Take.*$")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(outcome = case_when(outcome == "Matthew Kuhnemann" ~ "Matt Kuhnemann",
-                               outcome == "Mitch Swepson" ~ "Mitchell Swepson",
-                               outcome == "Tom S. Rogers" ~ "Tom Rogers",
-                               outcome == "Andrew tye" ~ "Andrew Tye",
-                               .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Player Wickets",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
   
   # Write to csv----------------------------------------------------------------
   pointsbet_player_wickets_lines |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_wickets.csv")
+    write_csv("Data/T20s/CPL/scraped_odds/pointsbet_player_wickets.csv")
   
   #===============================================================================
   # Player Boundaries
@@ -321,19 +291,12 @@ pointsbet_h2h_main <- function() {
     mutate(match = str_replace(match, "@", "v")) |> 
     mutate(outcome = str_remove(outcome, " To Hit.*$")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
-                               outcome == "Steven Smith" ~ "Steve Smith",
-                               .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Number of 4s",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -349,19 +312,12 @@ pointsbet_h2h_main <- function() {
     mutate(match = str_replace(match, "@", "v")) |> 
     mutate(outcome = str_remove(outcome, " To Hit.*$")) |> 
     separate(match, into = c("away_team", "home_team"), sep = " v ", remove = FALSE) |> 
-    mutate(outcome = case_when(outcome == "Tom Rogers" ~ "Tom F Rogers",
-                               outcome == "Steven Smith" ~ "Steve Smith",
-                               .default = outcome)) |>
-    left_join(player_teams[, c("player_name", "player_team")], by = c("outcome" = "player_name")) |>
-    mutate(opposition_team = if_else(home_team == player_team, away_team, home_team)) |>
     transmute(
       match,
       home_team,
       away_team,
       market = "Number of 6s",
       player_name = outcome,
-      player_team,
-      opposition_team,
       line,
       over_price = price,
       agency = "Pointsbet")
@@ -369,7 +325,7 @@ pointsbet_h2h_main <- function() {
   # Write to csv----------------------------------------------------------------
   pointsbet_player_sixes_lines |> 
     bind_rows(pointsbet_player_fours_lines) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_boundaries.csv")
+    write_csv("Data/T20s/CPL/scraped_odds/pointsbet_player_boundaries.csv")
   
 }
 

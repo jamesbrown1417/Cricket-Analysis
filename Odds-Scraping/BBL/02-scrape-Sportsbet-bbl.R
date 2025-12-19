@@ -8,6 +8,11 @@ library(glue)
 # URL of website
 sportsbet_url = "https://www.sportsbet.com.au/betting/cricket/twenty20-big-bash"
 
+# Fetch the Sportsbet HTML once and reuse
+sportsbet_html <-
+  sportsbet_url |>
+  read_html_live()
+
 # Get player metadata
 player_meta_updated <- read_rds("Data/player_meta_updated.rds")
 
@@ -67,8 +72,7 @@ main_markets_function <- function() {
   
   # Get data from main market page
   matches <-
-    sportsbet_url |> 
-    read_html_live() |>
+    sportsbet_html |>
     html_nodes(".White_fqa53j6")
   
   # Function to get team names
@@ -117,8 +121,7 @@ main_markets_function <- function() {
   all_main_market_data <-
     bind_cols(
       map(matches, get_team_names) |> bind_rows() |> filter(!is.na(home_team)),
-      map(matches, get_odds) |> bind_rows() |> filter(!is.na(home_win)),
-      map(matches, get_start_time) |> bind_rows() |> filter(!is.na(start_time))
+      map(matches, get_odds) |> bind_rows() |> filter(!is.na(home_win))
     )
   
   #===============================================================================
@@ -172,8 +175,7 @@ player_props_function <- function() {
   
   # Get match links
   match_links <-
-    sportsbet_url |>
-    read_html_live() |>
+    sportsbet_html |>
     html_nodes(".linkMultiMarket_fcmecz0") |>
     html_attr("href")
   
@@ -185,8 +187,7 @@ player_props_function <- function() {
   
   # Get data from main market page
   matches <-
-    sportsbet_url |>
-    read_html_live() |>
+    sportsbet_html |>
     html_nodes(".White_fqa53j6")
   
   # Get team names that correspond to each match link

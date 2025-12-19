@@ -92,7 +92,7 @@ pointsbet_h2h_main <- function() {
     mutate(agency = "Pointsbet")
   
   # Write to csv
-  write_csv(pointsbet_h2h, "Data/T20s/The Hundred/scraped_odds/pointsbet_h2h.csv")
+  write_csv(pointsbet_h2h, "Data/T20s/Internationals/scraped_odds/pointsbet_h2h.csv")
   
   #===============================================================================
   # Player Props
@@ -266,7 +266,7 @@ pointsbet_h2h_main <- function() {
   # Write to csv----------------------------------------------------------------
   pointsbet_player_runs_lines |> 
     bind_rows(pointsbet_player_runs_over_under) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_runs.csv")
+    write_csv("Data/T20s/Internationals/scraped_odds/pointsbet_player_runs.csv")
   
   #===============================================================================
   # Player Wickets
@@ -304,7 +304,7 @@ pointsbet_h2h_main <- function() {
   
   # Write to csv----------------------------------------------------------------
   pointsbet_player_wickets_lines |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_wickets.csv")
+    write_csv("Data/T20s/Internationals/scraped_odds/pointsbet_player_wickets.csv")
   
   #===============================================================================
   # Player Boundaries
@@ -369,7 +369,7 @@ pointsbet_h2h_main <- function() {
   # Write to csv----------------------------------------------------------------
   pointsbet_player_sixes_lines |> 
     bind_rows(pointsbet_player_fours_lines) |> 
-    write_csv("Data/T20s/The Hundred/scraped_odds/pointsbet_player_boundaries.csv")
+    write_csv("Data/T20s/Internationals/scraped_odds/pointsbet_player_boundaries.csv")
   
 }
 

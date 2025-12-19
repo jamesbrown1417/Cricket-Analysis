@@ -8,24 +8,14 @@ cd "/Users/jamesbrown/Projects/Cricket-Analysis" || exit
 
 # Remove .txt files in specific directories
 rm -f "Odds-Scraping/BBL/Bet365/HTML/*.txt"
+rm -f Data/T20s/Big\ Bash/scraped_odds/*
 
 # Execute Python scripts
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/01-get_bet365_html.py"
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/02-get_bet365_player.py"
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/03-get_bet365_match.py"
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/04-get_bet365_team.py"
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/05-get_bet365_first_over.py"
-/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/06-get_bet365_first_innings.py"
+/Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/Bet365/bet365_bbl_scraper.py"
 /Users/jamesbrown/.pyenv/versions/3.12.5/bin/python3 "Odds-Scraping/BBL/TAB/get-TAB-response.py"
 
 # Execute R scripts
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-fall-of-first-wicket.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-first-over-runs.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-h2h.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-player-runs.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-bowler-wickets.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-team-sixes-and-fours.R"
-Rscript "Odds-Scraping/BBL/Bet365/-bet365-match-sixes-and-fours.R"
+Rscript "Odds-Scraping/BBL/Bet365/bet365_bbl_markets.R"
 
 # Execute R script for processed odds
 Rscript "Odds-Scraping/BBL/master_processing_script.R"
