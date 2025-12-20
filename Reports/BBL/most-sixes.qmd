@@ -168,14 +168,14 @@ bowling_stats_player <-
   )
 ```
 
-# M
+# Most Sixes
 
 ```{r}
 # Get Dataframe
 most_sixes_status <-
 innings_stats |>
-  filter(event == "Big Bash League") |> 
   filter(!is.na(player_of_the_match)) |> 
+  filter(event == "Big Bash League") |>
   select(
     event,
     match_id,
@@ -193,13 +193,16 @@ innings_stats |>
       innings_1_sixes < innings_2_sixes ~ "Innings 2",
       innings_1_sixes == innings_2_sixes ~ "Tie"
     )
-  )
+  ) |> 
+    filter(match_date >= "2024-11-01")
 
 # Count outcomes
 most_sixes_status |> 
+  group_by(event) |>
   count(most_sixes_outcome) |> 
   mutate(prob = n / sum(n)) |> 
-  mutate(implied_odds = 1/prob)
+  mutate(implied_odds = 1/prob) |>
+  arrange(most_sixes_outcome, implied_odds) |>
+  kableExtra::kable()
 
 ```
-
