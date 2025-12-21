@@ -121,7 +121,7 @@
                         {
                             "id": "654991",
                             "name": "HobartHurricanes",
-                            "returnWin": 1.7,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -473,8 +473,7 @@
                             "allowPlace": false,
                             "number": 653071,
                             "isOpen": true,
-                            "sortOrder": 8,
-                            "sameGame": true
+                            "sortOrder": 8
                         },
                         {
                             "id": "653240",
@@ -523,7 +522,8 @@
                             "allowPlace": false,
                             "number": 653242,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "653074",
@@ -5605,7 +5605,8 @@
                             "allowPlace": false,
                             "number": 653458,
                             "isOpen": true,
-                            "sortOrder": 16
+                            "sortOrder": 16,
+                            "sameGame": true
                         },
                         {
                             "id": "653456",
@@ -5693,8 +5694,7 @@
                             "allowPlace": false,
                             "number": 653268,
                             "isOpen": true,
-                            "sortOrder": 8,
-                            "sameGame": true
+                            "sortOrder": 8
                         },
                         {
                             "id": "653266",
@@ -5995,7 +5995,7 @@
                         {
                             "id": "665049",
                             "name": "Jason Behrendorff (MRn)",
-                            "returnWin": 3.1,
+                            "returnWin": 3.15,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7128,9 +7128,9 @@
                 "Sydney Thunder",
                 "Brisbane Heat"
             ],
-            "openMarketCount": 11,
+            "openMarketCount": 14,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 11,
+            "nonFutureMarketCount": 14,
             "markets": [
                 {
                     "id": "125308256",
@@ -7723,6 +7723,60 @@
                     ]
                 },
                 {
+                    "id": "125913178",
+                    "name": "BBL SydTh-Bris 4OvrLead 22/12",
+                    "shortName": "BBL SydTh-Bris 4OvrLead",
+                    "betOption": "Leading Team After 4 Overs",
+                    "betOptionSpectrumId": "3134",
+                    "betOptionPriority": 1785,
+                    "marketUniqueId": 125913178,
+                    "closeTime": "2025-12-22T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653082",
+                            "name": "Sydney Thunder",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653082,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653083",
+                            "name": "Brisbane Heat",
+                            "returnWin": 1.8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653083,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
                     "id": "125905150",
                     "name": "BBL Brisbane FallWkt1 21.5",
                     "shortName": "BBL Brisbane FallWkt1 21.5",
@@ -7807,7 +7861,7 @@
                         {
                             "id": "652559",
                             "name": "STh Over 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2.1,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -7819,7 +7873,7 @@
                         {
                             "id": "652786",
                             "name": "STh Under 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.65,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -8205,6 +8259,174 @@
                             "number": 652844,
                             "isOpen": true,
                             "sortOrder": 14
+                        }
+                    ]
+                },
+                {
+                    "id": "125913179",
+                    "name": "BBL SydTh-Bris WinMargin 22/12",
+                    "shortName": "BBL SydTh-Bris WinMargin",
+                    "betOption": "Margin",
+                    "betOptionSpectrumId": "32",
+                    "betOptionPriority": 2730,
+                    "marketUniqueId": 125913179,
+                    "closeTime": "2025-12-22T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653033",
+                            "name": "SydThn 41+ runs/8-10 wickets",
+                            "returnWin": 7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653033,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653034",
+                            "name": "SydTh 21-40 runs/5-7 wickets",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653034,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "653035",
+                            "name": "SydThn 1-20 runs/1-4 wickets",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653035,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "653036",
+                            "name": "Tie (Superover)",
+                            "returnWin": 26,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653036,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "653037",
+                            "name": "Brisbn 1-20 runs/1-4 wickets",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653037,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "653038",
+                            "name": "Bris 21-40 runs/5-7 wickets",
+                            "returnWin": 4,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653038,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "653039",
+                            "name": "Brisbn 41+ runs/8-10 wickets",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653039,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        }
+                    ]
+                },
+                {
+                    "id": "125913181",
+                    "name": "BBL SydTh-Bris WinTos 22/12",
+                    "shortName": "BBL SydTh-Bris WinTos",
+                    "betOption": "Winner Of The Toss",
+                    "betOptionSpectrumId": "845",
+                    "betOptionPriority": 3480,
+                    "marketUniqueId": 125913181,
+                    "closeTime": "2025-12-22T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "653040",
+                            "name": "Sydney Thunder",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653040,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "653041",
+                            "name": "Brisbane Heat",
+                            "returnWin": 1.9,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 653041,
+                            "isOpen": true,
+                            "sortOrder": 2
                         }
                     ]
                 },
@@ -15390,7 +15612,7 @@
         {
             "name": "Leading Team After 4 Overs",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Leading%20Team%20After%204%20Overs"
             }
@@ -15446,7 +15668,7 @@
         {
             "name": "Margin",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Margin"
             }
@@ -15462,7 +15684,7 @@
         {
             "name": "Winner Of The Toss",
             "hasFutureMarket": false,
-            "openMarketCount": 2,
+            "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Winner%20Of%20The%20Toss"
             }
