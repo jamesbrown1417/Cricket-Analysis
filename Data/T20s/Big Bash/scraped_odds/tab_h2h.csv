@@ -1,3 +1,4 @@
 match,market_name,home_team,away_team,home_win,away_win,agency,margin
-Sydney Thunder v Brisbane Heat,Head To Head,Sydney Thunder,Brisbane Heat,2.1,1.7,TAB,1.064
-Adelaide v Melbourne Stars,Head To Head,Adelaide,Melbourne Stars,1.8,2,TAB,1.056
+Sydney Thunder v Brisbane Heat,Head To Head,Sydney Thunder,Brisbane Heat,1.8,2,TAB,1.056
+Adelaide v Melbourne Stars,Head To Head,Adelaide,Melbourne Stars,1.75,2.05,TAB,1.059
+Perth Scorchers v Hobart Hurricanes,Head To Head,Perth Scorchers,Hobart Hurricanes,1.85,NA,TAB,NA

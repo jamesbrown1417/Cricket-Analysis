@@ -1,5 +1,5 @@
 match,player_name,market,line,over_price,under_price,agency
-Sydney Thunder v Brisbane Heat,Colin Munro,Batsman Runs,20.5,1.85,1.85,BetRight
+Sydney Thunder v Brisbane Heat,Colin Munro,Batsman Runs,20.5,1.68,2.1,BetRight
 Sydney Thunder v Brisbane Heat,Sam Billings,Batsman Runs,18.5,1.85,1.85,BetRight
 Sydney Thunder v Brisbane Heat,Cameron Bancroft,Batsman Runs,19.5,1.85,1.85,BetRight
 Sydney Thunder v Brisbane Heat,David Warner,Batsman Runs,23.5,1.85,1.85,BetRight
@@ -7,7 +7,7 @@ Sydney Thunder v Brisbane Heat,Jack Wildermuth,Batsman Runs,17.5,1.85,1.85,BetRi
 Sydney Thunder v Brisbane Heat,Lachlan Hearne,Batsman Runs,16.5,1.85,1.85,BetRight
 Sydney Thunder v Brisbane Heat,Matthew Gilkes,Batsman Runs,17.5,1.85,1.85,BetRight
 Sydney Thunder v Brisbane Heat,Matthew Renshaw,Batsman Runs,20.5,1.85,1.85,BetRight
-Sydney Thunder v Brisbane Heat,Max Bryant,Batsman Runs,16.5,1.85,1.85,BetRight
+Sydney Thunder v Brisbane Heat,Max Bryant,Batsman Runs,16.5,1.67,2.1,BetRight
 Sydney Thunder v Brisbane Heat,Sam Konstas,Batsman Runs,18.5,1.85,1.85,BetRight
 Adelaide Strikers v Melbourne Stars,Alex Ross,Batsman Runs,15.5,1.85,1.85,BetRight
 Adelaide Strikers v Melbourne Stars,Campbell Kellaway,Batsman Runs,18.5,1.85,1.85,BetRight
@@ -18,3 +18,11 @@ Adelaide Strikers v Melbourne Stars,Joe Clarke,Batsman Runs,21.5,1.85,1.85,BetRi
 Adelaide Strikers v Melbourne Stars,Liam Scott,Batsman Runs,17.5,1.85,1.85,BetRight
 Adelaide Strikers v Melbourne Stars,Marcus Stoinis,Batsman Runs,20.5,1.85,1.85,BetRight
 Adelaide Strikers v Melbourne Stars,Matthew Short,Batsman Runs,27.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Nikhil Chaudhary,Batsman Runs,17.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Aaron Hardie,Batsman Runs,19.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Ashton Turner,Batsman Runs,16.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Mitchell Owen,Batsman Runs,21.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Timothy David,Batsman Runs,18.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Ben McDermott,Batsman Runs,24.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Cooper Connolly,Batsman Runs,24.5,1.85,1.85,BetRight
+Perth Scorchers v Hobart Hurricanes,Finn Allen,Batsman Runs,21.5,1.85,1.85,BetRight
