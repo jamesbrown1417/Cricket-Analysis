@@ -257,7 +257,6 @@ parse_player_runs <- function(scraped_file) {
   batter_match_runs <-
     tibble(
       player = batter_runs_block |> html_elements(".srb-ParticipantLabelWithTeam_Name") |> html_text(),
-      team = batter_runs_block |> html_elements(".srb-ParticipantLabelWithTeam_Team") |> html_text(),
       line = batter_runs_cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Handicap") |> html_text() |> as.numeric(),
       over_price = batter_runs_cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric(),
       under_price = batter_runs_cols[[under_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric()
@@ -269,7 +268,6 @@ parse_player_runs <- function(scraped_file) {
   extract_milestone <- function(idx, line_value) {
     tibble(
       player = milestones_block |> html_elements(".srb-ParticipantLabelWithTeam_Name") |> html_text(),
-      team = milestones_block |> html_elements(".srb-ParticipantLabelWithTeam_Team") |> html_text(),
       line = line_value,
       over_price = milestones_cols[[idx]] |> html_elements(".gl-ParticipantOddsOnly_Odds") |> html_text() |> as.numeric()
     )
@@ -320,7 +318,6 @@ parse_player_boundaries <- function(scraped_file) {
     
     tibble(
       player = block |> html_elements(".srb-ParticipantLabelWithTeam_Name") |> html_text(),
-      team = block |> html_elements(".srb-ParticipantLabelWithTeam_Team") |> html_text(),
       line = cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Handicap") |> html_text() |> as.numeric(),
       over_price = cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric(),
       under_price = cols[[under_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric(),
@@ -363,7 +360,6 @@ parse_player_wickets <- function(scraped_file) {
   bowler_match_wickets <-
     tibble(
       player = wickets_block |> html_elements(".srb-ParticipantLabelWithTeam_Name") |> html_text(),
-      team = wickets_block |> html_elements(".srb-ParticipantLabelWithTeam_Team") |> html_text(),
       line = wickets_cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Handicap") |> html_text() |> as.numeric(),
       over_price = wickets_cols[[over_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric(),
       under_price = wickets_cols[[under_index]] |> html_elements(".gl-ParticipantCenteredStacked_Odds") |> html_text() |> as.numeric(),
@@ -377,7 +373,6 @@ parse_player_wickets <- function(scraped_file) {
     idx <- which(str_detect(milestones_cols |> html_text(), pattern))
     tibble(
       player = milestones_block |> html_elements(".srb-ParticipantLabelWithTeam_Name") |> html_text(),
-      team = milestones_block |> html_elements(".srb-ParticipantLabelWithTeam_Team") |> html_text(),
       line = line_value,
       over_price = milestones_cols[[idx]] |> html_elements(".gl-ParticipantOddsOnly_Odds") |> html_text() |> as.numeric(),
       under_price = NA_real_,
@@ -498,7 +493,7 @@ write_csv_if_rows(total_team_fours, file.path(OUTPUT_DIR, "bet365_team_fours.csv
 write_csv_if_rows(total_team_sixes, file.path(OUTPUT_DIR, "bet365_team_sixes.csv"))
 
 #===============================================================================
-# First Over Runs
+# First Over Runs - team
 #===============================================================================
 
 parse_first_over_runs <- function(scraped_file) {
@@ -528,7 +523,39 @@ parse_first_over_runs <- function(scraped_file) {
 first_over_runs <-
   map_scraped_files("first_over", parse_first_over_runs, safe = FALSE)
 
-write_csv_if_rows(first_over_runs, file.path(OUTPUT_DIR, "bet365_first_over_runs.csv"))
+write_csv_if_rows(first_over_runs, file.path(OUTPUT_DIR, "bet365_first_over_runs_team.csv"))
+
+#===============================================================================
+# First Over Runs - 1st Innings
+#===============================================================================
+
+parse_first_over_runs_innings_1 <- function(scraped_file) {
+  doc <- read_html(scraped_file)
+  markets <- doc |> html_nodes(".gl-MarketGroupPod")
+  market_names <- markets |> html_elements(".cm-MarketGroupWithIconsButton_Text ") |> html_text()
+  
+  block <- fetch_market_block(markets, market_names, "1st Over Total Runs")
+  cols <- block |> html_elements(".gl-Market_General")
+  over_index <- which(str_detect(cols |> html_text(), "Over"))
+  under_index <- which(str_detect(cols |> html_text(), "Under"))
+  
+  match_name <- extract_match_name(doc)
+  
+  tibble(
+    line = cols |> html_elements(".srb-ParticipantLabelCentered_Name ") |> html_text() |> as.numeric(),
+    over_price = cols[[over_index]] |> html_elements(".gl-ParticipantOddsOnly_Odds") |> html_text() |> as.numeric(),
+    under_price = cols[[under_index]] |> html_elements(".gl-ParticipantOddsOnly_Odds") |> html_text() |> as.numeric(),
+    market = "First Over Runs",
+    match = match_name,
+    agency = "Bet365"
+  ) |>
+    relocate(match, .before = market)
+}
+
+first_over_runs_first_innings <-
+  map_scraped_files("first_over", parse_first_over_runs_innings_1, safe = FALSE)
+
+write_csv_if_rows(first_over_runs_first_innings, file.path(OUTPUT_DIR, "bet365_first_over_runs.csv"))
 
 #===============================================================================
 # Fall of First Wicket
