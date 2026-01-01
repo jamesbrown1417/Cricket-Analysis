@@ -1,63 +1,41 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Shaheen Afridi,Brisbane Heat,Sydney Thunder,3.8,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Xavier Bartlett,Brisbane Heat,Sydney Thunder,4.2,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Jack Wildermuth,Brisbane Heat,Sydney Thunder,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Liam Haskett,Brisbane Heat,Sydney Thunder,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Matthew Kuhnemann,Brisbane Heat,Sydney Thunder,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Tom Balkin,Brisbane Heat,Sydney Thunder,6,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Matt Renshaw,Brisbane Heat,Sydney Thunder,17,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Daniel Sams,Sydney Thunder,Brisbane Heat,4.2,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Reece Topley,Sydney Thunder,Brisbane Heat,4.2,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Shadab Khan,Sydney Thunder,Brisbane Heat,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Wes Agar,Sydney Thunder,Brisbane Heat,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Tom Andrews,Sydney Thunder,Brisbane Heat,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Nathan McAndrew,Sydney Thunder,Brisbane Heat,5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Tanveer Sangha,Sydney Thunder,Brisbane Heat,5.5,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Charlie Anderson,Sydney Thunder,Brisbane Heat,6,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Chris Green,Sydney Thunder,Brisbane Heat,6,TAB
-Sydney Thunder v Brisbane Heat,Top Team Wicket Taker,Sydney Thunder,Brisbane Heat,Ryan Hadley,Sydney Thunder,Brisbane Heat,6.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Luke Wood,Adelaide Strikers,Adelaide,4.2,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Hasan Ali,Adelaide Strikers,Adelaide,4.2,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Cameron Boyce,Adelaide Strikers,Adelaide,4.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Henry Thornton,Adelaide Strikers,Adelaide,5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Jamie Overton,Adelaide Strikers,Adelaide,5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Lloyd Pope,Adelaide Strikers,Adelaide,5.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Jordan Buckingham,Adelaide Strikers,Adelaide,6,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Tom Straker,Adelaide Strikers,Adelaide,7,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Matt Short,Adelaide Strikers,Adelaide,8.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Jerrssis Wadia,Adelaide Strikers,Adelaide,10,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Liam Scott,Adelaide Strikers,Adelaide,11,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Haris Rauf,MSt,Adelaide,4.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Peter Siddle,MSt,Adelaide,4.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Tom Curran,MSt,Adelaide,5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Mitch Swepson,MSt,Adelaide,5.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Liam Hatcher,MSt,Adelaide,6,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Tom Whitney,MSt,Adelaide,6,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Marcus Stoinis,MSt,Adelaide,6.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Glenn Maxwell,MSt,Adelaide,7.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Aryan Sharma,MSt,Adelaide,7.5,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Austin Anlezark,MSt,Adelaide,8,TAB
-Adelaide v Melbourne Stars,Top Team Wicket Taker,Adelaide,Melbourne Stars,Jonathan Merlo,MSt,Adelaide,15,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Perth Scorchers,4.2,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Chris Jordan,Hobart Hurricanes,Perth Scorchers,4.2,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Perth Scorchers,4.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Rishad Hossain,Hobart Hurricanes,Perth Scorchers,4.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Jackson Bird,Hobart Hurricanes,Perth Scorchers,5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Rehan Ahmed,Hobart Hurricanes,Perth Scorchers,5.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Billy Stanlake,Hobart Hurricanes,Perth Scorchers,5.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Will Prestwidge,Hobart Hurricanes,Perth Scorchers,6.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Marcus Bean,Hobart Hurricanes,Perth Scorchers,7.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Iain Carlisle,Hobart Hurricanes,Perth Scorchers,9,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Mitchell Owen,Hobart Hurricanes,Perth Scorchers,10,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Nikhil Chaudhary,Hobart Hurricanes,Perth Scorchers,21,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Tim David,Hobart Hurricanes,Perth Scorchers,26,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Jhye Richardson,Perth Scorchers,Hobart Hurricanes,4.2,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Ashton Agar,Perth Scorchers,Hobart Hurricanes,5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Joel Paris,Perth Scorchers,Hobart Hurricanes,5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Mahli Beardman,Perth Scorchers,Hobart Hurricanes,6,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Brody Couch,Perth Scorchers,Hobart Hurricanes,6,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Bryce Jackson,Perth Scorchers,Hobart Hurricanes,6.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Cooper Connolly,Perth Scorchers,Hobart Hurricanes,6.5,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Mitchell Marsh,Perth Scorchers,Hobart Hurricanes,7,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Aaron Hardie,Perth Scorchers,Hobart Hurricanes,7,TAB
-Perth Scorchers v Hobart Hurricanes,Top Team Wicket Taker,Perth Scorchers,Hobart Hurricanes,Ashton Turner,Perth Scorchers,Hobart Hurricanes,17,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Nathan Ellis,Hobart Hurricanes,Perth Scorchers,4,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Riley Meredith,Hobart Hurricanes,Perth Scorchers,4.2,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Chris Jordan,Hobart Hurricanes,Perth Scorchers,4.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Rishad Hossain,Hobart Hurricanes,Perth Scorchers,5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Billy Stanlake,Hobart Hurricanes,Perth Scorchers,5.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Rehan Ahmed,Hobart Hurricanes,Perth Scorchers,5.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Will Prestwidge,Hobart Hurricanes,Perth Scorchers,6.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Mitchell Owen,Hobart Hurricanes,Perth Scorchers,10,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Nikhil Chaudhary,Hobart Hurricanes,Perth Scorchers,17,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Joel Paris,Perth Scorchers,Hobart Hurricanes,4.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Corey Rocchiccioli,Perth Scorchers,Hobart Hurricanes,5.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Mahli Beardman,Perth Scorchers,Hobart Hurricanes,5.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Brody Couch,Perth Scorchers,Hobart Hurricanes,5.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Ashton Agar,Perth Scorchers,Hobart Hurricanes,6,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Aaron Hardie,Perth Scorchers,Hobart Hurricanes,6,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Bryce Jackson,Perth Scorchers,Hobart Hurricanes,6.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Cooper Connolly,Perth Scorchers,Hobart Hurricanes,6.5,TAB
+Hobart Hurricanes v Perth Scorchers,Top Team Wicket Taker,Hobart Hurricanes,Perth Scorchers,Mitchell Marsh,Perth Scorchers,Hobart Hurricanes,7,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Xavier Bartlett,Brisbane Heat,Melbourne Stars,3.8,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Matthew Kuhnemann,Brisbane Heat,Melbourne Stars,4.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Jack Wildermuth,Brisbane Heat,Melbourne Stars,4.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Tom Balkin,Brisbane Heat,Melbourne Stars,5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Liam Haskett,Brisbane Heat,Melbourne Stars,5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Pat Dooley,Brisbane Heat,Melbourne Stars,5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Oli Patterson,Brisbane Heat,Melbourne Stars,6.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Jack Wood,Brisbane Heat,Melbourne Stars,8,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Nathan McSweeney,Brisbane Heat,Melbourne Stars,13,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Matt Renshaw,Brisbane Heat,Melbourne Stars,15,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Haris Rauf,MSt,Brisbane Heat,4.2,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Tom Curran,MSt,Brisbane Heat,5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Peter Siddle,MSt,Brisbane Heat,5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Mitch Swepson,MSt,Brisbane Heat,5.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Marcus Stoinis,MSt,Brisbane Heat,6,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Tom Whitney,MSt,Brisbane Heat,6,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Hamish McKenzie,MSt,Brisbane Heat,6.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Liam Hatcher,MSt,Brisbane Heat,6.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Glenn Maxwell,MSt,Brisbane Heat,7.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Aryan Sharma,MSt,Brisbane Heat,7.5,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Austin Anlezark,MSt,Brisbane Heat,8,TAB
+Brisbane Heat v Melbourne Stars,Top Team Wicket Taker,Brisbane Heat,Melbourne Stars,Jonathan Merlo,MSt,Brisbane Heat,17,TAB

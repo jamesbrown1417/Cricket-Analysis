@@ -57,19 +57,19 @@ player_metadata <-
 # Match Data--------------------------------------------------------------------
 bbl_match_data <-
   fetch_cricsheet(type = "match",
-                  competition = "bbl",
+                  competition = "ipl",
                   gender = "male")
 
 # Player Data-------------------------------------------------------------------
 bbl_player_data <-
   fetch_cricsheet(type = "player",
-                  competition = "bbl",
+                  competition = "ipl",
                   gender = "male")
 
 # Ball by Ball Data-------------------------------------------------------------
 bbl_ball_by_ball_data <-
   fetch_cricsheet(type = "bbb",
-                  competition = "bbl",
+                  competition = "ipl",
                   gender = "male")
 
 #===============================================================================
@@ -411,8 +411,6 @@ bbl_match_race_to_10_data <-
   map_dfr(~.x$result)
 
 bbl_match_race_to_10_data %>% 
-  filter(first_ball_striker == "JR Philippe") %>%
-  filter(first_ball_non_striker == "JM Vince") %>%
   count(result) %>% 
   mutate(percent = n/sum(n)) %>% 
   mutate(implied_odds = 1/percent)

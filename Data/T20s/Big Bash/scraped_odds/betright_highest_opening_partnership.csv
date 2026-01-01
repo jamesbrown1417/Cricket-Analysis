@@ -1,10 +1,7 @@
 match,market_name,team,price,agency
-Sydney Thunder v Brisbane Heat,Highest Opening Partnership,Sydney Thunder,1.95,BetRight
-Sydney Thunder v Brisbane Heat,Highest Opening Partnership,Draw,23,BetRight
-Sydney Thunder v Brisbane Heat,Highest Opening Partnership,Brisbane Heat,1.85,BetRight
-Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Adelaide Strikers,1.68,BetRight
-Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Draw,23,BetRight
-Adelaide Strikers v Melbourne Stars,Highest Opening Partnership,Melbourne Stars,2.18,BetRight
-Perth Scorchers v Hobart Hurricanes,Highest Opening Partnership,Perth Scorchers,1.74,BetRight
-Perth Scorchers v Hobart Hurricanes,Highest Opening Partnership,Draw,23,BetRight
-Perth Scorchers v Hobart Hurricanes,Highest Opening Partnership,Hobart Hurricanes,2.1,BetRight
+Hobart Hurricanes v Perth Scorchers,Highest Opening Partnership,Hobart Hurricanes,2.15,BetRight
+Hobart Hurricanes v Perth Scorchers,Highest Opening Partnership,Draw,23,BetRight
+Hobart Hurricanes v Perth Scorchers,Highest Opening Partnership,Perth Scorchers,1.7,BetRight
+Brisbane Heat v Melbourne Stars,Highest Opening Partnership,Brisbane Heat,2.11,BetRight
+Brisbane Heat v Melbourne Stars,Highest Opening Partnership,Draw,23,BetRight
+Brisbane Heat v Melbourne Stars,Highest Opening Partnership,Melbourne Stars,1.73,BetRight
