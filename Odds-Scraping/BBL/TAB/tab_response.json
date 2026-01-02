@@ -424,6 +424,18 @@
                             "sameGame": true
                         },
                         {
+                            "id": "652644",
+                            "name": "Tom Rogers (MSt)",
+                            "returnWin": 4.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 652644,
+                            "isOpen": true,
+                            "sortOrder": 15
+                        },
+                        {
                             "id": "652633",
                             "name": "Marcus Stoinis (MSt)",
                             "returnWin": 5,
@@ -472,18 +484,6 @@
                             "number": 652634,
                             "isOpen": true,
                             "sortOrder": 5
-                        },
-                        {
-                            "id": "652644",
-                            "name": "Tom Rogers (MSt)",
-                            "returnWin": 9,
-                            "returnPlace": 0,
-                            "differential": null,
-                            "bettingStatus": "Open",
-                            "allowPlace": false,
-                            "number": 652644,
-                            "isOpen": true,
-                            "sortOrder": 15
                         },
                         {
                             "id": "652636",
@@ -3790,7 +3790,7 @@
                         {
                             "id": "653262",
                             "name": "C Munro Over 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3803,7 +3803,7 @@
                         {
                             "id": "653263",
                             "name": "C Munro Under 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.72,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3904,7 +3904,7 @@
                         {
                             "id": "653266",
                             "name": "H Weibgen Over 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2.05,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3917,7 +3917,7 @@
                         {
                             "id": "653267",
                             "name": "H Weibgen Under 18.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3961,7 +3961,7 @@
                         {
                             "id": "653268",
                             "name": "J Wildermuth Over 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2.05,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -3974,7 +3974,7 @@
                         {
                             "id": "653269",
                             "name": "J Wildermuth Under 19.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4132,7 +4132,7 @@
                         {
                             "id": "653528",
                             "name": "S Harper Over 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 2.05,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4145,7 +4145,7 @@
                         {
                             "id": "653529",
                             "name": "S Harper Under 22.5 Runs",
-                            "returnWin": 1.85,
+                            "returnWin": 1.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4189,7 +4189,7 @@
                         {
                             "id": "653270",
                             "name": "C Munro Over 15.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4202,7 +4202,7 @@
                         {
                             "id": "653271",
                             "name": "C Munro Under 15.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4214,7 +4214,7 @@
                         {
                             "id": "653272",
                             "name": "C Munro Over 29.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4227,7 +4227,7 @@
                         {
                             "id": "653273",
                             "name": "C Munro Under 29.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4353,7 +4353,7 @@
                         {
                             "id": "653278",
                             "name": "H Weibgen Over 11.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4366,7 +4366,7 @@
                         {
                             "id": "653279",
                             "name": "H Weibgen Under 11.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4378,7 +4378,7 @@
                         {
                             "id": "653280",
                             "name": "H Weibgen Over 25.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4391,7 +4391,7 @@
                         {
                             "id": "653281",
                             "name": "H Weibgen Under 25.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4435,7 +4435,7 @@
                         {
                             "id": "653282",
                             "name": "J Wildermuth Over 12.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4448,7 +4448,7 @@
                         {
                             "id": "653283",
                             "name": "J Wildermuth Under 12.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4460,7 +4460,7 @@
                         {
                             "id": "653284",
                             "name": "J Wildermuth Over 26.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4473,7 +4473,7 @@
                         {
                             "id": "653285",
                             "name": "J Wildermuth Under 26.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4681,7 +4681,7 @@
                         {
                             "id": "653545",
                             "name": "S Harper Over 15.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4694,7 +4694,7 @@
                         {
                             "id": "653546",
                             "name": "S Harper Under 15.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4706,7 +4706,7 @@
                         {
                             "id": "653547",
                             "name": "S Harper Over 29.5 Runs",
-                            "returnWin": 2.4,
+                            "returnWin": 2.7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -4719,7 +4719,7 @@
                         {
                             "id": "653548",
                             "name": "S Harper Under 29.5 Runs",
-                            "returnWin": 1.5,
+                            "returnWin": 1.4,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5235,7 +5235,7 @@
                         {
                             "id": "652669",
                             "name": "Tom Curran (MSt)",
-                            "returnWin": 5,
+                            "returnWin": 4.5,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -5974,7 +5974,7 @@
                         {
                             "id": "652995",
                             "name": "Glenn Maxwell (MSt)",
-                            "returnWin": 8,
+                            "returnWin": 7,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6610,7 +6610,7 @@
                         {
                             "id": "652493",
                             "name": "Bri Over 6.5",
-                            "returnWin": 1.8,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6622,7 +6622,7 @@
                         {
                             "id": "652494",
                             "name": "Bri Under 6.5",
-                            "returnWin": 1.95,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6664,7 +6664,7 @@
                         {
                             "id": "652495",
                             "name": "MSt Over 6.5",
-                            "returnWin": 1.75,
+                            "returnWin": 1.6,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6676,7 +6676,7 @@
                         {
                             "id": "652496",
                             "name": "MSt Under 6.5",
-                            "returnWin": 2,
+                            "returnWin": 2.2,
                             "returnPlace": 0,
                             "differential": null,
                             "bettingStatus": "Open",
@@ -6753,9 +6753,9 @@
                 "Sydney Thunder",
                 "HobartHurricanes"
             ],
-            "openMarketCount": 16,
+            "openMarketCount": 30,
             "futureMarketCount": 0,
-            "nonFutureMarketCount": 16,
+            "nonFutureMarketCount": 30,
             "markets": [
                 {
                     "id": "125308350",
@@ -7306,6 +7306,318 @@
                     ]
                 },
                 {
+                    "id": "125914550",
+                    "name": "BBL Hobart InnRunOU 03/01",
+                    "shortName": "BBL Hobart InnRunOU",
+                    "betOption": "Innings Runs Over/Under",
+                    "betOptionSpectrumId": "1932",
+                    "betOptionPriority": 1715,
+                    "marketUniqueId": 125914550,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654701",
+                            "name": "Hob Over 172.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654701,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654702",
+                            "name": "Hob Under 172.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654702,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914619",
+                    "name": "BBL Syd Thunder InnRunOU 03/01",
+                    "shortName": "BBL Syd Thunder InnRunOU",
+                    "betOption": "Innings Runs Over/Under",
+                    "betOptionSpectrumId": "1932",
+                    "betOptionPriority": 1715,
+                    "marketUniqueId": 125914619,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654673",
+                            "name": "SyT Over 163.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654673,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654674",
+                            "name": "SyT Under 163.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654674,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914605",
+                    "name": "BBL Syd Thunder AltRuns 03/01",
+                    "shortName": "BBL Syd Thunder AltRuns",
+                    "betOption": "Home Team Alternate Total Runs",
+                    "betOptionSpectrumId": "1942",
+                    "betOptionPriority": 1745,
+                    "marketUniqueId": 125914605,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654679",
+                            "name": "SyT 120+ Runs",
+                            "returnWin": 1.01,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654679,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654680",
+                            "name": "SyT 140+ Runs",
+                            "returnWin": 1.19,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654680,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "654681",
+                            "name": "SyT 160+ Runs",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654681,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "654682",
+                            "name": "SyT 180+ Runs",
+                            "returnWin": 3.2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654682,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "654683",
+                            "name": "SyT 200+ Runs",
+                            "returnWin": 8,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654683,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "654684",
+                            "name": "SyT 220+ Runs",
+                            "returnWin": 31,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654684,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        }
+                    ]
+                },
+                {
+                    "id": "125914548",
+                    "name": "BBL Hobart AltRuns 03/01",
+                    "shortName": "BBL Hobart AltRuns",
+                    "betOption": "Away Team Alternate Total Runs",
+                    "betOptionSpectrumId": "1945",
+                    "betOptionPriority": 1750,
+                    "marketUniqueId": 125914548,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Team must bat 1st or bets refunded.",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654707",
+                            "name": "Hob 120+ Runs",
+                            "returnWin": 1.01,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654707,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654708",
+                            "name": "Hob 140+ Runs",
+                            "returnWin": 1.09,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654708,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "654709",
+                            "name": "Hob 160+ Runs",
+                            "returnWin": 1.42,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654709,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "654710",
+                            "name": "Hob 180+ Runs",
+                            "returnWin": 2.3,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654710,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "654711",
+                            "name": "Hob 200+ Runs",
+                            "returnWin": 5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654711,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "654712",
+                            "name": "Hob 220+ Runs",
+                            "returnWin": 16,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654712,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        }
+                    ]
+                },
+                {
                     "id": "126252843",
                     "name": "BBL SydThndr-Hobart HiOpPart",
                     "shortName": "BBL SyTh-Hoba HiOpPart",
@@ -7596,6 +7908,198 @@
                             "number": 653726,
                             "isOpen": true,
                             "sortOrder": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "125914332",
+                    "name": "BBL SydTh-Hobrt 6sOvrUnder 03/01",
+                    "shortName": "BBL SydTh-Hobrt 6sOvrUnder",
+                    "betOption": "Total Match Sixes Over/Under",
+                    "betOptionSpectrumId": "1943",
+                    "betOptionPriority": 2065,
+                    "marketUniqueId": 125914332,
+                    "closeTime": "2026-01-03T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654202",
+                            "name": "Over 12.5 Sixes",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654202,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654203",
+                            "name": "Under 12.5 Sixes",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654203,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914328",
+                    "name": "BBL SydTh-Hobrt AltSixes 03/01",
+                    "shortName": "BBL SydTh-Hobrt AltSixes",
+                    "betOption": "Alternate Total Match Sixes",
+                    "betOptionSpectrumId": "1930",
+                    "betOptionPriority": 2100,
+                    "marketUniqueId": 125914328,
+                    "closeTime": "2026-01-03T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654208",
+                            "name": "4+ Match Sixes",
+                            "returnWin": 1.01,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654208,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654209",
+                            "name": "6+ Match Sixes",
+                            "returnWin": 1.07,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654209,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "654210",
+                            "name": "8+ Match Sixes",
+                            "returnWin": 1.17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654210,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "654211",
+                            "name": "10+ Match Sixes",
+                            "returnWin": 1.35,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654211,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "654212",
+                            "name": "12+ Match Sixes",
+                            "returnWin": 1.58,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654212,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "654213",
+                            "name": "14+ Match Sixes",
+                            "returnWin": 1.95,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654213,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "654214",
+                            "name": "16+ Match Sixes",
+                            "returnWin": 2.6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654214,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        },
+                        {
+                            "id": "654215",
+                            "name": "18+ Match Sixes",
+                            "returnWin": 3.75,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654215,
+                            "isOpen": true,
+                            "sortOrder": 8
+                        },
+                        {
+                            "id": "654216",
+                            "name": "20+ Match Sixes",
+                            "returnWin": 5.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654216,
+                            "isOpen": true,
+                            "sortOrder": 9
                         }
                     ]
                 },
@@ -8104,6 +8608,330 @@
                     ]
                 },
                 {
+                    "id": "125914545",
+                    "name": "BBL Hobart 4OvRun 03/01",
+                    "shortName": "BBL Hobart 4OvRun",
+                    "betOption": "1st 4 Over Runs Over/Under",
+                    "betOptionSpectrumId": "2765",
+                    "betOptionPriority": 6895,
+                    "marketUniqueId": 125914545,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654691",
+                            "name": "Hob Over 32.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654691,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654692",
+                            "name": "Hob Under 32.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654692,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914604",
+                    "name": "BBL Syd Thunder 4OvRun 03/01",
+                    "shortName": "BBL Syd Thunder 4OvRun",
+                    "betOption": "1st 4 Over Runs Over/Under",
+                    "betOptionSpectrumId": "2765",
+                    "betOptionPriority": 6895,
+                    "marketUniqueId": 125914604,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": null,
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654663",
+                            "name": "SyT Over 31.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654663,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654664",
+                            "name": "SyT Under 31.5 Runs",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654664,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914555",
+                    "name": "BBL Hobart TeamFoursOU 03/01",
+                    "shortName": "BBL Hobart TeamFoursOU",
+                    "betOption": "Team Total Fours Over/Under",
+                    "betOptionSpectrumId": "3133",
+                    "betOptionPriority": 8440,
+                    "marketUniqueId": 125914555,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654697",
+                            "name": "Hob Over 13.5 Fours",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654697,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654698",
+                            "name": "Hob Under 13.5 Fours",
+                            "returnWin": 1.85,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654698,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914628",
+                    "name": "BBL Syd Thunder TeamFoursOU 03/01",
+                    "shortName": "BBL Syd Thunder TeamFoursOU",
+                    "betOption": "Team Total Fours Over/Under",
+                    "betOptionSpectrumId": "3133",
+                    "betOptionPriority": 8440,
+                    "marketUniqueId": 125914628,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654669",
+                            "name": "SyT Over 13.5 Fours",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654669,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654670",
+                            "name": "SyT Under 13.5 Fours",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654670,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914547",
+                    "name": "BBL Hobart Tm6sOU 03/01",
+                    "shortName": "BBL Hobart Tm6sOU",
+                    "betOption": "Team Total Sixes Over/Under",
+                    "betOptionSpectrumId": "2412",
+                    "betOptionPriority": 8445,
+                    "marketUniqueId": 125914547,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654699",
+                            "name": "Hob Over 7.5 Sixes",
+                            "returnWin": 2.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654699,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654700",
+                            "name": "Hob Under 7.5 Sixes",
+                            "returnWin": 1.65,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654700,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914614",
+                    "name": "BBL Syd Thunder Tm6sOU 03/01",
+                    "shortName": "BBL Syd Thunder Tm6sOU",
+                    "betOption": "Team Total Sixes Over/Under",
+                    "betOptionSpectrumId": "2412",
+                    "betOptionPriority": 8445,
+                    "marketUniqueId": 125914614,
+                    "closeTime": "2026-01-03T07:30:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654671",
+                            "name": "SyT Over 5.5 Sixes",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654671,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654672",
+                            "name": "SyT Under 5.5 Sixes",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654672,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
                     "id": "125914552",
                     "name": "BBL Hobart OpBtCS 03/01",
                     "shortName": "BBL Hobart OpBtCS",
@@ -8308,6 +9136,120 @@
                     ]
                 },
                 {
+                    "id": "125914329",
+                    "name": "BBL SydTh-Hobrt AltMT4 03/01",
+                    "shortName": "BBL SydTh-Hobrt AltMT4",
+                    "betOption": "Alternate Total Match Fours",
+                    "betOptionSpectrumId": "4807",
+                    "betOptionPriority": 11175,
+                    "marketUniqueId": 125914329,
+                    "closeTime": "2026-01-03T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654223",
+                            "name": "20+ Match Fours",
+                            "returnWin": 1.1,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654223,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654224",
+                            "name": "25+ Match Fours",
+                            "returnWin": 1.7,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654224,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        },
+                        {
+                            "id": "654225",
+                            "name": "30+ Match Fours",
+                            "returnWin": 2.5,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654225,
+                            "isOpen": true,
+                            "sortOrder": 3
+                        },
+                        {
+                            "id": "654226",
+                            "name": "35+ Match Fours",
+                            "returnWin": 6,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654226,
+                            "isOpen": true,
+                            "sortOrder": 4
+                        },
+                        {
+                            "id": "654227",
+                            "name": "40+ Match Fours",
+                            "returnWin": 17,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654227,
+                            "isOpen": true,
+                            "sortOrder": 5
+                        },
+                        {
+                            "id": "654228",
+                            "name": "45+ Match Fours",
+                            "returnWin": 67,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654228,
+                            "isOpen": true,
+                            "sortOrder": 6
+                        },
+                        {
+                            "id": "654229",
+                            "name": "50+ Match Fours",
+                            "returnWin": 201,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654229,
+                            "isOpen": true,
+                            "sortOrder": 7
+                        }
+                    ]
+                },
+                {
                     "id": "126252837",
                     "name": "BBL SydTh-Hobrt Over1OU Hobrt 7.5",
                     "shortName": "BBL STh-Hob Ovr1OU Hob 7.5",
@@ -8410,6 +9352,60 @@
                             "bettingStatus": "Open",
                             "allowPlace": false,
                             "number": 653700,
+                            "isOpen": true,
+                            "sortOrder": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "125914327",
+                    "name": "BBL SydTh-Hobrt Ttl4OU 03/01",
+                    "shortName": "BBL SydTh-Hobrt Ttl4OU",
+                    "betOption": "Total Fours Over/Under",
+                    "betOptionSpectrumId": "3914",
+                    "betOptionPriority": 21580,
+                    "marketUniqueId": 125914327,
+                    "closeTime": "2026-01-03T08:15:00.000Z",
+                    "bettingStatus": "Open",
+                    "message": "Does Not Include Super Over",
+                    "informationMessage": null,
+                    "isFuture": false,
+                    "onlineBetting": true,
+                    "phoneBettingOnly": false,
+                    "inPlay": false,
+                    "goingInPlay": false,
+                    "allowWin": true,
+                    "allowPlace": false,
+                    "allowEachWay": false,
+                    "allowMulti": true,
+                    "allowMultiWin": true,
+                    "allowMultiPlace": false,
+                    "allowMultiEachWay": false,
+                    "numberOfPlaces": 0,
+                    "cashOutEligibility": "PreMatch",
+                    "allowBundle": false,
+                    "propositions": [
+                        {
+                            "id": "654217",
+                            "name": "Over 26.5 Fours",
+                            "returnWin": 1.72,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654217,
+                            "isOpen": true,
+                            "sortOrder": 1
+                        },
+                        {
+                            "id": "654218",
+                            "name": "Under 26.5 Fours",
+                            "returnWin": 2,
+                            "returnPlace": 0,
+                            "differential": null,
+                            "bettingStatus": "Open",
+                            "allowPlace": false,
+                            "number": 654218,
                             "isOpen": true,
                             "sortOrder": 2
                         }
@@ -10159,12 +11155,17 @@
         "To Hit 2+ Sixes",
         "To Hit 3+ Sixes",
         "To Hit a Four and a Six",
+        "Innings Runs Over/Under",
+        "Home Team Alternate Total Runs",
+        "Away Team Alternate Total Runs",
         "Player Runs",
         "Alternate Player Runs O/U",
         "Highest Opening Partnership",
         "Leading Team After 4 Overs",
         "Fall Of 1st Wicket",
         "Match Sixes 3-Way",
+        "Total Match Sixes Over/Under",
+        "Alternate Total Match Sixes",
         "Most Wickets",
         "To Take A Wicket",
         "To Take 2+ Wickets",
@@ -10172,8 +11173,13 @@
         "Margin",
         "Player of the Match",
         "Winner Of The Toss",
+        "1st 4 Over Runs Over/Under",
+        "Team Total Fours Over/Under",
+        "Team Total Sixes Over/Under",
         "Opening Batters Combined Score",
-        "First Over Line"
+        "Alternate Total Match Fours",
+        "First Over Line",
+        "Total Fours Over/Under"
     ],
     "betOptions": [
         {
@@ -10345,6 +11351,30 @@
             }
         },
         {
+            "name": "Innings Runs Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Innings%20Runs%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Home Team Alternate Total Runs",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Home%20Team%20Alternate%20Total%20Runs"
+            }
+        },
+        {
+            "name": "Away Team Alternate Total Runs",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Away%20Team%20Alternate%20Total%20Runs"
+            }
+        },
+        {
             "name": "Player Runs",
             "hasFutureMarket": false,
             "openMarketCount": 7,
@@ -10390,6 +11420,22 @@
             "openMarketCount": 3,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Match%20Sixes%203-Way"
+            }
+        },
+        {
+            "name": "Total Match Sixes Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Match%20Sixes%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Alternate Total Match Sixes",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Alternate%20Total%20Match%20Sixes"
             }
         },
         {
@@ -10449,6 +11495,30 @@
             }
         },
         {
+            "name": "1st 4 Over Runs Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=1st%204%20Over%20Runs%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Team Total Fours Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Fours%20Over%2FUnder"
+            }
+        },
+        {
+            "name": "Team Total Sixes Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 2,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Team%20Total%20Sixes%20Over%2FUnder"
+            }
+        },
+        {
             "name": "Opening Batters Combined Score",
             "hasFutureMarket": false,
             "openMarketCount": 6,
@@ -10457,11 +11527,27 @@
             }
         },
         {
+            "name": "Alternate Total Match Fours",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Alternate%20Total%20Match%20Fours"
+            }
+        },
+        {
             "name": "First Over Line",
             "hasFutureMarket": false,
             "openMarketCount": 6,
             "_links": {
                 "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=First%20Over%20Line"
+            }
+        },
+        {
+            "name": "Total Fours Over/Under",
+            "hasFutureMarket": false,
+            "openMarketCount": 1,
+            "_links": {
+                "markets": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Cricket/competitions/Big%20Bash/markets?jurisdiction=SA&betOptionName=Total%20Fours%20Over%2FUnder"
             }
         }
     ],
