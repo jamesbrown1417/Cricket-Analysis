@@ -1,33 +1,13 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Nathan Ellis,Hobart Hurricanes,Sydney Thunder,3.8,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Riley Meredith,Hobart Hurricanes,Sydney Thunder,4.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Rishad Hossain,Hobart Hurricanes,Sydney Thunder,4.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Chris Jordan,Hobart Hurricanes,Sydney Thunder,5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Rehan Ahmed,Hobart Hurricanes,Sydney Thunder,5.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Will Prestwidge,Hobart Hurricanes,Sydney Thunder,6.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,Hobart Hurricanes,Sydney Thunder,10,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,Hobart Hurricanes,Sydney Thunder,17,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Daniel Sams,Sydney Thunder,Hobart Hurricanes,4.2,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Shadab Khan,Sydney Thunder,Hobart Hurricanes,5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Wes Agar,Sydney Thunder,Hobart Hurricanes,5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Nathan McAndrew,Sydney Thunder,Hobart Hurricanes,5.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Tom Andrews,Sydney Thunder,Hobart Hurricanes,5.5,TAB
-Sydney Thunder v Hobart Hurricanes,Top Team Wicket Taker,Sydney Thunder,Hobart Hurricanes,Chris Green,Sydney Thunder,Hobart Hurricanes,5.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Haris Rauf,MSt,Melbourne Stars,4.2,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Tom Curran,MSt,Melbourne Stars,4.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Peter Siddle,MSt,Melbourne Stars,4.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Mitch Swepson,MSt,Melbourne Stars,5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Liam Hatcher,MSt,Melbourne Stars,5.5,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Tom Whitney,MSt,Melbourne Stars,6,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Hamish McKenzie,MSt,Melbourne Stars,6.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Marcus Stoinis,MSt,Melbourne Stars,7,TAB
+Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Hamish McKenzie,MSt,Melbourne Stars,7,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,MSt,Melbourne Stars,7.5,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Aryan Sharma,MSt,Melbourne Stars,7.5,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Austin Anlezark,MSt,Melbourne Stars,8,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Jonathan Merlo,MSt,Melbourne Stars,13,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Adam Zampa,Melbourne Renegades,Melbourne Stars,4,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Gurinder Sandhu,Melbourne Renegades,Melbourne Stars,4.5,TAB
-Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Tom Rogers,Melbourne Renegades,Melbourne Stars,4.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Andrew Tye,Melbourne Renegades,Melbourne Stars,4.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Jason Behrendorff,Melbourne Renegades,Melbourne Stars,4.5,TAB
 Melbourne Stars v Melbourne Renegades,Top Team Wicket Taker,Melbourne Stars,Melbourne Renegades,Will Sutherland,Melbourne Renegades,Melbourne Stars,5,TAB
@@ -52,7 +32,6 @@ Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Liam S
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Jason Sangha,Adelaide Strikers,Perth Scorchers,13,TAB
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Brody Couch,Perth Scorchers,Adelaide,4.5,TAB
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Joel Paris,Perth Scorchers,Adelaide,4.5,TAB
-Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Matt Kelly,Perth Scorchers,Adelaide,5,TAB
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Ashton Agar,Perth Scorchers,Adelaide,5,TAB
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Corey Rocchiccioli,Perth Scorchers,Adelaide,5.5,TAB
 Perth Scorchers v Adelaide,Top Team Wicket Taker,Perth Scorchers,Adelaide,Aaron Hardie,Perth Scorchers,Adelaide,6,TAB

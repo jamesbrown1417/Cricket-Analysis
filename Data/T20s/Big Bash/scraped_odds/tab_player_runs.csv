@@ -17,7 +17,7 @@ Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Rene
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,14.5,1.4,NA,TAB
 Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,17.5,1.5,2.4,TAB
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,19.5,1.6,NA,TAB
-Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,24.5,1.85,1.85,TAB
+Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,24.5,2,1.72,TAB
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,24.5,1.85,NA,TAB
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,29.5,2.2,NA,TAB
 Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,Glenn Maxwell,31.5,2.4,1.5,TAB
@@ -120,9 +120,9 @@ Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Rene
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Tom Rogers,49.5,5.5,NA,TAB
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Tom Rogers,74.5,15,NA,TAB
 Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,Tom Rogers,99.5,26,NA,TAB
-Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,NA,9.5,1.5,2.4,TAB
-Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,NA,16.5,1.85,1.85,TAB
-Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,NA,23.5,2.4,1.5,TAB
+Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,NA,9.5,1.65,2.1,TAB
+Melbourne Stars v Melbourne Renegades,Player Runs,Melbourne Stars,Melbourne Renegades,NA,16.5,2,1.72,TAB
+Melbourne Stars v Melbourne Renegades,Alternate Player Runs O/U,Melbourne Stars,Melbourne Renegades,NA,23.5,3,1.35,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Aaron Hardie,4.5,1.12,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Aaron Hardie,9.5,1.36,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Aaron Hardie,14.5,1.6,NA,TAB
@@ -185,19 +185,6 @@ Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Jerrssis Wadia,3
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Jerrssis Wadia,49.5,6.5,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Jerrssis Wadia,74.5,19,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Jerrssis Wadia,99.5,41,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,4.5,1.08,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,9.5,1.23,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,14.5,1.4,NA,TAB
-Perth Scorchers v Adelaide,Alternate Player Runs O/U,Perth Scorchers,Adelaide,Josh Inglis,17.5,1.5,2.4,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,19.5,1.6,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,24.5,1.85,1.85,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,24.5,1.85,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,29.5,2.2,NA,TAB
-Perth Scorchers v Adelaide,Alternate Player Runs O/U,Perth Scorchers,Adelaide,Josh Inglis,31.5,2.4,1.5,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,39.5,3.1,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,49.5,4,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,74.5,11,NA,TAB
-Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Josh Inglis,99.5,23,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Liam Scott,4.5,1.11,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Liam Scott,9.5,1.33,NA,TAB
 Perth Scorchers v Adelaide,Player Runs,Perth Scorchers,Adelaide,Liam Scott,14.5,1.55,NA,TAB
@@ -371,101 +358,3 @@ Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McS
 Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,49.5,5,NA,TAB
 Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,74.5,13,NA,TAB
 Sydney Sixers v Brisbane Heat,Player Runs,Sydney Sixers,Brisbane Heat,Nathan McSweeney,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,4.5,1.08,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,9.5,1.2,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,14.5,1.37,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Ben McDermott,18.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,19.5,1.55,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,24.5,1.75,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,25.5,2,1.72,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,29.5,2.15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Ben McDermott,32.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,39.5,2.9,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,49.5,4,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,74.5,11,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Ben McDermott,99.5,23,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,4.5,1.09,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,9.5,1.28,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,14.5,1.45,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,David Warner,15.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,19.5,1.7,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,22.5,2,1.72,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,24.5,2.05,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,David Warner,29.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,29.5,2.4,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,39.5,3.3,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,49.5,4.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,74.5,12,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,David Warner,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,4.5,1.11,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,9.5,1.33,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,13.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,14.5,1.55,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,19.5,1.8,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,20.5,2,1.72,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,24.5,2.2,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,27.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,29.5,2.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,39.5,3.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,49.5,5.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,74.5,15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Matthew Gilkes,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,4.5,1.1,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,9.5,1.3,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,14.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,14.5,1.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,19.5,1.75,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,21.5,2,1.72,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,24.5,2.1,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,28.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,29.5,2.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,39.5,3.4,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,49.5,5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,74.5,13,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Mitchell Owen,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,4.5,1.11,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,9.5,1.33,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,14.5,1.55,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,19.5,1.8,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,24.5,2.2,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,29.5,2.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,39.5,3.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,49.5,5.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,74.5,15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Nikhil Chaudhary,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,4.5,1.11,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,9.5,1.33,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,14.5,1.55,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,19.5,1.8,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,24.5,2.2,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,29.5,2.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,39.5,3.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,49.5,5.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,74.5,15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Billings,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,4.5,1.11,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,9.5,1.33,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Sam Konstas,13.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,14.5,1.55,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,19.5,1.8,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,20.5,1.85,1.85,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,24.5,2.2,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Sam Konstas,27.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,29.5,2.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,39.5,3.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,49.5,5.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,74.5,15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Sam Konstas,99.5,26,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,4.5,1.12,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,9.5,1.36,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Tim Ward,12.5,1.5,2.4,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,14.5,1.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,19.5,2,1.72,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,19.5,1.85,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,24.5,2.3,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Alternate Player Runs O/U,Sydney Thunder,Hobart Hurricanes,Tim Ward,26.5,2.4,1.5,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,29.5,2.7,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,39.5,3.6,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,49.5,5.5,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,74.5,15,NA,TAB
-Sydney Thunder v Hobart Hurricanes,Player Runs,Sydney Thunder,Hobart Hurricanes,Tim Ward,99.5,26,NA,TAB
