@@ -1,4 +1,4 @@
 match,market_name,home_team,away_team,home_win,away_win,agency,margin
-Melbourne Stars v Melbourne Renegades,Head To Head,Melbourne Stars,Melbourne Renegades,2.5,NA,TAB,NA
-Perth Scorchers v Adelaide,Head To Head,Perth Scorchers,Adelaide,1.58,2.35,TAB,1.058
-Sydney Sixers v Brisbane Heat,Head To Head,Sydney Sixers,Brisbane Heat,1.75,2.05,TAB,1.059
+Sydney Sixers v Brisbane Heat,Head To Head,Sydney Sixers,Brisbane Heat,1.68,2.2,TAB,1.05
+Adelaide v Sydney Thunder,Head To Head,Adelaide,Sydney Thunder,1.65,2.2,TAB,1.061
+Perth Scorchers v Melbourne Renegades,Head To Head,Perth Scorchers,Melbourne Renegades,1.55,NA,TAB,NA
