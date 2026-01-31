@@ -1,54 +1,98 @@
 match,market,home_team,away_team,player_name,player_team,opposition_team,price,agency
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Ben Shikongo,Namibia,USA,4.9,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Bernard Martinus Scholtz,Namibia,USA,4.6,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Gerhard Erasmus,Namibia,USA,4.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Ruben Trumpelmann,Namibia,USA,4.5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Tangeni Lungameni,Namibia,USA,4.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Jack Brussell,Namibia,USA,5.6,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Morris Gerhardt Kariata,Namibia,USA,5.5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Jan-Izak de Villiers,Namibia,USA,6.25,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Shaun Fouche,Namibia,USA,6.25,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Dylan Leicher,Namibia,USA,7.5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Nicol Loftie-Eaton,Namibia,USA,7.25,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Jan Balt,Namibia,USA,8.5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Zane Green,Namibia,USA,9.5,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Abhishek Sharma,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Arshdeep Singh,India,Bangladesh,3.7,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Harshit Rana,India,Bangladesh,4.4,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Hardik Pandya,India,Bangladesh,8.25,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Jitesh Sharma,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Mayank Yadav,India,Bangladesh,4.1,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Nithish Reddy,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Ravi Bishnoi,India,Bangladesh,4.1,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Rinku Singh,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Riyan Parag,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Sanju Samson,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Suryakumar Yadav,India,Bangladesh,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Varun Chakravarthy,India,Bangladesh,5.4,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Washington Sundar,India,Bangladesh,6,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Shivam Dube,India,Bangladesh,8.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Harmeet Singh Baddhan,USA,Namibia,4.6,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Jessy Singh,USA,Namibia,4.4,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Nosthush Kenjige,USA,Namibia,4.3,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Abhishek Paradkar,USA,Namibia,5.5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Ayan Desai,USA,Namibia,5.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Juanoy Drysdale,USA,Namibia,5.3,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Shadley Van Schalkwyk,USA,Namibia,5,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Yasir Saeed Mohammad,USA,Namibia,5.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Aaron Jones,USA,Namibia,9.75,Sportsbet
-Namibia v USA,Top Team Wicket Taker,Namibia,USA,Milind Kumar,USA,Namibia,9.25,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Jaker Ali,Bangladesh,India,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Liton Das,Bangladesh,India,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Mustafizur Rahman,Bangladesh,India,4.3,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Mahedi Hasan,Bangladesh,India,5.75,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Mehedy Hasan,Bangladesh,India,5.4,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Mohammad Mahmudullah,Bangladesh,India,9,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Nazmul Hossain Shanto,Bangladesh,India,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Parvez Hossain Emon,Bangladesh,India,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Shoriful Islam,Bangladesh,India,4.3,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Tanzid Hasan,Bangladesh,India,NA,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Tanzim Hasan Sakib,Bangladesh,India,4.75,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Taskin Ahmed,Bangladesh,India,4.7,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Rakibul Hasan,Bangladesh,India,5.4,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Rishad Hossain,Bangladesh,India,5.3,Sportsbet
-India v Bangladesh,Top Team Wicket Taker,India,Bangladesh,Towhid Hridoy,Bangladesh,India,NA,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Junaid Siddique,United Arab Emirates,Ireland,3.6,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Mohammad Rohid,United Arab Emirates,Ireland,3.9,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Zahid Ali,United Arab Emirates,Ireland,3.9,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Basil Hameed,United Arab Emirates,Ireland,5.8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Dhruv Parashar,United Arab Emirates,Ireland,5.8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Haider Ali,United Arab Emirates,Ireland,5,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Muhammad Arfan,United Arab Emirates,Ireland,5.8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Muhammad Farooq,United Arab Emirates,Ireland,5.8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Muhammad Jawadullah,United Arab Emirates,Ireland,5.6,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Simranjeet Singh,United Arab Emirates,Ireland,5.4,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Harshit Kaushik,United Arab Emirates,Ireland,6.25,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Shaheen Shah Afridi,Pakistan,Australia,3.6,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Abrar Ahmed,Pakistan,Australia,4.2,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Mohammad Wasim,Pakistan,Australia,4.7,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Shadab Khan,Pakistan,Australia,4.9,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Usman Tariq,Pakistan,Australia,4.1,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Mohammad Salman Mirza,Pakistan,Australia,5.5,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Naseem Shah,Pakistan,Australia,5.75,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Faheem Ashraf,Pakistan,Australia,6.5,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Mohammad Nawaz,Pakistan,Australia,6.5,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Saim Ayub,Pakistan,Australia,9.5,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Jasprit Bumrah,India,New Zealand,3.8,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Arshdeep Singh,India,New Zealand,4,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Kuldeep Yadav,India,New Zealand,4,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Ravi Bishnoi,India,New Zealand,4.8,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Varun Chakravarthy,India,New Zealand,4.1,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Axar Patel,India,New Zealand,5.9,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Harshit Rana,India,New Zealand,5,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Hardik Pandya,India,New Zealand,7.25,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Shivam Dube,India,New Zealand,9,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Anrich Nortje,South Africa,West Indies,3.8,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Kagiso Rabada,South Africa,West Indies,4.2,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Marco Jansen,South Africa,West Indies,4,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,George Linde,South Africa,West Indies,5.3,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Keshav Maharaj,South Africa,West Indies,5.1,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Kwena Maphaka,South Africa,West Indies,5.25,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Lungi Ngidi,South Africa,West Indies,5.3,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Corbin Bosch,South Africa,West Indies,6.75,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Eathan Bosch,South Africa,West Indies,6,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Nuwan Thushara,Sri Lanka,England,3.6,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Wanindu Hasaranga,Sri Lanka,England,3.8,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Dunith Wellalage,Sri Lanka,England,4.3,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Dushan Hemantha,Sri Lanka,England,4.5,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Dushmantha Chameera,Sri Lanka,England,4.1,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Eshan Malinga,Sri Lanka,England,4.9,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Maheesh Theekshana,Sri Lanka,England,4.9,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Matheesha Pathirana,Sri Lanka,England,4.4,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Traveen Mathews,Sri Lanka,England,4.9,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Dasun Shanaka,Sri Lanka,England,7,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Dhananjaya de Silva,Sri Lanka,England,8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Barry McCarthy,Ireland,United Arab Emirates,4.5,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Benjamin White,Ireland,United Arab Emirates,4.8,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Joshua Little,Ireland,United Arab Emirates,4.4,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Mark Adair,Ireland,United Arab Emirates,4.3,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Matthew Humphreys,Ireland,United Arab Emirates,4.9,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Craig Young,Ireland,United Arab Emirates,5,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Curtis Campher,Ireland,United Arab Emirates,5,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,Gareth Delany,Ireland,United Arab Emirates,5.4,Sportsbet
+United Arab Emirates v Ireland,Top Team Wicket Taker,United Arab Emirates,Ireland,George Dockrell,Ireland,United Arab Emirates,8.5,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Adam Zampa,Australia,Pakistan,4,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Ben Dwarshuis,Australia,Pakistan,4.9,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Sean Abbott,Australia,Pakistan,4.5,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Xavier Bartlett,Australia,Pakistan,4.3,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Jack Edwards,Australia,Pakistan,5.6,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Mahli Beardman,Australia,Pakistan,5.6,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Cooper Connolly,Australia,Pakistan,6.75,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Matthew Kuhnemann,Australia,Pakistan,6,Sportsbet
+Pakistan v Australia,Top Team Wicket Taker,Pakistan,Australia,Marcus Stoinis,Australia,Pakistan,7.25,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Jacob Duffy,New Zealand,India,4.3,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Kyle Jamieson,New Zealand,India,4.8,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Matt Henry,New Zealand,India,4,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Ish Sodhi,New Zealand,India,5.5,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Kristian Clarke,New Zealand,India,5.2,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Mitchell Santner,New Zealand,India,5.1,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Zak Foulkes,New Zealand,India,5.1,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,James Neesham,New Zealand,India,6.75,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Michael Bracewell,New Zealand,India,6.75,Sportsbet
+India v New Zealand,Top Team Wicket Taker,India,New Zealand,Glenn Phillips,New Zealand,India,9.75,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Gudakesh Motie,West Indies,South Africa,4.3,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Jason Holder,West Indies,South Africa,4.4,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Jayden Seales,West Indies,South Africa,4.8,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Matthew Forde,West Indies,South Africa,4.8,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Shamar Joseph,West Indies,South Africa,4,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Akeal Hosein,West Indies,South Africa,5.5,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Romario Shepherd,West Indies,South Africa,5,Sportsbet
+South Africa v West Indies,Top Team Wicket Taker,South Africa,West Indies,Roston Chase,West Indies,South Africa,7.5,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Adil Rashid,England,Sri Lanka,4.2,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Jamie Overton,England,Sri Lanka,4.9,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Jofra Archer,England,Sri Lanka,4.5,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Brydon Carse,England,Sri Lanka,5,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Josh Tongue,England,Sri Lanka,5.4,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Luke Wood,England,Sri Lanka,5,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Rehan Ahmed,England,Sri Lanka,5.4,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Liam Dawson,England,Sri Lanka,6,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Sam Curran,England,Sri Lanka,7,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Jacob Bethell,England,Sri Lanka,10,Sportsbet
+Sri Lanka v England,Top Team Wicket Taker,Sri Lanka,England,Will Jacks,England,Sri Lanka,10,Sportsbet

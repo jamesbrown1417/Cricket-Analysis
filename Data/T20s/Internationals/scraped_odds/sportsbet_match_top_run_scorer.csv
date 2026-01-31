@@ -1,31 +1,128 @@
 match,market,home_team,away_team,player_name,price
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Suryakumar Yadav,4.4
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Sanju Samson,6
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Abhishek Sharma,7.75
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Riyan Parag,8.25
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Rinku Singh,9.75
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Liton Das,10
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Nazmul Hossain Shanto,11.5
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Tanzid Hasan,12
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Towhid Hridoy,13
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Parvez Hossain Emon,15
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Nithish Reddy,16
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Mohammad Mahmudullah,26
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Shivam Dube,31
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Hardik Pandya,34
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Jaker Ali,34
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Jitesh Sharma,34
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Mehedy Hasan,34
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Mahedi Hasan,46
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Washington Sundar,71
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Arshdeep Singh,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Harshit Rana,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Mayank Yadav,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Mustafizur Rahman,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Rakibul Hasan,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Ravi Bishnoi,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Rishad Hossain,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Shoriful Islam,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Tanzim Hasan Sakib,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Taskin Ahmed,101
-India v Bangladesh,Top Match Run Scorer,India,Bangladesh,Varun Chakravarthy,101
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Travis Head,6.25
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mitchell Marsh,7.25
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Babar Azam,8
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Cameron Green,8.25
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Josh Inglis,8.25
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Sahibzada Farhan,8
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Saim Ayub,8.75
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Matthew Short,11
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Salman Agha,11
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Matt Renshaw,12.5
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Cooper Connolly,17
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Fakhar Zaman,17
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Josh Philippe,17
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Marcus Stoinis,23
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Usman Khan,23
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Khawaja Muhammad Nafay,29
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mitchell Owen,34
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mohammad Nawaz,51
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Shadab Khan,51
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Faheem Ashraf,71
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Shaheen Shah Afridi,126
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Abrar Ahmed,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Adam Zampa,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Ben Dwarshuis,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mahli Beardman,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Matthew Kuhnemann,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mohammad Salman Mirza,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Mohammad Wasim,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Naseem Shah,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Sean Abbott,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Usman Tariq,151
+Pakistan v Australia,Top Match Run Scorer,Pakistan,Australia,Xavier Bartlett,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Abhishek Sharma,5.9
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Sanju Samson,6.5
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Ishan Kishan,7.5
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Suryakumar Yadav,7
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Tilak Varma,7
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Devon Conway,8
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Shreyas Iyer,8.5
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Tim Seifert,9.75
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Glenn Phillips,10.5
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Rachin Ravindra,11
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Rinku Singh,12.5
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Tim Robinson,12
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Mark Chapman,23
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Daryl Mitchell,26
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Hardik Pandya,26
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Axar Patel,46
+India v New Zealand,Top Match Run Scorer,India,New Zealand,James Neesham,46
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Michael Bracewell,46
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Mitchell Santner,67
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Shivam Dube,67
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Harshit Rana,126
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Kristian Clarke,126
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Kyle Jamieson,126
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Zak Foulkes,126
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Arshdeep Singh,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Ish Sodhi,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Jacob Duffy,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Jasprit Bumrah,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Kuldeep Yadav,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Matt Henry,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Ravi Bishnoi,151
+India v New Zealand,Top Match Run Scorer,India,New Zealand,Varun Chakravarthy,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Quinton De Kock,5.9
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Aiden Markram,6.5
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Ryan Rickelton,6.75
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Dewald Brevis,7.5
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Shai Hope,7.5
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Rubin Hermann,8.25
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Lhuan-dre Pretorius,9
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Shimron Hetmyer,10
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Johnson Charles,11.5
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Brandon King,12
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Sherfane Rutherford,13
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Tristan Stubbs,14
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Roston Chase,21
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Rovman Powell,21
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Jason Smith,26
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Matthew Forde,46
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Quentin Sampson,46
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,George Linde,67
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Marco Jansen,67
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Romario Shepherd,67
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Jason Holder,91
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Corbin Bosch,126
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Keshav Maharaj,126
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Akeal Hosein,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Anrich Nortje,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Gudakesh Motie,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Jayden Seales,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Kagiso Rabada,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Kwena Maphaka,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Lungi Ngidi,151
+South Africa v West Indies,Top Match Run Scorer,South Africa,West Indies,Shamar Joseph,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Jos Buttler,5.4
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Phil Salt,6.5
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Pathum Nissanka,7
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Ben Duckett,9.75
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Jacob Bethell,9
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Kamil Mishara,9.75
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Kusal Mendis,9.25
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Harry Brook,11
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Tom Banton,11.5
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Kusal Perera,13
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Dhananjaya de Silva,14
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Kamindu Mendis,19
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Dasun Shanaka,21
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Sam Curran,21
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Charith Asalanka,23
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Rehan Ahmed,31
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Will Jacks,31
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Jamie Overton,71
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Janith Liyanage,71
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Wanindu Hasaranga,71
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Liam Dawson,126
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Adil Rashid,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Brydon Carse,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Dushan Hemantha,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Dushmantha Chameera,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Eshan Malinga,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Jofra Archer,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Josh Tongue,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Luke Wood,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Maheesh Theekshana,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Matheesha Pathirana,151
+Sri Lanka v England,Top Match Run Scorer,Sri Lanka,England,Nuwan Thushara,151

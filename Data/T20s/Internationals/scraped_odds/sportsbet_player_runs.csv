@@ -1,17 +1,61 @@
 match,market,home_team,away_team,player_name,line,over_price,under_price,agency
-India v Bangladesh,Player Runs,India,Bangladesh,Abhishek Sharma,19.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,Andries Gous,23.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,JP Kotze,17.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,Jan Nicolaas Frylinck,18.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Liton Das,17.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,Malan Kruger,16.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Mohammad Mahmudullah,15.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Nazmul Hossain Shanto,17.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,Nitish Kumar,19.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Rinku Singh,18.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Riyan Parag,19.5,1.87,1.87,Sportsbet
-Namibia v USA,Player Runs,Namibia,USA,Saiteja Mukkamalla,22.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Sanju Samson,23.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Suryakumar Yadav,27.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Tanzid Hasan,16.5,1.87,1.87,Sportsbet
-India v Bangladesh,Player Runs,India,Bangladesh,Towhid Hridoy,17.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Abhishek Sharma,26.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Aiden Markram,25.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Alishan Sharafu,18.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Aryansh Sharma,17.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Babar Azam,22.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Ben Duckett,20.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Brandon King,19.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Cameron Green,21.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Charith Asalanka,14.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Cooper Connolly,16.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Devon Conway,24.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Dewald Brevis,23.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Dhananjaya de Silva,15.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Fakhar Zaman,17.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Finn Allen,21.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Glenn Phillips,21.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Harry Brook,19.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Harry Tector,21.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Ishan Kishan,22.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Jacob Bethell,18.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Jos Buttler,25.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Josh Inglis,20.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Josh Philippe,17.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Kamil Mishara,18.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Kamindu Mendis,17.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Khawaja Muhammad Nafay,13.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Kusal Mendis,19.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Kusal Perera,17.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Lorcan Tucker,20.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Mark Chapman,17.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Matt Renshaw,19.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Matthew Short,20.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Mitchell Marsh,21.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Muhammed Waseem,19.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Pathum Nissanka,22.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Paul Stirling,21.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Phil Salt,23.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Quinton De Kock,26.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Rachin Ravindra,19.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Rehan Ahmed,14.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Rinku Singh,19.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Ross Adair,18.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Rovman Powell,15.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Ryan Rickelton,24.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Sahibzada Farhan,20.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Saim Ayub,19.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Salman Agha,19.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Sanju Samson,23.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Shai Hope,23.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Sherfane Rutherford,18.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Shimron Hetmyer,20.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Shreyas Iyer,23.5,1.87,1.87,Sportsbet
+United Arab Emirates v Ireland,Player Runs,United Arab Emirates,Ireland,Sohaib Khan,11.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Suryakumar Yadav,23.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Tilak Varma,25.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Tim Robinson,20.5,1.87,1.87,Sportsbet
+India v New Zealand,Player Runs,India,New Zealand,Tim Seifert,22.5,1.87,1.87,Sportsbet
+Sri Lanka v England,Player Runs,Sri Lanka,England,Tom Banton,16.5,1.87,1.87,Sportsbet
+Pakistan v Australia,Player Runs,Pakistan,Australia,Travis Head,25.5,1.87,1.87,Sportsbet
+South Africa v West Indies,Player Runs,South Africa,West Indies,Tristan Stubbs,20.5,1.87,1.87,Sportsbet
